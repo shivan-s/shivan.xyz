@@ -1,48 +1,49 @@
-  baseURL: 'http://shivan.xyz/'
-  languageCode: 'en-us'
-  title: 'Shivan Sivakumaran'
-  theme: mini
-  defaultContentLanguage: en
+baseURL: "http://shivan.xyz/"
+languageCode: "en-us"
+title: "Shivan Sivakumaran"
+theme: mini
+defaultContentLanguage: en
 
+hasCJKLanguage: true
+permalinks:
+  posts: /:title
 
-  hasCJKLanguage: true
-  permalinks:
-    posts: /:title
+paginate: 3
 
-  paginate: 3
+# googleAnalytics: <enter this>
+# disqusShortname: <what is it again?>
 
-  # googleAnalytics: <enter this>
-  # disqusShortname: <what is it again?>
+markup:
+  highlight:
+    guessSyntax: true
+    style: vim
+  tableOfContents:
+    endlevel: 3
+    ordered: false
+    startLevel: 2
+  goldmark:
+    renderer:
+      unsafe: true
 
-  markup:
-    highlight:
-      guessSyntax: true
-      style: vim
-    tableOfContents:
-      endlevel: 3
-      ordered: false
-      startLevel: 2
-    goldmark:
-      renderer:
-        unsafe: true
+social:
+  # youtube: 'https://youtube.com/c/ShivanSivakumaran'
+  twitter: "https://twitter.com/ShivSivakumaran"
+  github: "https://github.com/ShivanS93"
 
-  social:
-    # youtube: 'https://youtube.com/c/ShivanSivakumaran'
-    twitter: 'https://twitter.com/ShivSivakumaran'
-    github: 'https://github.com/ShivanS93'
+taxonomies:
+  tag: tags
+  category: categories
 
-  params:
-    author: Shivan Sivakumaran
-    bio: Optometrist
-    description: Welcome to my thoughts.
+params:
+  author: Shivan Sivakumaran
+  bio: Optometrist
+  description: Welcome to my thoughts.
 
-  enableRSS: true
-  enableComments: true
-  enableGoogleAnalytics: true
-  showToc: true
-  showPowerBy: false
-  math: false
-  hiddenPostSummaryInHomePage: false
-  copyright: 'Shivan Sivakumaran'
-
-
+enableRSS: true
+enableComments: true
+enableGoogleAnalytics: true
+showToc: true
+showPowerBy: false
+math: false
+hiddenPostSummaryInHomePage: false
+copyright: "Shivan Sivakumaran"

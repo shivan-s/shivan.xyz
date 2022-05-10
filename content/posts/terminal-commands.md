@@ -9,6 +9,8 @@ draft = true
 
 Being able navigate around a file tree using the command line is a good skill to have. In fact, the skill is probably necessary.
 
+Below is a quick list to get you started with the command line.
+
 > `cd <file>` is a way of navigating through the file system.
 >
 > `cd` alone will get you to the home directory.

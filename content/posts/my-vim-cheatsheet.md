@@ -82,8 +82,12 @@ More ways of gross navigation:
 > `{` and `}` navigates by blocks of code
 >
 > `%` will take you back and forth between parenthesis, curly braces or square brackets
->
+
+Searching:
+
 > `/` then what ever you want to search and enter will take you whatever you want searched. Following this, n will take you to the next match; N will take you to the previous
+>
+> `/s` allows replacement of searchable text (e.g. `/s/<text>/<replace with>`). This will work for one match, for all matches in a line suffix this with `/g`.
 >
 > `*` locates all of the similar words that the cursor is at
 

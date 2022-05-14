@@ -2,12 +2,10 @@
 author = "Shivan Sivakumaran"
 title = "Do You Have to Cheat to Win?"
 date = "2021-12-10"
-description = "Can you become successful without stepping over others?"
+summary = "Can you become successful without stepping over others?"
 categories = ["Entrepreneurship"]
 tags = ["business", "content creation", "ethics"]
 draft = false
-showToc = true
-showPowerBy = false
 +++
 
 ![cheat](images/cheat-to-win.jpg)

@@ -2,12 +2,10 @@
 author = "Shivan Sivakumaran"
 title = "My Finances and Plans for 2022"
 date = "2022-01-01"
-description = "Time to get transparent."
+summary = "Time to get transparent about my finances."
 categories = ["Life"]
 tags = ["finances", "YouTube", "dreams", "aspirations"]
 draft = false
-showToc = true
-showPowerBy = false
 +++
 
 ![mask](images/mask.jpg)

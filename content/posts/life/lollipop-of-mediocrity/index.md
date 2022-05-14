@@ -2,12 +2,10 @@
 author = "Shivan Sivakumaran"
 title = "'When You Lick the Lollipop of Mediocrity You Suck It Forever'"
 date = "2021-25-10"
-description = "A memory from my high school days."
+summary = "A memory from my high school days."
 categories = ["Life"]
 tags = ["school", "pressure", "perfectionism"]
 draft = false
-showToc = true
-showPowerBy = false
 +++
 
 End-of-year prize-giving evening was their last time. Final year students and teachers fill the Ian Colquhoun Memorial Hall for their last opportunity to say thanks and goodbye.

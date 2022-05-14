@@ -1,6 +1,28 @@
-.profile h2 {
-  font-size: 20px;
-  font-weight: 300;
+body {
+  line-height: 1;
+  font: normal 15px/1.5em "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #404040;
+  line-height: 1.75;
+  letter-spacing: 0.008em;
+}
+
+a {
+  text-decoration: none;
+  color: #33CCFF;
+}
+
+a:hover {
+  color: #80DFFF;
+}
+
+h1,
+h2,
+h3 {
   color: #196680;
-  margin-top: 0;
+  font-weight: 400;
+}
+
+.title a {
+  color: #196680
+  display: block;
 }

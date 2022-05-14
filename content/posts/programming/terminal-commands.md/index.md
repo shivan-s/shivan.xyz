@@ -2,7 +2,7 @@
 author = "Shivan Sivakumaran"
 title = "Terminal Commands"
 date = "2020-11-29"
-description = "Good knowledge of terminal commands is a requirement for a good developer."
+summary = "Good knowledge of terminal commands is a requirement for a good developer."
 tags = ["Programming"]
 draft = true
 +++

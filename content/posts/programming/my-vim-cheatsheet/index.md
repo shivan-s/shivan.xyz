@@ -2,11 +2,10 @@
 author = "Shivan Sivakumaran"
 title = "My Vim Cheatsheet"
 date = "2020-06-10"
-description = "Vim is a powerful tool to supercharge your programming. There is a slight learning curve, but once you master the key bindings, you won't regret it."
+summary = "Vim is a powerful tool to supercharge your programming. There is a slight learning curve, but once you master the key bindings, you won't regret it."
 categories = ["Programming"]
 tags = ["vim", "developer environment", "code"]
 draft = false
-showToc = true
 +++
 
 When we think about programming efficiently, we think about how fast we can type on a keyboard.
@@ -31,7 +30,7 @@ Vim (or Vi IMproved) is a stable and open-source text editor that runs on the te
 
 When first opening Vim, we are met with a pleasant welcome page.
 
-![vim welcome page](/assets/images/opening-vim.png)
+![vim welcome page](images/opening-vim.png)
 
 A common gag for first time Vim users is how to close the application. That's the first thing we need to learn. Firstly, when we open Vim, we are in "Command Mode". That means we can write commands, and the command we use to quit Vim is `:q!`. The additional `!` means we will quit without saving.
 

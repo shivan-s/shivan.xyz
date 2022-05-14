@@ -2,7 +2,7 @@
 author = "Shivan Sivakumaran"
 title = "Why Create a Blog?"
 date = "2020-02-04"
-description = "My first post."
+summary = "My first post."
 categories = ["Life"]
 tags = ["content creation"]
 draft = false

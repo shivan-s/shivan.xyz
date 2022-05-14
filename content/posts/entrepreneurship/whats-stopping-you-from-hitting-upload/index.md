@@ -2,15 +2,13 @@
 author = "Shivan Sivakumaran"
 title = "What's Stopping You From Hitting Upload"
 date = "2021-11-27"
-description = "Uploading videos to YouTube seems like an impossible task"
+summary = "Uploading videos to YouTube seems like an impossible task."
 categories = ["Entrepreneurship"]
 tags = ["YouTube","content creation"]
 draft = false
-showToc = true
-showPowerBy = false
 +++
 
-![YouTube Upload](../../assets/images/whats-stopping-upload.jpg)
+![YouTube Upload](images/whats-stopping-upload.jpg)
 
 It's thrilling. It's exhilarating. It's the best feeling in the world. Finally, the unseen hours of copious scripting, multiple takes, editing culminate into this final product that I excitingly get to share with my virtual world. The cursor moves to the upload button. My overworked and outstretched finger crashes towards to mouse button but before the satisfying click... I snap back to the real world, away from my daydream.
 

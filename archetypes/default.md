@@ -2,10 +2,8 @@
 author = "Shivan Sivakumaran"
 title = "{{ replace .Name "-" " " | title }}"
 date = "{{ .Date }}"
-description = ""
+summary = ""
 categories = ["",]
 tags = ["",]
 draft = true
-showToc = true
-showPowerBy = false
 +++

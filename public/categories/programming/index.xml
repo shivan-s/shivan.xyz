@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Programming on Shivan Sivakumaran</title>
+    <link>http://shivan.xyz/categories/programming/</link>
+    <description>Recent content in Programming on Shivan Sivakumaran</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Shivan Sivakumaran</copyright>
+    <lastBuildDate>Wed, 10 Jun 2020 00:00:00 +0000</lastBuildDate><atom:link href="http://shivan.xyz/categories/programming/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>My Vim Cheatsheet</title>
+      <link>http://shivan.xyz/my-vim-cheatsheet/</link>
+      <pubDate>Wed, 10 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://shivan.xyz/my-vim-cheatsheet/</guid>
+      <description>When we think about programming efficiently, we think about how fast we can type on a keyboard.
+This is true to a certain point. But it comes to a point where the faster you type doesn&amp;rsquo;t improve your ability to program. What now becomes more important is your ability to reduce the number of keystrokes, navigate through your code, as well as remain in that all important flow.
+That&amp;rsquo;s where Vim and its keybindings can greatly improve your productivity as a programmer, and that is what I will hopefully cover in this post.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,7 +1,7 @@
-+++
+++
 author = "Shivan Sivakumaran"
 title = "'When You Lick the Lollipop of Mediocrity You Suck It Forever'"
-date = "2021-25-10"
+date = "2021-10-25"
 summary = "A memory from my high school days."
 categories = ["Life"]
 tags = ["school", "pressure", "perfectionism"]

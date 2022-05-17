@@ -1,12 +1,18 @@
-+++
-author = "Shivan Sivakumaran"
-title = "A Quick Introduction to Pytest"
-date = "2021-09-18"
-summary = "Testing your code is important. Here is a quick demo."
-categories = ["Programming"]
-tags = ["pytest", "testing", "python"]
-draft = true
-+++
+---
+author: Shivan Sivakumaran
+title: A Quick Introduction to Pytest
+date: 2021-09-18
+summary: Testing your code is important. Here is a quick demo.
+categories: ["Programming"]
+tags: ["pytest", "testing", "python"]
+draft: false
+cover:
+    image:
+    alt:
+    caption:
+    relative: false
+    hidden: true
+---
 
 [Pytest is a python package](https://docs.pytest.org) where we write automated tests for our coded project. The reason we write tests for our code is to ensure the code runs the way we want. Writing automated tests can also make the process of testing our code easier, faster and more consistent.
 
@@ -248,19 +254,15 @@ $ pipenv run pytest
 
 tests/test_function.py::test_exists PASSED    [ 33%]
 tests/test_function.py::test_add PASSED       [ 66%]
-tests/test_function.py::test_subtract FAILED  
+tests/test_function.py::test_subtract FAILED
 ```
 
-<!-- wp:paragraph -->
-<p>We can see we get two out of three tests that passed.</p>
-<!-- /wp:paragraph -->
+We can see we get two out of three tests that passed.
 
-<!-- wp:paragraph -->
-<p>When looking at the code from <code>function.py</code>. We see our mistake. We add instead of subtracting in the <code>subtract()</code> method. If we ammend this:</p>
-<!-- /wp:paragraph -->
+When looking at the code from `function.py`. We see our mistake. We add instead of subtracting in the `subtract()` method. If we amend this:</p>
 
-<!-- wp:code -->
-<pre title="function.py" class="wp-block-code"><code lang="python" class="language-python">class Maths:
+```python
+class Maths:
     """
     Takes input and does maths
     """
@@ -268,37 +270,26 @@ tests/test_function.py::test_subtract FAILED
     def __init__(self, n):
         self.n = n
 
-		# our new functions
-		def add(self, x):
-				self.n = self.n + x
-				return self.n
-		
-		# !!! FIXED !!!
-		def substract(self, x):
-				self.n = self.n - x 
-				return self.n
+    # our new functions
+    def add(self, x):
+            self.n = self.n + x
+            return self.n
+
+    # !!! FIXED !!!
+    def substract(self, x):
+            self.n = self.n - x
+            return self.n
 
     def __repr__(self):
         return f"n is {self.n}"
-</code></pre>
-<!-- /wp:code -->
+```
 
-<!-- wp:paragraph -->
-<p>Fixing our code will show all tests passing.</p>
-<!-- /wp:paragraph -->
+Fixing our code will show all tests passing.
 
-<!-- wp:heading {"level":3} -->
-<h3>Conclusion</h3>
-<!-- /wp:heading -->
+## Conclusion
 
-<!-- wp:paragraph -->
 <p>Pytest is a powerful tool to add to the tool belt in order to make your code more robust and professional.</p>
-<!-- /wp:paragraph -->
 
-<!-- wp:paragraph -->
 <p>A package that allows you to write automated tests, saving you time and mistakes as your proejcts grow.</p>
-<!-- /wp:paragraph -->
 
-<!-- wp:paragraph -->
 <p>I hope you find this useful and please send any feedback. Stay pythonic!</p>
-<!-- /wp:paragraph -->

@@ -1,12 +1,18 @@
-+++
-author = "Shivan Sivakumaran"
-title = "Sorting Who Wins in Weightlifting"
-date = "2022-05-11"
-summary = "In this problem, we look into sorting using multiple variables."
-categories = ["Programming"]
-tags = ["weightlifting", "sorting", "python", "django"]
-draft = true
-+++
+---
+author: Shivan Sivakumaran
+title: Sorting Who Wins in Weightlifting
+date: 2022-05-11
+summary: In this problem, we look into sorting using multiple variables
+categories: ["Programming"]
+tags: ["weightlifting", "sorting", "python", "django"]
+draft: true
+cover:
+  image:
+  alt:
+  caption:
+  relative: true
+  hidden: true
+---
 
 Weightlifting is a sport that consists of two lifts, the snatch and clean and jerk. An athlete is given three attempts at each lift. The sum of the best of each lift determines the total. The person with the greatest total wins.
 

@@ -1,12 +1,18 @@
-+++
-author = "Shivan Sivakumaran"
-title = "Zero to Hundred in Python"
-date = "2021-10-26"
-summary = "I've been embarking on the journey of learning Python. Here is a quick-start."
-categories = ["Programming"]
-tags = ["python", "programming", "learning"]
-draft = false
-+++
+---
+author: Shivan Sivakumaran
+title: Zero to Hundred in Python
+date: 2021-10-26
+summary: I've been embarking on the journey of learning Python. Here is a quick-start
+categories: ["Programming"]
+tags: ["python", "programming", "learning"]
+draft: false
+cover:
+  image:
+  alt:
+  caption:
+  relative: true
+  hidden: true
+---
 
 [Python](https://www.python.org) is a general-purpose programming language, excellent if you want to begin learning how to program or build a company to take over the world.
 

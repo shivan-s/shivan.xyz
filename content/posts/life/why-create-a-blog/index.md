@@ -1,12 +1,18 @@
-+++
-author = "Shivan Sivakumaran"
-title = "Why Create a Blog?"
-date = "2020-02-04"
-summary = "My first post."
-categories = ["Life"]
-tags = ["content creation"]
-draft = false
-+++
+---
+author: Shivan Sivakumaran
+title: Why Create a Blog?
+date: 2020-02-04
+summary: My first post
+categories: ["Life"]
+tags: ["content creation"]
+draft: false
+cover:
+  image: shivan.jpg
+  alt: Man under light
+  caption: Day one
+  relative: true
+  hidden: false
+---
 
 > The best way to get started on the path to sharing your work is to think about what you want to learn, and make a commitment to learning it in front of others.
 >

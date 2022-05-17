@@ -1,51 +1,139 @@
 baseURL: "http://shivan.xyz/"
 languageCode: "en-us"
 title: "Shivan Sivakumaran"
-theme: mini
+theme: "PaperMod"
+paginate: 7
 defaultContentLanguage: en
 
-hasCJKLanguage: true
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
 
-paginate: 10
-
-# googleAnalytics: <enter this>
-# disqusShortname: <what is it again?>
-
-markup:
-  highlight:
-    guessSyntax: false
-    style: emacs
-  tableOfContents:
-    endlevel: 10
-    ordered: false
-    startLevel: 2
-  goldmark:
-    renderer:
-      unsafe: true
-
-googleAnalytics: G-FDWQMYMSBT
-disqusShortname: shivan-xyz
-
-social:
-  # youtube: 'https://youtube.com/c/ShivanSivakumaran'
-  twitter: "https://twitter.com/ShivSivakumaran"
-  github: "https://github.com/ShivanS93"
-
-taxonomies:
-  tag: tags
-  category: categories
+minify:
+  disableXML: true
+  minifyOutput: true
 
 params:
+  env: production
+  title: Shivan Sivakumaran
+  description: "Shivan Sivakumaran Blog"
+  keywords: [Blog, Programming, Optometry, Life]
   author: Shivan Sivakumaran
-  bio: Optometrist
-  description: Welcome to my thoughts.
-  enableRSS: false
-  enableComments: true
-  enableGoogleAnalytics: true
-  showToc: true
-  showPowerBy: false
-  math: false
-  hiddenPostSummaryInHomePage: false
-  copyright: "Shivan Sivakumaran"
-  customCSS:
-    - css/custom.css
+  DateFormat: "January 2, 2006"
+  defaultTheme: auto
+  disableThemeToggle: false
+
+  ShowReadingTime: true
+  ShowShareButtons: true
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: true
+  ShowWordCount: false
+  ShowRssButtonInSectionTermList: true
+  UseHugoToc: true
+  disableSpecial1stPost: true
+  comments: true
+  disableScrollToTop: false
+  hidemeta: false
+  hideSummary: false
+  showtoc: true
+  tocopen: true
+
+  assets:
+    # disableHLJS: true # to disable highlight.js
+    # disableFingerprinting: true
+    favicon: static/images/favicon.ico
+    favicon16x16: static/images/favicon.ico
+    favicon32x32: static/images/favicon.ico
+    apple_touch_icon: static/images/favicon.ico
+    safari_pinned_tab: static/images/favicon.ico
+
+  label:
+    text: "Shivan Sivakumaran"
+    icon: static/images/favicon.ico
+    iconHeight: 35
+
+  # profile-mode
+  profileMode:
+    enabled: false # needs to be explicitly set
+    title: Shivan Sivakumaran
+    subtitle: Optometrist -> Technology
+    imageUrl: static/images/avatar.png
+    imageWidth: 120
+    imageHeight: 120
+    imageTitle: Me!
+    buttons:
+      - name: Posts
+        url: posts
+      - name: Tags
+        url: tags
+
+  # home-info mode
+  homeInfoParams:
+    Title: "Greetings \U0001F44B"
+    Content: >
+      Welcome to my blog, which is a culmination of technology, entrepreneurship, and anything I find interesting in life.
+
+  socialIcons:
+    - name: youtube
+      url: "https://youtube.com/c/shivansivakumaran"
+    - name: twitter
+      url: "https://twitter.com/shivsivakumaran"
+    - name: github
+      url: "https://github.com/Shivans93"
+    - name: instagram
+      url: "https://github.com/shivan_s"
+    - name: linkedin
+      url: "https://linkedin.com/c/shivansivakumaran"
+
+  analytics:
+    google:
+      SiteVerificationTag: "G-FDWQMYMSBT"
+
+  disqusShortname: shivan-xyz
+
+  cover:
+    hidden: true # hide everywhere but not in structured data
+    hiddenInList: true # hide on list pages and home
+    hiddenInSingle: true # hide on single page
+
+  editPost:
+    URL: "https://github.com/ShivanS93/shivan.xyz/tree/main/content"
+    Text: "Suggest Changes" # edit text
+    appendFilePath: true # to append file path to Edit link
+
+  # for search
+  # https://fusejs.io/api/options.html
+  fuseOpts:
+    isCaseSensitive: false
+    shouldSort: true
+    location: 0
+    distance: 1000
+    threshold: 0.4
+    minMatchCharLength: 0
+    keys: ["title", "permalink", "summary", "content"]
+menu:
+  main:
+    - identifier: about
+      name: about
+      url: /about/
+      weight: 1
+    - identifier: categories
+      name: categories
+      url: /categories/
+      weight: 2
+    - identifier: archives
+      name: archives
+      url: /archives/
+      weight: 3
+
+# Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
+# pygmentsUseClasses: true
+# markup:
+#     highlight:
+#         # anchorLineNos: true
+#         codeFences: true
+#         guessSyntax: true
+#         lineNos: true
+#         style: monokai

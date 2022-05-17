@@ -1,5 +1,4 @@
 a {
-  text-decoration: none;
   color: #33CCFF;
 }
 
@@ -12,9 +11,4 @@ h2,
 h3 {
   color: #196680;
   font-weight: 400;
-}
-
-.title a {
-  color: #196680
-  display: block;
 }

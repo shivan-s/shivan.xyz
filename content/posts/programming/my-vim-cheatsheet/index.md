@@ -1,12 +1,18 @@
-+++
-author = "Shivan Sivakumaran"
-title = "My Vim Cheatsheet"
-date = "2020-06-10"
-summary = "Vim is a powerful tool to supercharge your programming. There is a slight learning curve, but once you master the key bindings, you won't regret it."
-categories = ["Programming"]
-tags = ["vim", "developer environment", "code"]
-draft = false
-+++
+---
+author: Shivan Sivakumaran
+title: My Vim Cheatsheet
+date: 2020-06-10
+summary: Vim is a powerful tool to supercharge your programming. There is a slight learning curve, but once you master the key bindings, you won't regret it
+categories: ["Programming"]
+tags: ["vim", "developer environment", "code"]
+draft: false
+cover:
+  image: opening-vim.jpg
+  alt: terminal with vim
+  caption: A lovely welcome message when opening vim
+  relative: true
+  hidden: false
+---
 
 When we think about programming efficiently, we think about how fast we can type on a keyboard.
 

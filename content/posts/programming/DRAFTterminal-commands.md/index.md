@@ -1,11 +1,12 @@
-+++
-author = "Shivan Sivakumaran"
-title = "Terminal Commands"
-date = "2020-11-29"
-summary = "Good knowledge of terminal commands is a requirement for a good developer."
-tags = ["Programming"]
-draft = true
-+++
+---
+author: Shivan Sivakumaran
+title: Terminal Commands
+date: 2020-11-29
+summary: Good knowledge of terminal commands is a requirement for a good developer
+categories: ["Programming"]
+tags: ["terminal", "getting starting", "linux", "unix"]
+draft: true
+---
 
 Being able navigate around a file tree using the command line is a good skill to have. In fact, the skill is probably necessary.
 

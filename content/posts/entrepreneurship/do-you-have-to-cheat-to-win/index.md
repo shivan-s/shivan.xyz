@@ -1,14 +1,18 @@
-+++
-author = "Shivan Sivakumaran"
-title = "Do You Have to Cheat to Win?"
-date = "2021-12-10"
-summary = "Can you become successful without stepping over others?"
-categories = ["Entrepreneurship"]
-tags = ["business", "content creation", "ethics"]
-draft = false
-+++
-
-![cheat](images/cheat-to-win.jpg)
+---
+author: Shivan Sivakumaran
+title: Do You Have to Cheat to Win?
+date: 2021-12-10
+summary: Can you become successful without stepping over others?
+categories: ["Entrepreneurship"]
+tags: ["business", "content creation", "ethics"]
+draft: false
+cover:
+  image: cheat-to-win.jpg
+  alt: 5 aces
+  caption: Aces of spades played simultaneously
+  relative: true
+  hidden: false
+---
 
 Sworn under oath in his deposition, which took place on the 30th of November 2005, Lance Armstrong — then seven-time winner of the Tour de France — until the day before his Opray Winfrey interview in January 2013 fervently denied outright accusations of taking performance-enhancing drugs or blood doping. We, of course, learn the real truth after his interview with Winfrey, now stripped of all his numerous accolades.
 

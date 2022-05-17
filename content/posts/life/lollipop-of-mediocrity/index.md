@@ -1,12 +1,18 @@
-+++
-author = "Shivan Sivakumaran"
-title = "'When You Lick the Lollipop of Mediocrity You Suck It Forever'"
-date = "2021-10-25"
-summary = "A memory from my high school days. Was there too much pressure put on young boys?"
-categories = ["Life"]
-tags = ["school", "pressure", "perfectionism"]
-draft = false
-+++
+---
+author: Shivan Sivakumaran
+title: 'When You Lick the Lollipop of Mediocrity You Suck It Forever'
+date: 2021-10-25
+summary: A memory from my high school days. Was there too much pressure put on young boys?
+categories: ["Life"]
+tags: ["school", "pressure", "perfectionism"]
+draft: false
+cover:
+  image:
+  alt:
+  caption:
+  relative: true
+  hidden: true
+---
 
 End-of-year prize-giving evening was their last time. Final year students and teachers fill the Ian Colquhoun Memorial Hall for their last opportunity to say thanks and goodbye.
 

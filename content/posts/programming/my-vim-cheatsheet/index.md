@@ -7,7 +7,7 @@ categories: ["Programming"]
 tags: ["vim", "developer environment", "code"]
 draft: false
 cover:
-  image: opening-vim.jpg
+  image: opening-vim.png
   alt: terminal with vim
   caption: A lovely welcome message when opening vim
   relative: true

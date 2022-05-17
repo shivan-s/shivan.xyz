@@ -51,7 +51,7 @@ params:
 
   label:
     text: "Shivan Sivakumaran"
-    icon: static/images/favicon.ico
+    icon: assets/images/favicon.ico
     iconHeight: 35
 
   # profile-mode
@@ -73,7 +73,7 @@ params:
   homeInfoParams:
     Title: "Greetings \U0001F44B"
     Content: >
-      Welcome to my blog, which is a culmination of technology, entrepreneurship, and anything I find interesting in life.
+      Welcome to my blog, which is a culmination of technology, entrepreneurship, and anything I find interesting.
 
   socialIcons:
     - name: youtube
@@ -94,9 +94,11 @@ params:
   disqusShortname: shivan-xyz
 
   cover:
-    hidden: true # hide everywhere but not in structured data
-    hiddenInList: true # hide on list pages and home
-    hiddenInSingle: true # hide on single page
+    hidden: false # hide everywhere but not in structured data
+    hiddenInList: false # hide on list pages and home
+    hiddenInSingle: false # hide on single page
+    responsiveImages: false
+    linkFullImages: true
 
   editPost:
     URL: "https://github.com/ShivanS93/shivan.xyz/tree/main/content"

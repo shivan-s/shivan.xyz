@@ -40,18 +40,18 @@ params:
   showtoc: true
   tocopen: true
 
-  assets:
-    # disableHLJS: true # to disable highlight.js
-    # disableFingerprinting: true
-    favicon: static/images/favicon.ico
-    favicon16x16: static/images/favicon.ico
-    favicon32x32: static/images/favicon.ico
-    apple_touch_icon: static/images/favicon.ico
-    safari_pinned_tab: static/images/favicon.ico
+  # assets:
+  # disableHLJS: true # to disable highlight.js
+  # # disableFingerprinting: true
+  # favicon:
+  # favicon16x16:
+  # favicon32x32:
+  # apple_touch_icon:
+  # safari_pinned_tab:
 
   label:
     text: "Shivan Sivakumaran"
-    icon: assets/images/favicon.ico
+    icon: favicon.ico
     iconHeight: 35
 
   # profile-mode
@@ -59,15 +59,17 @@ params:
     enabled: false # needs to be explicitly set
     title: Shivan Sivakumaran
     subtitle: Optometrist -> Technology
-    imageUrl: static/images/avatar.png
+    imageUrl: avatar.png
     imageWidth: 120
     imageHeight: 120
     imageTitle: Me!
     buttons:
+      - name: About
+        url: about
       - name: Posts
         url: posts
-      - name: Tags
-        url: tags
+      - name: Categories
+        url: categories
 
   # home-info mode
   homeInfoParams:
@@ -98,7 +100,7 @@ params:
     hiddenInList: false # hide on list pages and home
     hiddenInSingle: false # hide on single page
     responsiveImages: false
-    linkFullImages: true
+    linkFullImages: false
 
   editPost:
     URL: "https://github.com/ShivanS93/shivan.xyz/tree/main/content"
@@ -129,7 +131,6 @@ menu:
       name: archives
       url: /archives/
       weight: 3
-
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
 # pygmentsUseClasses: true
 # markup:

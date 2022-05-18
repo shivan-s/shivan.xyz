@@ -1,0 +1,40 @@
+---
+title: Projects
+aliases: ["project", "portfolio"]
+author: Shivan Sivakumaran
+enableComments: false
+draft: false
+---
+
+## Lifter API
+
+Status: Need to add results. Write a blog.
+
+A Django Rest Framework / React Typescript application, whose aim is to make New Zealand Weightlifting results web browseable.
+
+- Live link: [lifter.shivan.xyz](https://lifter.shivan.xyz)
+- Source code: [lifter-api](https://github.com/weightliftingNZ/lifter-api)
+
+---
+
+## TubeStats
+
+Status: Need to fix `dislikes`. Dislikes no longer accessible.
+
+A [streamlit](https://streamlit.io) application that analysis a YouTube channel and provides fun statistics.
+
+- Live link: [tubestats.shivan.xyz](https://tubestats.shivan.xyz)
+- Source code: [tubestats](https://github.com/shivans93/tubestats)
+- Blog link: Need to update
+
+---
+
+## OptomBot
+
+Status: Working!
+
+A [Twitter bot](https://twitter.com/optombot) that retweet optometry related tweets.
+
+- Live link: [twitter.com/optombot](https://twitter.com/optombot)
+- Source code: [twitter-optom-not](https://github.com/ShivanS93/twitter-optom-bot)
+- Blog link: Need to update

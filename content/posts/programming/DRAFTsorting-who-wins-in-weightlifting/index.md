@@ -20,11 +20,17 @@ Weightlifting is a sport that consists of two lifts, the snatch and clean and je
 
 This is related to my project where I try and make Weightlifting Results in New Zealand easier to navigate on the web.
 
-[Here is the live link.](https://github.com/WeightliftingNZ/lifter-api)
+[Here is the source code](https://github.com/WeightliftingNZ/lifter-api).
 
-[Here is the code (frontend).](https://lifter.shivan.xyz)
+[Here is the live link](https://lifter.shivan.xyz).
 
-[Here is the code.](https://lifter.shivan.xyz)
+## Some Assumptions
+
+Before we continue, I want to make some assumptions.
+
+1. You like programming.
+2. You are vaguely familiar with Python and Django.
+3. You may not have familiarity with Weightlifting.
 
 ## The Problem
 
@@ -56,7 +62,52 @@ If the athlete "bombed" (this is when they did not make a total e.g. did not mak
 
 We need to make a query to the database to request the right data to sort. The athlete will be compared to the lifts in the same session and weight category.
 
-We can create a custom property for the Lift model.
+We can create a custom property for the `Lift` model.
+
+Just to get you up to speed, a Django model is a representation of our data (e.g. `Lift` for an athlete's lift). So far there are four models to consider:
+
+- The `Competition` model represents the competition.
+- Competitions are composed of sessions, represented by the `Session` model with a foreign key relationship (one-to-many). A competition can have many sessions, but a session can only be owned by one competition.
+- A session are composed of lifts, represented by the `Lift` model. This also shares a foreign key relationship (one-to-many), as only one instance of an athlete's lift is owned by a session (and in turn a competition).
+- An `Athlete` model is stand alone, but this has a foreign key relationship with the `Lift` model. An athlete can have many lifts, but a lift can only have one athlete. However, an athlete can only be in a competition once. So extra validation is added to ensure an Athlete cannot have two lifts in the same competition.
+
+Validating if the athlete is present more than once in a competition:
+
+```python
+class Lift(model.Model):
+    ...
+    def clean(self, *args, **kwargs):
+    # need to check if athlete is newly created or an update
+    # this validation does not need to run if it is an update
+    # 1. check athlete not duplicated in a competition
+        sessions = Session.objects.filter(competition=self.session.competition)
+        for session in sessions:
+            if Lift.objects.filter(
+                session=session.reference_id, athlete=self.athlete
+            ).exists():
+                raise ValidationError(_(f"{self.athlete} already in competition."))
+    ...
+        super().clean(*args, **kwargs)
+
+    def save(self, *args, **kwargs):
+        self.full_clean()
+        super().save(*args, **kwargs)
+    ...
+```
+This is a bit of digression. We are focusing on athlete placings!
+
+We create a property in the model:
+
+```python
+@cached_property
+def placing(self) -> str:
+    ...
+```
+
+The decorator `@cached_property` is provided by Django and is best used over `@property` if a query is involved. Using a property allows us to perform 'extra steps' on top of data on our model without having to create new data on top of our model.
+
+
+Firstly, we need to query our database and access lifts in the session and are of the same weight category. At the moment, sessions can have multiple weight categories (however, another implementation would be needed if the same weight category was present in multiple sessions)
 
 ```python
 query = Lift.object.filter(

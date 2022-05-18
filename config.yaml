@@ -40,14 +40,14 @@ params:
   showtoc: true
   tocopen: true
 
-  # assets:
-  # disableHLJS: true # to disable highlight.js
-  # # disableFingerprinting: true
-  # favicon:
-  # favicon16x16:
-  # favicon32x32:
-  # apple_touch_icon:
-  # safari_pinned_tab:
+  assets:
+  disableHLJS: true # to disable highlight.js
+  # disableFingerprinting: true
+  favicon: favicon.png
+  favicon16x16: favicon.png
+  favicon32x32: favicon.png
+  apple_touch_icon: favicon.png
+  safari_pinned_tab: favicon.png
 
   label:
     text: "Shivan Sivakumaran"

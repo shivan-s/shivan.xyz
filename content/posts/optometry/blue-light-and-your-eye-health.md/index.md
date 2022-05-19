@@ -3,9 +3,9 @@ author: Shivan Sivakumaran
 title: Blue Light and your Eye Health
 date: 2020-02-28
 summary: Is blue light really harmful?
-categories: ["Optometry for Public"]
+categories: ["Optometry"]
 tags: ["Blue Light", "Eye health"]
-draft: true
+draft: false
 cover:
   image: image.jpg
   alt: alt text

@@ -94,6 +94,7 @@ class Lift(model.Model):
         super().save(*args, **kwargs)
     ...
 ```
+
 This is a bit of digression. We are focusing on athlete placings!
 
 We create a property in the model:
@@ -106,16 +107,9 @@ def placing(self) -> str:
 
 The decorator `@cached_property` is provided by Django and is best used over `@property` if a query is involved. Using a property allows us to perform 'extra steps' on top of data on our model without having to create new data on top of our model.
 
+In this case, lifts are event driven. In other words, we can determine placing from the lifts with the rules we created above. So we can use the lifts in the session to determine the placing.
 
-Firstly, we need to query our database and access lifts in the session and are of the same weight category. At the moment, sessions can have multiple weight categories (however, another implementation would be needed if the same weight category was present in multiple sessions)
-
-```python
-query = Lift.object.filter(
-    session=self.session, weight_category=self.weight_category
-)
-```
-
-If the athlete "bombed", in other words they did not make a total (e.g they might have not made a single snatch attempt).
+An easy step is to exclude athletes who have "bombed". "Bombing" in a competition is not making a total (e.g they might have not made a single snatch attempt). Athletes who "bomb" do not receive a placing.
 
 ```python
 if self.total_lifted == 0:
@@ -124,22 +118,81 @@ if self.total_lifted == 0:
 
 The return `"-"` means no placing.
 
+After all that, we first need to query our database and access lifts in the session and are of the same weight category. At the moment, sessions can have multiple weight categories (however, another implementation would be needed if the same weight category was present in multiple sessions - this is a note to my future self!).
+
 ```python
-# models/lifts.py
+query = Lift.object.filter(
+    session=self.session, weight_category=self.weight_category
+)
+```
 
-...
+We can now extra the relevant data out of our query. And this is based on the rules we mentioned before.
 
+```python
+lifts = [
+    {
+        "reference_id": q.reference_id,
+        "best_cnj_weight": q.best_cnj_weight,
+        "total_lifted": q.total_lifted,
+        "lottery_number": q.lottery_number,
+    }
+    for q in query
+    if q.total_lifted > 0  # ensures sorted lifts have a total
+]
+```
+
+`best_cnj_weight` and `total_lifted` are also specially defined properties that can be derived from the lift raw data.
+
+We can now implement Python's `sorted()` function, which takes the parameters: `sorted(*, key=None, reverse=False)`. The first argument is a iterable, in this case, queried lifts.
+
+The `key` argument is what we will use to incorporate our elaborate ordering using our above rules. this argument takes a callable, such as a function. Common place is to incorporate a `lambda`.
+
+In this case, I create a function that returns an order list of the priorities to sort. Remember, it's total, then lowest clean and jerk, then who gets the lift first, and finally the lottery number. Prefixing with `-` reverses the sort (i.e descending).
+
+```python
+def sort_lift_key(lift: dict[str, str | int]) -> tuple[int, int, int, int]:
+    """This gives the keys for sorting
+    Args:
+        lift (dict[str, str | int]): this contains the lift data
+    Returns:
+        tuple[int, int, int, int]: the keys to be used in the sorted parameter
+    """
+    keys = []
+    # total
+    keys.append(-lift["total_lifted"])
+    # lowest cnj
+    keys.append(lift["best_cnj_weight"][1])
+    # least attempts
+    keys.append(lift["best_cnj_weight"][0])
+    # lott number
+    keys.append(lift["lottery_number"])
+    return tuple(keys)
+```
+
+We can sort the list. We can also extract the lift's `reference_id`. For the lift, we are concerned about we can find out the index, which is also the placing on that particular lift.
+
+I have created a special function `ranking_suffix`, which gives the suffix (e.g. `1` turns in to `1st`, 2 is `2nd` and so on).
+
+```python
+sorted_lifts = sorted(lifts, key=sort_lift_key)
+sorted_lifts_ids = [lift["reference_id"] for lift in sorted_lifts]
+return ranking_suffix(sorted_lifts_ids.index(self.reference_id) + 1)
+```
+
+We can now put this together:
+
+```python
 class Lift(models.Model):
-    ...
-    @cached_property
-    def placing(self) -> str:
-        """Returns the placing of the athlete
-        e.g. 1st, 11th and '-' if no total (i.e. 0) is made
-        Returns:
-            str: placing (e.g. '1st', '11th' '-')
-        """
-        if self.total_lifted == 0:
-            return "-"
+...
+@cached_property
+def placing(self) -> str:
+"""Returns the placing of the athlete
+e.g. 1st, 11th and '-' if no total (i.e. 0) is made
+Returns:
+str: placing (e.g. '1st', '11th' '-')
+"""
+if self.total_lifted == 0:
+return "-"
 
         query = Lift.objects.filter(
             session=self.session, weight_category=self.weight_category
@@ -180,4 +233,8 @@ class Lift(models.Model):
 
 ## Testing
 
-We can use pytest to test this as well.
+We can stop here. We have something that works. But it is always a good idea to test code.
+
+
+```python
+```

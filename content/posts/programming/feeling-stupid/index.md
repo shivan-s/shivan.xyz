@@ -5,7 +5,7 @@ date: 31-10-2021
 summary: Personal projects can be quite daunting, but that's okay.
 categories: ["Programming"]
 tags: ["Personal projects"]
-draft: true
+draft: false
 cover:
   image: Dunning-Kruger.jpg
   alt: Graph displaying the Dunning Kruger Effect

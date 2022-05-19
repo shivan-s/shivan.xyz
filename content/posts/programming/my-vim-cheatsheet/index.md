@@ -76,17 +76,27 @@ If we are at the top and we typing in a number then enter, this will take us to 
 
 Navigating on a line:
 
-> `0` will take you to the start of a line; using this in combination with w (so 0w) will take you to the first word of the line
+> `0` will take you to the start of a line; using this in combination with w (so 0w) will take you to the first word of the line.
 >
-> `A` (or `shift+a`) will take you to the end of the current line and into insert mod
+> `shift+^` will move you to the start of the line as an alternative to `0`.
 >
-> `b` moves you back by one word, B ignores punctuation and we know w will take you to the next word, W will ignore punctuation
+> `shift+$` will move you to the end of the line. This can be used in visual mode (press `v` in command mode and this will allow you to selected text).
+>
+> `b` moves you back by one word, B ignores punctuation and we know w will take you to the next word, W will ignore punctuation.
 
 More ways of gross navigation:
 
 > `{` and `}` navigates by blocks of code
 >
 > `%` will take you back and forth between parenthesis, curly braces or square brackets
+
+Keeping the cursor in the same position, but being able to move the window is useful as well:
+
+> `zz` will move the window to the cursor becomes the center of the screen.
+>
+> `ctrl+y` will move the window up by one line.
+>
+> `ctrl+e` will move the window down by one line.
 
 Searching:
 
@@ -96,9 +106,15 @@ Searching:
 >
 > `*` locates all of the similar words that the cursor is at
 
+While in visual mode (press `v` when in command mode) you can make movements:
+
 ## Inserting
 
 Some of the above commands will actually take you from "Command Mode" into "Insert Mode", but the way to get into "Insert Mode" is by using the `i` key.
+
+> `I` (`shift+i`) will take you to the start of the current line and then insert mode.
+>
+> `A` (or `shift+a`) will take you to the end of the current line and into insert mode.
 
 Lines:
 
@@ -131,6 +147,8 @@ Deleting, copying and pasting:
 Indenting code:
 
 > `<` and `>` can be used to indent you code. You can use this in combination with visual mode to select and indent your code. Using . will allow you to repeat this action. If you use a number in front, then it will indent the number of lines below your selection.
+>
+> `<<` and `>>` is useful when you are in command mode.
 
 Here are some other useful keys and settings that can help you:
 
@@ -139,6 +157,10 @@ Here are some other useful keys and settings that can help you:
 > `:set number` will provide lines numbers
 >
 > `.` is particularly useful in redoing the previous command
+
+Moving:
+
+> `J` (`shift+J`) removes a line breaks.
 
 ## Creating a macro
 

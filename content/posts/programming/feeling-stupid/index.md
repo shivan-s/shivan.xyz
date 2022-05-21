@@ -7,7 +7,7 @@ categories: ["Programming"]
 tags: ["Personal projects"]
 draft: false
 cover:
-  image: Dunning-Kruger.jpg
+  image: Dunning-Kruger.png
   alt: Graph displaying the Dunning Kruger Effect
   caption: \'A little knowledge is a dangerous thing\' \- Samuel Johnson
   relative: true

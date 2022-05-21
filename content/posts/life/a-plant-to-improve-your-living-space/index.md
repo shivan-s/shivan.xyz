@@ -7,14 +7,14 @@ categories: ["Life"]
 tags: ["plant"]
 draft: true
 cover:
-  image: image.jpg
-  alt: alt text
-  caption: caption
+  image: plant.jpg
+  alt: Peace Lily with a person working in the background.
+  caption: The peace lily - a natural air purifier.
   relative: false
   hidden: false
 ---
 
-<!-- https://shivansivakumaran.com/for-the-public/one-thing-to-improve-your-living-space/ -->
+<!-- sort out references -->
 
 Technology has allowed us to remain connected with our loved ones across the globe from the very comfort of our home. We no longer need to venture outside to find entertainment if it is as easy as turning on your WiFi router.
 
@@ -100,3 +100,54 @@ So, how does the Ozone form in this case? Air pollutants.
 Nitrogen dioxide (NO2) is an example of an air pollutant common in the burning of fossil fuels6. Sunlight, not specifically just UV-C, results in the formation of an oxygen free-radical from NO2, and this oxygen free-radical is able to react with O2 to create ozone at the level we breathe.
 
 Eliminating pollution can stop our exposure to ozone in the air we breathe. But the indoor plant can help improve quality also.
+
+## Improved Psychological Benefits
+-------------------------------
+
+![Indoor plant creativity](SSB_3455-1024x684.jpg)
+
+Indoor plants not only improve air quality but also provide many psychological benefitsThe benefits of indoor plants do not stop at improving air quality. There is also improvement in productivity and creativity - the actual work you do.
+
+One small advantage but an advantage nonetheless is reduced stress. Reduced stress can be measured in less sick leave and improvement in productivity(([Psychological Benefits of Indoor Plants in Workplaces: Putting Experimental Results into Context](https://journals.ashs.org/hortsci/view/journals/hortsci/42/3/article-p581.xml))).
+
+This could be due to the presence of the plant reducing stress as well as the purification offered by the plant. 
+
+There is further evidence that actively interacting with plants could reduce stress(([Interaction with indoor plants may reduce psychological and physiological stress by suppressing autonomic nervous system activity in young adults: a randomized crossover study](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4419447/))). This active interaction involved transferring the plant to another pot when it was studied. But this could translate to the office, where tending for the plant can reduce stress(([Plants can improve your work life: The mere sight of an indoor plant can reduce stress](https://www.sciencedaily.com/releases/2020/01/200102184829.htm))).
+
+The sight of green can improve creativity(([Fertile Green: Green Facilitates Creative Performance](https://journals.sagepub.com/doi/abs/10.1177/0146167212436611))). As we know, plants are green in colour. The mere colour of the plant and its presence can also boost one’s creative power(([Nature, place and the creative class: Three Canadian case studies](https://www.crcresearch.org/sites/default/files/u641/nature_and_place.pdf))).
+
+Being in nature is able to improve memory retention(([Interacting with Nature Improves Cognition and Affect for Individuals with Depression](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3393816/))), so by having indoor plants nearby, you are bringing nature to you in your workplace and at home.
+
+The psychological benefits indoor plants on the human mind can both be established at home as well as in the office for work.
+
+Looking After your Peace Lily
+-----------------------------
+
+Hopefully, by now you should be sold on a peace lily’s benefit for health and mind benefits. But you might be wondering if it is difficult to take care of your peace lily.
+
+I can tell you: **The peace lily requires little attention**.
+
+It is important to keep the soil and roots moist. This can be done by watering once a week and a little bit more frequently over the summer period. Try not to over water your peace lily at the same time.
+
+The water you use can be important, so try and use water at room temperature and free from fluoride or chlorine. You can leave water from the tap in a jug out for 24 hours to remove the majority of chlorine(([How To Remove Chlorine From Water (5 Ways) - Sensible Digs](https://sensibledigs.com/remove-chlorine-from-water/#q2)))
+
+Keep the peace lily in an area that is free from direct sunlight. The peace lily can survive in low-light conditions.
+
+Quick release fertilser should be used once a year.
+
+Repotting should be done to prevent the peace lily becoming root-bound. Repotting involves using potting mix and a pot that is slightly bigger by 1-3 cm in diameter(([Repotting Peace Lily Houseplants: Does My Peace Lily Need A New Pot](https://www.gardeningknowhow.com/houseplants/peace-lily/repotting-peace-lily-plant.htm))). This is done infrequently over a number of years. 
+
+Please note that the peace lily is toxic if consumed. It contains calcium oxalate, which is found in kidney stones, so it is important to keep the plant out of reach from young children and pets.
+
+## Conclusion
+----------
+
+Indoor plants have numerous benefits psychologically and to our health.
+
+This is becoming more important as our time indoors is increasing thanks to the advent of technology, which has the ability to keep us entertained and connected at home.
+
+Indoor plants like the peace lily are able to filter out harmful air pollutants and only just increase the amount of oxygen in the air.
+
+Not only do plants offer better air quality, they also provide improved psychological benefits such as decreased stress and improved creativity and productivity.
+
+Indoor plants like the peace lily are easy to maintain, and they become an inexpensive addition to the household.

@@ -308,18 +308,18 @@ def f_better(n: int) -> int:
     ---
     params
         n (int) number requested in sequence
-    
+
     returns
         interger in fibonacci sequence
     """
     if all([cache.get(n-1), cache.get(n-2)]):
-        return cache[n-1] + cache[n-2]   
+        return cache[n-1] + cache[n-2]
     elif n == 0:
         return 0
     elif n == 1 or n == 2:
         return 1
     else:
-        cache[n] = f_better(n-1) + f_better(n-2) 
+        cache[n] = f_better(n-1) + f_better(n-2)
         return cache[n]
 ```
 
@@ -334,7 +334,7 @@ times = []
 for i in range(35):
     t = %timeit -n1 -o -q f_better(i)
     times.append(t.best)
-    
+
 df['f_better'] = pd.DataFrame(data=times)
 df.tail(10)
 >>>
@@ -368,7 +368,7 @@ Finally, we can print this `cache`.
 
 ```python
 cache
->>> {        
+>>> {
         3: 2,
         4: 3,
         6: 8,
@@ -403,7 +403,7 @@ class Car:
     """
     Class for cars that people drive
     ---
-    params 
+    params
         make (str): make of the car
         model (str): model of the car
         year (int): year car was made
@@ -413,17 +413,17 @@ class Car:
         self.model = model
         self.year = year
         self.__is_driving = False
-        
+
     def __repr__(self):
         return f'{self.make} - {self.model}'
-    
+
     def drive(self) -> str:
         if self.__is_driving == False:
             print(f'{self.make} - {self.model} is now driving')
             self.__is_driving = True
         else:
             print(f'{self.make} - {self.model} is already driving!')
-    
+
     def stop(self) -> str:
         if self.__is_driving == True:
             print(f'{self.make} - {self.model} has stopped')

@@ -9,7 +9,7 @@ draft: false
 cover:
   image: Dunning-Kruger.jpg
   alt: Graph displaying the Dunning Kruger Effect
-  caption: 'A little knowledge is a dangerous thing' - Samuel Johnson
+  caption: \'A little knowledge is a dangerous thing\' \- Samuel Johnson
   relative: true
   hidden: false
 ---

@@ -16,7 +16,15 @@ repos:
       - id: check-json
 
   - repo: https://github.com/boidolr/pre-commit-images
-    rev: v1.0.5
+    rev: v1.0.6
     hooks:
       - id: optimize-png
       - id: optimize-jpg
+
+  - repo: local
+    hooks:
+    - id: linkchecker-markdown
+      name: linkchecker-markdown
+      entry: linkchecker-markdown
+      language: system
+      types: [python]

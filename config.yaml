@@ -73,9 +73,11 @@ params:
 
   # home-info mode
   homeInfoParams:
-    Title: "Greetings \U0001F44B"
+    Title: "Welcome \U0001F44B"
     Content: >
-      Welcome to my blog, which is a culmination of technology, entrepreneurship, and anything I find interesting.
+      Here are my latest blog posts. \
+
+      [Want to learn more?](https://shivan.xyz/about)
 
   socialIcons:
     - name: youtube

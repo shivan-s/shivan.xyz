@@ -1,7 +1,7 @@
 ---
 author: Shivan Sivakumaran
 title: The Benefits of Writing
-date: 09-06-2020
+date: 2020-06-09
 summary: How to get started and how to keep going.
 categories: [""]
 tags: [""]

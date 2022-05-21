@@ -1,7 +1,7 @@
 ---
 author: Shivan Sivakumaran
 title: Personal projects make you feel stupid? Don't sweat it
-date: 31-10-2021
+date: 2021-10-31
 summary: Personal projects can be quite daunting, but that's okay.
 categories: ["Programming"]
 tags: ["Personal projects"]

@@ -75,9 +75,9 @@ params:
   homeInfoParams:
     Title: "Welcome \U0001F44B"
     Content: >
-      Here are my latest blog posts. \
+      A blog about my mind \
 
-      [Want to learn more?](https://shivan.xyz/about)
+      [Who am I?](https://shivan.xyz/about)
 
   socialIcons:
     - name: youtube

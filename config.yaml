@@ -75,7 +75,7 @@ params:
   homeInfoParams:
     Title: "Welcome \U0001F44B"
     Content: >
-      A blog about my mind \
+      A blog. \
 
       [Who am I?](https://shivan.xyz/about)
 

@@ -82,14 +82,14 @@ params:
   socialIcons:
     - name: youtube
       url: "https://youtube.com/c/shivansivakumaran"
+    - name: github
+      url: "https://github.com/shivan-s"
     - name: twitter
       url: "https://twitter.com/shivsivakumaran"
-    - name: github
-      url: "https://github.com/Shivans93"
-    - name: instagram
-      url: "https://github.com/shivan_s"
     - name: linkedin
-      url: "https://linkedin.com/c/shivansivakumaran"
+      url: "https://linkedin.com/in/shivansivakumaran"
+    - name: instagram
+      url: "https://instagram.com/shivan_s"
 
   analytics:
     google:

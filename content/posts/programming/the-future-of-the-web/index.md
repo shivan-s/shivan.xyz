@@ -1,7 +1,7 @@
 ---
 author: Shivan Sivakumaran
 title: The Future of the Web
-date: 2022-11-15
+date: 2021-11-15
 summary: How the world may change and that might be Web3. Here are my thoughts.
 categories: ["Programming"]
 tags: ["web3", "democracy"]

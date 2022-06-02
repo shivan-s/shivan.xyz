@@ -28,7 +28,7 @@ At the beginning of modern time (I'm talking about the internet), "Web 1.0" remo
 
 However, even with improved access, there is still a central source of "truth".
 
-### Web 2.0 — The Now
+## Web 2.0 — The Now
 
 "Web 2.0" introduces us to the creator economy. Platforms exist for anyone to create content, sell their products and educate others. These platforms include:
 

@@ -8,9 +8,9 @@ tags: ["git", "source code"]
 draft: false
 cover:
   image: image.jpg
-  alt: alt text
-  caption: caption
-  relative: false
+  alt:
+  caption:
+  relative: true
   hidden: true
 ---
 
@@ -20,7 +20,7 @@ Here is a simple cheatsheet for my git workflow.
 
 ## Branches
 
-branches are importing to work on different features on the code. A branch per feature.
+Branches are importing to work on different features on the code. A branch per feature.
 
 ```shell
 # creating a new branch called 'dev'

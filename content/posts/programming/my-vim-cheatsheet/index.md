@@ -22,9 +22,13 @@ That's where Vim and its keybindings can greatly improve your productivity as a 
 
 As a quick note: in the beginning, learning something takes time. There is a small cost to pay. Aren't we trying to save time? Yes, we are but you are paying a small upfront cost for what will pay you many dividends down the track later.
 
+{{<youtube SQOSezoCl_U>}}
+
 ## Update in 2022
 
 I have now switched to VSCode for the vast extension and support for extensions, but I will use Vim for quickly accessing and editing files. I also use Vim for writing draft posts as its distraction free. I do use Vim keybinding, which we will learn about soon in VSCode.
+
+Update #2: I have switched again from VSCode to NeoVim.
 
 ## What is Vim?
 

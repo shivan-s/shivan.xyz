@@ -60,18 +60,18 @@ git stash pop
 # dropping a stash
 git stash drop <name of stash>
 
-# clearing ALL stashes (WARNING!)
+# clearing ALL stashes (WARNING)
 git stash drop
 ```
 
-## git add and commit at the same time
+## Adding and Committing at the same time
 
 ```shell
 # add and commit
 git commit -am "message"
 
-# update the lastest commit message
-git commit --amend -m "ammended message"
+# update the latest commit message
+git commit --amend -m "ammendded message"
 
 # updating code, with same commit message, only works if commit has not been pushed
 git add .
@@ -100,7 +100,7 @@ git bisect bad
 git rebase main --interactive
 # pick to use commit, squash to combine the commit
 
-# using fixup and squash when commiting
+# using fixup and squash when committing
 git commit --fixup
 git commit --squash
 git rebase -i --autosquash
@@ -117,6 +117,10 @@ git reset --hard origin/main
 #clean up unused files
 git clean -df
 ```
+
+## More to checkout
+
+Checkout [LazyGit](https://github.com/jesseduffield/lazygit). This is a terminal application for git.
 
 ## Resources
 

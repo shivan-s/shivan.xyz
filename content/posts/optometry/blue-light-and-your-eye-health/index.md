@@ -31,7 +31,7 @@ _Make sure you make regular appointments with an eye care professional to ensure
 
 Below is a video that briefly explains this topic.
 
-{{ <youtube Ij-2s1ry4aI>}}
+{{<youtube Ij-2s1ry4aI>}}
 
 ## The Science of Light and what makes Blue Light Blue
 

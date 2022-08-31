@@ -68,7 +68,7 @@ This channel’s host does an outstanding job discussing the nuances of masculin
 In these examples below he gives his analysis of the traditional form of masculinity.
 
 
-{{ <youtube wWoP8VpbpYI> }}
+{{<youtube wWoP8VpbpYI>}}
 
 In the situation of Harrison Ford movies, what struck me was the blatant disregard for consent in courtship. Despite the female character saying “no” multiple times, we are taught as men that “no” is simply a game and what she really means is “yes”, and that Ford’s character’s advances are viewed as masculine, sexy and something to cheer.
 
@@ -76,7 +76,7 @@ Even though this is entertainment, can you see how popular culture can shape our
 
 We are taught: that this is how men act. And for women, this is how men should act towards me.
 
-{{ <youtube tUPD1w78D5I> }}
+{{<youtube tUPD1w78D5I>}}
 
 The host has multiple videos discussing the characters in Star Wars. Arguably, one of the most influential franchises of our time.
 

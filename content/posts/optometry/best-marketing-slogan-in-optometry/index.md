@@ -14,27 +14,31 @@ cover:
   hidden: false
 ---
 
-_1984_, George Orwell's classic depicting post-apocalyptic world with Big Brother watching us all. Apple also released their iconic "Why 1984 won't be like _1984_" television advertisment, hinging on that Orwellian motif.
+_1984_, George Orwell's classic, depicts post-apocalyptic world, where Big Brother is watching your moves and the Government surveils your thoughts. Hinging on this Orwellian motif, on this year,  Apple's released their iconic "Why 1984 won't be like _1984_" television advertisment.
 
-1984 was also the birth year of an optical company that would change the landscape of optometry in New Zealand and Australia many years later, first starting in the United Kingdom. That company is Specsavers.
+1984 was also the birth year of an optical company that would change the landscape of optometry in New Zealand and Australia many years later, first starting in the United Kingdom.
 
 According to the [well-kept wikipedia page](https://en.wikipedia.org/wiki/Specsavers), Specsavers boasts a revenue well over £2 billion pounds, with over 2,000 stores spread across man European countries like Ireland, Norway, Sweden, Finland, Denmark, the Netherlands, Spain, Canada as well the United Kingdom, New Zealand and Australia.
 
-Love it or hate it, we can't doubt how well spread and dominate Specsavers is in the optical industry.
+Love it or hate it, we can't doubt how well spread and dominate the Green machine is in the optical industry.
 
-But I don't want to discuss the success of Specsavers, I want to look into what I think is the most successful marketing campaign in the world.
+Before we get carried away, we won't be looking at the success of the optical giant, instead we will be looking at the most successful marketing campaign in the world, or the the optical world at least.
 
-Now you might think that it's free eye exams if you purchase glasses or if you are part of some elite group! Or the various 2 for 1 deals and loss leaders plastered on the shop fronts.
+Now you might think that it's free eye exams if you purchase glasses. Or the various 2 for 1 deals and loss leaders plastered on the shop fronts.
 
-These worked. But it's none of these. These are unique. Go to any supermarket, discount store and you will see the same tactics being used.
+These work. But they are hardly anything special. All it takes is a trip to the supermarket to see the same tactics used in place.
+
+What's the special sauce?
+
+If I'm my barber and tell them what I do. It'll be mentioned. If I'm at a function full of unfamiliar family members, it's an ice-breaker. If I go to any networking event involving others outside the optic industry, guess what will be said?
+
+It's three words plus a name.
 
 "Should've gone to Specsavers"
 
-If I'm my barber and tell them what I do. This slogan will be mentioned. If I'm at a family function, this slogan will be mentioned. If I go to any networking event, guess what will be mentioned? And it's not just optometry and people in the optics industry who are aware of this phrase.
+The most important line in the company's history. It transcends beyond the company vision, values and all you expect from a coporate hippie session. Come to think of it, I've worked inside Specsavers for almost 3 years and I have no idea what business pursuits are, but I do remember this marketing slogan like nothing else, even as a prepare to change careers!
 
-I want to go as far to say that this collection of words put this company on the map. Going beyond companies vision, the team, and what is stood for? What were the company values? I worked there for 3 years and still have no clue. But this marketing slogan still rings true to this day, even as I'm preparing the change careers.
-
-But who was responsible for this almost Steve Jobs like level of influence? More valuable than the spectacles that Jobs wore.
+You know the words but who was responsible for this almost Steve Jobs like level of influence? A line probably more valuable than the spectacles that Jobs wore.
 
 You would think Specsavers would have had to source this special talent from an agency.
 
@@ -42,7 +46,7 @@ Nope! It was all done in house!
 
 Graham Daldry joined Specsavers in the year of 1999 and remained at the company for the next twenty years. For most of his time, he was the creative director for Specsavers advertising team.
 
-[In the Inside Jobs podcast](https://www.ijpodcast.com/episode/a-legacy-of-shouldves/), he mentions how it was head hunted for the role. He even mentions their working wasn't "amazing" but Specsavers did have the motivation to dramatically improve. At the time, Specsavers were in a good position at the time but they lacked a human focus on their marketing face.
+[In the Inside Jobs podcast](https://www.ijpodcast.com/episode/a-legacy-of-shouldves/), Daldry mentions how he was head hunted for the role. Despite Specsavers, at the time, were not "amazing", they did have the motivation to dramatically improve. What was lacking was a human focus on their marketing.
 
 Humour was necessary for the brand at the time, because it was such an opticians such a clinical area and Specsavers was a disruptive force in the market place adn humnour was perfect really to kind of 1st of all get people to like us and trust us and differentiate Specsavers from the pack.
 

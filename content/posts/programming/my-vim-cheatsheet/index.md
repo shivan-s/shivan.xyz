@@ -102,6 +102,18 @@ Keeping the cursor in the same position, but being able to move the window is us
 >
 > `ctrl+e` will move the window down by one line.
 
+Some more useful key combinations to help with deleting and inserting:
+
+> `dw` will delete a word but remain in command mode.
+>
+> `cw` will delete a word and put into insert mode.
+>
+> `ci)` will delete a word in a parenthesis and put into insert mode.
+>
+> `ca)` will delete a word and surrounding parenthesis and put into insert mode.
+
+
+
 Searching:
 
 > `/` then what ever you want to search and enter will take you whatever you want searched. Following this, n will take you to the next match; N will take you to the previous

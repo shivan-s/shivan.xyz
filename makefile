@@ -1,6 +1,6 @@
 .PHONY: drafts
 drafts:
-	rg 'draft: true' content/posts
+	rg 'draft: true' content/posts | fzf --layout=reverse --preview=bat
 
 .PHONY: new
 new:

@@ -106,13 +106,11 @@ Some more useful key combinations to help with deleting and inserting:
 
 > `dw` will delete a word but remain in command mode.
 >
-> `cw` will delete a word and put into insert mode.
+> `ciw` will delete a word and put into insert mode.
 >
 > `ci)` will delete a word in a parenthesis and put into insert mode.
 >
 > `ca)` will delete a word and surrounding parenthesis and put into insert mode.
-
-
 
 Searching:
 
@@ -154,11 +152,15 @@ Deleting, copying and pasting:
 >
 > `D` deletes from where the cursor is to the end.
 >
-> `ct` and then whatever character will delete to the where you are to the the character you want to delete.
+> `ct` and then whatever character will delete to the where you are to the character you want to delete.
 >
 > `yy` copies the selected line onto the clipboard
 >
 > `p` will paste what is on the clipboard below
+
+More useful ways of copying:
+
+> `yiw` will copy a selected word.
 
 Indenting code:
 

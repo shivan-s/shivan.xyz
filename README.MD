@@ -1,3 +1,5 @@
+[![Publish](https://github.com/shivan-s/shivan.xyz/actions/workflows/publish.yml/badge.svg)](https://github.com/shivan-s/shivan.xyz/actions/workflows/publish.yml)
+
 # [My Blog](https://shivan.xyz)
 
 This is source code for [my blog](https://shivan.xyz).
@@ -6,7 +8,11 @@ This is source code for [my blog](https://shivan.xyz).
 
 This uses [Hugo, the static site generator](https://gohugo.io).
 
-## Some customisations
+## Theme
+
+The theme is [Hugo PaperMod](https://github.com/adityatelange/hugo-PaperMod).
+
+## Some Customisations
 
 I have added a makefile. Some custom commands:
 

@@ -9,6 +9,7 @@ enableRobotsTXT: true
 buildDrafts: false
 buildFuture: false
 buildExpired: false
+googleAnalytics: G-N8YH79QGZ2
 
 minify:
   disableXML: true

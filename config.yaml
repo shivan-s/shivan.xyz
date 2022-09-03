@@ -93,7 +93,7 @@ params:
 
   analytics:
     google:
-      SiteVerificationTag: "G-FDWQMYMSBT"
+      SiteVerificationTag: "G-N8YH79QGZ2"
 
   disqusShortname: shivan-xyz
 
@@ -105,7 +105,7 @@ params:
     linkFullImages: false
 
   editPost:
-    URL: "https://github.com/ShivanS93/shivan.xyz/tree/main/content"
+    URL: "https://github.com/shivan-s/shivan.xyz/tree/main/content"
     Text: "Suggest Changes" # edit text
     appendFilePath: true # to append file path to Edit link
 
@@ -119,6 +119,7 @@ params:
     threshold: 0.4
     minMatchCharLength: 0
     keys: ["title", "permalink", "summary", "content"]
+
 menu:
   main:
     - identifier: about
@@ -137,12 +138,3 @@ menu:
       name: archives
       url: /archives/
       weight: 4
-# Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
-# pygmentsUseClasses: true
-# markup:
-#     highlight:
-#         # anchorLineNos: true
-#         codeFences: true
-#         guessSyntax: true
-#         lineNos: true
-#         style: monokai

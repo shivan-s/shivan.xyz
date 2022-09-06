@@ -16,6 +16,14 @@ cover:
 
 Python projects - [When I started they were a simple .py file](https://github.com/ShivanS93/LearnMultiplication). Now they have grown to a large orchestration of folders and special tools, and dot files. Here, we will simplify and see the benefits of usingthese tools as well as setting these tools up to become the most effeicent programmer we can be.
 
+
+### Brew to install pipx
+
+Pipx allows us to install python programs as "binary" CLI tools. This is useful thinks like pipenv where we are not pinned down to a particular version of python.
+
+
+## pyenv
+
 ### Package management
 
 At first, my first project didn't use any specially downloaded libraries. But as soon as you start building new projects you start to use third party libraries that do not come with the standard pythong install. These include `pandas`, `numpy` and `matplotlib` for the data progressionals and `flask` and `django` for the web developers.

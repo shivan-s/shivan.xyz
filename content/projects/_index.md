@@ -6,11 +6,25 @@ enableComments: false
 draft: false
 ---
 
+## Optom Tools
+
+Status: Pip-installable but adding more features. Need to write a blog.
+
+A Django Rest Framework / React Typescript application, whose aim is to make New Zealand Weightlifting results web browsable.
+
+
+- Live link: [lifter.shivan.xyz](https://lifter.shivan.xyz)
+- Source code: [lifter-api](https://github.com/weightliftingNZ/lifter-api)
+
+---
+
 ## Lifter API
 
 Status: Need to add results. Write a blog.
 
-A Django Rest Framework / React Typescript application, whose aim is to make New Zealand Weightlifting results web browseable.
+A Django Rest Framework / React Typescript application, whose aim is to make New Zealand Weightlifting results web browsable.
+
+{{<youtube 1kObqjeRs2Ip>}}
 
 - Live link: [lifter.shivan.xyz](https://lifter.shivan.xyz)
 - Source code: [lifter-api](https://github.com/weightliftingNZ/lifter-api)
@@ -31,7 +45,7 @@ A [streamlit](https://streamlit.io) application that provides analysis a YouTube
 
 ## OptomBot
 
-Status: Working!
+Status: Working.
 
 A [Twitter bot](https://twitter.com/optombot) that retweet optometry related tweets.
 
@@ -46,6 +60,8 @@ A [Twitter bot](https://twitter.com/optombot) that retweet optometry related twe
 Status: You are on it!
 
 This site is my personal blog. It uses Hugo for static site generation and hosted on Digital Ocean App Platform.
+
+{{<youtube UzhZb7e4l4Y>}}
 
 - Live link: [shivan.xyz](https://shivan.xyz)
 - Source code: [shivan-xyz](https://github.com/ShivanS93/shivan.xyz)

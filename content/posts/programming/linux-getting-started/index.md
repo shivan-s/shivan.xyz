@@ -5,7 +5,7 @@ date: 2020-11-29
 summary: summary
 categories: ["Programming"]
 tags: ["Programming", "shell", "command line", "ubuntu", "i3"]
-draft: true
+draft: false
 cover:
   image: linux-eg.png
   alt: Screenshot of terminal

@@ -1,6 +1,6 @@
 ---
 author: Shivan Sivakumaran
-title: Cannabis: An Unconventional Way To Treat Sight-threatening Glaucoma?
+title: Cannabis - An Unconventional Way To Treat Sight-threatening Glaucoma?
 date: 2021-04-17
 summary: summary
 categories: ["Optometry"]

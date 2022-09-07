@@ -71,7 +71,7 @@ Technology: Hugo Static Site Generator
 
 This site is my personal blog. It uses Hugo for static site generation and hosted on Digital Ocean App Platform.
 
-{{<youtube UzhZb7e4l4Y>}}
+{{<youtube Crv-3aR-y34>}}
 
 - Live link: [shivan.xyz](https://shivan.xyz)
 - [Source code](https://github.com/ShivanS93/shivan.xyz)

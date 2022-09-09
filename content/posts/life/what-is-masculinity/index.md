@@ -14,6 +14,8 @@ cover:
   hidden: false
 ---
 
+{{<youtube ED2iZb8GkVw>}}
+
 The long road of self-discovery, and one that I’m still travelling, has led me to the topic of masculinity.
 
 A question I often ask myself is: why do I need to do all of this to make myself feel at ease with myself?

@@ -14,8 +14,6 @@ cover:
   hidden: false
 ---
 
-{{<youtube ED2iZb8GkVw>}}
-
 The long road of self-discovery, and one that I’m still travelling, has led me to the topic of masculinity.
 
 A question I often ask myself is: why do I need to do all of this to make myself feel at ease with myself?
@@ -25,6 +23,8 @@ I think it comes down to two things:
 - how popular culture views and teaches men.
 
 Firstly, why am I doing all of this?
+
+{{<youtube ED2iZb8GkVw>}}
 
 I thought it was a greater calling, but now I’m thinking it’s derived from the feeling of inadequacy driving me to do something out of the ordinary. And even insecurity in how I view myself.
 

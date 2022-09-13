@@ -136,6 +136,13 @@ Lines:
 >
 > `O` (shift+o) creates a new line above and enters insert mode
 
+A useful combination for selecting words:
+
+> `viw` will select a word, no matter where you are in the word.
+>
+> `vi)` will insert whatever is inside the next set of parenthesis.
+
+
 ## Editing
 
 Before we get into editing, a useful tool is to use visual mode, which we can get into by using `V`(or `shift+v`) puts you into visual mode. This allows you to select code using your navigation keys. This comes in handy if you want to see what code you will be manipulating.

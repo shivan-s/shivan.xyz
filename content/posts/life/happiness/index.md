@@ -12,7 +12,8 @@ cover:
   caption: A photo that makes most happy
   relative: false
   hidden: false
--
+---
+
 “Happiness is a choice”.
 
 Sadly for most, it isn't. But for my privileged life (and likely yours), it is.

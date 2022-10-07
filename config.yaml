@@ -89,9 +89,9 @@ params:
     - name: twitter
       url: "https://twitter.com/shivsivakumaran"
     - name: linkedin
-      url: "https://linkedin.com/in/shivansivakumaran"
-    - name: instagram
-      url: "https://instagram.com/shivan_s"
+      url: "https://www.linkedin.com/in/shivan-sivakumaran/"
+    - name: twitch
+      url: "https://www.twitch.tv/shivan_si"
 
   analytics:
     google:

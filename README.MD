@@ -1,4 +1,5 @@
 [![Publish](https://github.com/shivan-s/shivan.xyz/actions/workflows/publish.yml/badge.svg)](https://github.com/shivan-s/shivan.xyz/actions/workflows/publish.yml)
+[![DigitalOcean Referral Badge](https://web-platforms.sfo2.cdn.digitaloceanspaces.com/WWW/Badge%201.svg)](https://www.digitalocean.com/?refcode=258357a99b78&utm_campaign=Referral_Invite&utm_medium=Referral_Program&utm_source=badge)
 
 # [My Blog](https://shivan.xyz)
 

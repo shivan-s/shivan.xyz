@@ -28,7 +28,7 @@ Technology: Python, Django REST Framework, React, Typescript, Material UI
 
 A Django Rest Framework / React Typescript application, whose aim is to make New Zealand Weightlifting results web browsable.
 
-{{<youtube 1kObqjeRs2Ip>}}
+{{<youtube 1kObqjeRs2I>}}
 
 - Live link: [lifter.shivan.xyz](https://lifter.shivan.xyz)
 - [Source code](https://github.com/weightliftingNZ/lifter-api)

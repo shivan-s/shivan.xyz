@@ -6,11 +6,37 @@ enableComments: false
 draft: false
 ---
 
+## Lifter API
+
+Making New Zealand Weightlifting results more accessible.
+
+### Technologies
+
+- Python
+- Django REST Framework
+- React
+- Typescript
+- Material UI
+
+### Resources
+
+{{<youtube 1kObqjeRs2I>}}
+
+- Live link: [lifter.shivan.xyz](https://lifter.shivan.xyz)
+- [Source code](https://github.com/weightliftingNZ/lifter-api)
+
+---
+
 ## Optom Tools
 
-Status: Pip-installable but adding more features. Need to write a blog.
+Making optometry data easily usable.
 
-Technology: Python, Pydantic
+### Technologies
+
+- Python
+- Pydantic
+
+### Resources
 
 {{<youtube FPrYu0WEBPs>}}
 
@@ -20,56 +46,64 @@ Technology: Python, Pydantic
 
 ---
 
-## Lifter API
+## OptomCalc
 
-Status: Need to add results. Write a blog.
+Making optometry calculations easier
 
-Technology: Python, Django REST Framework, React, Typescript, Material UI
+### Technologies
 
-A Django Rest Framework / React Typescript application, whose aim is to make New Zealand Weightlifting results web browsable.
+- React
+- Typescript
+- Tailwind CSS
 
-{{<youtube 1kObqjeRs2I>}}
+### Resources
 
-- Live link: [lifter.shivan.xyz](https://lifter.shivan.xyz)
-- [Source code](https://github.com/weightliftingNZ/lifter-api)
+- Link link: [shivan-s.github.io/optomcalc](https://shivan-s.github.io/optomcalc/)
+- [Source code](https://github.com/shivan-s/optomcalc)
 
 ---
 
 ## TubeStats
 
-Status: Need to fix dislikes, as this is no longer accessible.
+Dashboard to analyse statistics of a given YouTube channel.
 
-Technology: Python, Streamlit
+### Technologies
 
-A [streamlit](https://streamlit.io) application that provides analysis a YouTube channel and provides fun statistics.
+- Python
+- Streamlit
+
+### Resources
 
 - Live link: [tubestats.shivan.xyz](https://tubestats.shivan.xyz)
 - [Source Code](https://github.com/shivan-s/tubestats)
-- Blog link: Need to update
 
 ---
 
 ## OptomBot
 
-Status: Working.
+Redestributing optometry related content on twitter.
 
-Technology: Python
+### Technologies
 
-A [Twitter bot](https://twitter.com/optombot) that retweet optometry related tweets.
+- Python
+- Twitter API
+
+### Resources
 
 - Live link: [twitter.com/optombot](https://twitter.com/optombot)
 - [Source code](https://github.com/ShivanS93/twitter-optom-bot)
-- Blog link: Need to update
 
 ---
 
 ## Personal Blog
 
-Status: You are on it.
+My personal blog/website served using static site generation.
 
-Technology: Hugo Static Site Generator
+### Technologies
 
-This site is my personal blog. It uses Hugo for static site generation and hosted on Digital Ocean App Platform.
+- Hugo Static Site Generator
+
+### Resources
 
 {{<youtube Crv-3aR-y34>}}
 

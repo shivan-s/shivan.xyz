@@ -19,7 +19,7 @@ minify:
 params:
   env: production
   title: Shivan Sivakumaran
-  description: "Shivan Sivakumaran Blog"
+  description: "Shivan Sivakumaran Personal Blog"
   keywords: [Blog, Programming, Optometry, Life]
   author: Shivan Sivakumaran
   DateFormat: "January 2, 2006"
@@ -58,28 +58,32 @@ params:
 
   # profile-mode
   profileMode:
-    enabled: false # needs to be explicitly set
+    enabled: true # needs to be explicitly set
     title: Shivan Sivakumaran
-    subtitle: Optometrist -> Technology
-    imageUrl: avatar.png
+    subtitle: Optometrist → Technology
+    imageUrl: shivan.png
     imageWidth: 120
     imageHeight: 120
     imageTitle: Me!
     buttons:
       - name: About
         url: about
+      - name: Resume/C.V
+        url: resume
+      - name: Projects
+        url: projects
       - name: Posts
         url: posts
-      - name: Categories
-        url: categories
 
   # home-info mode
   homeInfoParams:
     Title: "Welcome \U0001F44B"
     Content: >
-      A blog. \
+      Stay focused. \
 
       [Who am I?](https://shivan.xyz/about)
+      [My resume/C.V](https://shivan.xyz/resume)
+      [My projects](https://shivan.xyz/projects)
 
   socialIcons:
     - name: youtube

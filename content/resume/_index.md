@@ -12,8 +12,9 @@ draft: false
 
 ## Employment History
 
-### Contract Work – Padula Institute (April 2022-)
-Using Python to create a prototype for vision testing equipment.
+### Freelance – Padula Institute (April 2022-)
+
+Freelance Software Developer using Python to create a proof of concept for vision testing equipment.
 
 ### Visique Feilding – Part-time Optometrist (January 2022-)
 

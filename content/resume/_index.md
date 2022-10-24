@@ -6,6 +6,10 @@ enableComments: false
 draft: false
 ---
 
+## Goal
+
+My Goal is to become a fullstack software developer.
+
 ## Education
 
 - Bachelor of Optometry (Honours), University of Auckland (2011-2015)

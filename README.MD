@@ -4,7 +4,7 @@
 
 [![Publish](https://github.com/shivan-s/shivan.xyz/actions/workflows/publish.yml/badge.svg)](https://github.com/shivan-s/shivan.xyz/actions/workflows/publish.yml)
 
-[This](this.md) is source code for [my blog](https://shivan.xyz).
+This is source code for [my blog](https://shivan.xyz).
 
 ## How is works
 

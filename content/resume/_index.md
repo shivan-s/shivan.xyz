@@ -8,7 +8,7 @@ draft: false
 
 ## Goal
 
-My Goal is to become a fullstack software developer.
+To become a fullstack software developer.
 
 ## Education
 

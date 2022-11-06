@@ -68,7 +68,7 @@ params:
     buttons:
       - name: About
         url: about
-      - name: Resume/C.V
+      - name: C.V.
         url: resume
       - name: Projects
         url: projects
@@ -117,6 +117,12 @@ params:
 
   # for search
   # https://fusejs.io/api/options.html
+  output:
+    home:
+      - HTML
+      - RSS
+      - JSON
+
   fuseOpts:
     isCaseSensitive: false
     shouldSort: true
@@ -132,19 +138,19 @@ menu:
       name: about
       url: /about/
       weight: 1
-    - identifier: resume
-      name: resume / c.v.
+    - identifier: c. v.
+      name: resume
       url: /resume/
       weight: 2
     - identifier: projects
       name: projects
       url: /projects/
       weight: 3
-    - identifier: categories
-      name: categories
-      url: /categories/
+    - identifier: posts
+      name: posts
+      url: /posts/
       weight: 4
-    - identifier: archives
-      name: archives
+    - identifier: search
+      name: archive 🔍
       url: /archives/
       weight: 5

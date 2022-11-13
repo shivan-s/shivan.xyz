@@ -4,7 +4,7 @@ title: Taking Risks
 date: 2022-11-13
 summary: I'm all talk, but do I walk to the walk?
 categories: ["Life"]
-tags: ["life, risks"]
+tags: ["life", "risks"]
 draft: false
 cover:
   image: taking_risks.png
@@ -56,7 +56,7 @@ Challenging oneself is about getting out of the comfort zone. You might fail or 
 
 I approach weightlifting with safety and I am rewarded with lifting the same weights and no real improvement.
 
-But it’s best the break yourself on the platform, or fail at least trying.
+However, it’s best the break yourself on the platform, or fail at least trying.
 
 And for most of my life, I have been playing it relatively safe.
 

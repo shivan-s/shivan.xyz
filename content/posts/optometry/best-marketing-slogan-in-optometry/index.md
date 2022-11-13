@@ -14,13 +14,17 @@ cover:
   hidden: false
 ---
 
-_1984_, George Orwell's classic, depicts post-apocalyptic world, where Big Brother is watching your moves and the Government surveils your thoughts. Hinging on this Orwellian motif, on this year,  Apple's released their iconic "Why 1984 won't be like _1984_" television advertisment.
+_1984_, George Orwell's classic, depicts post-apocalyptic world, where surveilance and authoritarianism reigns. Hinging on this Orwellian motif, on this year, Apple's released their iconic "Why 1984 won't be like _1984_" television advertisement.
 
-1984 was also the birth year of an optical company that would change the landscape of optometry in New Zealand and Australia many years later, first starting in the United Kingdom.
+In a smaller, not so popular industry, the optics industry, 1984 was also the birth year of a company that would change the landscape of optometry in New Zealand and Australia for many years into the future.
 
-According to the [well-kept wikipedia page](https://en.wikipedia.org/wiki/Specsavers), Specsavers boasts a revenue well over £2 billion pounds, with over 2,000 stores spread across man European countries like Ireland, Norway, Sweden, Finland, Denmark, the Netherlands, Spain, Canada as well the United Kingdom, New Zealand and Australia.
+First starting in the United Kingdom, the business would spread across many European countries such Ireland, Norway, Sweden, Finland, Denmark, the Netherlands, Spain, even heading into Canada.
 
-Love it or hate it, we can't doubt how well spread and dominate the Green machine is in the optical industry.
+And just like colonization reincarnated, approaching the shores of Australia and then New Zealand in 2008.
+
+According to the [well-kept wikipedia page](https://en.wikipedia.org/wiki/Specsavers), Specsavers boasts a revenue well over £2 billion pounds with 2,000 stores across the world.
+
+Love it or hate it, we can't doubt how dominate the Green machine is in the optical industry.
 
 Before we get carried away, we won't be looking at the success of the optical giant, instead we will be looking at the most successful marketing campaign in the world, or the the optical world at least.
 
@@ -56,11 +60,11 @@ Here is one of the advertisements:
 
 {{<youtube DV2qiOeUT9E>}}
 
-It didn't stop there, after there were a sleuth of advertisements following the same archetecture of humour.
+It didn't stop there, after there were a sleuth of advertisements following the same architecture of humour.
 
 Humour is powerful. It cements a brand into the minds of viewers. When optometry is viewed as something stale, boring and expensive. These advertisements provide light in a literal dark room. And they work. Hence my experience with inviduals outside the optics industry being able to recite this line better than the national anthem.
 
-Now when you think about vision problems. Or needing to replace your broken glasses. It's not the small independant optometry clinic down the road that your parents, grandparents and great parents religiously attended, it's going to be Specsavers.
+Now when you think about vision problems. Or needing to replace your broken glasses. It's not the small independent optometry clinic down the road that your parents, grandparents and great parents religiously attended, it's going to be Specsavers.
 
 In a podcast, Daldry describes Specsavers as a family friendly optometry brand. And that is what he achieved but utilising humour as the spearhead for his furture advertisements.
 
@@ -70,6 +74,20 @@ It's funny the biggest effect on optometry isn't by and optometrist but a top le
 
 Even as Daldry moves on to bigger and possibly better projects, his creative efforts will be forever in the realm of optometry.
 
-Even branching into audiology
+I see that a lot now. It seems the pinnacle of an optometrist is to own their own practice. This is fine, but I do think owning a practice is just a job in disguise. Instead of you owning the business, the business owns you.
 
-{{<youtube rhlrOP7ytKs>}}
+So, what's the next level then? To refer to the "E-myth Revisited" (a book I started reading, haven't finished, but heard lots about), the optometrist must not work _in_ the business but _on_ the business.
+
+Sounds simple, but there are a few drawbacks to applying this model to optometry.
+
+To expand, an optometrists can't see patients and also work on the business at the same time. To gain this time to focus on the business, the optometrist can hire more optometrists.
+
+Here is the first pitfall, there aren't many optometrists to go around. Especially, if the location your practice is in it not desirable to the average individual (e.g. rural vs urban).
+
+Additionally, patients will want to see a particular optometrist, who might also be the owner.
+
+That's where creating the brand becomes key. Switch patients from seeing a particular optometrist to a branded institution.
+
+Now, we start to see the power of marketing and advertising. It becomes the most powerful thing. Even more powerful that the skill of an optometrist.
+
+Now the optometrist is free to build their brand, purchase more practices, hire more optometrists and grow the business.

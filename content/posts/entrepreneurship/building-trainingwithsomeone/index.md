@@ -102,3 +102,7 @@ For this I used django allauth. The reason is that there are number of prebuild 
 The idea is simplicity and also the look Bulma CSS for simple styling as well it looking good.
 
 Remember, the idea is minimal viable product or conception.
+
+## Tests
+
+Build tests scripts in the end. The problem with TDD for me is taht I don't know how to build the main code. When I'm lik this. I end up writing tests, then the main code, then rewriting the main code because I'm not happy with something, then having to up the test code - so I'm doubling up the work effort.

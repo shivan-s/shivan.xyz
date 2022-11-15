@@ -96,6 +96,8 @@ params:
       url: "https://www.linkedin.com/in/shivan-sivakumaran/"
     - name: twitch
       url: "https://www.twitch.tv/shivan_si"
+    - name: mastodon
+      url: "https://fosstodon.org/@shivan"
 
   analytics:
     google:
@@ -152,5 +154,5 @@ menu:
       weight: 4
     - identifier: search
       name: archive 🔍
-      url: /archives/
+      url: /archive/
       weight: 5

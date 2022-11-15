@@ -1,8 +1,9 @@
 ---
-title: Search
-layout: search
-url: /archives/
-description: "Discover"
+title: "Search"
+layout: "search"
+url: "/archive"
+description: "Search through posts"
 summary: "Search"
-placeholder: "Type..."
+placeholder: "Search content"
+draft: false
 ---

@@ -60,7 +60,7 @@ params:
   profileMode:
     enabled: true # needs to be explicitly set
     title: Shivan Sivakumaran
-    subtitle: Optometrist → Fullstack Developer
+    subtitle: Optometrist → Indie Hacker
     imageUrl: shivan.png
     imageWidth: 120
     imageHeight: 120
@@ -77,13 +77,8 @@ params:
 
   # home-info mode
   homeInfoParams:
-    Title: "Welcome \U0001F44B"
-    Content: >
-      Stay focused. \
-
-      [Who am I?](https://shivan.xyz/about)
-      [My resume/C.V](https://shivan.xyz/resume)
-      [My projects](https://shivan.xyz/projects)
+    Title: "Shivan Sivakumaran"
+    Content: "Optometrist → Indie Hacker"
 
   socialIcons:
     - name: youtube
@@ -120,7 +115,7 @@ params:
 
   # for search
   # https://fusejs.io/api/options.html
-  output:
+  outputs:
     home:
       - HTML
       - RSS

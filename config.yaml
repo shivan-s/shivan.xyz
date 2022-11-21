@@ -87,7 +87,7 @@ params:
 
   socialIcons:
     - name: youtube
-      url: "https://youtube.com/c/shivansivakumaran"
+      url: "https://youtube.com/@ShivanS"
     - name: github
       url: "https://github.com/shivan-s"
     - name: twitter
@@ -98,6 +98,7 @@ params:
       url: "https://www.twitch.tv/shivan_si"
     - name: mastodon
       url: "https://fosstodon.org/@shivan"
+      rel: "me"
 
   analytics:
     google:

@@ -152,3 +152,6 @@ menu:
       name: archive 🔍
       url: /archive/
       weight: 5
+    - identifier: newsletter
+      name: newsletter
+      url: https://email.shivan.xyz

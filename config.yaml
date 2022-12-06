@@ -60,7 +60,7 @@ params:
   profileMode:
     enabled: true # needs to be explicitly set
     title: Shivan Sivakumaran
-    subtitle: Optometrist → Indie Hacker
+    subtitle: Optometrist → Indie Developer
     imageUrl: shivan.png
     imageWidth: 120
     imageHeight: 120

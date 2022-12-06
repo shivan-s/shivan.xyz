@@ -78,7 +78,7 @@ params:
   # home-info mode
   homeInfoParams:
     Title: "Shivan Sivakumaran"
-    Content: "Optometrist → Indie Hacker"
+    Content: "Optometrist → Indie Developer"
 
   socialIcons:
     - name: youtube

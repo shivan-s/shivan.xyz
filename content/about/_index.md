@@ -12,19 +12,11 @@ draft: false
 
 I am Kiwi born 🇳🇿 with Sri Lankan 🇱🇰 heritage.
 
-This blog is a culmination:
-
-- entrepreneurship,
-- technology,
-- optometry,
-- finding meaning, and
-- anything that I find interesting.
-
-Ultimately, I want to inspire anyone who reads this as well as share ideas.
+My biggest accomplishment is graduating from the University of Auckland in 2015 and becoming in Optometrist.
 
 ## What am I focusing on?
 
-1. Becoming an Indie Hacker
+1. Becoming an indie developer in order to become a digital nomad
    - Building projects - [Check it out!]({{< ref "/projects/_index.md" >}})
 2. Growing my content and sharing my journey
    - 📹 [A YouTube channel](https://youtube.com/c/shivansivakumaran)

@@ -4,9 +4,13 @@ aliases: ["about", "contact"]
 author: Shivan Sivakumaran
 enableComments: false
 draft: false
+cover:
+  image: shivan-sivakumaran.jpg
+  alt: a headshot photo of a man
+  caption: Me.
+  relative: true
+  hidden: false
 ---
-
-![me](shivan-sivakumaran.jpg)
 
 ## Who am I?
 

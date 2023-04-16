@@ -6,9 +6,10 @@ enableComments: false
 draft: false
 ---
 
-## Goal
+## Role
 
-To become a fullstack software developer.
+- Web Developer
+- Optometrist
 
 ## Education
 
@@ -16,9 +17,9 @@ To become a fullstack software developer.
 
 ## Employment History
 
-### Freelance – Padula Institute (April 2022-)
+### Freelance – Padula Institute (April 2022-August 2022)
 
-Freelance Software Developer using Python to create a proof of concept for vision testing equipment.
+Freelance Software Developer using Python to create a proof of concept for vision testing equipment. This is essentially an minimal viable product.
 
 ### Visique Feilding – Part-time Optometrist (January 2022-)
 

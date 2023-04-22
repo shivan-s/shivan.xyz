@@ -16,7 +16,7 @@ cover:
 
 I am Kiwi born 🇳🇿 with Sri Lankan 🇱🇰 heritage.
 
-My biggest accomplishment is graduating from the University of Auckland in 2015 and becoming in Optometrist.
+I am a fresh Web developer after 7 years working as an optometrist.
 
 ## What am I focusing on?
 

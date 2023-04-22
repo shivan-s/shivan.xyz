@@ -81,16 +81,18 @@ params:
     Content: "Optometrist → Indie Developer"
 
   socialIcons:
-    - name: youtube
-      url: "https://youtube.com/@ShivanS"
     - name: github
       url: "https://github.com/shivan-s"
+    - name: substack
+      url: "https://email.shivan.xyz"
     - name: twitter
       url: "https://twitter.com/shivsivakumaran"
     - name: linkedin
       url: "https://www.linkedin.com/in/shivan-sivakumaran/"
     - name: twitch
       url: "https://www.twitch.tv/shivan_si"
+    - name: youtube
+      url: "https://youtube.com/@ShivanS"
     - name: mastodon
       url: "https://fosstodon.org/@shivan"
       rel: "me"

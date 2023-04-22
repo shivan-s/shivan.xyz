@@ -21,11 +21,3 @@ repos:
       - id: optimize-jpg
     repo: https://github.com/boidolr/pre-commit-images
     rev: v1.0.6
-  - hooks:
-      - entry: linkchecker-markdown
-        id: linkchecker-markdown
-        language: system
-        name: linkchecker-markdown
-        types:
-          - python
-    repo: local

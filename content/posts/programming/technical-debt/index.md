@@ -20,7 +20,7 @@ Not everyone in the meeting has a techinical background or has the capacity to d
 
 Why? Picture this. You are in the development team and a person from outside the development team asks you to implement this seemingly trivial feature. And they expect it to be done by today with no bugs. Not so trivial now, is it?
 
-What is techinical debt?
+### What is techinical debt?
 
 In an ideal world, no techinical debt would be perfect, but just like bootstrappinga business expeting to take on no risk - that's just a pipe dream.
 

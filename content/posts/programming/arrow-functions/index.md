@@ -7,8 +7,8 @@ categories: ["programming"]
 tags: ["javascript", "typescript", "arrow functions", "functions"]
 draft: false
 cover:
-  image: image.jpg
-  alt:
+  image:
+  alt: No image
   caption: caption
   relative: false
   hidden: true

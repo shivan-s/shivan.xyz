@@ -31,7 +31,7 @@ I am a fresh Web developer after 7 years working as an optometrist.
 
 - 📹 [A YouTube channel](https://youtube.com/c/shivansivakumaran)
 - ✉️ [Email Newsletter](https://email.shivansivakumaran.com)
-- ✍🏾[This Blog]({{< ref"posts/_index.md" >}})
+- ✍🏾[This Blog]({{< ref "posts" >}})
 
 3. Maintaining my body
 

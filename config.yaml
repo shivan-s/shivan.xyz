@@ -60,7 +60,7 @@ params:
   profileMode:
     enabled: true # needs to be explicitly set
     title: Shivan Sivakumaran
-    subtitle: Software Developer
+    subtitle: Web Developer & Optometrist
     imageUrl: shivan.png
     imageWidth: 120
     imageHeight: 120
@@ -78,7 +78,7 @@ params:
   # home-info mode
   homeInfoParams:
     Title: "Shivan Sivakumaran"
-    Content: "Optometrist → Indie Developer"
+    Content: "Web Developer & Optometrist"
 
   socialIcons:
     - name: github

@@ -39,3 +39,7 @@ Communication - creates a human components.
 We must remind ourselves that code even though it is executed by a non-sentient being like a server or a computer, it's written by human beings, usually a team of them, who are prone to error.
 
 Openness is important and understanding because then there are less likely to be secrets held between the two parties - the techinical team and the non-technical team.
+
+Suprisingly, you don't just write software. Eventually you have to communicate to someone and that will be those who aren't techinical.
+
+To them a simple feature is simple but for you it is complex.

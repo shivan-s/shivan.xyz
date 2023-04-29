@@ -17,6 +17,10 @@ draft: false
 
 ## Employment History
 
+### Web Developer - EyeSpace Lenses (March 2022-)
+
+Web Developer working on a web client for manufacturing and distribution of speciality contact lenses. Technologies used include Node and Svelte.
+
 ### Freelance – Padula Institute (April 2022-August 2022)
 
 Freelance Software Developer using Python to create a proof of concept for vision testing equipment. This is essentially an minimal viable product.

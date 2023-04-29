@@ -1,14 +1,14 @@
 ---
 author: Shivan Sivakumaran
-title: Arrow Functions
+title: Arrow Functions and Function Definitions
 date: 2023-04-29
-summary: What is the difference between arrow functions and function definitions in javascript?
+summary: There is a difference between normally defined functions and arrow functions
 categories: ["programming"]
 tags: ["javascript", "typescript", "arrow functions", "functions"]
 draft: false
 cover:
   image: image.jpg
-  alt: alt text
+  alt:
   caption: caption
   relative: false
   hidden: true

@@ -14,9 +14,11 @@ cover:
   hidden: true
 ---
 
-A function is a handy piece of code that allows practitioners to utilise in a same functionality multiple times. Hence the same.
+For most programming languages, a function is a handy piece of code that allows practitioners to utilise in a same functionality multiple times. Hence the name, "function".
 
-ECMAScript 2016 or ES6 was the second major revision to Javascript. Of those revisions, one saw the introduction of arrow functions, a more consise way to write functions.
+In the world of javascript, we use the keyword, `function` when defining a function.
+
+ECMAScript 2015 or ES6 was the second major revision to Javascript. Included in this revision saw the introduction of arrow functions, a more consise way to write functions.
 
 Here is an example:
 
@@ -25,23 +27,77 @@ Here is an example:
 function func(x,y) {
   return x + y
 };
+```
 
+```javascript
 // an arrow function
 const func = (x,y) => x + y;
 ```
 
-We see in this case, the return is implicit for the arrow function. We could write this more explicitly.
+We can see the evolution of it more closely:
 
 ```javascript
-const func = (x,y) => {
+// starting with our regular function
+function func(x,y) {
   return x + y
 };
+
+// instead of defining, we express the function
+// more about this below
+// expressing an anonymous function
+const func1 = function(x, y) {
+  return x + y
+}
+
+// we can remove the keyword `function`
+const func2 = (x,y) => {
+  return x + y
+};
+
+// taking away the braces, the return is implicit
+const func3 = (x,y) => x + y;
+
+// when a single line needs to be broken up
+const func3 = (x, y) =>
+  x +
+  x * 2 +
+  x * 3 +
+  x * 4 +
+  x * 5 +
+  x * 6 +
+  x * 7 +
+  x * 8 +
+  x * 9 +
+  y +
+  y * 2 +
+  y * 3 +
+  y * 4 +
+  y * 5 +
+  y * 6 +
+  y * 7 +
+  y * 8 +
+  y * 9;
 ```
 
-Where do arrow functions becomes useful? There are probably many, but one I can think about is applying arrow functions for properties that require a callback function. An example is handling `onClick` functionality for `react` components.
+**NB**: Since the return is implicit an annoying mistake that I sometimes make is forgetting to include the return if I have used braces.
+```javascript
+// the function will run but nothing is returned
+const func = (x,y) => {
+  x + y
+};
+```
+Something typescript can help with:
+```typescript
+// typescript will provide a warning since there is a return type expected
+const func = (x: number, y: number): number => {
+  x + y
+}
+```
 
-```jsx
-<button onClick={() => console.log("Clicked!")}>Click me</button>
+Where do arrow functions becomes useful? There are probably many, but one I can think about is applying arrow functions for properties that require a callback function. An example is handling `on:click` functionality for a `svelte` components.
+
+```svelte
+<button on:click={() => console.log("Clicked!")}>Click me</button>
 ```
 
 ### Context

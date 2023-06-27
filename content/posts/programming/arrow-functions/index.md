@@ -163,7 +163,7 @@ arrowFunc(); // this will work
 2. Arrow functions don't create a `this` binding when in an object
 3. Arrow functions cannot be used in constructors
 
-#### References:
+#### References
 
 1. [W3Schools - JavascriptES6](https://www.w3schools.com/Js/js_es6.asp)
 2. [Freecodecamp - Arrow Functions vs Regular Functions in JavaScript – What's the Difference?](https://www.freecodecamp.org/news/the-difference-between-arrow-functions-and-normal-functions/)

@@ -1,6 +1,6 @@
 ---
 author: Shivan Sivakumaran
-title: Become Confident with Database Playground
+title: Become Confident with Database Migrations
 date: 2023-06-27
 summary: Playing around with PostgreSQL
 categories: ["programming"]

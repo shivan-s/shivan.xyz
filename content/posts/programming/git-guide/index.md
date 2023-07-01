@@ -26,6 +26,8 @@ This is a place for code to live in order to be shared and worked on collaborati
 
 Remember, the key to getting better at any tools, like git, is to use it. I ope this will get you started on your journey.
 
+{{<youtube 9raYPDvhkt0 >}}
+
 ### Requirements
 
 - [git](https://git-scm.com/) installed on your machine.

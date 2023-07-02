@@ -4,7 +4,7 @@ title: The Cool Thing about HTML Forms
 date: 2023-05-25
 summary: summary
 categories: ["programming"]
-tags: ["html"]
+tags: ["html", "forms"]
 draft: true
 cover:
   image: image.jpg
@@ -14,11 +14,9 @@ cover:
   hidden: true
 ---
 
-Since working with svelte, we have made the move back to using "the platform" - that means more features the browser offers rather than utilising javascript.
+Since I've started working with [Svelte](https://svelte.dev/), I've become more accustomed to utilising "the platform features". That means using the browser over javascript. A good example is with forms.
 
-A realm where we see this change is with forms and inputs.
-
-Generally, a heavy javascript option would be to bind the values of form inputs into state and then handle it with some kind of API.
+Instead of needing to bind our form inputs to stateful variables and then handle it with some kind of API, we can use HTML.
 
 ```svelte
 <script lang="ts">
@@ -44,17 +42,17 @@ When we submit in this case, instead of the data being stored in state and we ca
 
 ```typescript
 // +page.server.ts
-import { Actions } from "./$types"
+import { Actions } from "./$types";
 
 const actions: Actions = {
   default: ({ request }) => {
-    const formData = await request.formData()
+    const formData = await request.formData();
 
-    const someVal = formData.get("someVal")
+    const someVal = formData.get("someVal");
 
     // perform some more logic...
-  }
-}
+  },
+};
 ```
 
 We can see the name attribute we provide for the input element reflects in the `formData` object.
@@ -64,7 +62,6 @@ We can see the name attribute we provide for the input element reflects in the `
 With introduction of HTML5, there are plenty of features of offer flexibility about HTML forms.
 
 #### 1. The inputs can exist outside the `<form>` tags
-
 
 Here we have inputs outside of the form block. We make sure to provide an `id` attribute for the form and refer to it using `form` attributes for the inputs.
 
@@ -80,6 +77,7 @@ Here we have inputs outside of the form block. We make sure to provide an `id` a
 #### 2. We can share forms with different actions
 
 In this case, we define `formactions` to fire off different actions.
+
 ```html
 <form id="someForm" method="GET">
   <input type="text" name="someVal" />

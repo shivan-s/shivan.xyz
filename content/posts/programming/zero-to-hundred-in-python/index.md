@@ -282,7 +282,7 @@ If we refer to a key that doesn't exist (e.g. `dct["key5"]`, we get an error. Al
 
 ```python
 dct.get("key5") is None
->>> True</code></pre>
+>>> True
 ```
 
 We can even apply a for loop to dictionaries.

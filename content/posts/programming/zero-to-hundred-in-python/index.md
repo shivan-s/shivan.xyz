@@ -20,7 +20,7 @@ Programming is a powerful skill and Python is the easy entry point.
 
 Without wasting much time, this post provides a zero to hundred with Python... with some tips at the end.
 
-[Here is the source code](https://git.chch.tech/Shivan/learning_python/src/branch/main/zero_2_hundred).
+[Here is the source code](https://github.com/shivan-s/zero-2-hundred-in-python).
 
 Here is a video demonstration below:
 

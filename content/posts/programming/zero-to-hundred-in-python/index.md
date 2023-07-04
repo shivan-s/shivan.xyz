@@ -7,9 +7,9 @@ categories: ["Programming"]
 tags: ["python", "programming", "learning"]
 draft: false
 cover:
-  image:
-  alt:
-  caption:
+  image: f.png
+  alt: Graph showing factorial growth
+  caption: Zero to Hundren in Python feels like factorial growth
   relative: true
   hidden: true
 ---
@@ -212,7 +212,7 @@ We can show this using IPython's magic function, `%timeit`.
 times = []
 for i in range(33): # we will do the first 32 numbers in sequence
     t = %timeit -n1 -o f(i)
-    times.append(t.best)</code></pre>
+    times.append(t.best)
 ```
 
 The `-n<N>` tag means how many times a function will loop, in our case, only once; `-o` outputs the `timeit` result to a variable, `t` in our case, for later inspection.
@@ -246,7 +246,7 @@ g.set_ylabel("times (s)")
 plt.savefig("f.png")
 ```
 
-![Very expensive function](images/f.png)
+![Very expensive function](f.png)
 
 We can see the exponential rise in the time the program takes as `n` rises.
 
@@ -310,7 +310,7 @@ def f_better(n: int) -> int:
         n (int) number requested in sequence
 
     returns
-        interger in fibonacci sequence
+        (int) in fibonacci sequence
     """
     if all([cache.get(n-1), cache.get(n-2)]):
         return cache[n-1] + cache[n-2]
@@ -360,7 +360,7 @@ g.set_ylabel("time (s)")
 plt.savefig("f_better.png")
 ```
 
-![We have done better](images/f_better.png)
+![We have done better](f_better.png)
 
 We can see that the time taken is dramatically less with this caching implementation.
 

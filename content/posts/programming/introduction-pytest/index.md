@@ -7,11 +7,11 @@ categories: ["Programming"]
 tags: ["pytest", "testing", "python"]
 draft: false
 cover:
-    image:
-    alt:
-    caption:
-    relative: false
-    hidden: true
+  image:
+  alt:
+  caption:
+  relative: false
+  hidden: true
 ---
 
 [Pytest is a python package](https://docs.pytest.org) where we write automated tests for our coded project. The reason we write tests for our code is to ensure the code runs the way we want. Writing automated tests can also make the process of testing our code easier, faster and more consistent.
@@ -22,12 +22,11 @@ We can also use the tests to ensure the changes we make to the code don't cause 
 
 Most modern packages come with automated testing code, so it is a great way to make your code look professional.
 
+[Here is a git repository with all the code](https://github.com/shivan-s/intro-pytest).
+
 Here is a video I also made as quick demonstration:
 
 {{<youtube FNCVFNDVCCI>}}
-
-[Here is a git repository with all the code](https://git.chch.tech/Shivan/learning_python/src/branch/main/intro_pytest).
-
 
 ## Installation
 
@@ -119,7 +118,7 @@ Now it's time to run a test. When we run pytest. Pytest will look for programs s
 ```shell
 $ pipenv run pytest -vv
 
-# we get output more or less simiar to this
+# we get output more or less similar to this
 tests/test_function.py::test_exists PASSED
 ```
 
@@ -161,6 +160,8 @@ def test_subtract():
 ```
 
 This will be a good time to introduce the `@pytest.fixtures` decorator. Decorators, well... decorate functions. Not related to decorators, we can see that we repeat the instantiation of the `maths` object. We can pass this fixture to our test functions. This saves us from having to set up our tests again and again.
+
+EDIT in 2023: Normally, fixtures are placed in a `conftest.py` file, but I didn't know about this at the time of this blog post.
 
 ```python
 import pytest
@@ -209,7 +210,7 @@ class Maths:
             return self.n
 
     # 100% sure this below function is right
-    def substract(self, x):
+    def subtract(self, x):
             self.n = self.n + x
             return self.n
 
@@ -246,7 +247,7 @@ class Maths:
             return self.n
 
     # !!! FIXED !!!
-    def substract(self, x):
+    def subtract(self, x):
             self.n = self.n - x
             return self.n
 

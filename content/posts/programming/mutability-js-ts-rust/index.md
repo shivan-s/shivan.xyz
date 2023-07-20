@@ -1,8 +1,8 @@
 ---
 author: Shivan Sivakumaran
-title: Mutability Js Ts Rust
+title: Mutability in Javascript, Typescript & Rust
 date: 2023-07-15
-summary: summary
+summary: Mutability is handled differently and interestingly in Javascript/Typescript compared to Rust
 categories: ["programming"]
 tags: ["rust", "mutability", "javascript", "typescript"]
 draft: false

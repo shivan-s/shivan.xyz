@@ -79,7 +79,7 @@ source ./.venv/bin/activate.fish # if you are using fish, like me
 
 This will activate the virtual environment and from there you can install packages via `pip` and them be isolated from you system and other virtual environments for different projects.
 
-### Pip-comile
+### Pip-compile
 
 A tool I like to use to manage dependencies is `pip-compile`.
 

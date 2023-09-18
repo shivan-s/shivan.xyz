@@ -22,7 +22,8 @@ jobs:
           hugo-version: "latest"
           extended: true
 
-      - uses: actions/cache@v2
+      - name: Cache
+        uses: actions/cache@v2
         with:
           path: /tmp/hugo_cache
           key: ${{ runner.os }}-hugomod-${{ hashFiles('**/go.sum') }}
@@ -31,3 +32,15 @@ jobs:
 
       - name: Build
         run: hugo --minify
+
+      - name: Setup Node
+        uses: actions/setup-node@v3
+        with:
+          node-version: 16
+
+      - name: Running Lighthouse CI
+        run: |
+          npm install -g @lhci/cli@0.12
+          lhci autorun
+        env:
+          LHCI_GITHUB_APP_TOKEN: ${{ secrets.LHCI_GITHUB_APP_TOKEN }}

@@ -1,9 +1,9 @@
 ---
 author: Shivan Sivakumaran
 title: { { replace .Name "-" " " | title } }
-date: { { .Date } }
+date: { { .Date | time.Format "2006-01-02" } }
 summary: summary
-categories: [""]
+categories: ["project"]
 tags: [""]
 draft: true
 cover:
@@ -13,3 +13,14 @@ cover:
   relative: false
   hidden: false
 ---
+
+Introductions
+
+### Technologies
+
+-
+
+### Resources
+
+- Live link: []()
+- [Source code]()

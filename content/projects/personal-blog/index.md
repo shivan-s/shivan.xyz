@@ -1,27 +1,28 @@
 ---
-title: Personal Blog
-summary: This website!
-aliases: ["project", "portfolio"]
-date: 2022-11-07
 author: Shivan Sivakumaran
+title: Personal Blog
+date: 2022-11-07
+summary: This website!
+categories: ["project"]
+tags: [""]
 draft: false
 cover:
-  image: image.jpg
-  alt: Personal Blog
+  image: screenshot.png
+  alt: Screenshot of my personal blog
   caption: caption
   relative: false
   hidden: false
 ---
 
-My personal blog/website served using static site generation.
+My personal blog/website served using a static site generation.
 
 The theme for this blog is <https://github.com/adityatelange/hugo-PaperMod>.
 
-This is hosted using Digital Ocean's app platform.
+This is hosted using [Cloudflare Pages](https://pages.cloudflare.com/)
 
 ### Technologies
 
-- Hugo Static Site Generator
+- [Hugo Static Site Generator](https://gohugo.io/)
 
 ### Resources
 

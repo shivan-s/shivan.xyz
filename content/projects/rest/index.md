@@ -3,7 +3,7 @@ title: Projects
 aliases: ["project", "portfolio"]
 author: Shivan Sivakumaran
 enableComments: false
-draft: false
+draft: true
 ---
 
 ## Lifter API
@@ -22,7 +22,7 @@ Making New Zealand Weightlifting results more accessible.
 
 {{<youtube 1kObqjeRs2I>}}
 
-- Live link: [lifter.shivan.xyz](https://lifter.shivan.xyz)
+- Live link: No longer active
 - [Source code](https://github.com/weightliftingNZ/lifter-api)
 
 ---

@@ -4,7 +4,7 @@ summary: A twitter bot
 aliases: ["project", "portfolio"]
 date: 2022-11-07
 author: Shivan Sivakumaran
-draft: false
+draft: true
 cover:
   image: image.jpg
   alt: Personal Blog

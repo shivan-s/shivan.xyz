@@ -9,7 +9,7 @@ draft: false
 cover:
   image: ranking.gif
   alt: Screen video of rank changes
-  caption: caption
+  caption: Changing ranks with animation
   relative: false
   hidden: false
 ---

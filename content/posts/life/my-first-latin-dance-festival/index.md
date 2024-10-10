@@ -5,7 +5,7 @@ date: 2024-10-10
 summary: Gaining confidence social dancing, while having two left feet
 categories: ["life"]
 tags: ["dancing", "life", "social dance", "latin dance", "bachata"]
-draft: true
+draft: false
 cover:
   image: shivan.jpg
   alt: Smiling male

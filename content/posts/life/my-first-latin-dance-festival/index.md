@@ -1,7 +1,7 @@
 ---
 author: Shivan Sivakumaran
 title: My First Latin Dance Festival
-date: 2024-10-12
+date: 2024-10-13
 summary: Gaining confidence social dancing, while having two left feet
 categories: ["life"]
 tags: ["dancing", "life", "social dance", "latin dance", "bachata"]

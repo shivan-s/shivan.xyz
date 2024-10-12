@@ -7,11 +7,11 @@ categories: ["life"]
 tags: ["alcohol free", "health", "social"]
 draft: false
 cover:
-  image:
-  alt:
-  caption:
-  relative: false
-  hidden: true
+  image: alcohol-free.png
+  alt: Cancel symbol over bottles of alcohol
+  caption: No more alcohol
+  relative: true
+  hidden: false
 ---
 
 I am inspired by one of my cousins.

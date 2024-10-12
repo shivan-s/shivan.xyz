@@ -1,7 +1,7 @@
 ---
 author: Shivan Sivakumaran
 title: Having More Fun Without Alcohol
-date: 2024-10-25
+date: 2024-08-25
 summary: My way of saying I am done with getting drunk
 categories: ["life"]
 tags: ["alcohol free", "health", "social"]

@@ -10,7 +10,6 @@ enableRobotsTXT: true
 buildDrafts: false
 buildFuture: false
 buildExpired: false
-googleAnalytics: G-N8YH79QGZ2
 
 minify:
   disableXML: true
@@ -94,10 +93,6 @@ params:
     - name: mastodon
       url: "https://fosstodon.org/@shivan"
       rel: "me"
-
-  analytics:
-    google:
-      SiteVerificationTag: "G-N8YH79QGZ2"
 
   disqusShortname: shivan-xyz
 

@@ -9,10 +9,12 @@ draft: false
 cover:
   image: posing.jpg
   alt: Person posing in front of a plane
-  caption: caption
+  caption: Posing in front oF Feilding Aviation
   relative: false
   hidden: false
 ---
+
+Actual date of solo: 11th February 2024.
 
 A significant accomplishment that I have been working towards is a solo flight.
 
@@ -20,7 +22,7 @@ In May last year (2023), I committed to get back into learning how to fly — th
 
 A milestone to achieve is a solo flight. Building up to this, I have been flying circuits (and I’ve been doing this for almost a year, flying at least once or twice a week except for some breaks due to holidays and weather). A circuit usually involves taking off, performing a downwind run, landing and repeating this process. For me, the part I struggle with is approach and landing.
 
-However on a calm Sunday morning, 11th of February, my instructor deemed me fit enough to navigate a circuit all alone in the Cessna 152.
+However on a calm Sunday morning, 11th of February, my instructor deemed me fit enough to [navigate a circuit](https://en.wikipedia.org/wiki/Airfield_traffic_pattern) all alone in the Cessna 152.
 
 Thankfully, I survived. I did make some mistakes. I took off without flaps, I flew downwind too high and too fast, and the landing was quite rough.
 

@@ -9,7 +9,7 @@ draft: false
 cover:
   image: posing.jpg
   alt: Person posing in front of a plane
-  caption: Posing in front oF Feilding Aviation
+  caption: Posing in front of Feilding Aviation
   relative: false
   hidden: false
 ---

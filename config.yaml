@@ -2,7 +2,7 @@
 baseURL: "https://shivan.xyz/"
 languageCode: "en-us"
 title: "Shivan Sivakumaran"
-theme: "PaperMod"
+theme: "optom-code"
 paginate: 7
 defaultContentLanguage: en
 
@@ -16,11 +16,12 @@ minify:
   minifyOutput: true
 
 params:
-  env: production
   title: Shivan Sivakumaran
   description: "Shivan Sivakumaran Personal Blog"
   keywords: [Blog, Programming, Optometry, Life]
-  author: Shivan Sivakumaran
+  author:
+    name: Shivan Sivakumaran
+    email: me@shivan.xyz
   DateFormat: "January 2, 2006"
   defaultTheme: auto
   disableThemeToggle: false

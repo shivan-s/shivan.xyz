@@ -16,15 +16,9 @@ minify:
   minifyOutput: true
 
 params:
-  title: Shivan Sivakumaran
-  description: "Shivan Sivakumaran Personal Blog"
-  keywords: [Blog, Programming, Optometry, Life]
   author:
     name: Shivan Sivakumaran
     email: me@shivan.xyz
-  DateFormat: "January 2, 2006"
-  defaultTheme: auto
-  disableThemeToggle: false
 
   ShowReadingTime: true
   ShowShareButtons: true
@@ -43,7 +37,7 @@ params:
   tocopen: true
 
   assets:
-  disableHLJS: true # to disable highlight.js
+  disableHLJS: false # to disable highlight.js
   # disableFingerprinting: true
   favicon: favicon.png
   favicon16x16: favicon.png
@@ -132,18 +126,11 @@ menu:
       name: about
       url: /about/
       weight: 1
+    - identifier: posts
+      name: posts
+      url: /posts/
+      weight: 2
     - identifier: projects
       name: projects
       url: /projects/
       weight: 3
-    - identifier: posts
-      name: posts
-      url: /posts/
-      weight: 4
-    - identifier: search
-      name: archive 🔍
-      url: /archive/
-      weight: 5
-    - identifier: newsletter
-      name: newsletter
-      url: https://email.shivan.xyz

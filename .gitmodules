@@ -3,4 +3,4 @@
 	url = https://github.com/adityatelange/hugo-PaperMod.git
 [submodule "themes/optom-code"]
 	path = themes/optom-code
-	url = git@github.com:shivan-s/hugo-optom-code.git
+	url = https://github.com/shivan-s/hugo-optom-code.git

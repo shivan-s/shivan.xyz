@@ -2,7 +2,7 @@
 author: Shivan Sivakumaran
 title: A New Look
 date: 2024-10-25
-summary: Change
+summary: Creating my own private yet public museum
 tags: ["programming", "life", "blog", "content"]
 draft: false
 cover:
@@ -30,9 +30,9 @@ The old look:
 
 Some might think the old look is better. And they're probably right. It's a great theme.
 
-However, lately, I've been thinking about technology independence, technological malaise and sharing ideas (I'll expand on this in a promised future post)
+However, lately, I've been thinking about technology independence, technological malaise and sharing ideas (I'll expand on this in a promised future post).
 
-I normally put musings on big platforms like [Twitter](https://twitter.com/shivan__s) and [Instagram](https://instagram.com/shivan_s), and longer musings on [YouTube](https://youtube.com/@ShivanSivakumaran).
+I normally put musings on big platforms like [Twitter](https://twitter.com/shivan__s) and [Instagram](https://instagram.com/shivan_s), and longer musings on [YouTube](https://youtube.com/@ShivanS).
 
 Then, I peer at the analytics and weep over the lack of engagement, which discourages me to share.
 
@@ -51,4 +51,6 @@ The headings are in the brilliant [Optician Sans](https://optician-sans.com/) fo
 Here is the look so far:
 ![New look of blog](./new.png)
 
-Hopefully, this will encourage me to write. [Feel free to let me know what you think](mailto:me@shivan.xyz). Anyway, thanks for reading.
+Hopefully, this will encourage me to write. This blog will act my private yet public musuem. It won't get many readers, but for anyone who discovers it, hopefully to them, it's a gold mine. So, I've withheld on analytics and tracking.
+
+[Feel free to let me know what you think](mailto:me@shivan.xyz). Anyway, thanks for reading.

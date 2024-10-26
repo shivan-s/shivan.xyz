@@ -49,6 +49,6 @@ During both the wake and funeral, it was incredible to see the variety of people
 
 ![Website for my grandfather](./tribute.png)
 
-A small webpage ([app](https://appahappah.shivan.xyz)) / [code](https://github.com/shivan-s/appahappah) for my grandfather.
+A small webpage ([app](https://appahappah.shivan.xyz) / [code](https://github.com/shivan-s/appahappah)) for my grandfather.
 
 Thank you for reading.

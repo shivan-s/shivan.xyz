@@ -4,7 +4,7 @@ title: Appahappah/Grandfather
 date: 2023-11-06
 summary: Remembering a life
 tags: ["appahappah", "life", "death", "grandfather"]
-draft: true
+draft: false
 cover:
   image: remembering.webp
   alt: Elderly man in a newspaper

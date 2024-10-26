@@ -17,11 +17,11 @@ After many years using [Aditya Telange's](https://adityatelange.in/) wildly succ
 
 Hence, by writing [this](.) post, I am launching a new look for my ([this](/)) blog.
 
-At the time of writing, this theme definitely isn't perfect, and it's very likely that various tweaks will be required.
+This theme definitely isn't perfect, and it's very likely that various tweaks will be required.
 
-But it's probably acceptable in presentation to be pushed out to the world. After all perfect is the enemy of good.
+But it's probably acceptable in presentation to be pushed out to the world. After all, perfect is the enemy of good.
 
-But it's at an acceptable standard to be pushed out to the world.
+**And I want to be okay putting things out there that are good enough**.
 
 ## Why?
 
@@ -43,6 +43,8 @@ Then, I thought about this blog. Why not write on here? Express myself. Throw aw
 This made me want to redo the theme to something more unique, represents me, something I'm proud of - which all culminates in an excitement to write and post on here again.
 
 I simplified the layout: a small excerpt lives above my most recent posts in a list format grouped by year.
+
+Blog cover images (equivalent to youtube thumbnails) have been removed. This pushes the focus onto the writing and doesn't block me from posting because I can't find an image.
 
 The headings are in the brilliant [Optician Sans](https://optician-sans.com/) font created by [ANTI](https://anti.as/hamar) and [Fábio Duarte Martins](https://fonts.scannerlicker.net/) for those Optometry vibes. The rest of the fonts are from [GitHub's monaspace](https://monaspace.githubnext.com/), specifically Xenon for prose and Radon for code snippets.
 

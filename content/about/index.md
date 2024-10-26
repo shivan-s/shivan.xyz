@@ -29,10 +29,10 @@ I am currently working as a **Web Developer** after 7 years working as an **[Opt
 
 3. Maintaining my body
 
-- 🏋️ [Weightlifting](https://en.wikipedia.org/wiki/Olympic_weightlifting) - started in 2014
-- 🥋 [Brazilian Jiu Jitsu](https://en.wikipedia.org/wiki/Brazilian_jiu-jitsu) - started in 2023
-- 🕺 [Latin Dance](https://en.wikipedia.org/wiki/Latin_dance) - started in 2023
-- 🕺 [Pole Dance](https://en.wikipedia.org/wiki/Pole_dance) - started in 2023
+- 🏋️ [Weightlifting](https://en.wikipedia.org/wiki/Olympic_weightlifting)
+- 🥋 [Brazilian Jiu Jitsu](https://en.wikipedia.org/wiki/Brazilian_jiu-jitsu)
+- 🕺 [Latin Dance](https://en.wikipedia.org/wiki/Latin_dance)
+- 🕺 [Pole Dance](https://en.wikipedia.org/wiki/Pole_dance)
 
 4. Maintaining my mind
 
@@ -55,6 +55,6 @@ I also on these platforms:
 
 - **1993**: Born in [Palmerston North](https://en.wikipedia.org/wiki/Palmerston_North) — where I spent most of my life growing up
 - **2016**: Graduated from the [University of Auckland](https://www.auckland.ac.nz/en.html) as a fully qualified [optometrist](https://en.wikipedia.org/wiki/Optometry) and moved down to [Christchurch](https://en.wikipedia.org/wiki/Christchurch) to start my working life
-- **2020**: [Began writing online]({{ ref "posts/content/why-create-a-blog"}})
+- **2020**: [Began writing online]({{< ref "posts/content/why-create-a-blog" >}})
 - **2021**: Moved back to Palmerston North to focus on a career change away from optometry into software development.
 - **2023**: Started a new career as a web developer.

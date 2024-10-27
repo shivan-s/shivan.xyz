@@ -2,13 +2,9 @@
 author: Shivan Sivakumaran
 title: About
 draft: false
-cover:
-  image: shivan-sivakumaran.jpg
-  alt: a main smiling in black and white
-  caption: Me.
-  relative: true
-  hidden: false
 ---
+
+{{<figure src="/shivan-sivakumaran.jpg" alt="Black and white image of a man smiling" caption="Me">}}
 
 My name is Shivan (pronounced Shiv-arn).
 
@@ -55,6 +51,6 @@ I also on these platforms:
 
 - **1993**: Born in [Palmerston North](https://en.wikipedia.org/wiki/Palmerston_North) — where I spent most of my life growing up
 - **2016**: Graduated from the [University of Auckland](https://www.auckland.ac.nz/en.html) as a fully qualified [optometrist](https://en.wikipedia.org/wiki/Optometry) and moved down to [Christchurch](https://en.wikipedia.org/wiki/Christchurch) to start my working life
-- **2020**: [Began writing online]({{< ref "posts/content/why-create-a-blog" >}})
+- **2020**: [Began writing online]({{< ref "posts/why-create-a-blog" >}})
 - **2021**: Moved back to Palmerston North to focus on a career change away from optometry into software development.
 - **2023**: Started a new career as a web developer.

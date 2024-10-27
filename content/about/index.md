@@ -4,8 +4,6 @@ title: About
 draft: false
 ---
 
-{{<figure src="/shivan-sivakumaran.jpg" alt="Black and white image of a man smiling" caption="Me">}}
-
 My name is Shivan (pronounced Shiv-arn).
 
 I am Kiwi born 🇳🇿 with Sri Lankan 🇱🇰 heritage.
@@ -54,3 +52,7 @@ I also on these platforms:
 - **2020**: [Began writing online]({{< ref "posts/why-create-a-blog" >}})
 - **2021**: Moved back to Palmerston North to focus on a career change away from optometry into software development.
 - **2023**: Started a new career as a web developer.
+
+## Photos
+
+{{<figure src="/shivan-sivakumaran.jpg" alt="Black and white image of a man smiling" caption="Me at a Dance Festival">}}

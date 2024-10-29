@@ -40,7 +40,7 @@ I am currently working as a **Web Developer** after 7 years working as an **[Opt
 I also on these platforms:
 
 - [GitHub](https://github.com/shivan-s)
-- [Twitter](https://twitter.com/shivan__s)
+- [BlueSky](https://bsky.app/profile/shivan.xyz)
 - [LinkedIn](https://linkedin.com/shivan-sivakumaran)
 - [Twitch](https://twitch.com/shivan__s)
 - [Instagram](https://instagram.com/shivan_s)

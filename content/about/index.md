@@ -16,17 +16,21 @@ I am currently working as a **Web Developer** after 7 years working as an **[Opt
 
 - Building projects on GitHub - [Public source contributions](https://github.com/shivan-s)
 
-2. Growing my content, sharing my journey and helping others
+2. I communicate my journey and ideas through these platforms:
 
-- 📹 [A YouTube channel](https://youtube.com/c/shivansivakumaran)
 - ✍🏾 [This Blog]({{< ref "posts" >}})
+- 📹 [Videos](https://youtube.com/c/shivansivakumaran)
+- [Thoughts](https://bsky.app/profile/shivan.xyz)
+- [LinkedIn](https://linkedin.com/shivan-sivakumaran)
+- [Twitch](https://twitch.com/shivan__s)
+- [Instagram](https://instagram.com/shivan_s)
 
 3. Maintaining my body
 
-- 🏋️ [Weightlifting](https://en.wikipedia.org/wiki/Olympic_weightlifting)
 - 🥋 [Brazilian Jiu Jitsu](https://en.wikipedia.org/wiki/Brazilian_jiu-jitsu)
 - 🕺 [Latin Dance](https://en.wikipedia.org/wiki/Latin_dance)
 - 🕺 [Pole Dance](https://en.wikipedia.org/wiki/Pole_dance)
+- 🏋️ [Weightlifting](https://en.wikipedia.org/wiki/Olympic_weightlifting)
 
 4. Maintaining my mind
 
@@ -34,16 +38,6 @@ I am currently working as a **Web Developer** after 7 years working as an **[Opt
 - 📷 Photography
 - ✏️ Drawing
 - 📚 Reading
-
-## Where else can you find me?
-
-I also on these platforms:
-
-- [GitHub](https://github.com/shivan-s)
-- [BlueSky](https://bsky.app/profile/shivan.xyz)
-- [LinkedIn](https://linkedin.com/shivan-sivakumaran)
-- [Twitch](https://twitch.com/shivan__s)
-- [Instagram](https://instagram.com/shivan_s)
 
 ## Milestones
 

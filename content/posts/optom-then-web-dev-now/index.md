@@ -10,6 +10,9 @@ cover:
   alt: A sheet of paper with a timeline
   caption: A Brief Timeline
   hidden: false
+audio:
+  src: audio.mp3
+  hidden: false
 ---
 
 Youngerself would view this with jealousy.

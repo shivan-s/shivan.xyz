@@ -12,9 +12,10 @@ cover:
   caption: Photo by Mo Kalifa at capital bachata connection 2024
   relative: true
   hidden: false
+audio:
+  src: audio.mp3
+  hidden: false
 ---
-
-[Listen to audio version](./audio-my-first-dance-festival.mp3)
 
 A few weeks ago, I participated in capital bachata connection 2024, which is a 2-day-over-a-weekend festival for Bachata held at [Te Whaea](https://www.tewhaea.org.nz/) in Wellington. This was also my first ever Bachata festival, after starting Latin dance just over a year ago.
 

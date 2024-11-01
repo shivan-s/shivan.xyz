@@ -1,7 +1,7 @@
 ---
 author: Shivan Sivakumaran
 title: Being okay with who you are
-date: 2024-11-01
+date: 2023-06-04
 summary: Should I?
 tags: ["life"]
 draft: false

@@ -8,22 +8,19 @@ My name is Shivan (pronounced Shiv-arn).
 
 I am Kiwi born 🇳🇿 with Sri Lankan 🇱🇰 heritage.
 
-I am currently working as a **Web Developer** after 7 years working as an **[Optometrist](https://en.wikipedia.org/wiki/Optometry)**.
+I currently work as a **Web Developer** after 7 years working as an **[Optometrist](https://en.wikipedia.org/wiki/Optometry)**.
+
+I am also on [BlueSky](https://bsky.app/profile/shivan.xyz), [GitHub](https://github.com/shivan-s), [YouTube](https://youtube.com/c/shivansivakumaran), [LinkedIn](https://linkedin.com/shivan-sivakumaran), [Twitch](https://twitch.com/shivan__s) & [Instagram](https://instagram.com/shivan_s).
 
 ## What am I focusing on?
 
 1. Getting good at web development and programming
 
-- Building projects on GitHub - [Public source contributions](https://github.com/shivan-s)
+- [Building projects](https://github.com/shivan-s)
 
-2. I communicate my journey and ideas through these platforms:
+2. I communicate my journey and ideas:
 
-- ✍🏾 [This Blog]({{< ref "posts" >}})
-- 📹 [Videos](https://youtube.com/c/shivansivakumaran)
-- [Thoughts](https://bsky.app/profile/shivan.xyz)
-- [LinkedIn](https://linkedin.com/shivan-sivakumaran)
-- [Twitch](https://twitch.com/shivan__s)
-- [Instagram](https://instagram.com/shivan_s)
+- ✍🏾 [Through this Blog]({{< ref "posts" >}})
 
 3. Maintaining my body
 

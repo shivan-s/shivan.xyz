@@ -1,7 +1,7 @@
 ---
 author: Shivan Sivakumaran
 title: Local Heroes
-date: 2024-11-02
+date: 2023-07-16
 summary: Who we should look up to
 tags: ["life", "heroes", "influence"]
 draft: false

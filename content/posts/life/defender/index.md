@@ -9,11 +9,11 @@ cover:
   hidden: true
 ---
 
-Recently, I discovered a security vulnerability. Embarrassingly, it existed - undiscoverd - for almost 2 years 🤯!
+Recently, I discovered a security vulnerability. It existed - undiscovered - for almost 2 years 🤯!
 
 Fortunately, over a few days, I was able to reduce the surface area of exposure, eventually sealing it nice and tight.
 
-The whole process of this fix makes me think about being a [good defender](<https://en.wikipedia.org/wiki/Defender_(association_football)>).
+The whole process of this fix makes me think about being a good [defender](<https://en.wikipedia.org/wiki/Defender_(association_football)>).
 
 What do I mean by that? Let me explain.
 
@@ -21,11 +21,13 @@ I played [football](https://en.wikipedia.org/wiki/Association_football) througho
 
 I wasn't great at dribbling, passing, or scoring goals, so I naturally defaulted to the position of a defender, where I spent most of my "years".
 
-When everyone would be asked to separate out into their positions, being a defender wasn't so popular.
+In team trials, when everyone would be asked to separate out into their positions, being a defender wasn't so popular.
+
+Why is that?
 
 It's simple. Forwards score the goals and get the glory.
 
-Their success is tangible. Their success is seen: visible on the score sheet.
+Their success is tangible. It's visible on the score sheet.
 
 Contrast this to a well thought out and constructed tackle that was made thanks to intelligent positioning. Only if you were the peer into an alternate reality when this tackle wasn't made and a goal was scored by the opposite team do you see the effectiveness of the defenders work.
 

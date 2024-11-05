@@ -9,13 +9,13 @@ cover:
   hidden: true
 ---
 
-Recently, I discovered a security vulnerability. It existed - undiscovered - for almost 2 years 🤯!
+Recently, I discovered a security vulnerability. What is was isn't important but what is important is that it existed, undiscovered, for almost 2 years 🤯!
 
-Fortunately, over a few days, I was able to reduce the surface area of exposure, eventually sealing it nice and tight.
+Over the next few days, I was able to reduce the surface area of exposure, eventually sealing this issue nice and tight.
 
-The whole process of this fix makes me think about being a good [defender](<https://en.wikipedia.org/wiki/Defender_(association_football)>).
+The whole process of this security fix made me think about being a good [defender](<https://en.wikipedia.org/wiki/Defender_(association_football)>).
 
-What do I mean by that? Let me explain.
+Huh? Let me explain.
 
 I played [football](https://en.wikipedia.org/wiki/Association_football) throughout primary, intermediate, and high school, even creeping into university.
 
@@ -29,32 +29,30 @@ It's simple. Forwards score the goals and get the glory.
 
 Their success is tangible. It's visible on the score sheet.
 
-Contrast this to a well thought out and constructed tackle that was made thanks to intelligent positioning. Only if you were the peer into an alternate reality when this tackle wasn't made and a goal was scored by the opposite team do you see the effectiveness of the defenders work.
+Contrast this to a well thought out and constructed tackle. Only if you peered into an alternate reality when this tackle wasn't made and a goal was scored do you see the effectiveness of the defender's work.
 
-What about mistakes? When a forward makes a mistake, it's usually a missed shot on goal. Better luck next time.
+What about mistakes? When a forward makes a mistake, it's usually a missed shot on goal. _Better luck next time_.
 
-For a defender, it's a worse penalty, like conceding a goal and losing the game.
+For a defender, it's a worse penalty, conceding a goal and losing the game. _You suck_.
 
 It's often said: forwards bring in the tickets, while defenders win the games.
 
-This analogy has made me think about the nature of work and this security vulnerability that was discovered.
+That's the analogy.
 
-Thankfully, this exploit was discovered by myself and not anyone outside the team. There weren't any heroics - like a miraculous slide tackle to prevent the opposing team from scoring. Nope, just a nondescript carefully thoughtout tackle from harmless up the pitch.
+Thankfully, this vulnerability wasn't exploited. And it wasn't discovered by anyone outside the development team. Nor will I be shouting this from the rooftops. A boring ol' tackle in the harmless part of the pitch.
 
-All this, while the others are building cool features that are visible and tangible for the fans to adore.
+While this fix was taking place, the others were building cool features that are visible and tangible for the fans to adore. They were scoring goals.
 
-We weren't in a position to share this information for two reason. The first it's embarrassing, so we are better of keeping it within the team. And second, no one external to the development team why this was so significant of an issue.
+It can be painful that my efforts will go in the dark. But what I can learn from this?
 
-If you find yourself in this situation, what do you do?
+I learnt to be a team player and asset. I love validation. It exciting showing cool new features to stakeholders, and that they pat you on the back for doing a good job.
 
-You are the unsung hero. A true team player and asset. I speak for myself really, but I love validation. It exciting showing cool new features to stakeholders, and that they pat you on the back for doing a good job.
+In this situation, I and only a few people will know that I go the unsung hero.
 
-I find it hard to tell myself that I am doing a good job. I always needed the validation. But in this scenario, I need to be proud of myself - I discovered and stopped a security vulnerability. I learnt more about a particular service that I did not originally set up, but I know how to secure it.
+I need to be proud of myself - I discovered and stopped a security vulnerability. I learnt more about a particular service that I did not originally set up. I now know how to secure it.
 
 My mentor said to me: there is always someone taking the spotlight, and if you aren't seeing someone else get the spotlight, then it's probably you.
 
-In this case, I'm not in the spotlight despite my high impact effort (I know I'm talking myself up a bit). And that's okay, because you aren't the only one who has gone through this.
+In this case, I'm not in the spotlight despite my high impact effort. And that's okay, because you aren't the only one who has gone through this.
 
-And just because I am not getting the praise, doesn't mean I'm on the chopping block either. I am doing fine.
-
-My time will come. But for now, I am just going to be grateful that things weren't worse. I repeat: remain a good defender.
+My time will come. But for now, I am just going to be grateful that things weren't worse. Become a good defender.

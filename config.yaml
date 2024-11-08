@@ -2,147 +2,18 @@
 baseURL: "https://shivan.xyz/"
 languageCode: "en-us"
 title: "Shivan Sivakumaran"
-theme: "PaperMod"
-paginate: 7
+theme: "optom-code"
 defaultContentLanguage: en
 
 enableRobotsTXT: true
 buildDrafts: false
-buildFuture: false
+buildFuture: true
 buildExpired: false
 
 minify:
-  disableXML: true
   minifyOutput: true
 
 params:
-  env: production
-  title: Shivan Sivakumaran
-  description: "Shivan Sivakumaran Personal Blog"
-  keywords: [Blog, Programming, Optometry, Life]
-  author: Shivan Sivakumaran
-  DateFormat: "January 2, 2006"
-  defaultTheme: auto
-  disableThemeToggle: false
-
-  ShowReadingTime: true
-  ShowShareButtons: true
-  ShowPostNavLinks: true
-  ShowBreadCrumbs: true
-  ShowCodeCopyButtons: true
-  ShowWordCount: false
-  ShowRssButtonInSectionTermList: true
-  UseHugoToc: true
-  disableSpecial1stPost: true
-  comments: true
-  disableScrollToTop: false
-  hidemeta: false
-  hideSummary: false
-  showtoc: true
-  tocopen: true
-
-  assets:
-  disableHLJS: true # to disable highlight.js
-  # disableFingerprinting: true
-  favicon: favicon.png
-  favicon16x16: favicon.png
-  favicon32x32: favicon.png
-  apple_touch_icon: favicon.png
-  safari_pinned_tab: favicon.png
-
-  label:
-    text: "Shivan Sivakumaran"
-    icon: favicon.ico
-    iconHeight: 35
-
-  # profile-mode
-  profileMode:
-    enabled: true # needs to be explicitly set
-    title: Shivan Sivakumaran
-    subtitle: Web Developer & ex-Optometrist
-    imageUrl: shivan.png
-    imageWidth: 120
-    imageHeight: 120
-    imageTitle: Me!
-    buttons:
-      - name: About
-        url: about
-      - name: Projects
-        url: projects
-      - name: Posts
-        url: posts
-
-  # home-info mode
-  homeInfoParams:
-    Title: "Shivan Sivakumaran"
-    Content: "Web Developer & Optometrist"
-
-  socialIcons:
-    - name: github
-      url: "https://github.com/shivan-s"
-    - name: substack
-      url: "https://email.shivan.xyz"
-    - name: twitter
-      url: "https://twitter.com/shivsivakumaran"
-    - name: linkedin
-      url: "https://www.linkedin.com/in/shivan-sivakumaran/"
-    - name: twitch
-      url: "https://www.twitch.tv/shivan_si"
-    - name: youtube
-      url: "https://youtube.com/@ShivanS"
-    - name: mastodon
-      url: "https://fosstodon.org/@shivan"
-      rel: "me"
-
-  disqusShortname: shivan-xyz
-
-  cover:
-    hidden: false # hide everywhere but not in structured data
-    hiddenInList: false # hide on list pages and home
-    hiddenInSingle: false # hide on single page
-    responsiveImages: false
-    linkFullImages: false
-
-  editPost:
-    URL: "https://github.com/shivan-s/shivan.xyz/tree/main/content"
-    Text: "Suggest Changes" # edit text
-    appendFilePath: true # to append file path to Edit link
-
-  # for search
-  # https://fusejs.io/api/options.html
-  outputs:
-    home:
-      - HTML
-      - RSS
-      - JSON
-
-  fuseOpts:
-    isCaseSensitive: false
-    shouldSort: true
-    location: 0
-    distance: 1000
-    threshold: 0.4
-    minMatchCharLength: 0
-    keys: ["title", "permalink", "summary", "content"]
-
-menu:
-  main:
-    - identifier: about
-      name: about
-      url: /about/
-      weight: 1
-    - identifier: projects
-      name: projects
-      url: /projects/
-      weight: 3
-    - identifier: posts
-      name: posts
-      url: /posts/
-      weight: 4
-    - identifier: search
-      name: archive 🔍
-      url: /archive/
-      weight: 5
-    - identifier: newsletter
-      name: newsletter
-      url: https://email.shivan.xyz
+  author:
+    name: Shivan Sivakumaran
+    email: me@shivan.xyz

@@ -29,29 +29,41 @@ A link to a [Facebook event](https://en.wikipedia.org/wiki/List_of_Facebook_feat
 
 There is no indication of place or time, so I have to take dreaded action.
 
-I clicked the link.
+Clicking the link, I'm now transported into an unwanted realm.
 
-Now I'm transported into another realm. And not a one I'd like to go to.
+As soon as my mobile browser fires up I am bombarded by information that I'm not interested in, random short video reels, friends' activities.
 
-My mobile browser fires up (yes, I don't have Facebook on my phone, so the only way to access Facebook is through mobile).
+**All I want to know is the location and time of this event.**
 
-I log in.
+This is one example where I think the technology we have isn't serving us well at all.
 
-And I'm bombarded by information I'm not interested, random short video reels, what my 'friends', who I added too long ago and never keep up with personally, are up to.
+And probably for _good_ reason. [Meta](https://en.wikipedia.org/wiki/Meta_Platforms) are _free_ platforms that rely on data collection as well as advertisements in order to run as a business.
 
-All I want to know where and when this event is. But I'm met with a lot of noise.
+That means the platform relies on our engagement. And they are competed with other platforms that also use this model. The outcome is that we are on the platform for longer than we expect to me.
 
-It's a petty example, but it's one example where I think the technology we have isn't serving us too well.
+I'd argue this goes against a good [user experience](https://en.wikipedia.org/wiki/User_experience). You are on the platform, but do you really want to be there.
 
-And probably for _good_ reason. [Meta](https://en.wikipedia.org/wiki/Meta_Platforms) are _free_ platforms that rely on data collection of it's users as well as serving meaningful ads in order to run as a business. That means the platform relies on our engagement and too be on longer than we would expect. Does that mean the best user experience? Not at all.
+[Reed Hastings](https://en.wikipedia.org/wiki/Reed_Hastings), CEO of [Netflix](https://en.wikipedia.org/wiki/Netflix), said it himself: "so we actually compete with sleep". You would rather be sleeping, but just one more episode...
 
-A lot of online platforms work in this way, where the user experience isn't the number one priority, rather it's keeping you on the platform for longer.
+If your wellbeing and sanity isn't the top priority, then what does this lead to?
 
-But I'm feeling there is technology induced malaise among the masses, or I could be entirely wrong. [Please let me know what you think](mailto:me@shivan.xyz).
+I call it a **technology malaise**.
 
-Remember when facebook came out? When you watch "Social Network", you get that nostalgic feeling like you are on the cusp of something game changing.
+And it's hard the get away from it. You can't ditch social media, since we are so dependent on it. If I stopped using Messenger for example, then I won't know when the next social will take place.
 
-How amazing? Computer and the internet wasn't a niche nerdy thing anymore, it was finally for the masses and it wasn't so scary to use.
+## Yearning for what was
+
+Remember when Facebook came out? I didn't think of it a big deal at the time. But when I watch \*[_The Social Network_](https://en.wikipedia.org/wiki/The_Social_Network), I have this great sense of nostalgia and amazement.
+
+Computers and the internet weren't just a niche hobby, it was for everyone. Anyone of nearly any ability could create a Facebook profile and start interacting with their friends. Anonymity wasn't a deal anymore as people would be willing to use their real names and share images of themselves and their family online.
+
+It changed our behaviour at a global scale.
+
+How amazing?
+
+You could keep in touch with friends not just within a local area, but even if they had moved on. Think about old school friends. Strangers you meet while travelling but end up connected and staying in touch online.
+
+These are all amazing things.
 
 Facebook had some amazing features. The ability to see what your friend were up to not just locally but from all around you. You would instance message your friends either individually or in groups. Facebook had groups that you could join.That's how I knew what was going on in my optopmetry class, and how I knew everyone.
 

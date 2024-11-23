@@ -19,11 +19,11 @@ _DING_ - initial excitement. A slight rising of the heart beat. Novel informatio
 
 It's from my dance group. My excitement intensifies.
 
-For some context, I am a part of a dance group. We keep in touch via [Messenger](<https://en.wikipedia.org/wiki/Messenger_(software)>). And it's my only source of information for events, classes, and socials. Furthermore, I've really want to get better at dance. Events, classes and socials are a good oppourtunity to improve my skill, so you can tell wy I'm excited over a simple notification.
+For context: I am a part of a dance group, and we communicate using [Messenger](<https://en.wikipedia.org/wiki/Messenger_(software)>). It's my only source for updates on events, classes, and socials. I'm eager to improve my dance ability, and these oppourtunities are invaluable. So, you can imagine why a simple notification feels significant as it does.
 
 Continuing on... I open the chat.
 
-Excitement turns sharply into annoyance.
+Excitement sharply morphs into annoyance.
 
 It's a post for a dance social.
 
@@ -31,17 +31,17 @@ But it's a link, a [Facebook event](https://en.wikipedia.org/wiki/List_of_Facebo
 
 The way the event renders on Messenger shows no indiction of the vitals: location, time?
 
-I have to take dreaded action.
+I have no choice but to take the dreaded action.
 
-I have to click the link.
+I must click the link.
 
 _Click_
 
-I'm now transported into an unwanted realm.
+I'm transported into an unwanted realm.
 
-As soon as my mobile browser fires up I am bombarded by information that I'm not interested in, random short video reels, activities of friends who are hardly keep in touch with in real life, fake news, pretty funny memes.
+As soon as my mobile browser fires up I am bombarded by distractions, random short video reels, activities of friends who are hardly keep in touch with in real life, fake news, pretty funny memes (I must admit).
 
-5 minute pass, 10 minutes. Pause!
+Five minute pass. Then, ten minutes. Pause. Breathe.
 
 **All I wanted to know is the location and time of this event, but I'm wasting time scrolling. They got me!**
 
@@ -51,17 +51,17 @@ And probably for _good-ish_ reason. [Meta](https://en.wikipedia.org/wiki/Meta_Pl
 
 That means the platform relies on our engagement. Any they are competiting for it with other platforms.
 
-Don't mistake engagement with good user experience.
+Don't mistake engagement with good [user experience](https://en.wikipedia.org/wiki/User_experience).
 
 Yes, the experience has to be good for you to stay on it.
 
-But, if you are on the platform for longer than you want to be, I'd argue this is a poor [user experience](https://en.wikipedia.org/wiki/User_experience). This is because you had an objective of using the platform, for a certain objective (e.g. checking a time and locatio for an event), but you are psychologically, hijacked to waste time doing other activities (e.g. scrolling memes).
+However, if you are on the platform for longer than you want to be, I'd argue this is a poor user experience. This is because you had an objective of using the platform, for a certain objective (e.g. checking a time and locatio for an event), but you are psychologically hijacked to waste time doing other activities (e.g. scrolling memes).
 
-Another example brings this home: [Reed Hastings](https://en.wikipedia.org/wiki/Reed_Hastings), CEO of [Netflix](https://en.wikipedia.org/wiki/Netflix), said: "so we actually compete with sleep". You would rather be sleeping, but just one more episode...
+Not dissimilar to Facebook: [Reed Hastings](https://en.wikipedia.org/wiki/Reed_Hastings), CEO of [Netflix](https://en.wikipedia.org/wiki/Netflix), said: "so we actually compete with sleep". You would rather be sleeping, but just one more episode...
 
 If your wellbeing and sanity isn't the top priority, then what does this lead to?
 
-I call it a **technology malaise**. And I think its a shared experience in society today.
+I call it **technology malaise**. And I think its a shared experience in society today.
 
 And it's a difficult problem to tackle. I've tried ditching social media, but it only turns into a short hiatus.
 

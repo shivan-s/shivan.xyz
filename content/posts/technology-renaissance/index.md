@@ -53,30 +53,82 @@ And it's hard the get away from it. You can't ditch social media, since we are s
 
 ## Yearning for what was
 
-Remember when Facebook came out? I didn't think of it a big deal at the time. But when I watch \*[_The Social Network_](https://en.wikipedia.org/wiki/The_Social_Network), I have this great sense of nostalgia and amazement.
+Remember when Facebook came out? I didn't think of it a big deal at the time. But when I watch \*[_The Social Network_](https://en.wikipedia.org/wiki/The_Social_Network), I'm overcome with a sense of nostalgia and amazement.
 
-Computers and the internet weren't just a niche hobby, it was for everyone. Anyone of nearly any ability could create a Facebook profile and start interacting with their friends. Anonymity wasn't a deal anymore as people would be willing to use their real names and share images of themselves and their family online.
+Computers and the internet are no longer a niche hobby, where you had your own server, own domain, filled with your own content.
 
-It changed our behaviour at a global scale.
+Anyone with an internet connection can create a profile.
+
+Anonymity wasn't a deal anymore as people would be willing to use their real names and share images of themselves and their family online.
+
+I would be shocked to see the "cool" people join Facebook.
+
+It's no longer nerdy thing. It changed our behaviour at a global scale.
 
 How amazing?
 
-You could keep in touch with friends not just within a local area, but even if they had moved on. Think about old school friends. Strangers you meet while travelling but end up connected and staying in touch online.
+Facebook had amazing features following this.
 
-These are all amazing things.
+Groups were awesome. When I was studying optometry, I was able to keep in touch with my fellow students in my cohort. We were able to share exam questions and help each other out.
 
-Facebook had some amazing features. The ability to see what your friend were up to not just locally but from all around you. You would instance message your friends either individually or in groups. Facebook had groups that you could join.That's how I knew what was going on in my optopmetry class, and how I knew everyone.
+Events were good to stay up to date with things going on. Back when I was studying, that included pub crawls, and birthdays.
 
-Burnt out by technology. Open youtube app - adds and attention grabinng and sucking things and I think it's only going to get worse.
+Messenger was a great way to keep in touch with others and even with group chats.
 
-Endshitfication
+What made it worse?
 
-Fast food
+Ads, algorithmic feeds, misinformation, data mining, and that didn't serve your mental wellbeing.
 
-My responsibility in someone in tech to use the right tools.
+### What am I doing about it?
 
-Trying to aim for tech independence.
+Some problems I want to overcome:
 
-Stopping using substack because of privacy trackers. I don't need to see the views, I just need to get the idea out there.
+- Being exposed to information that I do not intend to see, and just getting what I need.
+- Not be stuck in echo chambers that are caused by algorithmic feeds; that also means not having very shallow understanding of certain concepts (e.g. programming for example, or cultures),
+- Doom scrolling, being stuck on an infinite and constantly regenerating feed,
+- Feeling inadequate because I'm constantly comparing myself to others,
+- Feeling drowned out and unable to interact with anyone - just consuming,
 
-### Leaning towards RSS Feeds
+For a while, I don't have the usual social media apps on my phone and use my web browser to access them.
+
+Even thought I've been talking about social media, the first conscious switch I made was my email client.
+
+I had been using Gmail for years. But I noticed that my inbox would get full of junk - not junk mail, but marketing emails and newsletters.
+
+I switched to [Hey Email and Hey Calendar](https://www.hey.com/). I am big fan of the founders, who prioritise user experience as a core of their design over making lots of money.
+
+Next, I worked on improving [this website by creating my own template]({{< ref 'posts/new-look'>}}). This would encorage me to take writing on my own blog serious rather than other platforms. I shifted my focus away from analytics and open rates to making writing a labour of love and expression.
+
+This worked and made me want to write again - just for the fun of it. I'm not worried about posting cadence or writing catching titles. I just write what I want to express.
+
+Following this, I wanted to make the move towards technology independence, which is met with some difficulty.
+
+[Derek Sivers](https://sive.rs), a person who I admire, is a big advocate of [tech independence](https://sive.rs/ti).
+
+I'm trying self-hosting (well, not really, but having my own private server hosted on [DigitalOcean](https://www.digitalocean.com). I have tried self-hosting my own email newsletter using [Keila](https://keila.io). Other things include self hosting my own calendar and contacts, but this has shown to be a challenge so watch this space.
+
+Finally, leaving these social media services won't be easy. The reason is because most of my friends and the public use these websites.
+
+I posed this question to Derek Sivers, and he told me to prioritise where your friend are at over tech independence.
+
+## Moving the Bluer Skies
+
+So despite this rant, it looks like these places are here to stay. But it made me think. Social media isn't that bad. Maybe the designs aren't there to make our lives complete better, but is there a way to take the good of social media. What would that look like?
+
+Recently, I've been using [Bluesky](https://bsky.app), and maybe this is the vision of a beneficial social media application.
+
+_Oh, just another social media app?_
+
+Underneath, it written on the [AT Protocol](https://atproto.com/), which is different to _other_ social media apps.
+
+A lot of traditional social media trap you in because your social graph is on these platforms. A social graph is your interaction with others, your posts and who you are connected with. These are really hard to take away to other platform.
+
+That means you can't leave even if that platform isn't great for you (e.g. ruining the quality of your mental wellbeing).
+
+The goal of the AT Protocol is that you can choose where to host your social graph. Anyone can build on top of this protocol as well.
+
+That means you have autonomy over your data, your social graph and you can also choose to move to a different application if you are not happy with their service.
+
+This incentivises makers of these apps to provide a good experience to their users in order to retain them rather than appease advertisers, which is the case with traditional media apps.
+
+That's all I have to say. Thanks for reading and feel free to [get in touch](mailto:me@shivan.xyz) if you had anything to add.

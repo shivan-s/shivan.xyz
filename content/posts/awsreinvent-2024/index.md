@@ -1,7 +1,7 @@
 ---
 author: Shivan Sivakumaran
 title: My Experience at AWS re:Invent 2024
-date: 2024-12-18
+date: 2025-01-01
 summary: My life has changed
 tags: ["programming", "aws", "conference"]
 draft: false
@@ -22,59 +22,60 @@ cover:
 
 Five days, up to 60,000 people, over 3000 speakers, 5 hotels dedicated for content. **One life changing event**.
 
-I had the immense privilege of attending one of the biggest conferences I will probably experience in my life, [AWS re:Invent 2024](https://reinvent.awsevents.com/).
+I had the immense privilege of attending one of the biggest conferences in the technology industry, [AWS re:Invent 2024](https://reinvent.awsevents.com/).
 
 I left inspired, overloaded, feeling completely out of my depth, and amazed at what can be achieved with AWS services.
 
-However, I wish I had some tips on what to expect from this event. So, that is what this post will represent - advice to my former self.
+However, I do wish I had some tips on what to expect from this event. And that is what I will try and achieve with this post - advice to my former self.
 
-Who is my former self:
+Who is my former self?
 
 - First time at AWS re:Invent
 - First time to a technology conference
-- No AWS experience
+- Little AWS experience
 
 ## What is AWS?
 
-Simply put, [Amazon Web Services or AWS](https://aws.amazon.com/) is a cloud service. They offer hundreds of services around compute, storage, databases, and the list goes on.
+Simply put, [Amazon Web Services or AWS](https://aws.amazon.com/) is a cloud service. They offer hundreds of services around compute, storage, databases, machine learning, and the list goes on.
 
-[Amazon S3](https://aws.amazon.com/s3/) which offers storage is one of their first ever services, [launched back in 2006](https://press.aboutamazon.com/2006/3/amazon-web-services-launches).
+For example, [Amazon S3](https://aws.amazon.com/s3/) is one of their first services [launched back in 2006](https://press.aboutamazon.com/2006/3/amazon-web-services-launches). S3 offers object storage.
 
 ## My AWS Experience and Focus for the Conference
 
-Coming into this event, I had very little experience of AWS (You could call me a complete beginner).
+For my job, we use AWS, but I'm not working our infrastructure day-to-day. I am a developer and I mainly contribute to writing code.
 
-For the job, we use AWS, but I'm not working our infrastructure day-to-day. I am a developer and I mainly contribute to writing code.
+My only experience with AWS is playing around with the console, creating random S3 buckets and spawning an [EC2 instance](https://aws.amazon.com/ec2/instance-types/), only to focus on ssh'ing into the server to practice system admin and linux skills.
 
-I have no AWS certifications, and have not watched a single tutorial.
+You can say I have very little exposure to AWS coming into this event. You could even call me a complete beginner.
 
-My only experience with AWS is playing around with the console creating random S3 buckets and spawning an [EC2 instance](https://aws.amazon.com/ec2/instance-types/) only to ssh into it to learn about working as a sys admin and linux.
+Despite this, I expect to be pushed outside my comfort zone with this conference.
 
-I want to briefly talk about my intention going into this conference. Because of my lack of experience, I'll be pushed outside my comfort zone.
+I'm going to feel out of my depth. There will be people working for large companies, on very complex and important problems. On top of this, there will be very smart individuals, much smarter than I am. And that's okay, I'm there to learn.
 
-I'm going to feel out of my depth. There will be people working for large companies, on very complex and important problems. On top of this, there will be very smart individuals, much smarter than I am. And that's okay, I'm here to learn.
+Great advice given by a previous mentor is to be a generalist. It's time to take the blinkers off. Instead of focusing on code, I'll be diving into the world of devops. In doing so, I hope to become more of a complete developer.
 
-Great advice given by a previous mentor is to be a generalist. This conference will give me a good oppourtunity to become a more complete technologist.
+On top of this, re:Invent is a good oppourtunity for me to meet people in the technology sector. This is probably the only oppourtunity where I am going to see so many people who are in the technology realm.
 
-I'll be taking the blinkers off. Instead of focusing on code, I'll be diving into the world of devops.
+The rules:
 
-So, I am going to this conference expected to be pushed outside my comfort zone. I'll be taking the blinkers off and instead of focusing on code, I'll be diving into the world of devops, and seeing what AWS has to offer to make me a more complete technologist.
-
-On top of this, re:Invent is a good oppourtunity to meet people in the technology sector. This is probably the only oppourtunity where I am going to see so many people who are in the technology realm. So if I'm waiting in line, I'll try and talk to people waiting in line. If I'm going to have a meal, I'll try and sit with a stranger and get to know them. If I'm on the shuttle bus, I'll talk to the person I'm sitting next to.
+- It I'm waiting in line, I'll introduce myself to anyone in queues.
+- If I'm going to have a meal, I'll try and sit with a stranger and get to know them.
+- If I'm on the shuttle bus, I'll talk to the person I'm sitting next to.
+- If I'm sitting down watching a talk or taking a lab, I'll say hello to whomever is sitting next to me.
 
 ## Planning
 
-There is so much to going on the conference and even in Las Vegas that you might be overwhelmed like I did. I didn't have any guidance going in so I was bound to make mistakes and potentially "miss" oppourtunities.
+I was overwhelmed with not on the conference but with Las Vegas itself. I had no guidance going in and it's always going to feel like you're "missing" oppourtunities.
 
-For that, I just forgave my future self and did the best I could. There is always next time, so try and make the most out of this trip.
+For that, I wouldn't fret. Forgive yourself and do the best you can. There is always next time.
 
-That being said, I've written this to try and give any readers a head start based on my experience and what I would do next.
+That being said, I'm hoping this post will give you some head start.
 
 ### Booking the Conference
 
 You can book the conference through the AWS Events [portal](https://reinvent.awsevents.com/) dedicated to the re:Invent conference.
 
-Through the portal, you can also book accommodation on the Las Vegas Strip at an agreed rate.
+Through the portal, you can also book accommodation on the Las Vegas Strip at an bonus rate.
 
 ### Where to Stay?
 
@@ -158,7 +159,7 @@ I attended in interesting event in the morning. It's better to describe it than 
 
 The example we were given was navigating technical debt. This was quite different to how I do my job. In my job, I'm focusing on code. In this exercise, I'm thinking at a more strategic level. On top of this, I was communicating with stranger at the conference, further getting outside my comfort zone.
 
-This took place at the [Content Hub](#content-hub)
+This took place at the [Content Hub](#content-hub).
 
 In the afternoon, I ventured into to Venetian and walked around the Expo hall. This was a huge space, where lots of companies had their booths set up. Remember on day one, where one of the helpful AWS people told me to talk to the people around the whiteboards? That's what I did.
 
@@ -172,8 +173,50 @@ Each hotel that was hosted content had a Content Hub. This acted as a centralise
 
 One discovery I made was [AWS Skill Builder](https://skillbuilder.aws/), where during week of the conference, attendees had free access. AWS Skill Builder offers a collection of hands-on courses, where you can learn particular AWS technology. I thought this would be useful if you want to play around with a particular technology without having to commit to entire course programme.
 
-### Thursday 5th Devember
+### Thursday 5th December
 
-Everyday at re:Invent there is a keynote. On Tuesday, the CEO gave their keynote as you recall. Most of the keynotes, though presented well, I feel they are presenting to the press.
+Everyday at re:Invent there is a keynote. On Tuesday, the CEO gave their keynote as you recall. Most of the keynotes, though presented well, I feel they are presenting to the press. However, the keynote for this morning would be different.
 
-TODO: provide link for talk
+This talk was given by the Amazon.com, Chief Technology Officer, Dr Werner Vogels.
+
+{{<youtube aim5x73crbM>}}
+
+This was a highly anticipated talk for me. I made the attempt to leave my accommodation early, at about 6:30am, travelling to the Venetian.
+
+I had breakfast and lined up outside the venue at about 7:15am. Doors opened at 8:00am. My eyes were watering and hair rising - a four string quartet was playing live. This only hightened my emotions: I could not believe I was here. I was so grateful for this experience that I was having. It felt like I was dreaming.
+
+Aside from this dramatic appreciation, the talk begin at 8:30am. Vogels discussed stragegies for reducing complexity in systems, which is a topic my old mentor and I had had in the past.
+
+Vogels also made come announcements like distributed relational databases and how the technology behind this works.
+
+After this outstanding talk, I met up with my colleague and we explored the Expo hall even further.
+
+At the end of the night, there was a fun activity planned for all attendees of the conference. This was AWS re:Play. They had an open bar, a skating rink, a low sensory zone; however, the major highlight for myself and my colleague was the concert. They had two artists: [Weezer](https://en.wikipedia.org/wiki/Weezer) and [Zedd](https://en.wikipedia.org/wiki/Zedd).
+
+### Friday 6th December
+
+The re:Play party finished late so that warranted a slight sleep in. There were some good talks and tutorials in the morning. This included: a tutorial on distributed SQL databases, and using terraform for deploys. Sadly, these were fully booked and I even missed out on the walk in.
+
+This is no problem as I can always look into these topics later on.
+
+So I spent the rest of Friday morning play around with the AWS Skill builder as discussed before, while also talking to random individuals.
+
+The conference was officially over at lunchtime and since this was my last night in Las Vegas, my colleague and I made our way to Freemont Street (and officially being in Las Vegas).
+
+{{<figure src="/freemont.jpg" alt="View of a people below a sign saying Welcome to Downtown Las Vegas" caption="The Freemont Street Experience">}}
+
+{{<figure src="/fire.jpg" alt="People surrounded by a mechanical pray mantis shooting fire out of its antennae" caption="The Freemont Street Experience">}}
+
+The next morning was my exit out of Las Vegas. I checked out and fly out to Los Angeles, where I'd make my trip back home to New Zealand.
+
+Fun fact: when I was flying from Auckland to Palmerston North, I was sitting next to a lady why is a scrum master, she was well versed in AWS and I was able to talk about my conference to her.
+
+## Reflections
+
+The level of gratitude to have my company sponsor my trip to AWS re:Invent in inmeasurable. I feel loved, because instead of viewing software development as a cost, it's viewed as something worth investing in - like this conference.
+
+I'm hoping to bring back some value into the business for going. The biggest thing is being inspired to learn AWS so I can use it better in the company that I work for.
+
+I really hope that my AWS skills will improve and I will be able to take more in the next time I go.
+
+My lead asked me about how the conference was and I mentioned that I left inspired. He told me to never underestimate inspiration. So, we can say this conference was a giagantic success! A significant highlight of 2024 and probably in my life.

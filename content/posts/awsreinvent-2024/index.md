@@ -247,4 +247,8 @@ I'm hoping to bring back some value into the business for going. The biggest thi
 
 I really hope that my AWS skills will improve and I will be able to take more in the next time I go.
 
-My lead asked me about how the conference was and I mentioned that I left inspired. He told me to never underestimate inspiration. So, we can say this conference was a giagantic success! A significant highlight of 2024 and probably in my life.
+My lead asked me about how the conference was and I mentioned that I left inspired. He told me to never underestimate inspiration. So, we can say this conference was a great success! A significant highlight of 2024 and probably in my life.
+
+Finally, I want to end by saying how hard the AWS events staff worked. They were friendly despite working very long hours.
+
+I hope you found this useful and you can always get in touch with me if you had any questions.

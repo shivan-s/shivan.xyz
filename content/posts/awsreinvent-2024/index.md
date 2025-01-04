@@ -69,31 +69,39 @@ I was overwhelmed with not on the conference but with Las Vegas itself. I had no
 
 For that, I wouldn't fret. Forgive yourself and do the best you can. There is always next time.
 
-That being said, I'm hoping this post will give you some head start.
+That being said, I'm hoping this post will provide some head start to anyone who reads this.
+
+An aside, Las Vegas is very dry. Take a water bottle, moisteriser for you skin and carry around some lip balm.
+
+On top of this, buying things on the strip is expensive and everyone costs - even water. So, just be prepared.
 
 ### Booking the Conference
 
-You can book the conference through the AWS Events [portal](https://reinvent.awsevents.com/) dedicated to the re:Invent conference.
+You can book the conference through the [AWS Events portal](https://reinvent.awsevents.com/) dedicated to the re:Invent conference.
 
-Through the portal, you can also book accommodation on the Las Vegas Strip at an bonus rate.
+Through this portal, you can also book accommodation on the Las Vegas Strip at a bonus rate.
 
 ### Where to Stay?
 
 {{<figure src="/mandalay-bay.jpg" alt="Towering building with lite signage saying 'Mandalay Bay Hotel'" caption="My accommodation for the week in Las Vegas">}}
 
-There are plenty of hotels to stay on the Las Vegas Strip. I opted to stay at the Manadalay Bay, which is at the south end of the strip and also one of the five hotels hosting content for the conference. This is the reason I chose to stay here as well as an afforable rate.
+There are plenty of hotels to stay on the Las Vegas Strip. I opted to stay at the Mandalay Bay, which is at the south end of the strip and also one of the five hotels hosting content. This is the reason I chose to stay here as well as charging a reasonable rate.
 
-At the time, I arrived I thought it would have been better to stay at the Venetian, since this is where the keynotes took place as well as the Expo hall. But now when writing this, I think it was a fine decision to book the Mandalay Bay, since there was good transport between hotel venues (via the free shuttle).
+At the time, I arrived I thought it would have been better to stay at the Venetian, since this is where the keynotes took place as well as the Expo hall. But now when writing this, I think it was fine to book the Mandalay Bay. There is frequent transport between hotel venues (via the free and continuous shuttle).
 
 ### Events App
 
-About a month before the actual conference, there is the ability to book events using their events app.
+About a month before the actual conference, there is the ability to book events using their own AWS Events app.
 
-There are thousands of talks to choose from and to make it easier to search through them, the app offers a comprehensive filters. You can filter by experience, topics, location, content type and so on (I'll make an attempt to explain these content types later on, but be weary that the AWS team are constantly iterating on this idea).
+There are thousands of talks to choose from. The app offers comprehensive filters to search by experience level, topics, location, content type.
 
-You might see that most of the events are fully reserved. This doesn't mean that the event is completely full. This isn't official information, but from talking to others at the conference, not all seats are able to be reserved. There will be some seats for walk-in, which is for a first-come-first-serve basis. If some of the reserved members don't turn up within 10 minutes of the event, then their seats are released to those in the walk-in.
+Content types can range from talks, to workshops, chalk talks, and builder sessions.
 
-The only downside is that you will to need queue early for an event depending on how popular the event is. If you are near the end of the queue, then there is chance that they will run out of seats. This did happen to me on a few occasions.
+You might see that most of the events are fully reserved. This doesn't mean that the event is completely full.
+
+This isn't official information, but theories circulating around mention that only a portion of totals seats are reserved. Some seats are for 'walk-ins'. If some of the reserved members don't turn up within 10 minutes of the event starting, then their seats are released to those in the walk-in category.
+
+The only downside is that you will to need queue early for an event depending its popularity. If you are near the end of the queue, then there is chance that they will run out of seats. This did happen to me on a few occasions.
 
 ## Arriving in Las Vegas and the First Weekend
 
@@ -117,7 +125,7 @@ Also, in the weekend I made the effort to visit the Grand Canyon, and Hoover Dam
 
 I finished Satuday evening with Michael Jackson ONE, which was the show for the Manadalay Bay. A spectacular watch.
 
-My colleague arrived Satuday night, but we caught up on Sunday, where we spent time with resident colleagues of Las Vegas (our company org-chart is a bit complicated).
+My colleague arrived Satuday night, but we caught up on Sunday, where we spent time with resident colleagues of Las Vegas (we work with people who a resident to Las Vegas but aren't involved in this conference).
 
 We also headed to the Venetian to pick up our badges and some free merchandise. We also got a taste of what's to come!
 
@@ -127,43 +135,55 @@ We also headed to the Venetian to pick up our badges and some free merchandise. 
 
 Remember, how I am a complete AWS noob? I took the oppourtunity of take the "Tech Essentials" bootcamp.
 
-The bootcamp was a day long event and it's goal was to take you from zero knowlegdge to having some bearing of AWS.
+A day long event, the goal was to take you from zero knowlegdge to having some bearing of AWS.
 
-I found it extremely useful. There was a main speaker who would run through the main points. For example, explaining [AWS Identity and Access Management](https://aws.amazon.com/iam/) and then after talking about this topic, we would perform a lab exercise with a dummy AWS environment.
+I found it extremely useful. A speaker would give a short talk (for example, explaining [AWS Identity and Access Management](https://aws.amazon.com/iam/)), followed by a self-directed lab exercise.
 
-There were a number of friendly helpers, who are also a part of AWS who are happy to answer questions about the labs, or you can even ask them for advice about the conference. One individual gave me the idea to head to the Expo hall, where they have AWS solution architects (experts in the area of AWS) and whiteboards so you can talk over specific problems.
+Other friendly AWS staff were available to provide help and answer questions while working through the labs. They were also happy to provide tips for the conference. One individual mentioned the idea to head to the Expo hall, where they have AWS solution architects (experts in the area of AWS) and whiteboards so you can talk over specific problems.
 
 We also covered other topics like EC2, databases, storage.
 
+A highlight was when the speaker sat with me through a problem (apparently, there was part of the lab that wasn't very clear - it involved deploying an application). We eventually got the deployment working and celebrating seeing out start up going live for the first time.
+
 ### Tuesday 3rd December
 
-Tuesday morning was the keynote by the AWS CEO, Matt Garmen. This was quite good because this where a lot of announcement on new technologies as well as the direction of the company. Since I am new to AWS, I didn't find this talk compared to someone else who is on the bleeding edge of AWS technologes.
+In the morning was the keynote speech given by the AWS CEO, Matt Garmen. This is where most of the announcements on new technologies would be made discussing the objective and direction of the company. Since I am new to AWS, I didn't find this talk as useful as compared to someone else who is on the bleeding edge of AWS technologes.
+
+But I did like what Garmen had to say in the end: "We invent so you can _re-invent_".
 
 I didn't go to the Venetian to watch this live, instead I watched this from the Content Hub at Mandalay Bay. [More on the Content Hub](#content-hub).
 
 {{<youtube LY7m5LQliAo>}}
 
-After the talk, I met up with the the boss of our AWS account manager (I think). Since we are an AWS customer, we are assigned to an account manager. This is quite good to know because an AWS account manager is there to help you out.
+After the talk, I metup with someone from the AWS team. Because the company I work uses AWS, we are known as AWS customers. AWS customers are assigned an account manager and this person I was meeting is the leader to our account manager.
 
-For example, if you have a questions about setting up your AWS services, the account manager has access to a solutions architect to walk your through the process. The bonus is that this does not incur any extra charge.
+Admittedly, we haven't been keeping good touch with the AWS team. And I had no idea what an account manager was before meeting up with this individuals. However, after this meeting, I had a good grasp of how the AWS account manager can help us.
 
-I also went to some talks about. One related to S3 and another related to setting up infrastructure in China, which has its own complications.
+For example, if you have a questions about setting up your AWS services, the account manager has access to a solutions architect (experts in AWS) to walk your through the process. The bonus is that this does not incur any extra charge.
 
-At the end of this day, there are many "after-party" like events thrown. Usually, emails are sent requiring RVSP to an invitation. There is also an community-created events page to keep track of these parties.
+Afte this, went to some talks about. One related to S3 and another related to setting up infrastructure in China, which has its own challenges.
 
-One after-party that my colleague and I attended was Top Golf with others from the Australia and New Zealand region. I met an individual from Wellington who had a golden jacket. This represented earning all the AWS certifications and he told me it took him 7 years to complete.
+At the end of this day, there are many "after-party" like events thrown. Usually, emails are sent requiring RVSP to an invitation. There is also an community-created events page to keep track of these parties (I don't know this link, but a search on the web might help?).
+
+One after-party that my colleague and I attended was Topgolf with others from the Australia and New Zealand region.
+
+I met an individual from Wellington, who was wearing golden jacket. If you complete all the AWS certifications, you receive a golden jacket. On questioning, it took this individual 7 years to complete.
 
 ### Wednesday 4th December
 
-I attended in interesting event in the morning. It's better to describe it than give it a name. It involved simulating a C-suite "war room" for a business. You would make decisions and based on these decisions, you would get a score on how well the business is doing.
+At the [Content Hub](#content-hub), I took part in an interesting event in the morning. It involved simulating a C-suite "war room" for a business. You are in a group of random inviduals and you make decisions for a company like a C-suite would. Based on these decisions, you would get a score on how well the business is doing.
 
-The example we were given was navigating technical debt. This was quite different to how I do my job. In my job, I'm focusing on code. In this exercise, I'm thinking at a more strategic level. On top of this, I was communicating with stranger at the conference, further getting outside my comfort zone.
+The example we were given was navigating technical debt. Choices we had to make where hiring an external team to help build features while the development team focuses on reducing debt; do we create policies around handling technical debt; do we communicate this throughout the company; should we integrate continuous improvement into our workflow, so we can reduce technical debt as we work?
 
-This took place at the [Content Hub](#content-hub).
+This was quite different to how I do my job, where I'm focusing on code. In this exercise, I'm thinking at a more strategic level. On top of this, I was communicating with strangers at the conference, further getting outside my comfort zone.
 
-In the afternoon, I ventured into to Venetian and walked around the Expo hall. This was a huge space, where lots of companies had their booths set up. Remember on day one, where one of the helpful AWS people told me to talk to the people around the whiteboards? That's what I did.
+In the afternoon, I ventured to Venetian and wondered around the Expo hall. The Expo hall is a giagantic space with plenty of activity. Companies had booths set up to promite their business - and give a way a lot free socks.
+
+AWS staff were also around. Remember on day one when I was given advice to talk to the people with the whiteboards. That's what I did.
 
 At the center of the Expo hall, there were experts for every topic in AWS. Whiteboards set up for databases, one for storage, one for compute and so on. We would diagram the application at work and they would offer improvements and "how-to-dos".
+
+{{<figure src="/board.jpg" alt="A whiteboard with written words pertaining to data analytics,  and AWS services related to analytics" caption="An example of a whiteboarding at the Expo hall">}}
 
 At the end of the evening, I missed out on the after-party events because most were too full. So, I took some time for myself and went to local dance studio and did a lesson in Salsa.
 
@@ -175,21 +195,29 @@ One discovery I made was [AWS Skill Builder](https://skillbuilder.aws/), where d
 
 ### Thursday 5th December
 
-Everyday at re:Invent there is a keynote. On Tuesday, the CEO gave their keynote as you recall. Most of the keynotes, though presented well, I feel they are presenting to the press. However, the keynote for this morning would be different.
+Everyday at re:Invent there is a keynote. On Tuesday, the CEO gave their keynote as you recall. Most of the keynotes, though presented well, they are presenting to the press (that's my opinion, anyway). However, the keynote for this morning would be different.
 
 This talk was given by the Amazon.com, Chief Technology Officer, Dr Werner Vogels.
 
+This was a highly anticipated talk for me. I made the attempt to leave my accommodation early, at about 6:30am, again travelling to the Venetian, where all keynotes took place.
+
+After a quick breakfast, at about 7:15am, with about 6,000 people I queued outside the venue hall. 8:00am doors open.
+
+As I was walking in, my hair raises and eyes water. It's now I realise: _I'm can't believe I'm here; I am so grateful to be here_.
+
+A four string quartet are playing live as we are directed to our seats, and they continue to play while we all eagerly wait for the distinguished CTO to make his appearance.
+
+The lights go dark, then a theatrical trailer begins to play.
+
 {{<youtube aim5x73crbM>}}
 
-This was a highly anticipated talk for me. I made the attempt to leave my accommodation early, at about 6:30am, travelling to the Venetian.
+Aside from this dramatic appreciation, I found this talk highly motivational.
 
-I had breakfast and lined up outside the venue at about 7:15am. Doors opened at 8:00am. My eyes were watering and hair rising - a four string quartet was playing live. This only hightened my emotions: I could not believe I was here. I was so grateful for this experience that I was having. It felt like I was dreaming.
+Vogels discussed stragegies for reducing complexity in systems, which is a topic my old mentor and I had had in the past.
 
-Aside from this dramatic appreciation, the talk begin at 8:30am. Vogels discussed stragegies for reducing complexity in systems, which is a topic my old mentor and I had had in the past.
+Announcements like distributed relational databases and how the technology behind this works was also discussed.
 
-Vogels also made come announcements like distributed relational databases and how the technology behind this works.
-
-After this outstanding talk, I met up with my colleague and we explored the Expo hall even further.
+After being wow'd by this talk, I met up with my colleague and we explored the Expo hall even further.
 
 At the end of the night, there was a fun activity planned for all attendees of the conference. This was AWS re:Play. They had an open bar, a skating rink, a low sensory zone; however, the major highlight for myself and my colleague was the concert. They had two artists: [Weezer](https://en.wikipedia.org/wiki/Weezer) and [Zedd](https://en.wikipedia.org/wiki/Zedd).
 
@@ -199,7 +227,7 @@ The re:Play party finished late so that warranted a slight sleep in. There were 
 
 This is no problem as I can always look into these topics later on.
 
-So I spent the rest of Friday morning play around with the AWS Skill builder as discussed before, while also talking to random individuals.
+So I spent the rest of Friday morning play around with the AWS Skill builder as discussed before, while also talking to other conference goers.
 
 The conference was officially over at lunchtime and since this was my last night in Las Vegas, my colleague and I made our way to Freemont Street (and officially being in Las Vegas).
 
@@ -209,11 +237,11 @@ The conference was officially over at lunchtime and since this was my last night
 
 The next morning was my exit out of Las Vegas. I checked out and fly out to Los Angeles, where I'd make my trip back home to New Zealand.
 
-Fun fact: when I was flying from Auckland to Palmerston North, I was sitting next to a lady why is a scrum master, she was well versed in AWS and I was able to talk about my conference to her.
+Fun fact: when I was flying from Auckland to Palmerston North, I was sitting next to a lady who is a scrum master, she was well versed in AWS and I was able to talk about my conference to her.
 
 ## Reflections
 
-The level of gratitude to have my company sponsor my trip to AWS re:Invent in inmeasurable. I feel loved, because instead of viewing software development as a cost, it's viewed as something worth investing in - like this conference.
+The level of gratitude to have my company sponsor my trip to AWS re:Invent in inmeasurable. I feel loved, because **instead of viewing software development as a cost, it's viewed as something worth investing in** - like this conference.
 
 I'm hoping to bring back some value into the business for going. The biggest thing is being inspired to learn AWS so I can use it better in the company that I work for.
 

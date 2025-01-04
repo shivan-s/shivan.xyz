@@ -233,7 +233,7 @@ The conference was officially over at lunchtime and since this was my last night
 
 {{<figure src="/freemont.jpg" alt="View of a people below a sign saying Welcome to Downtown Las Vegas" caption="The Freemont Street Experience">}}
 
-{{<figure src="/fire.jpg" alt="People surrounded by a mechanical pray mantis shooting fire out of its antennae" caption="The Freemont Street Experience">}}
+{{<figure src="/fire.jpg" alt="People surrounded by a mechanical pray mantis shooting fire out of its antennae" caption="Freaky!">}}
 
 The next morning was my exit out of Las Vegas. I checked out and fly out to Los Angeles, where I'd make my trip back home to New Zealand.
 

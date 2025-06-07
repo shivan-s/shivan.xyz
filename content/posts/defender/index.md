@@ -9,7 +9,7 @@ cover:
   hidden: true
 ---
 
-Recently, I discovered a security vulnerability. What is was isn't important but what is important is that it existed, undiscovered, for almost 2 years 🤯!
+Recently, I discovered a security vulnerability. What it was isn't important but what is important is that it existed, undiscovered, for almost 2 years 🤯!
 
 Over the next few days, I was able to reduce the surface area of exposure, eventually sealing this issue nice and tight.
 

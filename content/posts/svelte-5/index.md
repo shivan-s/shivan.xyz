@@ -1,7 +1,7 @@
 ---
 author: Shivan Sivakumaran
 title: Upgrading from Svelte 5 to Svelte 4
-date: 2000-01-01
+date: 2025-06-09
 summary: Svelte 5 Simplified
 tags: ["programming", "svelte", "upgrading"]
 draft: false
@@ -11,17 +11,17 @@ cover:
 
 ## An Ode to Upgrading
 
-I want to take some time to talk about why upgrading is important.
+Upgrading is important, but why is it so difficult?
 
-But first, why is is difficult to upgrage?
-
-In the realm of business, businesses have requirements. Rarely do they involve refactoring nor do they involve upgrading your svelte packages - maybe not concretely.
+In the realm of business, businesses have requirements. Normally these are building new features for users or fixing existing bugs. Rarely do they directly involve refactoring nor do they involve upgrading your svelte packages.
 
 Another requirement is stability. If your site goes down, then how can people use your product?
 
-Upgrading can often introduce unneeded instability, where you could be taking those risks introducing new features instead.
+Upgrading can often introduce unwanted instability, where you could be taking those risks introducing new features and fixing bugs in your code instead.
 
-Upgrading often requires new techniques to be learnt. This is especially the case with svelte 4 to svelte 5 (since svelte 4 is compatible with svelte 5, you are still safe without taking on new information). However, if you are wanting to go down the svelte 5 path, there are new things to learn like runes, snippet syntax and so on. If you have a team that usually sticks to the status quo, then you are introducing many headaches. Change can be difficult to deal with when you have important work to do.
+Upgrading often involves change in process - new technologies involve new techniques in how they will be used. This is especially the case with svelte 4 to svelte 5.
+
+Despite back compatibility, if you are wanting to go down the svelte 5 path, there are new things to learn like runes, snippet syntax and so on. If you have a team that usually sticks to the status quo, then you are introducing many headaches. Change can be difficult to deal with when you have important work to do.
 
 I like to think of this as short-term stability.
 

@@ -13,19 +13,19 @@ cover:
 
 Upgrading is important, but why is it so difficult?
 
-In the realm of business, businesses have requirements. Normally these are building new features for users or fixing existing bugs. Rarely do they directly involve refactoring nor do they involve upgrading your svelte packages.
+In the realm of business, businesses have requirements. Normally these are building new features for users or fixing existing bugs. Rarely do they directly involve refactoring nor do they involve upgrading your Svelte web framework.
 
 Another requirement is stability. If your site goes down, then how can people use your product?
 
 Upgrading can often introduce unwanted instability, where you could be taking those risks introducing new features and fixing bugs in your code instead.
 
-Upgrading often involves change in process - new technologies involve new techniques in how they will be used. This is especially the case with svelte 4 to svelte 5.
+Upgrading often involves change in process - new technologies involve new techniques in how they will be used. This is especially the case with Svelte 4 to Svelte 5.
 
-Despite back compatibility, if you are wanting to go down the svelte 5 path, there are new things to learn like runes, snippet syntax and so on. If you have a team that usually sticks to the status quo, then you are introducing many headaches. Change can be difficult to deal with when you have important work to do.
+Despite back compatibility, if you are wanting to go down the Svelte 5 path, there are new things to learn like runes, snippet syntax and so on. If you have a team that usually sticks to the status quo, then you are introducing many headaches. Change can be difficult to deal with when you have important work to do.
 
 I like to think of this as short-term stability.
 
-If you pick the short-term stability path, then what you may notice is a slow decay of the codebase.
+Going down this path, then what you may notice is a slow decay of the codebase.
 
 Strange bugs. Loss of security updates. Mismatch in online documentation. All of these lead to a poor developer experience.
 
@@ -35,7 +35,7 @@ Ironically, this makes it harder to develop new features. Team members can burno
 
 'Design' in this case can relate to updated packages.
 
-Additionally, updated packages tend to perform better. For example, the bundle size of svelte 5 is smaller than 4. You are sending less data over the wire for the same functionality.
+Additionally, updated packages tend to perform better. For example, the bundle size of Svelte 5 is smaller than 4. You are sending less data over the wire for the same functionality.
 
 So with a little convincing and trying, I'd encourage you to convince those around you and those whom you work for that staying up-to-date is important. This is, of course, easier said than done, but keep fighting the good fight. And you work with reasonable people, then you will be successful - just don't give up hope.
 
@@ -72,11 +72,11 @@ So a lot of the above issues can be solved with separate full requests. For exam
 
 By splitting our PRs, this makes reviews a lot easier and we experience less deployment pain.
 
-The svelte team have done an amazing job making svelte 4 compatible with svelte 5. That means we don't have to swap to svelte 5 syntax straight away. We can leave most of our code as is - and keep the PR smaller too.
+The svelte team have done an amazing job making Svelte 4 compatible with Svelte 5. That means we don't have to swap to Svelte 5 syntax straight away. We can leave most of our code as is - and keep the PR smaller too.
 
-This allows us to migrate to svelte 5 and then in future features and refactorings; we can slowly migrate to the new svelte 5 syntax.
+This allows us to migrate to Svelte 5 and then in future features and refactorings; we can slowly migrate to the new Svelte 5 syntax.
 
-Additionally, the make the transition easier for our team members, we wrote a PR that shows the common svelte 4 to 5 changes. And with some of these changes, I will run through below.
+Additionally, the make the transition easier for our team members, we wrote a PR that shows the common Svelte 4 to 5 changes. And with some of these changes, I will run through below.
 
 **NOTE**: Be warned that this may be out of date. So always use the [svelte](https://svelte.dev) documentation as a source of truth.
 

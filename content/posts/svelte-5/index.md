@@ -78,7 +78,7 @@ This allows us to migrate to Svelte 5 and then in future features and refactorin
 
 Additionally, the make the transition easier for our team members, we wrote a PR that shows the common Svelte 4 to 5 changes. And with some of these changes, I will run through below.
 
-**NOTE**: Be warned that this may be out of date. So always use the [svelte](https://svelte.dev) documentation as a source of truth.
+**NOTE**: Be warned that this may be out of date. So always use the [Svelte](https://svelte.dev) documentation as a source of truth.
 
 ## Runes
 

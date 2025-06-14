@@ -1,6 +1,6 @@
 ---
 author: Shivan Sivakumaran
-title: Upgrading from Svelte 5 to Svelte 4
+title: Upgrading to Svelte 5 from Svelte 4
 date: 2025-06-09
 summary: Svelte 5 Simplified
 tags: ["programming", "svelte", "upgrading"]
@@ -254,4 +254,4 @@ A key takeaway from that video is that all problems usually stem from communicat
 
 Updating may not be the first thing that comes to mind, but it's still part of the road in making your application great.
 
-Good luck and even if you aren't migrating the svelte 5, I hope you found value in this post.
+Good luck and even if you aren't migrating the Svelte 5, I hope you found value in this post.

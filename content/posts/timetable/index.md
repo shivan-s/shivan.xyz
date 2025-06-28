@@ -71,7 +71,7 @@ In addition to this, the `Item`s are coloured by generating the hue using the te
 
 Every moment of an `Item`, a create and a delete results in the data being saved as a [base64 string](https://en.wikipedia.org/wiki/Base64) in the URL as a search parameter.
 
-{{<figure src="/url.gif" alt="A new browser tab is opened and a link is pasted with the base64 string as the url parameter and prepopulated timetable appears" caption="Data stored in the url">}}
+{{<figure src="/base64.gif" alt="A new browser tab is opened and a link is pasted with the base64 string as the url parameter and prepopulated timetable appears" caption="Data stored in the url">}}
 
 ## Summary
 

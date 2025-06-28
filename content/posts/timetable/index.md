@@ -13,7 +13,10 @@ cover:
   hidden: false
 ---
 
-**What**: [App Link](https://timetable.shivan.xyz). [Code](https://github.com/shivan-s/timetable)
+Links:
+
+- [App Link](https://timetable.shivan.xyz)
+- [Code](https://github.com/shivan-s/timetable)
 
 The [pole studio I attend](https://www.altitudepole.co.nz/) offer a variety of classes focusing on skills, to flex, to flow all organised in a timetable.
 

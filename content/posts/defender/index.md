@@ -1,6 +1,6 @@
 ---
 author: Shivan Sivakumaran
-title: Become a good defender
+title: Become a Good Defender
 date: 2024-11-05
 summary: Story of an unsung hero
 tags: ["programming", "defender", "security"]

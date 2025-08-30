@@ -79,6 +79,8 @@ Let's add some motion.
 
 It's nice to have the motion. It communicates what is happening to the user, which helps with cognitive load. A shortfall is that the user isn't *instant*. We do have a loader (with the loader text), but we can add optimistic update.
 
+{{<figure src="server-client.png" alt="'Server' in the left box with 'Client' in the right box with two arrows pointing between each other" caption="The basic relationship of the web. We aim to run code on the server as much as we can, but we get better interactivity running code on the client">}}
+
 As an aside, I lean towards server side rendering. We get progressive enhancement, which we will see later, but it means less code runs on the client. This is considerate for users who have poor connections, or weaker machines.
 
 Despite mentioning poor connection, this can make server side rendering a challenge too. We have to wait for the server to send us updates. However, with optimistic updates we can show changes to users immediately for those who can support it - which is the benefit of running code on the client.

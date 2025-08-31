@@ -19,7 +19,7 @@ I gave a talk including this project at a Junior Developer meetup in my local ar
 
 Here is a video summary.
 
-{{ <youtube F2AvpvQjXtc> }}
+{{<youtube F2AvpvQjXtc>}}
 
 Since reading *[Designing Interface Animation](https://rosenfeldmedia.com/books/designing-interface-animation/)* by [Val Head](https://valhead.com/). I've tried incorating it in my work; I've even gone as far to spread is as gospel (e.g. this post, work product demo and even a talk).
 

@@ -3,7 +3,8 @@ author: Shivan Sivakumaran
 title: Milestone - No Student Loan
 date: 2025-11-21
 summary: I've paid my student loan off
-tags: ["life"]
+category: ["Life"]
+tags: ["debt"]
 draft: false
 cover:
   image: congrats.png

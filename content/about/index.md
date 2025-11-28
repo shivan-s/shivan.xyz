@@ -8,9 +8,15 @@ My name is Shivan (pronounced Shiv-arn).
 
 I am Kiwi born 🇳🇿 with Sri Lankan 🇱🇰 heritage.
 
-I currently work as a **Web Developer** after 7 years working as an **[Optometrist](https://en.wikipedia.org/wiki/Optometry)**.
+I currently work as a **Software Developer** after 7 years working as an **[Optometrist](https://en.wikipedia.org/wiki/Optometry)**.
 
-I am also on [BlueSky](https://bsky.app/profile/shivan.xyz), [GitHub](https://github.com/shivan-s), [YouTube](https://youtube.com/c/shivansivakumaran), [LinkedIn](https://linkedin.com/shivan-sivakumaran), [Twitch](https://twitch.com/shivan__s) & [Instagram](https://instagram.com/shivan_s).
+I am also on:
+- [BlueSky](https://bsky.app/profile/shivan.xyz)
+- [GitHub](https://github.com/shivan-s)
+- [YouTube](https://youtube.com/c/shivansivakumaran)
+- [LinkedIn](https://linkedin.com/shivan-sivakumaran)
+- [Twitch](https://twitch.com/shivan__s)
+- [Instagram](https://instagram.com/shivan_s).
 
 ## What am I focusing on?
 
@@ -18,7 +24,7 @@ I am also on [BlueSky](https://bsky.app/profile/shivan.xyz), [GitHub](https://gi
 
 - [Building projects](https://github.com/shivan-s)
 
-2. I communicate my journey and ideas:
+2. Sharing my journey and ideas:
 
 - ✍🏾 [Through this Blog]({{< ref "posts" >}})
 
@@ -26,7 +32,6 @@ I am also on [BlueSky](https://bsky.app/profile/shivan.xyz), [GitHub](https://gi
 
 - 🥋 [Brazilian Jiu Jitsu](https://en.wikipedia.org/wiki/Brazilian_jiu-jitsu)
 - 🕺 [Latin Dance](https://en.wikipedia.org/wiki/Latin_dance)
-- 🕺 [Pole Dance](https://en.wikipedia.org/wiki/Pole_dance)
 - 🏋️ [Weightlifting](https://en.wikipedia.org/wiki/Olympic_weightlifting)
 
 4. Maintaining my mind
@@ -43,6 +48,10 @@ I am also on [BlueSky](https://bsky.app/profile/shivan.xyz), [GitHub](https://gi
 - **2020**: [Began writing online]({{< ref "posts/why-create-a-blog" >}})
 - **2021**: Moved back to Palmerston North to focus on a career change away from optometry into software development.
 - **2023**: Started a new career as a web developer.
+
+## Places I want to Visit
+
+- [Check out this map!](https://map.shivan.xyz)
 
 ## Photos
 

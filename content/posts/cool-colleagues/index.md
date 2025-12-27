@@ -5,13 +5,13 @@ date: 2025-12-05
 summary: Wrapping up the year that has been
 category: ["Programming", "Life"]
 tags: ["Gratitude"]
-draft: true
+draft: false
 cover:
   image: image.jpg
   alt: alt text
   caption: caption
   relative: false
-  hidden: false
+  hidden: true
 ---
 
 There is still lots left on the table that I wish I had accomplished this year:
@@ -22,23 +22,25 @@ There is still lots left on the table that I wish I had accomplished this year:
 
 Naturally, you make big goals, never achieve them, and you find yourself acceptng that you will always be disappointed.
 
-However, I forget what I _did_ achieve or how I've evolved in my career. And that's what I want to share with you in this post.o
+However, I forget what I _did_ achieve or how I've evolved in my career. And that's what I want to share with you in this post.
 
 ## But, First
 
-Let's start with a highlight for the year - an example of how cool my colleague is.
+Let's just start with some gratitude I have for a colleague.
 
-First, let me set the scene. Imagine that sinking feeling you feel in you stomach. A bug you wrote into production.
+To get a better understanding of why I am so grateful, let me set the scene.
+
+Imagine that sinking feeling you get in your stomach. A bug you wrote into production.
 
 Before you can process the guilt, you are frantically coming up with a fix.
 
-Heart beating for hours, you finally come up with a fix. You acknowledge the team of the problem and as you are about to sign off, your colleague says this:
+Heart beating for an extended period of time, you finally come up with a fix. You acknowledge the team of the problem and as you are about to sign off, your colleague says this:
 
 > God gives his toughest battles to his strongest soldiers
 
-What a champ! And all those uncomfortable emotions that you had, all that self-doubt, subside in that moment.
+Such kind and uplifting words. And for that small, cherrishable moment, those uncomfortable emotions that you subside.
 
-So thank you to that colleague (who likely isn't reading this for uplifting my sprits).
+So, thank you to that colleague.
 
 On that note, I think a good resource for homework is:
 
@@ -46,47 +48,53 @@ On that note, I think a good resource for homework is:
 
 ## Smaller PRs and Product Thinking
 
-These two books:
+These two books having changed how I conduct pull requests.
 
 - _Accelerate_ by [Nicole Forsgren, PhD](https://nicolefv.com/), Jez Humble and Gene Kim.
-- _[The Phoenix Project]_ by Gene Kim, Kevin Behr, and George Spafford
+- [_The Phoenix Project_](https://itrevolution.com/product/the-phoenix-project/) by Gene Kim, Kevin Behr, and George Spafford
 
-have changed how I conduct my PRs.
+I make the effort to split my PRs into smaller chunks, often splitting refactors from codes directly related to the feature.
 
-I now split my PRs into smaller chunks with the goal of creating features with small iterative changes.
+In my understanding, this should make the code easier to review. It also makes small bugs easier to identify if they do end up in production (plus you also have the ability role back small changes easier).
 
-Not only does this make it easier to review; it's also the fix any small bugs that may crop up in production.
+Also, when you adopt the focus of smaller PRs, you start to break problems down into smaller items, which can be discussed amongst the team. If you start going down the wrong track, for example, then it's easier to make a course correction. Compare this to committing to the wrong direction for days or even weeks only find out you need to go up the stream again because you slightly misunderstood the requirements.
 
-On top of this, smaller PRs help break down problems and allow correctiion in case there is a misdiretion in understanding of the implementation.
+Another benefit is that with the code changes being small you can focus on the quality of code rather than "yolo" merging because you saw good screenshots and testing implementation.
 
-Finally to add to this point. We aren't just writing code, we are contributing to business. Code the core to the business.
+Thanks to this way of going PRs, I've been thinking about how my code impacts the business rather than writing code for code's sake.
 
-Code that is well written is easier to add features to, fix bugs, as well as change - which helps the business perform better. This is where small PRs can help in a way. But small PRs also get us to focus on good quality software.
+How useful is this feature? Is the way I'm implementing this feature going to do well for the business? If I write the feature this way, will be easy to maintain, change, extends or even get rid of if we find it no longer being useful?
 
-This has also made me think about how to create a better product and become more product focused. I always think - how will my code impact the business in a positive (or even negative) way.
+And here we have the shift into becoming more product focused - which I think is big challenge that I'm trying to get better at - are we even building what the user wants?
 
 ## Programming is Art and it's a Craft
 
 I'm impressed with the Barista. Detail is required with making a coffee: the dosing, the grind size, the tamper of the plaque, and with every coffee - how do I make it better than the last?
 
-Or how about the Pilot? Every landing is better. Practice old skills because if you don't you lose them. Practice emergencies like a forced landing without power. What happens if I get stuck in bad weather?
+Or how about the Pilot? Every landing is better. Drill emergencies and practicing skills that had already been learnt because this requires constant upkeep - if you don't use it you lose it.
 
-Both examples of professions are constantly reflecting and trying to improve their respective craft.
+Both professions are constantly reflecting and trying to improve their respective craft.
 
-My entry into this career has been a blessing. In realising my luck, I've made the effort to treat programming like a craft like flying a plane or making a coffee.
+My entry into this career has been a blessing. In realising my luck, I've made the effort to treat programming more like a craft than a regular job. A craft that needs constant improvement, learning, and curiosity.
+
+Speaking of curiosity, please watch this talk by [Dr Werner Vogels about the _Renaissance Developer_ and staying curious](https://www.allthingsdistributed.com/2025/11/tech-predictions-for-2026-and-beyond).
+
+{{<youtube 3Y1G9najGiI>}}
 
 I've supplemented by top-down learning approach (one where I had no idea how the lower level implementation work such as memory management in C) with going deep.
 
 My attempts are to:
 
 - plough through the [wizard book](https://en.wikipedia.org/wiki/Structure_and_Interpretation_of_Computer_Programs)
-- [learn C++](https://github.com/shivan-s/learn-cpp)
+- [learn C++](https://github.com/shivan-s/learn-cpp).
 - try a new language a year for [Advent of Code](https://adventofcode.com/) - [this year I did Elixir](https://github.com/shivan-s/aoc/tree/main/2025)
-
-On top of this, I will also make the effort to remain grounded. Don't forget the basics - do your job and do it well in a timely matter and with minimum fuss.
+- maybe a framework too? I might give [Phoenix](https://www.phoenixframework.org/) a try?
+- make more content, be wrong and get corrected
 
 ## Conclusion
 
 I have improved in 2025. I have cool colleauges. I write small PRs, and I have adopted a mindset or treating programming like a craft to continually get better.
 
-I'm excited to see where 2026 takes me (us?)! Thanks for reading.
+Not only this, it's important to remain grounded. Don't forget the basics - do you job in a timely matter with minimum fuss, have some balance and take rest, be nice to everyone (or most people).
+
+I'm excited to see where 2026 takes us! Thanks for reading.

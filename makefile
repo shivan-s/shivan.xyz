@@ -8,7 +8,7 @@ new:
 
 .PHONY: preview
 preview:
-	hugo server -D
+	hugo server -D -noHTTPCache -D
 
 .PHONY: run
 run:

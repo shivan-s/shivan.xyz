@@ -1,7 +1,7 @@
 ---
 author: Shivan Sivakumaran
 title: Summing up 2025
-date: 2025-12-05
+date: 2025-12-27
 summary: Wrapping up the year that has been
 category: ["Programming", "Life"]
 tags: ["Gratitude"]

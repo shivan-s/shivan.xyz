@@ -18,7 +18,7 @@ In my [naive days](./posts/the-future-of-the-web), I associated the word _crypto
 
 I want to assure you that I a now on the wiser path and that I cringe at my former self.
 
-A recent work project involved a bit cryptography. It involved authenticating and authorising with API keys. Thanks to this project, I have become more acquanted with the [crypto](https://nodejs.org/api/crypto.html) module, which is a built-in in [NodeJS](https://nodejs.org/en).
+A recent work project involved a bit cryptography. It involved authenticating and authorising with API keys. Thanks to this project, I have become more acquainted with the [crypto](https://nodejs.org/api/crypto.html) module, which is a built-in [NodeJS](https://nodejs.org/en).
 
 I am excited to share with you what I have learned, which pales in comparison to what is out there.
 
@@ -35,15 +35,23 @@ When it comes to API, we need to ensure the consumers of the API are:
 
 We are able to do this using an API key, which both identifies who the consumer is as well as determine if they have the adequate privileges to perform a set task.
 
+Perhaps, we are better not sharing the method in which we implement this. Maybe, bad actors can figure our a flaw in our system. And that's the point.
+
+It appears counterintuitive to display our plans, but this is in accordance with [Kerckhoff's Principle](https://en.wikipedia.org/wiki/Kerckhoffs's_principle).
+
+> A cryptosystem should be secure even if the attacker ... knows all details about the system, with the exception of the secret key. In particular the system should be secure when the attacker knows the encryption and decryption algorithms.
+
+The above abstract is from [_Understanding Cryptopgrahy_](https://www.cryptography-textbook.com/).
+
 ## The Plan
 
 {{<figure src="/keys.png" alt="A flow chart going from secret to api secret route to token to api protected routes" caption="A brief look">}}
 
-How we will construct this is we have the consumer hold a long-lived API `secret` in a secure location. They use this `secret`, sending this via `POST` request to a special route `/api/auth`, and if this API is valid and true, we send a short-lived `token` in a form of a JWT, which is added to the header of subsequent API calls for validation. When the `token` expires, this process repeats.
+How we will construct this is we have the consumer hold a long-lived API `secret` in a secure location. The `secret` is sent via a `POST` request to a special route `/api/auth`. If the `secret` is valid and true, then we send a short-lived `token` in a form of a JWT. This `token` is added to the header of subsequent API calls for validation. When the `token` expires, this process repeats.
 
-Why not use the `secret`? We can, but we want to minimise it's use across the wire. We use the `token`, which is short-lived. Additionally, validating the `secret` is computationally expensive, so we can lean on the JWT in the token, which doesn't involve much computation (e.g we don't need to make queries to the database because we can hold user information in the JWT).
+Why not use the `secret`? We can, but we want to minimise it's use across the wire. We use the `token`, which is short-lived. Validating `secret`s is computationally expensive. On the other hand, the JWT / `token` is not as computationally expensive to decode. We can encode user details into the `token`. However, this only works if we believe the `token` cannot be tampered with (i.e. bad actors cannot create their own tokens) nor are the `token`s leaked to other parties.
 
-Since the `token` expires, if this is leaked, then we can reduce the blast radius by time.
+If the `token` is leaked, the blast radius is reduced by time, as the `token` will expire.
 
 I will use my beloved [SvelteKit](https://svelte.dev) to demonstrate this in action.
 
@@ -79,13 +87,13 @@ console.log(secret); // 2bdb0a7...
 
 In order to verify the `secret`, we will need to store it. But it's not advised to store sensitive data like this in plaintext. Anyone who has access to the database will have access to the `secret`. Instead, what we will do is store the `secret` in as a hash. This means the user will create a `secret`, be the only viewer of the `secret`, and can only view the `secret` once. On the flipside, we only store the hash of the `secret` for verification purposes.
 
-We store the `secret` like we would passwords, so we use password derivation. For simpilicity, we can reach for a library to do the hashing for us.
+We store the `secret` like we would passwords, so we use password derivation. For simplicity, we can reach for a library to do the hashing for us.
 
 And we don't do a straight hash. We use password derivation to add a salt to the key as well as slow hashing.
 
 We use [argon2](https://github.com/ranisalt/node-argon2) as this won a competition for [password hashing](https://cheatsheetseries.owasp.org/cheatsheets/Password_Storage_Cheat_Sheet.html). [It's also recommended to use above `scrypt` and `bcrypt`](https://cheatsheetseries.owasp.org/cheatsheets/Password_Storage_Cheat_Sheet.html).
 
-NOTE: for simiplicity, we are using `argon2`; you can also use `scrypt` since at the time of writing, `scrypt` can be used in node with no third-party libraries needed (this might also be the case for `argon2` in the future).
+NOTE: for simplicity, we are using `argon2`; you can also use `scrypt` since at the time of writing, `scrypt` can be used in node with no third-party libraries needed (this might also be the case for `argon2` in the future).
 
 ```ts
 // ... `secret` generation

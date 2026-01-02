@@ -1,7 +1,7 @@
 ---
 author: Shivan Sivakumaran
 title: API Keys & Crypto
-date: 2025-11-22
+date: 2026-01-02
 summary: Playing around with cryptography
 category: ["Programming"]
 tags: ["cryptographic", "api", "auth"]
@@ -14,21 +14,28 @@ cover:
   hidden: false
 ---
 
-In my [naive days](./posts/the-future-of-the-web), I associated the word _crypto_ to mean anything cryptocurrency related and blockchain.
+Some links:
+- [The code can be found here](https://github.com/shivan-s/keys).
 
-I want to assure you that I a now on the wiser path and that I cringe at my former self.
+Here is a video summary.
 
-A recent work project involved a bit cryptography. It involved authenticating and authorising with API keys. Thanks to this project, I have become more acquainted with the [crypto](https://nodejs.org/api/crypto.html) module, which is a built-in [NodeJS](https://nodejs.org/en).
+{{<youtube 2gYTxaHh2x0p>}}
 
-I am excited to share with you what I have learned, which pales in comparison to what is out there.
+In my [naive days](./posts/the-future-of-the-web), I associated the word _crypto_ to mean anything cryptocurrency and/or blockchain related.
+
+I want to assure you that I am now the wiser (and that I cringe at my former self).
+
+A recent work project got be involved in authenticated and authorising [API endpoints](https://en.wikipedia.org/wiki/API). Thanks to this, I have become more acquainted with proper [cryptography](https://en.wikipedia.org/wiki/Cryptography), as well as sparking a bit of fascination on the topic. I also learned about the [crypto](https://nodejs.org/api/crypto.html) module, which is a built-in [NodeJS](https://nodejs.org/en)
+
+I am excited to share with you what I have learned, which pales in comparison to what is out there...
 
 ## The Problem Space
 
-We know the internet in insecure by nature, yet it's the medium we communicate our most important documents and data.
+We know the internet is insecure by nature, yet it's the medium we communicate our most important documents and data.
 
-Cryptography has given us the ability to send data "over-the-wire" in a secure means.
+Cryptography has given us the ability to send data "over-the-wire" by secure means.
 
-When it comes to API, we need to ensure the consumers of the API are:
+When it comes to APIs, we need to ensure the consumers of these APIs are:
 
 1. Authenticated - we can identify who the consumers are
 2. Authorised - we know who they are and that they have the permissions to access a particular resource.
@@ -47,53 +54,53 @@ The above abstract is from [_Understanding Cryptopgrahy_](https://www.cryptograp
 
 {{<figure src="/keys.png" alt="A flow chart going from secret to api secret route to token to api protected routes" caption="A brief look">}}
 
-How we will construct this is we have the consumer hold a long-lived API `secret` in a secure location. The `secret` is sent via a `POST` request to a special route `/api/auth`. If the `secret` is valid and true, then we send a short-lived `token` in a form of a JWT. This `token` is added to the header of subsequent API calls for validation. When the `token` expires, this process repeats.
+How we will construct this is we have the consumer hold a long-lived API `secret` in a secure location. The `secret` is sent via a `POST` request to a special route `/api/auth`. If the `secret` is valid and true, then we send a short-lived `token` in a form of a JWT (more on this later). This `token` is added to the header of subsequent API calls for validation. When the `token` expires, this process repeats.
 
-Why not use the `secret`? We can, but we want to minimise it's use across the wire. We use the `token`, which is short-lived. Validating `secret`s is computationally expensive. On the other hand, the JWT / `token` is not as computationally expensive to decode. We can encode user details into the `token`. However, this only works if we believe the `token` cannot be tampered with (i.e. bad actors cannot create their own tokens) nor are the `token`s leaked to other parties.
+Why not use the `secret`? We can, but we want to minimise it's use across the wire. We use the `token`, which is short-lived. Validating `secret`s is computationally expensive. On the other hand, the JWT / `token` is not as computationally expensive to decode. We can encode user details into the `token`. However, this only works if we believe the `token` cannot be tampered with (i.e. bad actors cannot create their own tokens nor can they change the information within).
 
-If the `token` is leaked, the blast radius is reduced by time, as the `token` will expire.
-
-I will use my beloved [SvelteKit](https://svelte.dev) to demonstrate this in action.
+If the `token` is leaked, the blast radius is reduced by time, as the `token` will eventually expire.
 
 ## The Implementation
 
-### Aside
+### Preamble
 
-I will be using Node `v24.x.y`.
+I will be using Node `v24.x.y` and my beloved [SvelteKit](https://svelte.dev) to demonstrate this in action.
 
 ### Generating the `secret`
 
-The most important thing with a secret is that is cannot be replicated easily. That means the generation of the key must be random - in the sense, that the randomness does not come down to a pattern.
+The most important thing with a secret is that is cannot be replicated easily. That means the generation of the key must be random - in the sense, that what ever we retrieve cannot be easily reproduced by a pattern.
 
 NodeJS's `crypto` can help us with this.
 
 ```ts
 import crypto from "node:crypto";
 
-// We have choosen a length of 256 to ensure it's hard to generate by change
+// We have choosen a length of 256 to ensure it's hard to generate due to chance
 const LENGTH = 256;
 
-// We use hmac, the other option is aes - hmac is more appropriate for secrets (source?)
+// We use hmac, the other option is aes - hmac is more appropriate for secrets (source - trust my internet research...)
 const secret = crypto
   .generateKeySync("hmac", { length: LENGTH })
   .export()
   // We encode to `'base64url'` as it's friendlier to send over the wire `'hex'` is another alternative
-  .toString("hex");
+  .toString("base64url");
 
 console.log(secret); // 2bdb0a7...
 ```
 
 ### Storing the `secret`
 
-In order to verify the `secret`, we will need to store it. But it's not advised to store sensitive data like this in plaintext. Anyone who has access to the database will have access to the `secret`. Instead, what we will do is store the `secret` in as a hash. This means the user will create a `secret`, be the only viewer of the `secret`, and can only view the `secret` once. On the flipside, we only store the hash of the `secret` for verification purposes.
+In order to verify the `secret`, we will need to store it. It's probably not a good idea to store this in plaintext, since anyone with the database can steal and use these `secret`s as if they were the user in question.
 
-We store the `secret` like we would passwords, so we use password derivation. For simplicity, we can reach for a library to do the hashing for us.
+Instead, what we will do is store the `secret` like we do passwords.
 
-And we don't do a straight hash. We use password derivation to add a salt to the key as well as slow hashing.
+This means the user will create a `secret`, be the only viewer of this `secret`, and can only view this `secret` once.
+
+For simplicity, we reach for a library to perform the password derivation for our secret. We don't simply hash the secret, but we add a salt as well as adding computation to prevent brute force attacks.
 
 We use [argon2](https://github.com/ranisalt/node-argon2) as this won a competition for [password hashing](https://cheatsheetseries.owasp.org/cheatsheets/Password_Storage_Cheat_Sheet.html). [It's also recommended to use above `scrypt` and `bcrypt`](https://cheatsheetseries.owasp.org/cheatsheets/Password_Storage_Cheat_Sheet.html).
 
-NOTE: for simplicity, we are using `argon2`; you can also use `scrypt` since at the time of writing, `scrypt` can be used in node with no third-party libraries needed (this might also be the case for `argon2` in the future).
+NOTE: we are using `argon2`; you can also use `scrypt` since at the time of writing, `scrypt` can be used in node with no third-party libraries needed (this might also be the case for `argon2` in the future).
 
 ```ts
 // ... `secret` generation
@@ -108,23 +115,22 @@ console.log(key); // MDlmMTQyOWQtOTMwNy00ZjE1LWFiMWYtODYwMDczODRhNDlkLnRVX3JjUWp
 console.log(hash); // $argon2id$v=19$m=65536,t=3,p=4$IB61PbwS707PTz8venNN5Q$LqkpF9WshMJcnDnd6M1BZI0mJ0+LFtzQQ6gQIURIdVo
 ```
 
-As you can see above, the client or user will store the `key` in a secure location, while we store the hash. You can see how the hash is prepended with settings for `argon2` parameters - these are recommended settings to ensure hash are hard to crack but won't bring down an entire server! If we were to change the parameter, existing keys can still be used without needing to be reset.
+As you can see above, the client or user will store the `key` in a secure location, while we store the hash. You can see how the hash is prepended with settings for `argon2` parameters. These parameters are the recommended settings to ensure the hashes are hard to crack, but at the same time, it won't bring down the entire server! If we were to change the parameters, existing keys can still be used without needing to be reset.
 
 ### Verifying The Secret
 
 We have an endpoint that is used to verify the secret. We don't have the `secret` stored in plaintext so we will need to use the secret provided to determine if what the user is sending is valid.
 
-Imagine we have an endpoint of which the user will provide their `secret`.
+We create an endpoint for the user to provide their `secret`.
 
-The rough jist of this would be that we:
+This is how it works:
 
 1. Validate the input to make sure we can get the `id-key` pairing
-2. We search the DB using the extractd `id`
-3. If we find the `id`, we collect the `hash` and perform our verfication
+2. We search the database using the extracted `id`
+3. If we find the `id`, we collect the `hash` and perform our verification
 4. At any point, if there is a failure (e.g. invalid `id-key` pair, `id` does not exist, or `hash` is invalid, we need to error gracefully).
 
 ```ts
-// In this example we are using SvelteKit
 // +server.ts
 import { error, json } from "@sveltejs/kit";
 import type { RequestHandler } from "./$types";
@@ -170,7 +176,7 @@ export const POST: RequestHandler = async ({ request }) => {
 
 The `secret` is long-lived and computationally expensive, so not appropriate for use on every single request. We can compromise and use a short-lived `token`
 
-We are going to use [JWT (JSON Web Tokens)](https://www.jwt.io/introduction#what-is-json-web-token) for this.
+We are going to use [`JWT`s (JSON Web Tokens)](https://www.jwt.io/introduction#what-is-json-web-token) for this.
 
 ```ts
 // Other imports
@@ -208,7 +214,7 @@ Key feature of JWTs is that they are:
 
 Stateless means we can store user information. In the example, we have the name `Annie Parker`, which we can derive from this JWT. We trust this because JWTs are almost impossible to tamper with - you cannot simply change the name into someone else and impersonate them. If this happens, then the JWT is no longer valid.
 
-A downside of JWTs is that they can be a catastrophic if, by accident, they are leaked to bad actors. Due to the stateless their stateless nature, holders of the `token`s can easily impersonate users and its difficult to revoke access. We have to either wait until the `token` expires or we can add a protection via a database lookup using an `id` - checking of the `secret` is still valid.
+A downside of JWTs is that they can be a catastrophic if, by accident, they are leaked to bad actors. Due to their stateless nature, holders of the `token`s can easily impersonate users and its difficult to revoke access. We have to either wait until the `token` expires or we can add a protection via a database lookup using an `id` - checking of the `secret` is still valid.
 
 ### Verifying the Token
 
@@ -295,3 +301,9 @@ I use the `token` to access other routes. This route returns the `name` and `id`
     "name": "Josh Klein"
 }
 ```
+
+## Extra Resources
+
+At the time of writing I am delving into these materials:
+- [_The Code Book_](https://simonsingh.net/books/the-code-book/)
+- [_Understanding Cryptopgraphy_](https://www.cryptography-textbook.com/)

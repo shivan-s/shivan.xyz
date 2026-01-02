@@ -18,7 +18,15 @@ I am also on:
 - [Twitch](https://twitch.com/shivan__s)
 - [Instagram](https://instagram.com/shivan_s).
 
-## What am I focusing on?
+## What Is The Purpose Of This Blog?
+
+This blog is my digital garden.
+
+The primary goal of writing in this blog is that is acts as a good exercise to organise and reflect on my thoughts.
+
+As a side effect, the goal of writing on here is not to become well-known; it's to become known-well by whomever reading this.
+
+## What Am I Focusing On?
 
 1. Getting good at web development and programming
 
@@ -30,7 +38,7 @@ I am also on:
 
 3. Maintaining my body
 
-- 🥋 [Brazilian Jiu Jitsu](https://en.wikipedia.org/wiki/Brazilian_jiu-jitsu)
+- 🥋 [Brazilian Jiu-Jitsu](https://en.wikipedia.org/wiki/Brazilian_jiu-jitsu)
 - 🕺 [Latin Dance](https://en.wikipedia.org/wiki/Latin_dance)
 - 🏋️ [Weightlifting](https://en.wikipedia.org/wiki/Olympic_weightlifting)
 
@@ -49,7 +57,7 @@ I am also on:
 - **2021**: Moved back to Palmerston North to focus on a career change away from optometry into software development.
 - **2023**: Started a new career as a web developer.
 
-## Places I want to Visit
+## Places I Want To Visit
 
 - [Check out this map!](https://map.shivan.xyz)
 

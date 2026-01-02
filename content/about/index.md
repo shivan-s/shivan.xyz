@@ -18,7 +18,7 @@ I am also on:
 - [Twitch](https://twitch.com/shivan__s)
 - [Instagram](https://instagram.com/shivan_s).
 
-## What Purpose Of This Blog?
+## What Is The Purpose Of This Blog?
 
 This blog is my digital garden.
 

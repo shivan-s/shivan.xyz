@@ -5,7 +5,7 @@ date: 2026-01-02
 summary: Playing around with cryptography
 category: ["Programming"]
 tags: ["cryptographic", "api", "auth"]
-draft: true
+draft: false
 cover:
   image: keys.png
   alt: A flow chart going from secret to api secret route to token to api protected routes
@@ -15,7 +15,7 @@ cover:
 ---
 
 Some links:
-- [The code can be found here](https://github.com/shivan-s/keys).
+- [Code](https://github.com/shivan-s/keys).
 
 Here is a video summary.
 

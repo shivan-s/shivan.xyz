@@ -4,19 +4,22 @@ date: 2027-01-05
 summary: Time to turn a new leaf and read more substance
 draft: false
 cover:
-  image: odyssey.jpg
-  alt: Book reading the title "The Odyssey", underneath says "Homer", then "translated by Emily Wilson".
-  caption: A Classic!
+  image: classics.jpg
+  alt: Two books on the right is "The Illiad" and the left is "The Odyssey", both also contains text "Homer" and "translated by Emily Wilson".
+  caption: The Classics
 ---
 
-I state my problems with reading like so:
+I'm happy to say I recently finished The _[Odyssey](https://en.wikipedia.org/wiki/Odyssey)_. This marks a shift from what I normally read, my new intention, as stated in the title, to read more classics.
 
-1. Reading is exercise. Like going to the gym, I feel happy went; I feel bad if I didn't. I'd rather be grativated towards reading, as simple as turning on the television.
+Before I continue, I want to state my problems with reading:
+
+1. Reading is exercise. Like going to the gym, I feel happy went; I feel bad if I didn't. However, I'd rather be grativated towards reading, as simple as turning on the television.
 2. I don't know what to read. Most of what I read is algorithmically recommended non-fiction. I would rather like to read more meaningful fiction that makes you think and works your mind to think orginally.
 
-Reading is like eating your. You know it's good for you but it involves a but of activation energy to partake. School probably didn't help. It made reading an academic exercise.
+As I write this now, I envy the bookworms who seem to comprehend and devour books like candy, even the most verbose and hard-to-read texts out there. While for me it's eating vegetables, _why can't that be me_?
 
-As I write this now, I envy the bookworms who seem to comprehend and devour books, even the most verbose and hard-to-read texts out there. _Why can't that be me_?
+I envy the bookworms who are stable minds and read things that don't make them go crazy. Again, _why can's that be me?_
+I did read in school. Obviously, on top of the books prescribed by our teachers.
 
 I didn't read the _Harry Potter_ series until my mid-twenties (I got stuck on _Order of the Pheonix_...). Years into my work life, I rarely picked up any books. One that came to mind was [Yeonmi Park's _In Order To Live_](https://en.wikipedia.org/wiki/Yeonmi_Park). The drought of books ended when I discovered the world self-help.
 

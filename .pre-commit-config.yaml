@@ -15,7 +15,7 @@ repos:
       - id: check-yaml
       - id: check-json
     repo: https://github.com/pre-commit/pre-commit-hooks
-    rev: v5.0.0
+    rev: v6.0.0
   - hooks:
       - id: optimize-png
       - id: optimize-jpg
@@ -24,4 +24,4 @@ repos:
       #   args: [--threshold=2]
       - id: optimize-svg
     repo: https://github.com/boidolr/pre-commit-images
-    rev: v1.8.2
+    rev: v1.10.0

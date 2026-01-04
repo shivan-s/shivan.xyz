@@ -16,7 +16,7 @@ cover:
 
 This might come across as preachy. I may have [touched on this briefly](/posts/animations), but it's worth mentioning again.
 
-I used to think _progressive enhancement_ meant no JavaScript. So, I took that to heart. I tried to build features that would work without JavaScript.
+I used to think _progressive enhancement_ meant no JavaScript. So, I took that to heart. I tried to build features that would work without the need of it.
 
 Quickly, you start to reach your limits in what you can build. The pressure mounts because you have expectations to uphold - to your teammates, your stakeholders, and users (most of whom have JavaScript turned _on_ in their browsers).
 

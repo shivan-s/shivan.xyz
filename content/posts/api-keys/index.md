@@ -14,13 +14,6 @@ cover:
   hidden: false
 ---
 
-Some links:
-- [Code](https://github.com/shivan-s/keys).
-
-Here is a video summary.
-
-{{<youtube 2gYTxaHh2x0p>}}
-
 In my [naive days](./posts/the-future-of-the-web), I associated the word _crypto_ to mean anything cryptocurrency and/or blockchain related.
 
 I want to assure you that I am now the wiser (and that I cringe at my former self).
@@ -28,6 +21,11 @@ I want to assure you that I am now the wiser (and that I cringe at my former sel
 A recent work project got be involved in authenticated and authorising [API endpoints](https://en.wikipedia.org/wiki/API). Thanks to this, I have become more acquainted with proper [cryptography](https://en.wikipedia.org/wiki/Cryptography), as well as sparking a bit of fascination on the topic. I also learned about the [crypto](https://nodejs.org/api/crypto.html) module, which is a built-in [NodeJS](https://nodejs.org/en)
 
 I am excited to share with you what I have learned, which pales in comparison to what is out there...
+
+Important Links:
+- [Code](https://github.com/shivan-s/keys).
+
+{{<youtube 2gYTxaHh2x0>}}
 
 ## The Problem Space
 

@@ -20,6 +20,8 @@ I used to think _progressive enhancement_ meant no JavaScript. So, I took that t
 
 Quickly, you start to reach your limits in what you can build. The pressure mounts because you have expectations to uphold - to your teammates, your stakeholders, and users (most of whom have JavaScript turned _on_ in their browsers).
 
+{{ <youtube uijDRRqM5Z8> }}
+
 Important links:
 - [Code](https://github.com/shivan-s/progressive-enhancement)
 - [Presentation](https://progressive.shivan.xyz/slides)

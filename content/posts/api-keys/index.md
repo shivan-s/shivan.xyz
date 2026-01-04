@@ -19,7 +19,7 @@ Some links:
 
 Here is a video summary.
 
-{{<youtube 2gYTxaHh2x0p>}}
+{{< youtube 2gYTxaHh2x0 >}}
 
 In my [naive days](./posts/the-future-of-the-web), I associated the word _crypto_ to mean anything cryptocurrency and/or blockchain related.
 

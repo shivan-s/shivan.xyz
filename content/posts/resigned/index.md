@@ -1,17 +1,12 @@
 ---
-author: Shivan Sivakumaran
 title: I Resigned...
 date: 2024-03-10
 summary: Not from my job, but it's a good idea to prune what you do if what you do isn't fun anymore
-categories: ["life"]
-tags: ["life", "resigned"]
 draft: false
 cover:
   image: weightlifting.jpg
   alt: Man carring weight overhead
   caption: Former VP of weightlifting club
-  relative: false
-  hidden: false
 ---
 
 My biggest news of recent weeks is my resignation from my position as Vice President of my weightlifting club of which I am a member (not my job if that’s what you clicked on — sorry!). In some previous newsletters, I briefly mentioned my trepidation towards my appointment in this role.

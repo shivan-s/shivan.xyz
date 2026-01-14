@@ -1,18 +1,20 @@
 ---
-author: Shivan Sivakumaran
 title: Zero to Hundred in Python
 date: 2021-10-26
 summary: I've been embarking on the journey of learning Python. Here is a quick-start
-categories: ["Programming"]
-tags: ["python", "programming", "learning"]
 draft: false
 cover:
   image: f.png
   alt: Graph showing factorial growth
   caption: Zero to Hundren in Python feels like factorial growth
-  relative: true
-  hidden: true
 ---
+
+<script>
+    import YouTube from "YouTube"
+    import Figure from "Figure"
+    import F from "./f.png"
+    import FBetter from "./f_better.png"
+</script>
 
 [Python](https://www.python.org) is a general-purpose programming language, excellent if you want to begin learning how to program or build a company to take over the world.
 
@@ -24,13 +26,13 @@ Without wasting much time, this post provides a zero to hundred with Python... w
 
 Here is a video demonstration below:
 
-{{<youtube txAbHRz4orA>}}
+<YouTube id="txAbHRz4orA" />
 
 ## Printing and Variables
 
 Lesson number 1 (or 0...), printing to the console. We open up the Python interpreter:
 
-```bash
+```shell
 $ python
 
 # or
@@ -40,21 +42,21 @@ $ pipenv run ipython
 
 Next, we write our notorious first line of code.
 
-```python
+```py
 print("Hello World")
 >>> Hello World
 ```
 
 Next, we learn about commenting code.
 
-```python
+```py
 # this is a comment and will not be
 # evaluated like code
 ```
 
 **Variables** store values, or they point to places in memory in which these values are stored.
 
-```python
+```py
 number = 10
 string = "This is a string"
 
@@ -66,14 +68,14 @@ print(string)
 
 We can use `f-strings` to print our code within a string, using curly braces to enclose our variable names or Python code.
 
-```python
+```py
 print(f"number: {number}, and string: {string}")
 >>> "number: 10, and string: This is a string"
 ```
 
 Variables aren't all the same. They have types. For example, number is an `integer` and string is a collection of characters, called a `string`.
 
-```python
+```py
 print(f"{type(number} and {type(string)}")
 >>> "<class 'int'> and <class 'str'>"
 ```
@@ -82,7 +84,7 @@ print(f"{type(number} and {type(string)}")
 
 If we have code we have to write, again and again, it's good practice to not repeat ourselves. Instead of repeating ourselves, we put this code in a **function** and call this function. Let's create a function for the [Fibonacci sequence](https://en.wikipedia.org/wiki/Fibonacci_number), where we pass a number, `n` and this will give the `nth` sequence.
 
-```python
+```py
 # the fibonacci sequence
 # 0, 1, 1, 2, 3, 5, 8...
 
@@ -122,7 +124,7 @@ We can do a lot with functions and variables. Let's have a look at different dat
 
 We set up a range.
 
-```python
+```py
 r = range(10)
 r
 >>> range(0, 10) # number from 0 up to and not including 10
@@ -130,7 +132,7 @@ r
 
 We create a list.
 
-```python
+```py
 lst = list(r)
 lst
 [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
@@ -138,7 +140,7 @@ lst
 
 If we want to access elements in the list, we do this:
 
-```python
+```py
 lst[0] # the first element of the list is "0th" index
 >>> 0
 lst[1:3] # the second and up to and not including the 3rd element
@@ -151,7 +153,7 @@ lst[::-1] # reverses the list
 
 Lists don't need to be integers, they can be functions.
 
-```python
+```py
 def f1(x: int) -> str:
     return f"f1: {x + 1}"
 
@@ -173,7 +175,7 @@ for func in funcs:
 
 This is a good way to introduce the notorious **for loop**. A list is an example of an iterator. We can use a for loop to iterate for a list for example.
 
-```python
+```py
 for i in lst:
     output = f(i)
     print(output, end=", ")
@@ -183,7 +185,7 @@ for i in lst:
 
 Instead of printing a list of numbers, we can return a list.
 
-```python
+```py
 output = []
 for i in lst:
     output.append(f(i))
@@ -194,7 +196,7 @@ output
 
 Instead of creating an empty list and utilising multiple lines, we can turn this into a 'one-liner'. We use the infamous **list comprehension**.
 
-```python
+```py
 output = [f(i) for i in lst]
 output
 >>>[0, 1, 1, 2, 3, 5, 8, 13, 21, 34]
@@ -208,7 +210,7 @@ Back to our Fibonacci function, you will notice the problem with recursions is t
 
 We can show this using IPython's magic function, `%timeit`.
 
-```python
+```py
 times = []
 for i in range(33): # we will do the first 32 numbers in sequence
     t = %timeit -n1 -o f(i)
@@ -219,7 +221,7 @@ The `-n<N>` tag means how many times a function will loop, in our case, only onc
 
 Now we will use `pandas` to tabulate our data.
 
-```python
+```py
 import pandas as pd
 
 df = pd.DataFrame(data=times, columns=["f"]
@@ -237,7 +239,7 @@ We have given `pandas` the alias `pd`. This saves us having to write "pandas" al
 
 By importing `pandas` we have access to the `DataFrame` class. We can plot this data and save it. We use another library, `matplotlib`, which is a graphing library to save our graph as an image.
 
-```python
+```py
 import matplotlib.pyplot as plt
 
 g = df.plot(title="Time on Fib")
@@ -246,13 +248,13 @@ g.set_ylabel("times (s)")
 plt.savefig("f.png")
 ```
 
-![Very expensive function](f.png)
+<Figure src={F} alt="Graph showing factorial growth" caption="A very expensice function" />
 
 We can see the exponential rise in the time the program takes as `n` rises.
 
 We can calculate the total time:
 
-```python
+```py
 df.sum()
 >>> f    3.693825 # total time
 >>> dtype: float64
@@ -262,7 +264,7 @@ df.sum()
 
 We will introduce **dictionaries**. Dictionaries have a key and a value pair.
 
-```python
+```py
 dct = {
     "key1": "value1",
     "key2": ["value2", "value3"],
@@ -273,21 +275,21 @@ dct = {
 
 And to get a value from a dictionary:
 
-```python
+```py
 dct["key4"]
 >>> (2000, 3000) # this is a tuple by the way
 ```
 
 If we refer to a key that doesn't exist (e.g. `dct["key5"]`, we get an error. Alternatively we can use the `get()` method, so our code doesn't error and get `None` returned instead.
 
-```python
+```py
 dct.get("key5") is None
 >>> True
 ```
 
 We can even apply a for loop to dictionaries.
 
-```python
+```py
 for k, v in dct.items():
     print(f"key: {k}, value: {v}")
 
@@ -299,7 +301,7 @@ for k, v in dct.items():
 
 Coming back to our Fibonacci function example, we can use dictionaries to store some previously calculated values instead of calculating then again and again. This is called caching and what we are doing is trading memory for less compute time.
 
-```python
+```py
 cache = {}
 
 def f_better(n: int) -> int:
@@ -329,7 +331,7 @@ Another addition is that the newly calculated value is stored in the cache.
 
 We can measure how long this new function runs.
 
-```python
+```py
 times = []
 for i in range(35):
     t = %timeit -n1 -o -q f_better(i)
@@ -353,20 +355,20 @@ f             f_better
 
 We can plot this.
 
-```python
+```py
 g = df.plot(title="Comparing")
 g.set_xlabel("n")
 g.set_ylabel("time (s)")
 plt.savefig("f_better.png")
 ```
 
-![We have done better](f_better.png)
+<Figure src={FBetter} alt="Graph" caption="We have done better!" />
 
 We can see that the time taken is dramatically less with this caching implementation.
 
 Finally, we can print this `cache`.
 
-```python
+```py
 cache
 >>> {
         3: 2,
@@ -398,7 +400,7 @@ cache
 
 In Python, everything are objects. To create our own objects, we create **classes**.
 
-```python
+```py
 class Car:
     """
     Class for cars that people drive
@@ -434,14 +436,14 @@ class Car:
 
 Let's test drive our new class.
 
-```python
+```py
 shivan = Car('Toyota', 'Corolla', '2008')
 bruno = Car('Tesla', 'Model3')
 ```
 
 We have two objects, `shivan` and `bruno` derived from the `Car` class.
 
-```python
+```py
 bruno
 >>> "Tesla - Model3"
 

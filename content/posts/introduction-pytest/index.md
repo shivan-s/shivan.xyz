@@ -1,18 +1,13 @@
 ---
-author: Shivan Sivakumaran
 title: A Quick Introduction to Pytest
 date: 2021-09-18
 summary: Testing your code is important. Here is a quick demo.
-categories: ["Programming"]
-tags: ["pytest", "testing", "python"]
 draft: false
-cover:
-  image:
-  alt:
-  caption:
-  relative: false
-  hidden: true
 ---
+
+<script>
+    import YouTube from "YouTube"
+</script>
 
 [Pytest is a python package](https://docs.pytest.org) where we write automated tests for our coded project. The reason we write tests for our code is to ensure the code runs the way we want. Writing automated tests can also make the process of testing our code easier, faster and more consistent.
 
@@ -26,13 +21,13 @@ Most modern packages come with automated testing code, so it is a great way to m
 
 Here is a video I also made as quick demonstration:
 
-{{<youtube FNCVFNDVCCI>}}
+<YouTube id="FNCVFNDVCCI" />
 
 ## Installation
 
 Let's create a directory and environment:
 
-```bash
+```shell
 # setting up directory
 mkdir intro_pytesting
 cd mkdir intro_pytesting
@@ -55,7 +50,7 @@ touch tests/__init__.py # tells python tests is a module
 
 We should have something looking like this:
 
-```bash
+```shell
 intro_pytesting/
   ├── function.py
   ├── Pipfile
@@ -73,7 +68,7 @@ On the other hand, `test_function.py` will contain the code used to test the fea
 
 Let's construct our interesting function. This function will be a be a class that performs mathematics functions
 
-```python
+```py
 class Maths:
     """
     Takes input and does maths
@@ -98,7 +93,7 @@ n is 12 # output thanks to the __repr__ method
 
 We can use pytest to ensure this class works. In `tests/test_function.p`:
 
-```python
+```py
 import pytest
 
 from function import Maths
@@ -130,7 +125,7 @@ Now let's give our function some, well... functionality. We will use test-driven
 
 We are doing to add two methods to the class. One the add numbers together and one to subtract numbers.
 
-```python
+```py
 import pytest
 
 from function import Maths
@@ -163,7 +158,7 @@ This will be a good time to introduce the `@pytest.fixtures` decorator. Decorato
 
 EDIT in 2023: Normally, fixtures are placed in a `conftest.py` file, but I didn't know about this at the time of this blog post.
 
-```python
+```py
 import pytest
 
 from function import Maths
@@ -195,7 +190,7 @@ We create a fixture `maths()`. We pass this function without calling it through 
 
 Let's write our code and then test if it works.
 
-```python
+```py
 class Maths:
     """
     Takes input and does maths
@@ -220,7 +215,7 @@ class Maths:
 
 We run `pytest` in the root of our project directory again:
 
-```bash
+```shell
 $ pipenv run pytest
 
 tests/test_function.py::test_exists PASSED    [ 33%]
@@ -230,9 +225,9 @@ tests/test_function.py::test_subtract FAILED
 
 We can see we get two out of three tests that passed.
 
-When looking at the code from `function.py`. We see our mistake. We add instead of subtracting in the `subtract()` method. If we amend this:</p>
+When looking at the code from `function.py`. We see our mistake. We add instead of subtracting in the `subtract()` method. If we amend this:
 
-```python
+```py
 class Maths:
     """
     Takes input and does maths

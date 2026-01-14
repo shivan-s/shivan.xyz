@@ -1,17 +1,19 @@
 ---
-author: Shivan Sivakumaran
 title: A New Look
 date: 2024-10-25
 summary: Creating my own private yet public museum
-tags: ["programming", "life", "blog", "content"]
 draft: false
 cover:
   image: cover.png
   alt: Two screenshots of a webpages
   caption: Change
-  relative: false
-  hidden: true
 ---
+
+<script>
+    import Figure from "Figure"
+    import Old from "./old.png"
+    import New from "./new.png"
+</script>
 
 After many years using [Aditya Telange's](https://adityatelange.in/) wildly successful [PaperMod theme](https://github.com/adityatelange/hugo-PaperMod) for the [Hugo static site generator](https://gohugo.io), it's time to spread my wings and make my own theme.
 
@@ -25,8 +27,7 @@ But it's probably acceptable in presentation to be pushed out to the world. Afte
 
 ## Why?
 
-The old look:
-![Old look of blog](./old.png)
+<Figure src={Old} alt="Screenshot of old look of the current webpage" caption="The Old Look" />
 
 Some might think the old look is better. And they're probably right. It's a great theme.
 
@@ -48,8 +49,7 @@ Blog cover images (equivalent to youtube thumbnails) have been removed. This pus
 
 The headings are in the brilliant [Optician Sans](https://optician-sans.com/) font created by [ANTI](https://anti.as/hamar) and [Fábio Duarte Martins](https://fonts.scannerlicker.net/) for those Optometry vibes. The rest of the fonts are from [GitHub's monaspace](https://monaspace.githubnext.com/), specifically Xenon for prose and Radon for code snippets.
 
-Here is the look so far:
-![New look of blog](./new.png)
+<Figure src={New} alt="Screenshot of new look of the current webpage" caption="The New Look" />
 
 Hopefully, this will encourage me to write. This blog will act my private yet public musuem. It won't get many readers, but for anyone who discovers it, hopefully to them, it's a gold mine. So, I've withheld on analytics and tracking.
 

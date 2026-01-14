@@ -1,20 +1,22 @@
 ---
-author: Shivan Sivakumaran
 title: Happiness
 date: 2022-09-14
 summary: Is happiness a choice?
-categories: ["Life"]
-tags: ["Life", "Happiness"]
 draft: false
 cover:
   image: dog.jpg
   alt: A dog with sand on nose
   caption: A photo that makes most happy
-  relative: false
-  hidden: false
 ---
 
-“Happiness is a choice”.
+<script>
+    import BlockQuote from "BlockQuote"
+</script>
+
+<BlockQuote>
+    Happiness is a choice
+    {#snippet cite()}Someone happy person{/snippet}
+</BlockQuote>
 
 Sadly for most, it isn't. But for my privileged life (and likely yours), it is.
 

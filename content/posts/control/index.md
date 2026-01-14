@@ -1,12 +1,8 @@
 ---
-author: Shivan Sivakumaran
 title: What can you control?
 date: 2022-04-17
 summary: Advice from a Meeting
-tags: ["life"]
 draft: false
-cover:
-  hidden: true
 ---
 
 I was having a meeting for poor performance.

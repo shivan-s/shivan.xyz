@@ -1,18 +1,13 @@
 ---
-author: Shivan Sivakumaran
 title: Simple Python
 date: 2023-07-04
 summary: Mistakes of beginner Python developer
-categories: ["programming"]
-tags: ["python", "setup"]
 draft: false
-cover:
-  image:
-  alt:
-  caption:
-  relative: false
-  hidden: true
 ---
+
+<script>
+    import YouTube from "YouTube"
+</script>
 
 Python is a fantastic programming language for any beginner. However, a small pitfall is setting up a project and it's dependencies, which will eventually happen as you improve and get better.
 
@@ -24,7 +19,7 @@ So, in this post, I want to provide a simple way of setting up Python for _exper
 
 Here is the [Github Project](https://github.com/shivan-s/python-setup) if you would like to have a look.
 
-{{<youtube QEELoOVpKZY>}}
+<YouTube id="QEELoOVpKZY" />
 
 ### Managing Python Version
 
@@ -104,7 +99,6 @@ pip install -r dev-requirements.txt
 ```
 
 We want to commit the `requirements.in`, `requirements.txt` and associated files because this allows others to replicate the environment we have created.
-
 
 ### Other tools to note
 

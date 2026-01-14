@@ -1,17 +1,8 @@
 ---
-author: Shivan Sivakumaran
 title: My Git Cheatsheet
 date: 2022-05-22
 summary: Git is an awesome tool. It's better with these commands.
-categories: ["Programming"]
-tags: ["git", "source code"]
 draft: false
-cover:
-  image: image.jpg
-  alt:
-  caption:
-  relative: true
-  hidden: true
 ---
 
 Git is a very powerful tool in developers toolkit.
@@ -36,7 +27,7 @@ git checkout -
 
 Change the branch name from master to main
 
-```python
+```py
 git branch -m master main
 ```
 

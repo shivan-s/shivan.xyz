@@ -1,16 +1,12 @@
 ---
-author: Shivan Sivakumaran
 title: Local Heroes
 date: 2023-07-16
 summary: Who we should look up to
-tags: ["life", "heroes", "influence"]
 draft: false
 cover:
   image: cover.jpg
   alt: Sunrise in a room with a dog in the foreground
   caption: Bruno enjoying sunrise
-  relative: false
-  hidden: false
 ---
 
 Do we idolise the wrong people?

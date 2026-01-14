@@ -1,18 +1,13 @@
 ---
-author: Shivan Sivakumaran
 title: Mutability in Javascript, Typescript & Rust
 date: 2023-07-15
 summary: Mutability is handled differently and interestingly in Javascript/Typescript compared to Rust
-categories: ["programming"]
-tags: ["rust", "mutability", "javascript", "typescript"]
 draft: false
-cover:
-  image:
-  alt:
-  caption:
-  relative: false
-  hidden: true
 ---
+
+<script>
+    import YouTube from "YouTube"
+</script>
 
 In Typescript/Javascript, the `const` keywords doesn't necessarily mean that the variable will be constant. In the case of arrays and objects, these can still be mutated.
 
@@ -20,7 +15,7 @@ This is opposed to Rust, where all variables declared are immutable by default a
 
 Here is the video covering the topic.
 
-{{<youtube OHAayFfXprQ>}}
+<YouTube id="OHAayFfXprQ" />
 
 ### What is mutability?
 
@@ -43,11 +38,11 @@ However, if a variable is assigned to an object type of array type, it can indee
 Take this example in typescript:
 
 ```ts
-const arr: string[] = ["Hello"];
+const arr: string[] = ['Hello'];
 
 function addArray(arr: string[]) {
-  arr.push("World");
-  return arr;
+	arr.push('World');
+	return arr;
 }
 
 const newArr = addArray(arr);
@@ -65,7 +60,7 @@ The array is not copied in this example but it is referred to, which is importan
 We can utilise typescript's `readonly` on declaration.
 
 ```ts
-const arr: readonly string[] = ["Hello"];
+const arr: readonly string[] = ['Hello'];
 ```
 
 This way we will get errors when we try and invoke the `addArray` function.
@@ -74,9 +69,9 @@ Finally, we can copy the array instead of aliasing it in the function using:
 
 ```ts
 function addArray(arr: string[]) {
-  const arrNew = [...arr];
-  arrNew.push("World");
-  return arrNew;
+	const arrNew = [...arr];
+	arrNew.push('World');
+	return arrNew;
 }
 ```
 

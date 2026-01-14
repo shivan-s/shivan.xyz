@@ -1,12 +1,8 @@
 ---
-author: Shivan Sivakumaran
 title: Being okay with who you are
 date: 2023-06-04
 summary: Should I?
-tags: ["life"]
 draft: false
-cover:
-  hidden: true
 ---
 
 _You should have stuck with optometry_.

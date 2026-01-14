@@ -1,17 +1,12 @@
 ---
-author: Shivan Sivakumaran
 title: Named Anchors
 date: 2023-07-20
 summary: A Javascript free way to scroll through a page.
-categories: ["programming"]
-tags: ["javascript", "html", "css", "scrolling"]
 draft: false
 cover:
   image: named-anchors.gif
   alt: Animation of the scrolling using named anchors
   caption: Named anchors in action
-  relative: false
-  hidden: false
 ---
 
 An alternative to using Javascript's `.scrollIntoView()` is to use named anchors to enable navigation within a page.
@@ -27,23 +22,23 @@ We can construct out a simple HTML file, `index.html`.
 ```html
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Example of Named Anchors</title>
-  </head>
-  <body>
-    <a href="#header-one">Move to header one</a>
-    <a href="#header-two">Move to header two</a>
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Example of Named Anchors</title>
+	</head>
+	<body>
+		<a href="#header-one">Move to header one</a>
+		<a href="#header-two">Move to header two</a>
 
-    <!--Some random stuff-->
+		<!--Some random stuff-->
 
-    <h2 id="header-one">Header One</h2>
+		<h2 id="header-one">Header One</h2>
 
-    <!--Some random stuff-->
+		<!--Some random stuff-->
 
-    <h2 id="header-two">Header One</h2>
-  </body>
+		<h2 id="header-two">Header One</h2>
+	</body>
 </html>
 ```
 
@@ -67,7 +62,7 @@ From there, we apply the CSS logic.
 
 ```css
 html {
-  scroll-behavior: smooth;
+	scroll-behavior: smooth;
 }
 ```
 

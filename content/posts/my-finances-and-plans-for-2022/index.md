@@ -1,17 +1,12 @@
 ---
-author: Shivan Sivakumaran
 title: My Finances and Plans for 2022
 date: 2022-01-01
 summary: Time to get transparent about my finances.
-categories: ["Life"]
-tags: ["finances", "YouTube", "dreams", "aspirations"]
 draft: false
 cover:
-    image: mask.jpg
-    alt: A surgical mask hanging on a rear view mirror
-    caption: A common ornament for the last 2 years
-    relative: true
-    hidden: false
+  image: mask.jpg
+  alt: A surgical mask hanging on a rear view mirror
+  caption: A common ornament for the last 2 years
 ---
 
 Time to be transparent. I realise my reality is another person's dream. And my dreams is another's reality. I want to talk about my finances leading up to this short career sabbatical and the plans going forward.

@@ -1,12 +1,8 @@
 ---
-author: Shivan Sivakumaran
 title: Become a Good Defender
 date: 2024-11-05
 summary: Story of an unsung hero
-tags: ["programming", "defender", "security"]
 draft: false
-cover:
-  hidden: true
 ---
 
 Recently, I discovered a security vulnerability. What it was isn't important but what is important is that it existed, undiscovered, for almost 2 years 🤯!

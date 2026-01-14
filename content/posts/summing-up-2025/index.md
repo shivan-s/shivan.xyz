@@ -1,18 +1,13 @@
 ---
-author: Shivan Sivakumaran
 title: Summing up 2025
 date: 2025-12-27
 summary: Wrapping up the year that has been
-category: ["Programming", "Life"]
-tags: ["Gratitude"]
 draft: false
-cover:
-  image: image.jpg
-  alt: alt text
-  caption: caption
-  relative: false
-  hidden: true
 ---
+
+<script>
+    import YouTube from "YouTube"
+</script>
 
 There is still lots left on the table that I wish I had accomplished this year:
 
@@ -79,7 +74,7 @@ My entry into this career has been a blessing. In realising my luck, I've made t
 
 Speaking of curiosity, please watch this talk by [Dr Werner Vogels about the _Renaissance Developer_ and staying curious](https://www.allthingsdistributed.com/2025/11/tech-predictions-for-2026-and-beyond).
 
-{{<youtube 3Y1G9najGiI>}}
+<YouTube id="3Y1G9najGiI" />
 
 I've supplemented by top-down learning approach (one where I had no idea how the lower level implementation work such as memory management in C) with going deep.
 

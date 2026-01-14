@@ -1,21 +1,17 @@
 ---
-author: Shivan Sivakumaran
 title: Optometrist then, Web Developer now
 date: 2023-02-26
 summary: Finally, change in career
-tags: ["life", "programming", "career"]
 draft: false
 cover:
   image: cover.jpg
   alt: A sheet of paper with a timeline
   caption: A Brief Timeline
-  hidden: false
 audio:
   src: audio.mp3
-  hidden: false
 ---
 
-Youngerself would view this with jealousy.
+Younger-self would view this with jealousy.
 
 My advice to my youngerself: patience and keep working hard. Good things will happen if you just keep going. _I promise you this_.
 

@@ -1,16 +1,31 @@
-# Generated files by hugo
-/public/
-/resources/
-/assets/jsconfig.json
-hugo_stats.json
+test-results
+node_modules
 
-# Executable may be added to repository
-hugo.exe
-hugo.darwin
-hugo.linux
+# Output
+.output
+.vercel
+.netlify
+.wrangler
+/.svelte-kit
+/build
 
-# Temporary lock file while building
-/.hugo_build.lock
-
-# MacOS
+# OS
 .DS_Store
+Thumbs.db
+
+# Env
+.env
+.env.*
+!.env.example
+!.env.test
+
+# Vite
+vite.config.js.timestamp-*
+vite.config.ts.timestamp-*
+
+# Paraglide
+src/lib/paraglide
+project.inlang/cache/
+
+*storybook.log
+storybook-static

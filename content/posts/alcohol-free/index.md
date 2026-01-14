@@ -1,18 +1,17 @@
 ---
-author: Shivan Sivakumaran
 title: Having More Fun Without Alcohol
 date: 2024-08-25
 summary: My way of saying I am done with getting drunk
-categories: ["life"]
-tags: ["alcohol free", "health", "social"]
 draft: false
 cover:
   image: alcohol-free.png
   alt: Cancel symbol over bottles of alcohol
   caption: No more alcohol
-  relative: true
-  hidden: false
 ---
+
+<script>
+    import YouTube from "YouTube"
+</script>
 
 I am inspired by one of my cousins.
 
@@ -64,4 +63,4 @@ I’ve gone to social gathers completely sober and I’ve even worked up the cou
 
 On a final note, I want to share my appreciation for my cousin who showed me that you can quit alcohol and survive. But I also I want to share this podcast by Sam Parr from My First Million, which made me want to share this idea with you all.
 
-{{<youtube J690bEAe6p0>}}
+<YouTube id="J690bEAe6p0" />

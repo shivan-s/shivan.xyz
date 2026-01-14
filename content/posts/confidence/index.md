@@ -1,12 +1,8 @@
 ---
-author: Shivan Sivakumaran
 title: Confidence
 date: 2022-02-27
 summary: Confidence
-tags: ["life", "confidence"]
 draft: false
-cover:
-  hidden: true
 ---
 
 Nobody is born confident.

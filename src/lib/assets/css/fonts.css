@@ -1,0 +1,17 @@
+@font-face {
+	font-family: 'Optician Sans';
+	font-style: normal;
+	font-weight: 400;
+	src: url('/fonts/Optiker-K.woff') format('woff');
+}
+
+@font-face {
+	font-family: 'Monaspace Radon';
+	font-style: normal;
+	src: url('/fonts/MonaspaceRadon-Regular.woff') format('woff');
+}
+
+@font-face {
+	font-family: Domine;
+	src: url('/fonts/Domine-VariableFont_wght.woff') format('woff');
+}

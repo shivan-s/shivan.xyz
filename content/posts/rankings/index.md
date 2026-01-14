@@ -1,17 +1,12 @@
 ---
-author: Shivan Sivakumaran
 title: Rankings
 date: 2024-04-29
 summary: An example of user changing ranking of listed data
-categories: ["programming"]
-tags: ["ranking", "svelte", "arrays"]
 draft: false
 cover:
   image: ranking.gif
   alt: Screen video of rank changes
   caption: Changing ranks with animation
-  relative: false
-  hidden: false
 ---
 
 This is the issue I had at work: it involved allowing users to determine ranking of particular items of the list. Turns out alphabetical order won't cut it and they need their own way to prioritise these items.
@@ -28,46 +23,41 @@ Here is all the code.
 
 ```svelte
 <script>
-	import { flip } from "svelte/animate"
-	import { sineInOut } from "svelte/easing"
-	let list = ["Alan", "Bridget", "Charlie", "Diana", "Emma", "Fred"]
+	import { flip } from 'svelte/animate';
+	import { sineInOut } from 'svelte/easing';
+	let list = ['Alan', 'Bridget', 'Charlie', 'Diana', 'Emma', 'Fred'];
 
-	let selected = {}
+	let selected = {};
 
 	$: {
-			const [person, newRank] = Object.entries(selected).at(0) || []
-			if (person && newRank) {
-				const personIdx = list.indexOf(person)
-				list.splice(personIdx, 1)
-				list = [
-					...list.slice(0,newRank-1),
-					person,
-					...list.splice(newRank-1)
-				]
-			}
-			selected = {};
+		const [person, newRank] = Object.entries(selected).at(0) || [];
+		if (person && newRank) {
+			const personIdx = list.indexOf(person);
+			list.splice(personIdx, 1);
+			list = [...list.slice(0, newRank - 1), person, ...list.splice(newRank - 1)];
+		}
+		selected = {};
 	}
-
 </script>
 
 <h1>Rank Example</h1>
 
 <ol>
-{#each list as person, idx (person)}
-<li animate:flip={{easing: sineInOut }}>
-		<select bind:value={selected[person]}>
-		<option type="hidden" value={undefined}>Please select rank</option>
-		{#each Array.from(Array(list.length).keys()) as r}
-			{#if r != idx}
-				<option value={r+1}>{r+1}</option>
-			{/if}
-		{/each}
-	</select>
-		<div>
-	{person}
-	</div>
-</li>
-{/each}
+	{#each list as person, idx (person)}
+		<li animate:flip={{ easing: sineInOut }}>
+			<select bind:value={selected[person]}>
+				<option type="hidden" value={undefined}>Please select rank</option>
+				{#each Array.from(Array(list.length).keys()) as r}
+					{#if r != idx}
+						<option value={r + 1}>{r + 1}</option>
+					{/if}
+				{/each}
+			</select>
+			<div>
+				{person}
+			</div>
+		</li>
+	{/each}
 </ol>
 
 <style>
@@ -91,13 +81,13 @@ We can write some code to react to this change as shown below:
 
 ```js
 $: {
-  const [person, newRank] = Object.entries(selected).at(0) || [];
-  if (person && newRank) {
-    const personIdx = list.indexOf(person);
-    list.splice(personIdx, 1);
-    list = [...list.slice(0, newRank - 1), person, ...list.splice(newRank - 1)];
-  }
-  selected = {};
+	const [person, newRank] = Object.entries(selected).at(0) || [];
+	if (person && newRank) {
+		const personIdx = list.indexOf(person);
+		list.splice(personIdx, 1);
+		list = [...list.slice(0, newRank - 1), person, ...list.splice(newRank - 1)];
+	}
+	selected = {};
 }
 ```
 

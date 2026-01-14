@@ -1,6 +1,0 @@
-[submodule "themes/PaperMod"]
-	path = themes/PaperMod
-	url = https://github.com/adityatelange/hugo-PaperMod.git
-[submodule "themes/optom-code"]
-	path = themes/optom-code
-	url = https://github.com/shivan-s/hugo-optom-code.git

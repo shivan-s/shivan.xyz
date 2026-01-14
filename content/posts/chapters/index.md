@@ -1,23 +1,23 @@
 ---
-author: Shivan Sivakumaran
 title: Chapters
 date: 2022-11-23
 summary: Life is dynamic
-categories: ["life"]
-tags: ["life"]
 draft: false
 cover:
   image: tweet.png
   alt: tweet
   caption: I think things are forever
-  relative: false
-  hidden: false
 ---
+
+<script>
+    import BlockQuote from "BlockQuote"
+</script>
 
 I made the following tweet:
 
-> asking for a friend, if you work as an optometrist and then spend every other waking hour writing code, going to the gym, reading productivity books, how do you find time to find a life partner and start a family?
-> 10:41 AM - 28 Oct 2022
+<BlockQuote>
+    asking for a friend, if you work as an optometrist and then spend every other waking hour writing code, going to the gym, reading productivity books, how do you find time to find a life partner and start a family?
+</BlockQuote>
 
 I got a reply to this tweet that changed my perspective.
 

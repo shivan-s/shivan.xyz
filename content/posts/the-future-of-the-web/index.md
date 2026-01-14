@@ -1,20 +1,11 @@
 ---
-author: Shivan Sivakumaran
 title: The Future of the Web
 date: 2021-11-15
 summary: How the world may change and that might be Web3. Here are my thoughts.
-categories: ["Programming"]
-tags: ["web3", "democracy"]
 draft: false
-cover:
-  image:
-  alt:
-  caption:
-  relative: true
-  hidden: true
 ---
 
-With all the negatives happening in the world, there is one good: *democratisation*. But, what do I mean by that?
+With all the negatives happening in the world, there is one good: _democratisation_. But, what do I mean by that?
 
 The root word, democracy, originates from the Greek, δημοκρατία (dēmokratiā) — dēmos, meaning 'people' and Kratos, meaning 'rule'. In his Gettysburg Address, Abraham Lincoln provides an excellent definition: "of the people, by the people, for the people".
 
@@ -32,12 +23,12 @@ However, even with improved access, there is still a central source of "truth".
 
 "Web 2.0" introduces us to the creator economy. Platforms exist for anyone to create content, sell their products and educate others. These platforms include:
 
-* YouTube
-* Twitter
-* Facebook
-* LinkedIn
-* Etsy
-* Shopify
+- YouTube
+- Twitter
+- Facebook
+- LinkedIn
+- Etsy
+- Shopify
 
 The list goes on.
 

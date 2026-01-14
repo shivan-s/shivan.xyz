@@ -1,18 +1,14 @@
 ---
-author: Shivan Sivakumaran
 title: Don't Forget the Shades of Grey
 date: 2022-09-03
 summary: I need to remind myself that life is more nuanced.
-categories: ["life"]
-tags: ["life", "perfectionism"]
 draft: false
 cover:
   image: bw.jpg
   alt: Black and white photo of a man
   caption: Life is complex. Just don't forget it.
-  relative: false
-  hidden: false
 ---
+
 In computer programming, you have this notion of conditional statements. If a condition is met (or not met), then the machine will run a set of instructions. True or False. 1 or 0 (or maybe 2? haha). Black or white.
 
 It's nice to have this clear distinction. But is it applicable to real life?

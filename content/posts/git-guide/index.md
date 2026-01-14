@@ -1,18 +1,17 @@
 ---
-author: Shivan Sivakumaran
 title: Git Guide
 date: 2023-07-01
 summary: A simple introduction to git and Github
-categories: ["programming"]
-tags: ["git", "github"]
 draft: false
 cover:
   image: git.jpg
   alt: Man in front of logo for git and github
   caption: By example.
-  relative: false
-  hidden: false
 ---
+
+<script>
+    import YouTube from "YouTube"
+</script>
 
 The best way I think to getting better at programming is by sharing personal projects. GitHub is an excellent way to share source code and `git` is an excellent tool to make sharing code easier.
 
@@ -26,7 +25,7 @@ This is a place for code to live in order to be shared and worked on collaborati
 
 Remember, the key to getting better at any tools, like git, is to use it. I ope this will get you started on your journey.
 
-{{<youtube 9raYPDvhkt0 >}}
+<YouTube id="9raYPDvhkt0" />
 
 ### Requirements
 
@@ -38,7 +37,7 @@ A repository is where your code lives.
 
 Use the command to initial a git repository.
 
-```sh
+```shell
 git init
 ```
 
@@ -48,7 +47,7 @@ There will be instructions provided by `git` and on `GitHub` on how to add your 
 
 You can add changes to you code like do:
 
-```sh
+```shell
 git add .
 
 git commit -m '<your message>'
@@ -66,7 +65,7 @@ Assigning a issue to a particular feature or fix, and then a branch to this can 
 
 You can create a branch for this issue (using the Github user interface) or by:
 
-```sh
+```shell
 git checkout -b <name of branch>
 ```
 
@@ -74,9 +73,8 @@ This allows you to work on changes independent of other branches or the main cod
 
 You can easily move back to the main branch, granted you have committed code for that particular branch you were working on.
 
-```sh
+```shell
 git checkout main
-
 
 git checkout branch1
 ```
@@ -91,7 +89,7 @@ The habit I am getting into recently is committing any new features and refactor
 
 I can squash my commits before pushing these changes to the origin repository.
 
-```sh
+```shell
 $ git log --oneline
 
 7a5de0c (HEAD -> main) refactor
@@ -102,7 +100,7 @@ dn32sk2 wip: done for the day
 
 I can reset (softly) back to where the `origin/main` branch, and then commit the changes again.
 
-```sh
+```shell
 git reset --soft 4ff43
 git add .
 git commit -m 'feat: new feature'
@@ -118,7 +116,7 @@ This means you could be working on things that already have been changed leading
 
 Routinely, I try and fetch and merge the `origin/main` branch.
 
-```sh
+```shell
 # working on a branch
 git fetch
 git merge origin/main

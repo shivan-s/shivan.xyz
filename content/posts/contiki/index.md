@@ -1,17 +1,19 @@
 ---
-author: Shivan Sivakumaran
 title: My Contiki Story
 date: 2022-04-10
 summary: My story of embarrasement
-tags: ["life"]
 draft: false
 cover:
   image: cover.jpg
-  alt: "Snow falling in the foregroud"
+  alt: 'Snow falling in the foregroud'
   caption: Hakuba, Japan
-  relative: false
-  hidden: false
 ---
+
+<script>
+    import Figure from "Figure"
+    import Japan from "./japan.jpg"
+    import Dog from "./dog.jpg"
+</script>
 
 "Do you have condoms?" She whispered.
 
@@ -51,4 +53,5 @@ There is vulnerability in honesty. And vulnerability is the ultimate show of con
 
 Lie and impress others. Tell the truth and impress yourself. I hope this is what you take away.
 
-{{< figure src="/japan.jpg" alt="Corridor of people" caption="Japan was still amazing" >}} {{< figure src="/dog.jpg" alt="dog with sand on nose" caption="This dog makes me smile" >}}
+<Figure src={Japan} alt="Corridor of people" caption="Japan was still amazing"/>
+<Figure src={Dog} alt="dog with sand on nose" caption="This dog makes me smile"/>

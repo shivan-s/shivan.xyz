@@ -1,18 +1,17 @@
 ---
-author: Shivan Sivakumaran
 title: Become Confident with Database Migrations
 date: 2023-06-27
 summary: Playing around with PostgreSQL
-categories: ["programming"]
-tags: ["programming", "database", "postgresql", "sql", "db"]
 draft: false
 cover:
   image: database.jpg
   alt: Face of Shivan in front of letters, "DB"
   caption: A playground for database migrations
-  relative: false
-  hidden: false
 ---
+
+<script>
+    import YouTube from "YouTube"
+</script>
 
 Recently, I was put into a situation where I had to make some changes to a shared staging database. Fortunately, this database wasn't used in production by end users, but the idea that I could make changes that could potentially block a collegue's workflow was a looming fear.
 
@@ -40,7 +39,7 @@ These projects are used in this mini-project that I have created.
 
 Here is a [video showing](https://youtu.be/J6YMA63oVFk) a play around with this project.
 
-{{<youtube J6YMA63oVFk>}}
+<YouTube id="J6YMA63oVFk" />
 
 ### Conclusion
 

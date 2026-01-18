@@ -10,6 +10,7 @@
 	/* Padding */
 	--padding-normal: 1rem;
 	--padding: var(--padding-normal);
+	--padding-very-small: 0.125rem;
 	--padding-small: 0.5rem;
 	--padding-large: 2rem;
 

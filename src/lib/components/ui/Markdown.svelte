@@ -12,12 +12,12 @@
 	}
 
 	:global(p) {
-		margin-block: var(--margin-small);
+		padding-block: var(--padding-small);
 	}
 
 	:global(code) {
 		font-family: 'Monaspace Radon', monospace;
-		padding: 0.125rem;
+		padding: var(--padding-very-small);
 		border-radius: var(--border-radius);
 		backdrop-filter: invert(var(--invert));
 	}

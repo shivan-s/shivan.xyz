@@ -2,7 +2,7 @@
 	<h1><a href="https://shivan.xyz">My Blog</a></h1>
 </div>
 
-[![Publish](https://github.com/shivan-s/shivan.xyz/actions/workflows/publish.yml/badge.svg)](https://github.com/shivan-s/shivan.xyz/actions/workflows/publish.yml)
+[![Build](https://github.com/shivan-s/shivan.xyz/actions/workflows/build.yml/badge.svg)](https://github.com/shivan-s/shivan.xyz/actions/workflows/build.yml)
 
 This is source code for [my blog](https://shivan.xyz).
 

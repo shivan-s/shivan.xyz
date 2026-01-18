@@ -26,7 +26,7 @@
 	}
 
 	div {
-		backdrop-filter: invert(--invert);
+		backdrop-filter: invert(var(--invert));
 		border-end-end-radius: var(--border-radius);
 		border-inline-start: 2px solid var(--primary-color);
 		border-start-end-radius: var(--border-radius);

@@ -1,18 +1,18 @@
 ---
-author: Shivan Sivakumaran
 title: Optometric Intelligence
 date: 2021-11-12
 summary: An article on Artificial Intelligence and optometry
-categories: ["optometry"]
-tags: ["optometry", "ai", "artificial intelligence", "deep learning"]
 draft: false
 cover:
   image: ai.jpg
   alt: A neural network
   caption: A simple neural network
-  relative: true
-  hidden: false
 ---
+
+<script>
+    import Figure from "Figure"
+    import Ai from "./ai.jpg"
+</script>
 
 Artificial intelligence (AI) used to exist only in the imaginations of science fiction writers – the self-preserving HAL 9000 in 2001: A Space Odyssey, a conquering Skynet in The Terminator and an affectionate Samantha in Her. Now AI is here, recommending the next binge-worthy flick, answering voice requests about almost any topic, defeating chess Grandmasters… self-driving vehicles, computer-generated art and medical diagnoses1 will soon feel just as familiar.
 
@@ -26,8 +26,7 @@ Introducing deep learning could help dramatically with this pressing issue. Trad
 
 When looking at an image, an overwhelming number of subconscious processes take place in the human brain. Therefore, for a computer, the traditional, rules-based programming approach is not practical. Instead, machines are programmed to learn from data – machine learning. Deep learning, a subset of machine learning, is inspired by the brain’s architecture. Multiple layers of virtual neurons interconnect and interact, creating an artificial neural network (Fig 1).
 
-![A Neural Network](./ai.jpg)
-Fig 1. A simplified view of an artificial neural network
+<Figure src={Ai} alt="Connected circles with lines" caption="Fig 1. A simplified view of an artificial neural network" />
 
 A good neural network for processing images is the convolutional neural network (CNN). The CNN closely resembles the inner workings of Hubel and Wiesel’s biological visual cortex3. Retinal images are translated from pixels into a numbered array and fed into an input layer of the neural network, similar to the eye’s photoreceptors. The input layer connects to hidden intermediate layers of neurons, akin to the ganglion cell receptor fields. The earlier hidden layers respond to horizontal or vertical edges, like an edge of a haemorrhage or a blood vessel. The outputs of these then act as inputs for later hidden layers. These neurons respond specifically to a haemorrhage and not a blood vessel, while other neurons respond to a blood vessel and not a haemorrhage. The artificial neurons respond in this way because they intelligently learn from previously graded retinal images. The responses are combined to give an overall output: the DR grading.
 

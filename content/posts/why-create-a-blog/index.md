@@ -1,24 +1,28 @@
 ---
-author: Shivan Sivakumaran
 title: Why Create a Blog?
 date: 2020-02-04
 summary: My first post
-categories: ["Life"]
-tags: ["content creation"]
 draft: false
 cover:
   image: shivan.jpg
   alt: Man under light
   caption: Day one
-  relative: true
-  hidden: false
 ---
 
-> The best way to get started on the path to sharing your work is to think about what you want to learn, and make a commitment to learning it in front of others.
->
-> Don’t think of your website as a self-promotion machine, think of it as a self-invention machine.
->
-> _Show Your Work!_ by Austin Kleon
+<script>
+    import BlockQuote from "BlockQuote"
+</script>
+
+<BlockQuote>
+The best way to get started on the path to sharing your work is to think about what you want to learn, and make a commitment to learning it in front of others.
+
+Don’t think of your website as a self-promotion machine, think of it as a self-invention machine.
+
+{#snippet cite()}
+<em>Show Your Work!</em> by Austin Kleon
+{/snippet}
+
+</BlockQuote>
 
 Time to stop procrastinating, self-doubting and agonising of wanting to write a post and becoming afraid and avoidant. It is time to start drafting and writing about topics that come to mind.
 
@@ -26,11 +30,16 @@ Writing, in the form of a blog, is a creative outlet. An expression of one's min
 
 So here we are, my first post.
 
-> All big things come from small beginnings. The seed of every habit is a single, tiny decision. But as that decision is repeated, a habit sprouts and grows stronger. Roots entrench themselves and branches grow. The task of breaking a bad habit is like uprooting a powerful oak within us. And the task of building a good habit is like cultivating a delicate flower one day at a time.
->
-> Habits are the compound interest of self-improvement.
->
-> _Atomic Habits_ by James Clear
+<BlockQuote>
+All big things come from small beginnings. The seed of every habit is a single, tiny decision. But as that decision is repeated, a habit sprouts and grows stronger. Roots entrench themselves and branches grow. The task of breaking a bad habit is like uprooting a powerful oak within us. And the task of building a good habit is like cultivating a delicate flower one day at a time.
+
+Habits are the compound interest of self-improvement.
+
+{#snippet cite()}
+<em>Atomic Habits</em> by James Clear
+{/snippet}
+
+</BlockQuote>
 
 The most important thing is creating a habit. This is hardly anything new, but we get stuck in perfectionism. The idea that the blog post has to be perfect or knowing the perfect topic to write can halt your progress for weeks and months. Instead of sitting in front of a screen creating, I would do anything but create. The idea is to simply start and continue on a regular basis. It does not have to be perfect; it just has to be done.
 

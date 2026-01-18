@@ -1,18 +1,18 @@
 ---
-author: Shivan Sivakumaran
 title: Taking Risks
 date: 2022-11-13
 summary: I'm all talk, but do I walk to the walk?
-categories: ["Life"]
-tags: ["life", "risks"]
 draft: false
 cover:
   image: taking_risks.png
   alt: Graph showing a plateau
   caption: If you don't take risks, you don't grow
-  relative: true
-  hidden: false
 ---
+
+<script>
+    import Figure from "Figure"
+    import TakingRisks from "./taking_risks.png"
+</script>
 
 Weightlifting applies to life. Who would have thought?
 
@@ -46,7 +46,7 @@ How do we control this outcome?
 
 We play it safe. Well, I know I play it safe.
 
-![lift the same](./taking_risks.png)
+<Figure src={TakingRisks} alt="Graph showing a plateau" caption="Playing it safe" />
 
 I lift pretty much the same.
 
@@ -62,7 +62,7 @@ And for most of my life, I have been playing it relatively safe.
 
 Yes, I moved back to part-time work to focus on the crazy idea. All within the comfort of my parent’s home. Yes, I started to create content online. But still, feel comfortable. I’m not stretching myself.
 
-I don’t need to go off and climb Mt. Everest, but you can start that first step.
+I don’t need to go and climb Mt. Everest, but you can start that first step.
 
 For me, a stretch would be to change careers. So, I’ve started applying for jobs. Rejection hurts, but I’ll keep going.
 
@@ -74,7 +74,7 @@ And even if I do, I can strive for the next change again… and again if I have 
 
 Another thing is that knowing is only half the battle.
 
-“Analysis by paralysis”, all these cognitive concepts, even if we know about them, won’t solve the problem.
+_Analysis by paralysis_, all these cognitive concepts, even if we know about them, won’t solve the problem.
 
 Action will.
 

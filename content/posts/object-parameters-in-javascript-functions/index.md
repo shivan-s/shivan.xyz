@@ -1,20 +1,19 @@
 ---
-author: Shivan Sivakumaran
 title: Object Parameters in Javascript/Typescript Functions
 date: 2024-04-11
 summary: Using an object as a parameter for functions
-categories: ["programming"]
-tags: ["javascript", "typescript", "functions", "opinion", "code"]
 draft: false
 cover:
   image: params.png
   alt: Screenshot of code with a function with positional arguments vs keyword
   caption: I like passing objects through as parameters in functions
-  relative: false
-  hidden: false
 ---
 
-{{< youtube Fx1x2gyPidE >}}
+<script>
+    import YouTube from "YouTube"
+</script>
+
+<YouTube id="Fx1x2gyPidE" />
 
 In the realm of javascript and typescript, it's my opinion that as your function takes on more parameters, consider passing an object rather than separate positional arguments. How many parameters is a matter of taste but I would like to think anything above 3.
 
@@ -22,7 +21,7 @@ Let's use some code as an example. Here we have a simple function.
 
 ```ts
 function combineName(firstName: string, lastName: string): string {
-  return `${lastName.toUpperCase()}, ${firstName}`;
+	return `${lastName.toUpperCase()}, ${firstName}`;
 }
 ```
 
@@ -30,7 +29,7 @@ It takes two inputs for a person's first and last name and provides an output fo
 
 ```ts
 function combineName(firstName: string, lastName: string, age: number): string {
-  return `${lastName.toUpperCase()}, ${firstName} - ${age.toString()}`;
+	return `${lastName.toUpperCase()}, ${firstName} - ${age.toString()}`;
 }
 ```
 
@@ -45,12 +44,8 @@ combineName(...personDetails);
 Why not instead use an object as a parameter?
 
 ```ts
-function combineName(params: {
-  firstName: string;
-  lastName: string;
-  age: number;
-}): string {
-  return `${params.lastName.toUppercase()}, ${params.firstName} - ${params.age.toString()}`;
+function combineName(params: { firstName: string; lastName: string; age: number }): string {
+	return `${params.lastName.toUppercase()}, ${params.firstName} - ${params.age.toString()}`;
 }
 ```
 

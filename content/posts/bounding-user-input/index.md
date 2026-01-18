@@ -1,22 +1,17 @@
 ---
-author: Shivan Sivakumaran
 title: Bounding User Input in Python
 date: 2023-08-05
 summary: Here a nice trick to bound user input for numbers between 2 values.
-categories: ["programming"]
-tags: ["simple code"]
 draft: false
 cover:
   image: bound.gif
   alt: Text on screen
   caption: Bounding in one line.
-  relative: false
-  hidden: false
 ---
 
 Imagine you take on user input like so:
 
-```python
+```py
 """Bounding input."""
 
 n = input("Please enter some number: ")
@@ -61,17 +56,17 @@ Javascript/Typescript has an analogous syntax to this and I've used this a few t
 
 ```html
 <label>
-  Is it better with 1, 2 or 3:
-  <select name="num">
-    <option value="1">1</option>
-    <option value="2">2</option>
-    <option value="3">3</option>
-  </select>
+	Is it better with 1, 2 or 3:
+	<select name="num">
+		<option value="1">1</option>
+		<option value="2">2</option>
+		<option value="3">3</option>
+	</select>
 </label>
 ```
 
 ```javascript
-let num = parseInt("4"); // Bad actor!
+let num = parseInt('4'); // Bad actor!
 const UPPER = 3;
 const LOWER = 1;
 num = Math.max(Math.min(num, UPPER), LOWER);

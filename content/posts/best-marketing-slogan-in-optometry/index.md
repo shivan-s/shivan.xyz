@@ -1,18 +1,13 @@
 ---
-author: Shivan Sivakumaran
 title: Best Marketing Slogan in Optometry History
 date: 2023-04-18
 summary: summary
-categories: ["optometry"]
-tags: ["specsavers", "marketing", "advertising", "1984"]
 draft: true
-cover:
-  image: image.jpg
-  alt: alt text
-  caption: caption
-  relative: false
-  hidden: false
 ---
+
+<script>
+    import YouTube from "YouTube"
+</script>
 
 One of Apple Machitosh's most iconic advertisements, "Why 1984 won't be like _1984_" hinges on the Orwellian motif of surveilance and authoritarianism but promises disruption against the cultural normality of the time, which was technology only belonged to big old boring businesses.
 
@@ -58,7 +53,7 @@ Humour works well because it gets people to like you, trust you and differentiat
 
 Here is one of the advertisements:
 
-{{<youtube DV2qiOeUT9E>}}
+<YouTube id="DV2qiOeUT9E" />
 
 And it didn't stop there, using the same comical framework, sleuth of advertisements followed, furthering cementing the company in the mind of consumers. Correlating with that, was Specsavers's expansion and popularity.
 

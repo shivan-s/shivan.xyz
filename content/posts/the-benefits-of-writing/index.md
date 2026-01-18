@@ -1,25 +1,28 @@
 ---
-author: Shivan Sivakumaran
 title: The Benefits of Writing
 date: 2020-06-09
 summary: How to get started and how to keep going.
-categories: [""]
-tags: [""]
 draft: false
 cover:
-  image: SSB_3763.jpg
+  image: keyboard.jpg
   alt: Trying on a keyboard
   caption: Writing has changed my life just as much as it will others.
-  relative: true
-  hidden: false
 ---
+
+<script>
+    import YouTube from "YouTube"
+    import Figure from "Figure"
+    import Kanban from "./kanban.png"
+    import Writing from "./writing.jpg"
+</script>
+
 Writing is a useful skill. Effective communication requires good writing. This benefits the readers but also benefits the writer in the long term.
 
 To become better at writing can be challenging. Questions you might ask yourself are: why should I write? What can I write about? And how do I get unstuck when writing?
 
 In this post, I will run you through the importance of writing, making it a habit, and some tools to keep you writing consistently.
 
-{{<youtube pfkX1z0tma0>}}
+<YouTube id="pfkX1z0tma0" />
 
 ## Why Write?
 
@@ -37,7 +40,7 @@ Writing for a personal newsletter and blog is a useful platform to improve your 
 
 Freedom can work with you but also against you. Without a deadline, will you produce writing regularly? Similarly, I've heard "the diet starts next Monday".
 
-Create a self-imposed deadline. One newsletter or blog per week. Or one a fortnight. Or a month. Unlike missing an assignment in school, if you miss one day, the sun will still rise. The world will not end. It's okay. Life happens. Try and be consistent *most* of the time, not all the time.
+Create a self-imposed deadline. One newsletter or blog per week. Or one a fortnight. Or a month. Unlike missing an assignment in school, if you miss one day, the sun will still rise. The world will not end. It's okay. Life happens. Try and be consistent _most_ of the time, not all the time.
 
 The aim is to get something out there. It does not have to be perfect. By simply writing, over time you will improve and the benefits of writing will come, slowly.
 
@@ -49,7 +52,7 @@ After you have created the intention to write, a problem you may face is coming 
 
 ## Where ever you go, your Ideas will follow
 
-![Writing](SSB_3765.jpg)
+<Figure src={Writing} alt="A coffee, book with black handwriting and a pen on top" caption="Writing" />
 
 A notebook can be useful to capture ideas on the fly. Unfortunately, your ideas stay hidden when you sit down and think. They come usually at times you don't intend.
 
@@ -59,7 +62,7 @@ When an idea decides to reveal itself, don't trust your memory. An exciting idea
 
 This is why it is important to carry a notebook around with you most of the time. This allows you to capture any ideas when it is still fresh in your mind before it vanishes for almost ever.
 
-Be reasonable though, writing in your notebook when you shower will just lead to wet pages. I'm also not advocating writing while driving, either. Usually, you ideas will still be in your head by the time you are done with your unrelieved activity. If you don't think the idea will stick, then stop what you are doing *safely* and get it on paper.
+Be reasonable though, writing in your notebook when you shower will just lead to wet pages. I'm also not advocating writing while driving, either. Usually, you ideas will still be in your head by the time you are done with your unrelieved activity. If you don't think the idea will stick, then stop what you are doing _safely_ and get it on paper.
 
 ## Have Never-ending Ideas with the Kanban board
 
@@ -67,7 +70,7 @@ The Kanban board ensures you have an abundance of ideas to keep writing. Designe
 
 Only you're not manufacturing cars. You are writing instead. The Kanban board can facilitate turning your ideas into written pieces. Below is an example of how I use [Notion](http://notion.so) (note that I have no affiliation with this company) to manufacture blog posts from ideas.
 
-![Kanban Board on Notion](kanban-1024x661.png)
+<Figure src={Kanban} alt="Screenshot of a kanban board" caption="Kanban Board in Notion" />
 
 The Kanban board on the app, Notion. Here you can gain an insight into my writing process. Every blog post and every newsletter starts as an idea. All ideas that start life in my notebook get dumped into the aptly named 'Ideas' column.
 
@@ -95,9 +98,9 @@ What we need to do is get the creative mind working first. We do this by putting
 
 I got this [idea from Ali Abdaal, who supposedly got this from another party](http://email.aliabdaal.com/issues/the-acronym-that-changed-how-i-write-188247). Simply put, when you write you want:
 
-* Fast - Get you ideas down on paper or on screen quickly before you analytical mind has an opportunity to stop you.
-* Bad - It's going to be bad and that is okay. You can always make is less bad later on.
-* wRong - It's going to be wrong as well. Make it right once you have all your ideas out of your head and on paper.
+- Fast - Get you ideas down on paper or on screen quickly before you analytical mind has an opportunity to stop you.
+- Bad - It's going to be bad and that is okay. You can always make is less bad later on.
+- wRong - It's going to be wrong as well. Make it right once you have all your ideas out of your head and on paper.
 
 What can also help is to block out distractions. Dedicate time to writing and writing only. Aim for just to sit down for 5 min. There will be some resistance in the beginning. After a while and almost my magic, you won't be able to stop once the words start flowing.
 
@@ -109,9 +112,9 @@ You have written you draft, albeit horribly by your standard. Time to craft it i
 
 When critically looking at your work, look it from four points: simplicity, clarity, elegance and evocativeness. I borrow this from [Shaini Raja](https://www.linkedin.com/learning/writing-with-flair-how-to-become-an-exceptional-writer/welcome). Raja is an experience writer and I cannot do his writing course justice. However, we can use his framework to better our writing.
 
-* Simplicity: is my writing simple? Sometimes we complicated our ideas with complex sentences and jargon. This can make you writing difficult to read. Try and clear up any long sentences to make your writing simple and easy to read. And use words that your audience will easily understand.
-* Clarity: is my writing clear? Our ideas can be lost if what you writing is not clear. Make sure you ideas are obvious and make sense.
-* Elegance and evocativeness: to me these go together. Ask yourself: is my writing pleasant to read and does not bore the reader, but it is not over complicated either.
+- Simplicity: is my writing simple? Sometimes we complicated our ideas with complex sentences and jargon. This can make you writing difficult to read. Try and clear up any long sentences to make your writing simple and easy to read. And use words that your audience will easily understand.
+- Clarity: is my writing clear? Our ideas can be lost if what you writing is not clear. Make sure you ideas are obvious and make sense.
+- Elegance and evocativeness: to me these go together. Ask yourself: is my writing pleasant to read and does not bore the reader, but it is not over complicated either.
 
 Remember we are pushing for excellence and not perfection. Do the best you can. You will naturally get better the more you publish.
 

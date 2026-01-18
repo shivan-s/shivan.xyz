@@ -1,17 +1,19 @@
 ---
-author: Shivan Sivakumaran
 title: Appahappah/Grandfather
 date: 2023-11-06
 summary: Remembering a life
-tags: ["appahappah", "life", "death", "grandfather"]
 draft: false
 cover:
   image: remembering.webp
   alt: Elderly man in a newspaper
   caption: My Appahappah/Grandfather
-  relative: false
-  hidden: false
 ---
+
+<script>
+    import Figure from "Figure"
+    import Sailing from "./sailing.webp"
+    import Tribute from "./tribute.png"
+</script>
 
 On the 4th of November, my 97-year-old (paternal) grandfather passed away.
 
@@ -23,7 +25,7 @@ My fondest memory with my grandfather was our discussiong around the [Bhagavad G
 
 ## The Man Himself
 
-![Young man sailing](./sailing.webp)
+<Figure src={Sailing} alt="Young man sailing" caption="My Grandfather loved sailing"/>
 
 My Grandfather had an interesting past and present. He had worked as a teacher, then for the United Nations fisheries. If I had to describe my Grandfather, one thought that would come to mind is that he was blunt and didn’t show a lot of emotion, but he was full of love and affection which can in a very traditional male-esque way.
 
@@ -47,7 +49,7 @@ During both the wake and funeral, it was incredible to see the variety of people
 
 ## A Small Tribute
 
-![Website for my grandfather](./tribute.png)
+<Figure src={Tribute} alt="Website from my grandfather" caption="A small webpage for my grandfather" />
 
 A small webpage ([app](https://appahappah.shivan.xyz) / [code](https://github.com/shivan-s/appahappah)) for my grandfather.
 

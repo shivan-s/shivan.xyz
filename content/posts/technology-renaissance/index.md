@@ -1,18 +1,12 @@
 ---
-author: Shivan Sivakumaran
 title: Technology Renaissance
 date: 2024-11-24
 summary: Somethings need to improve
-categories: ["Technology Renaissance"]
-tags: ["technology", "life", "renaissance"]
 draft: false
 cover:
   image: cover.jpg
   alt: Gazebo in daylight with a dog inside a doghouse
   caption: Freedom
-  hidden: false
-audio:
-  hidden: true
 ---
 
 _DING_ - initial excitement. A slight rising of the heart beat. Novel information to a monotonous day. A notification from my phone.
@@ -115,7 +109,7 @@ I had been using [Gmail](https://en.wikipedia.org/wiki/Gmail) for years. But I n
 
 I switched to [Hey Email and Hey Calendar](https://www.hey.com/). I am big fan of the founders, who prioritise user experience as a core of their design over making lots of money.
 
-Next, I worked on improving [this website by creating my own template]({{< ref "posts/new-look">}}). This would encorage me to take writing on my own blog serious rather than other platforms. I shifted my focus away from analytics and open rates to making writing a labour of love and expression.
+Next, I worked on improving [this website by creating my own template](./new-look). This would encorage me to take writing on my own blog serious rather than other platforms. I shifted my focus away from analytics and open rates to making writing a labour of love and expression.
 
 This worked and made me want to write again - just for the fun of it. I'm not worried about posting cadence or writing catching titles. I just write what I want to express.
 

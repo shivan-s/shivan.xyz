@@ -1,13 +1,13 @@
 ---
-author: Shivan Sivakumaran
 title: Padman
 date: 2022-06-05
 summary: A Hero
-tags: ["life"]
 draft: false
-cover:
-  hidden: true
 ---
+
+<script>
+    import YouTube from "YouTube"
+</script>
 
 They call him _Pad man_.
 
@@ -51,7 +51,7 @@ He didn't have a yearning to fly to Mars or be the most customer-centric company
 
 He stayed true to this value, refusing riches. Instant success with money wasn't the motivating factor. It was to provide a positive contribution to society.
 
-{{<youtube zkQL7UJYDIY>}}
+<YouTube id="zkQL7UJYDIY" />
 
 Another point is that he gives a TED talk, where he mentions at the end, that he didn't need a fancy education to do what he did. He ends his talk by mentioning that there are three types of people. Those who have no education, those who are "little educated" and those who are highly educated. He ends by calling himself "little educated" and then proclaims what he was able to achieve, then points his fingers at those who are highly educated and asked what they can do.
 

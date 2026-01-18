@@ -1,23 +1,25 @@
 ---
-author: Shivan Sivakumaran
 title: Cannabis - An Unconventional Way To Treat Sight-threatening Glaucoma?
 date: 2021-04-17
 summary: summary
-categories: ["Optometry"]
-tags: ["Optometry", "Cannabis", "Glaucoma"]
 draft: false
 cover:
   image: green-eye.jpg
   alt: A Green eye
   caption: Cannabis as a treatment for glaucoma?
-  relative: false
-  hidden: false
 ---
+
+<script>
+    import YouTube from "YouTube"
+    import Figure from "Figure"
+    import Prescribers from "./australian-optometry-prescribers.jpg"
+</script>
+
 When you have colourful friends, an occupation like mine, combined with a late night dinner conversation, the question is inevitable: can **Cannabis** (**Taru rauhae**) be used as a form of treatment for **glaucoma** (**papahewa**)?
 
 Below is a video that summaries the topic:
 
-{{<youtube ftVZ-pO17d0>}}
+<YouTube id="ftVZ-pO17d0" />
 
 Cannabis is one of the most controversial plants in human history. It is cultivated, dealt, and consumed, sometimes illegally (Ashton, 2001). There is a strong debate for cannabis’s medical usage, as well as potential harm (Clark et al., 2011).
 
@@ -28,9 +30,9 @@ Thanks to my friends’ intrigue, I’ve been deeply researching this topic. Ans
 - how it works in the eye, and finally
 - is it effective to use Cannabis to treat glaucoma?
 
-*Disclaimer — this is for educational purposes only. If you have any eye issues please consult your local eye care professional.*
+_Disclaimer — this is for educational purposes only. If you have any eye issues please consult your local eye care professional._
 
-*As a note, I’ve written this for the public as well as eye care professionals. So there will be over-laboured points and potentially confusing ideas. I wrote this with everyone in mind. You might have noticed already, but in parenthesis, I’ve included some sources. In advance, I’d like to thank you for having to deal with this, and I hope you enjoy and become more educated/refreshed (please share this with friend and family if you did). Comment below if you have anything to add.*
+_As a note, I’ve written this for the public as well as eye care professionals. So there will be over-laboured points and potentially confusing ideas. I wrote this with everyone in mind. You might have noticed already, but in parenthesis, I’ve included some sources. In advance, I’d like to thank you for having to deal with this, and I hope you enjoy and become more educated/refreshed (please share this with friend and family if you did). Comment below if you have anything to add._
 
 ## Cannabis and it’s controversial history
 
@@ -100,7 +102,7 @@ This means an optometrist without an endorsement can not prescribe medicine, or 
 
 This is similar for optometrists in Australia. The Optometry Board of Australia conducts affairs for Australian optometrists. Board-approved optometrist must have a medicines endorsement to prescribe medication. This includes glaucoma. What is prescribed is limited to a list of medications (Optometry Board of Australia AHPRA, 2019). What differs is NZ optometrists have more flexibility in what can be prescribed, so as long as it is to treat the eye. This works well if drugs change or need to be substituted.
 
-![](./australian-optometry-prescribers.jpg)
+<Figure src={Prescribers} alt="List of medications" caption="List of Medications" />
 
 In the UK, the General Optical Council acts as the legal representation of opticians and optometrists. To prescribe medical drops in the UK, an optometrist will need to become an independent prescriber. This often involves extra training. A particular prescribing field is chosen within this training — such as glaucoma (General Optical Council, 2015).
 

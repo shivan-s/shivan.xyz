@@ -1,17 +1,12 @@
 ---
-author: Shivan Sivakumaran
 title: Why I don't watch sports, the news, movies, TV shows or play video games
 date: 2022-12-03
 summary: they are all distractions but I struggle to stay away from them; however, you also become more alienated from society when you try to abstain.
-categories: ["life"]
-tags: ["life, popular media", "binge", "social media", "attention", "focus"]
 draft: false
 cover:
   image: no-media.jpg
   alt: remote in foreground with television showing a white screen and red cross drawn on top
   caption: I try to avoid "public media" but it's hard
-  relative: false
-  hidden: false
 ---
 
 We have successfully _cured_ boredom.

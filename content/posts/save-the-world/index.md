@@ -1,12 +1,8 @@
 ---
-author: Shivan Sivakumaran
 title: Thinking You Can Save the World
 date: 2022-11-27
 summary: A single person is a universe
-tags: ["life", "messiah complex"]
 draft: false
-cover:
-  hidden: true
 ---
 
 From time to time, I have these grand delusional ambitions to help the world.

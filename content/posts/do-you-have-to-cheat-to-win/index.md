@@ -1,18 +1,18 @@
 ---
-author: Shivan Sivakumaran
 title: Do You Have to Cheat to Win?
 date: 2021-12-10
 summary: Can you become successful without stepping over others?
-categories: ["Entrepreneurship"]
-tags: ["business", "content creation", "ethics"]
 draft: false
 cover:
   image: cheat-to-win.jpg
   alt: 5 aces
   caption: Aces of spades played simultaneously
-  relative: true
-  hidden: false
 ---
+
+<script>
+    import YouTube from "YouTube"
+    import BlockQuote from "BlockQuote"
+</script>
 
 Sworn under oath in his deposition, which took place on the 30th of November 2005, Lance Armstrong — then seven-time winner of the Tour de France — until the day before his Opray Winfrey interview in January 2013 fervently denied outright accusations of taking performance-enhancing drugs or blood doping. We, of course, learn the real truth after his interview with Winfrey, now stripped of all his numerous accolades.
 
@@ -22,17 +22,18 @@ Impurity isn't only rife in sports. To ascend in life and business, playing the 
 
 Lance Armstrong's deposition hearing:
 
-{{<youtube 0sR8Qrj12gE>}}
-
-Lance Armstong's interview with Oprah Winfrey:
-
-{{<youtube N_0PSZ59Aws>}}
+<YouTube id="0sR8Qrj12gE" />
 
 ## The Fundamental Principles of Olympism
 
-Here is another sporting reference. Before the start of the Games, during the opening ceremony, an athlete of the host country gives the [Olympic oath](https://olympics.com/ioc/faq/games-ceremonies-and-protocol/what-is-the-olympic-oath):
+Here is another sporting reference. Before the start of the Games, during the opening ceremony, an athlete of the host country gives the Olympic oath:
 
-> We promise to take part in these Olympic Games, respecting and abiding by the rules and in the spirit of fair play, inclusion and equality. Together we stand in solidarity and commit ourselves to sport without doping, without cheating, without any form of discrimination. We do this for the honour of our teams, in respect for the Fundamental Principles of Olympism, and to make the world a better place through sport.
+<BlockQuote>
+    We promise to take part in these Olympic Games, respecting and abiding by the rules and in the spirit of fair play, inclusion and equality. Together we stand in solidarity and commit ourselves to sport without doping, without cheating, without any form of discrimination. We do this for the honour of our teams, in respect for the Fundamental Principles of Olympism, and to make the world a better place through sport.
+    {#snippet cite()}
+        <a href="https://www.olympics.com/ioc/faq/games-ceremonies-and-protocol/what-is-the-olympic-oath-and-when-was-it-created" target="_blank">Olympic Official Website</a>
+    {/snippet}
+</BlockQuote>
 
 "Without doping, without cheating". Following months and years, doping scandals fill our headlines. Canada's Ben Jonson and America's Marion Jones weren't the only ones to embellish their careers. There were and are more.
 

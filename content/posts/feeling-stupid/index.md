@@ -1,18 +1,21 @@
 ---
-author: Shivan Sivakumaran
 title: Personal projects make you feel stupid? Don't sweat it
 date: 2021-10-31
 summary: Personal projects can be quite daunting, but that's okay.
-categories: ["Programming"]
-tags: ["Personal projects"]
 draft: false
 cover:
   image: Dunning-Kruger.png
   alt: Graph displaying the Dunning Kruger Effect
-  caption: \'A little knowledge is a dangerous thing\' \- Samuel Johnson
-  relative: true
-  hidden: false
+  caption: A little knowledge is a dangerous thing - Samuel Johnson
 ---
+
+<script>
+    import Figure from "Figure"
+    import Diminishing from "./Diminishing_Marginal_Returns.png"
+    import DunningKruger  from "./Dunning-Kruger.png"
+    import KnowledgeCircle  from "./Knowledge_Circle.png"
+</script>
+
 I've felt stupid. I felt dumb, like I don't know what I'm doing. What am I doing?
 
 This is especially with the case with personal programming projects. They get fun. Then they get hard very quickly.
@@ -25,7 +28,7 @@ I even feel the same about embarking on the Part-time Youtube Academy. And the s
 
 ## The Law of Diminishing Marginal Returns
 
-![Diminishing Marginal Returns](Diminishing_Marginal_Returns)
+<Figure src={Diminishing} alt="Graph showing an increases and then decreases" caption="Dimining Marginal Returns" />
 
 Learning towards mastery is cursed with difficulty. The law of diminishing marginal returns states that further input results in reduced returns.
 
@@ -46,7 +49,7 @@ This is demoralising, especially at the beginning, when we see so much improveme
 
 The gym equivalent is “noob gains”, where we see a personal best every time we attend the gym. And this applies to almost any skills we learn, where we see improvements early in the process and to see the same improvement require more effort and take a lot longer.
 
-![Dunning Kruger Effect](Dunning-Kruger.png)
+<Figure src={DunningKruger} alt="A graph with a peak called 'Mount Stupid' and then a trough labelled 'Valley of Despair'. The title is 'Dunning Kruger Effect'." caption="Dunning Kruger" />
 
 Hello, valley of despair!
 
@@ -60,7 +63,7 @@ I must be a fraud?
 
 In the beginning, excitement! The circle of knowledge was small; there was not much known of the unknown. If I code every day, create every day, I will improve and even grow an audience.
 
-![Circle of Knowledge](Knowledge_Circle.png)
+<Figure src={KnowledgeCircle} alt="?" caption="Circle of Knowledge" />
 
 I did improve and I do have some people reading and watching my material. Too easy, right?
 

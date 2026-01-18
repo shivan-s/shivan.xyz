@@ -1,0 +1,50 @@
+:root {
+	/* Gap */
+	--gap-normal: 1rem;
+	--gap: var(--gap-normal);
+	--gap-small: 0.5rem;
+	--gap-large: 1.5rem;
+	--letter-gap: 1ch;
+	--variable-gap: calc(8px + 1.5625vw);
+
+	/* Padding */
+	--padding-normal: 1rem;
+	--padding: var(--padding-normal);
+	--padding-small: 0.5rem;
+	--padding-large: 2rem;
+
+	/* Margin */
+	--margin-normal: 1rem;
+	--margin: var(--margin-normal);
+	--margin-small: 0.5rem;
+	--margin-large: 2rem;
+
+	/* Font Size */
+	--font-size-normal: 1rem;
+	--font-size: var(--font-size-normal);
+	--font-size-small: calc(var(--font-size) - 0.125rem);
+	--font-size-large: calc(var(--font-size) + 0.5rem);
+	--font-size-very-large: calc(var(--font-size) + 1.5rem);
+
+	/* Border */
+	--border-radius-normal: 0.25rem;
+	--border-radius: var(--border-radius-normal);
+	--border-radius-large: 4rem;
+
+	/* Box Shadow */
+	--box-shadow-offset-x: 0;
+	--box-shadow-offset-y: 0;
+	--box-shadow-blur-radius: 0.25rem;
+	--box-shadow-spread-radius: 0.25rem;
+	--box-shadow-color: hsl(from var(--color) h s l / 10%);
+	--box-shadow: var(--box-shadow-offset-x) var(--box-shadow-offset-y) var(--box-shadow-blur-radius)
+		var(--box-shadow-spread-radius) var(--box-shadow-color);
+
+	/* Widths */
+	--max-width: 75ch;
+	--offset-width: -2ch;
+
+	/* Filters */
+	--invert: 10%;
+	--invert-highlight: calc(var(--invert) + 5%);
+}

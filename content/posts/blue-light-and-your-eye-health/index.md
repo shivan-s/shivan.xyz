@@ -1,18 +1,24 @@
 ---
-author: Shivan Sivakumaran
 title: Blue Light and your Eye Health
 date: 2020-02-28
 summary: Is blue light really harmful?
-categories: ["Optometry"]
-tags: ["Blue Light", "Eye health"]
 draft: false
 cover:
-  image: image.jpg
-  alt: alt text
-  caption: caption
-  relative: false
-  hidden: true
+  image: My-eye.jpg
+  alt: Red circle with a white circle and blood vessels coming form it - a retinal photo
+  caption: The back of my eye
 ---
+
+<script>
+    import YouTube from "YouTube"
+    import Figure from "Figure"
+    import BlueLight01 from "./Blue-Light-01.jpg"
+    import EyeCrossSection from "./Eye-Diagrams_The-Eye-plus-retina.png"
+    import MyEye from "./My-eye.jpg"
+    import Lambda from "./lambda-02-02.png"
+    import Ehf from "./E-hf.png"
+    import EyeDiagram from "./Eye-Diagram.png"
+</script>
 
 Portals to our world. A way of staying connected, entertained, and educated. Digital devices — Smartphones, tablets, and computers — are now the centre of our lives (Mullan & Chatzitheochari, 2019).
 
@@ -31,7 +37,7 @@ _Make sure you make regular appointments with an eye care professional to ensure
 
 Below is a video that briefly explains this topic.
 
-{{<youtube Ij-2s1ry4aI>}}
+<YouTube id="Ij-2s1ry4aI" />
 
 ## The Science of Light and what makes Blue Light Blue
 
@@ -53,17 +59,17 @@ Visible light is unique because this is what our eyes can detect. Visible light 
 
 Different wavelengths of visible light describe different colours of visible light. For example, blue light has a shorter wavelength than red light, as shown below.
 
-![blue and red waves](Blue-Light-01.jpg)
+<Figure src={BlueLight01} alt="Blue and Red waves" caption="Blue and Red Waves" />
 
 How we are able to determine different colour is due to the retina (highlighted and shown below), which is a special layer at the back of the eye that senses light.
 
 Here is a cross section of an eye:
 
-![eye cross section](Eye-Diagrams_The-Eye-plus-retina.png)
+<Figure src={EyeCrossSection} alt="A cross-secitonal diagram of an eye" caption="Eye Cross section" />
 
 Here is my retina:
 
-![retinal photo](My-eye.jpg)
+<Figure src={MyEye} alt="Red circle with a white circle and blood vessels coming form it - a retinal photo" caption="My Eye"/>
 
 Of the many types of cells at the retina, **cones** are responsible for determining colour. There are three different types of cones: short (S), medium (M) and long (L).
 
@@ -90,7 +96,7 @@ First, we must understand what is **frequency**, **f**. Frequency is the number 
 
 We conclude the relationship below.
 
-![wave equation](lambda-02-02.png)
+<Figure src={Lambda} alt="lambda = h / f" caption="Wave Equation"/>
 
 **c** is used in place of v to represent speed of light in a vacuum.
 
@@ -104,7 +110,7 @@ In 1905, Einstein determined the reason for this is because light energy is pack
 
 Photons are massless packets of energy. If the light source had a higher frequency, then the photo would have more energy. We come up with our relationship. The amount of **energy**, **E** is determined by the frequency, f of the radiation.
 
-![E=hf](E-hf.png)
+<Figure src={Ehf} alt="E = hf" caption="Wave Equation"/>
 
 **Planck’s constant** is known as **h**. It is just an arbitrary constant number.
 
@@ -132,7 +138,7 @@ The cornea absorbs some UV-B light. The lens absorbs the rest of the UV-B and UV
 
 Notice the position of the lens and cornea, where UV light is absorbed.
 
-![Cross section](Eye-Diagram.png)
+<Figure src={EyeDiagram} alt="Cross section of an eye showing an object focusing on an image" caption="Cross Section of Eye"/>
 
 Even though UV has little impact on our retina, long-term UV exposure can result in cataract (clouding of the lens) and pterygium (growing on the whites of eyes towards the cornea). Short term UV exposure, such as skiing without googles for example, can result in photokeratitis, which is equivalent to sunburn but at the level of your cornea. The symptoms of pain are usually delayed. So you might have been fine while skiing, but the pain comes along a bit later
 

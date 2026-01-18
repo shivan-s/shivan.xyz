@@ -1,20 +1,15 @@
 ---
-author: Shivan Sivakumaran
 title: My First Flight Solo
 date: 2024-02-25
 summary: A milestone in my learn-to-fly journey
-categories: ["life"]
-tags: ["flying"]
 draft: false
 cover:
   image: posing.jpg
   alt: Person posing in front of a plane
   caption: Posing in front of Feilding Aviation
-  relative: false
-  hidden: false
 ---
 
-Actual date of solo: 11th February 2024.
+Actual date of solo: **11th February 2024**.
 
 A significant accomplishment that I have been working towards is a solo flight.
 

@@ -1,13 +1,15 @@
 ---
-author: Shivan Sivakumaran
 title: Upgrading to Svelte 5 from Svelte 4
 date: 2025-06-09
 summary: Svelte 5 Simplified
-tags: ["programming", "svelte", "upgrading"]
 draft: false
-cover:
-  hidden: true
 ---
+
+<script>
+    import Figure from "Figure"
+    import YouTube from "YouTube"
+    import Decay from "./decay.jpg"
+</script>
 
 ## An Ode to Upgrading
 
@@ -31,7 +33,7 @@ Strange bugs. Loss of security updates. Mismatch in online documentation. All of
 
 Ironically, this makes it harder to develop new features. Team members can burnout and move on, taking their knowledge with them. This slows down development in the longer term.
 
-{{<figure src="/decay.jpg" alt="Graph with 'time' as x-axis and 'Cumulative Function' as the y-axis. One line shows a hockey curve labelled 'bad design' sloping up and then flattening off sooner than another line labelled 'good design' which curves up less at the start of the previous line then goes higher a bit later on" caption="My rendition of a graph found in 'Refactoring' by Martin Fowler">}}
+<Figure src={Decay} alt="Graph with 'time' as x-axis and 'Cumulative Function' as the y-axis. One line shows a hockey curve labelled 'bad design' sloping up and then flattening off sooner than another line labelled 'good design' which curves up less at the start of the previous line then goes higher a bit later on" caption="My rendition of a graph found in 'Refactoring' by Martin Fowler" />
 
 'Design' in this case can relate to updated packages.
 
@@ -46,7 +48,7 @@ So with a little convincing and trying, I'd encourage you to convince those arou
 The initial attempts involved running the migration script as provided in the
 [migration guide](https://svelte.dev/docs/svelte/v5-migration-guide).
 
-```bash
+```sh
 npx sv migrate
 ```
 
@@ -95,8 +97,7 @@ Old:
 	let name = 'world';
 </script>
 
-<input bind:value={name} />
-<p>Hello {name}!</p>
+<input bind:value={name} /><p>Hello {name}!</p>
 ```
 
 New:
@@ -106,8 +107,7 @@ New:
 	let name = $state('world');
 </script>
 
-<input bind:value={name} />
-<p>Hello {name}!</p>
+<input bind:value={name} /><p>Hello {name}!</p>
 ```
 
 ### $derived()
@@ -120,12 +120,11 @@ Old:
 
 ```svelte
 <script>
-	let name = "world";
-	$: nameToDisplay = `${name}!`
+	let name = 'world';
+	$: nameToDisplay = `${name}!`;
 </script>
 
-<input bind:value={name} />
-<p>Hello, {nameToDisplay}</p>
+<input bind:value={name} /><p>Hello, {nameToDisplay}</p>
 ```
 
 New:
@@ -133,49 +132,46 @@ New:
 ```svelte
 <script>
 	let name = $state('world');
-	let nameToDisplay = $derived(`${name}!`)
+	let nameToDisplay = $derived(`${name}!`);
 </script>
 
-<input bind:value={name} />
-<p>Hello, {nameToDisplay}</p>
+<input bind:value={name} /><p>Hello, {nameToDisplay}</p>
 ```
 
 ### $derived.by()
 
 [More information](https://svelte.dev/docs/svelte/$derived#$derived.by).
 
-This is similar to [`$derived()`](<#$derived()>); however, a difference is that this will take more complicated functions.
+This is similar to [`$derived()`](#derived); however, a difference is that this will take more complicated functions.
 
 ### $effect()
 
 [More information](https://svelte.dev/docs/svelte/$effect).
 
-The preference is to use [`$derived()`](<#$derived()>), but here is a simple example if we want to trigger a side effect (e.g. logging).
+The preference is to use [`$derived()`](#derived), but here is a simple example if we want to trigger a side effect (e.g. logging).
 
 Old:
 
 ```svelte
 <script>
-	let name = 'world'
+	let name = 'world';
 	$: {
-		console.log("Name changed: ", name)
+		console.log('Name changed: ', name);
 	}
 </script>
 
-<input bind:value={name} />
-<p>Hello, {name}</p>
+<input bind:value={name} /><p>Hello, {name}</p>
 ```
 
 New:
 
 ```svelte
 <script>
-	let name = $state('world')
-	$effect(()=> console.log("Name changed: ", name))
+	let name = $state('world');
+	$effect(() => console.log('Name changed: ', name));
 </script>
 
-<input bind:value={name} />
-<p>Hello, {name}</p>
+<input bind:value={name} /><p>Hello, {name}</p>
 ```
 
 ### $props() and $bindable()
@@ -186,8 +182,8 @@ Old:
 
 ```svelte
 <script lang="ts">
-	export let name: string
-	export let value: string
+	export let name: string;
+	export let value: string;
 </script>
 
 <p>{name}</p>
@@ -199,10 +195,10 @@ New:
 ```svelte
 <script lang="ts">
 	interface Props {
-		name: string
-		value: string
+		name: string;
+		value: string;
 	}
-	let { name, value = bindable() }: Props = $props()
+	let { name, value = bindable() }: Props = $props();
 </script>
 
 <p>{name}</p>
@@ -228,7 +224,7 @@ New:
 
 ```svelte
 <script>
-	let { children } = $props()
+	let { children } = $props();
 </script>
 
 <button>
@@ -248,7 +244,7 @@ Keeping your application up to date is important. Svelte 5 offers plenty of bene
 
 Going back to the start of this post, I found this talk at the recent Svelte Summit quite inspirational.
 
-{{<youtube V-5nr6BhZPA>}}
+<YouTube id="V-5nr6BhZPA" />
 
 A key takeaway from that video is that all problems usually stem from communication. It's likely everyone in the business wants the best for the product. Despite this shared goal, we all have different ideas on how to get there.
 

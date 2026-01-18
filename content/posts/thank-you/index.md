@@ -1,12 +1,8 @@
 ---
-author: Shivan Sivakumaran
 title: Thank You
 date: 2022-04-03
 summary: Yes, thank you
-tags: ["life", "vulnerability"]
 draft: false
-cover:
-  hidden: true
 ---
 
 When I was young, I really want to be good at something.

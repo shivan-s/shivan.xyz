@@ -1,17 +1,27 @@
 ---
-author: Shivan Sivakumaran
 title: My Experience at AWS re:Invent 2024
 date: 2025-01-01
 summary: My life has changed
-tags: ["programming", "aws", "conference"]
 draft: false
 cover:
   image: cover.jpg
   alt: Banner handing from a ceiling reading "AWS re:Invent"
   caption: AWS re:Invent 2024
-  relative: false
-  hidden: false
 ---
+
+<script>
+    import YouTube from "YouTube"
+    import Figure from "Figure"
+    import MandalayBay from "./mandalay-bay.jpg"
+    import LasVegasAirport from "./las-vegas-airport.jpg"
+    import Strip from "./strip.jpg"
+    import HooverDam from "./hoover-dam.jpg"
+    import EaglePoint from "./eagle-point.jpg"
+    import GrandCanyon from "./grand-canyon.jpg"
+    import Board from "./board.jpg"
+    import Freemont from "./freemont.jpg"
+    import Fire from "./fire.jpg"
+</script>
 
 ## Summary
 
@@ -83,7 +93,7 @@ Through this portal, you can also book accommodation on the Las Vegas Strip at a
 
 ### Where to Stay?
 
-{{<figure src="/mandalay-bay.jpg" alt="Towering building with lite signage saying 'Mandalay Bay Hotel'" caption="My accommodation for the week in Las Vegas">}}
+<Figure src={MandalayBay} alt="Towering building with lite signage saying 'Mandalay Bay Hotel'" caption="My accommodation for the week in Las Vegas" />
 
 There are plenty of hotels to stay on the Las Vegas Strip. I opted to stay at the Mandalay Bay, which is at the south end of the strip and also one of the five hotels hosting content. This is the reason I chose to stay here as well as charging a reasonable rate.
 
@@ -107,21 +117,21 @@ The only downside is that you will to need queue early for an event depending it
 
 Not only is this my first technology conference, this is also my first time in Las Vegas. I made the effort to travel the weekend before to do some exploring and tourist things.
 
-{{<figure src="/las-vegas-airport.jpg" alt="Sign above an archway displaying the text 'Welcome to Las Vegas'" caption="Entering the madness of Las Vegas">}}
+<Figure src={LasVegasAirport} alt="Sign above an archway displaying the text 'Welcome to Las Vegas'" caption="Entering the madness of Las Vegas" />
 
 I landed Friday afternoon, 29th November. I met with some other conference-goers at Harry Reid Airport and took to the taxi to my accommodation, Mandalay Bay.
 
 As soon as I checked in, I walked down the Las Vegas strip. It was bustling to say the least.
 
-{{<figure src="/strip.jpg" alt="Large blue light in the background with traffic in the foreground" caption="The Sphere in the distance">}}
+<Figure src={Strip} alt="Large blue light in the background with traffic in the foreground" caption="The Sphere in the distance" />
 
 Also, in the weekend I made the effort to visit the Grand Canyon, and Hoover Dam.
 
-{{<figure src="/hoover-dam.jpg" alt="Water dam surrounded by red rocks" caption="Hoover Dam">}}
+<Figure src={HooverDam} alt="Water dam surrounded by red rocks" caption="Hoover Dam" />
 
-{{<figure src="/eagle-point.jpg" alt="Red rocks shaped as an eagle" caption="Eagle point at the Grand Canyon">}}
+<Figure src={EaglePoint} alt="Red rocks shaped as an eagle" caption="Eagle point at the Grand Canyon" />
 
-{{<figure src="/grand-canyon.jpg" alt="Red rocks below with blue skies above" caption="Grand Canyon">}}
+<Figure src={GrandCanyon} alt="Red rocks below with blue skies above" caption="Grand Canyon" />
 
 I finished Satuday evening with Michael Jackson ONE, which was the show for the Manadalay Bay. A spectacular watch.
 
@@ -153,7 +163,7 @@ But I did like what Garmen had to say in the end: "We invent so you can _re-inve
 
 I didn't go to the Venetian to watch this live, instead I watched this from the Content Hub at Mandalay Bay. [More on the Content Hub](#content-hub).
 
-{{<youtube LY7m5LQliAo>}}
+<YouTube id="LY7m5LQliAo" />
 
 After the talk, I metup with someone from the AWS team. Because the company I work uses AWS, we are known as AWS customers. AWS customers are assigned an account manager and this person I was meeting is the leader to our account manager.
 
@@ -183,7 +193,7 @@ AWS staff were also around. Remember on day one when I was given advice to talk 
 
 At the center of the Expo hall, there were experts for every topic in AWS. Whiteboards set up for databases, one for storage, one for compute and so on. We would diagram the application at work and they would offer improvements and "how-to-dos".
 
-{{<figure src="/board.jpg" alt="A whiteboard with written words pertaining to data analytics,  and AWS services related to analytics" caption="An example of a whiteboarding at the Expo hall">}}
+<Figure src={Board} alt="A whiteboard with written words pertaining to data analytics,  and AWS services related to analytics" caption="An example of a whiteboarding at the Expo hall" />
 
 At the end of the evening, I missed out on the after-party events because most were too full. So, I took some time for myself and went to local dance studio and did a lesson in Salsa.
 
@@ -209,7 +219,7 @@ A four string quartet are playing live as we are directed to our seats, and they
 
 The lights go dark, then a theatrical trailer begins to play.
 
-{{<youtube aim5x73crbM>}}
+<YouTube id="aim5x73crbM" />
 
 Aside from this dramatic appreciation, I found this talk highly motivational.
 
@@ -231,9 +241,9 @@ So I spent the rest of Friday morning play around with the AWS Skill builder as 
 
 The conference was officially over at lunchtime and since this was my last night in Las Vegas, my colleague and I made our way to Freemont Street (and officially being in Las Vegas).
 
-{{<figure src="/freemont.jpg" alt="View of a people below a sign saying Welcome to Downtown Las Vegas" caption="The Freemont Street Experience">}}
+<Figure src={Freemont} alt="View of a people below a sign saying Welcome to Downtown Las Vegas" caption="The Freemont Street Experience" />
 
-{{<figure src="/fire.jpg" alt="People surrounded by a mechanical pray mantis shooting fire out of its antennae" caption="Freaky!">}}
+<Figure src={Fire} alt="People surrounded by a mechanical pray mantis shooting fire out of its antennae" caption="Freaky!" />
 
 The next morning was my exit out of Las Vegas. I checked out and fly out to Los Angeles, where I'd make my trip back home to New Zealand.
 

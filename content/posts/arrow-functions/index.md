@@ -1,17 +1,8 @@
 ---
-author: Shivan Sivakumaran
 title: Arrow Functions and Function Definitions
 date: 2023-04-29
 summary: There is a difference between normally defined functions and arrow functions
-categories: ["programming"]
-tags: ["javascript", "typescript", "arrow functions", "functions"]
 draft: false
-cover:
-  image:
-  alt: No image
-  caption: caption
-  relative: false
-  hidden: true
 ---
 
 For most programming languages, a function is a handy piece of code that allows practitioners to utilise in a same functionality multiple times. Hence the name, "function".
@@ -24,80 +15,83 @@ Here is an example:
 
 ```javascript
 // a regular function
-function func(x,y) {
-  return x + y
-};
+function func(x, y) {
+	return x + y;
+}
 ```
 
 ```javascript
 // an arrow function
-const func = (x,y) => x + y;
+const func = (x, y) => x + y;
 ```
 
 We can see the evolution of it more closely:
 
 ```javascript
 // starting with our regular function
-function func(x,y) {
-  return x + y
-};
+function func(x, y) {
+	return x + y;
+}
 
 // instead of defining, we express the function
 // more about this below
 // expressing an anonymous function
-const func1 = function(x, y) {
-  return x + y
-}
+const func1 = function (x, y) {
+	return x + y;
+};
 
 // we can remove the keyword `function`
-const func2 = (x,y) => {
-  return x + y
+const func2 = (x, y) => {
+	return x + y;
 };
 
 // taking away the braces, the return is implicit
-const func3 = (x,y) => x + y;
+const func3 = (x, y) => x + y;
 
 // when a single line needs to be broken up
 const func3 = (x, y) =>
-  x +
-  x * 2 +
-  x * 3 +
-  x * 4 +
-  x * 5 +
-  x * 6 +
-  x * 7 +
-  x * 8 +
-  x * 9 +
-  y +
-  y * 2 +
-  y * 3 +
-  y * 4 +
-  y * 5 +
-  y * 6 +
-  y * 7 +
-  y * 8 +
-  y * 9;
+	x +
+	x * 2 +
+	x * 3 +
+	x * 4 +
+	x * 5 +
+	x * 6 +
+	x * 7 +
+	x * 8 +
+	x * 9 +
+	y +
+	y * 2 +
+	y * 3 +
+	y * 4 +
+	y * 5 +
+	y * 6 +
+	y * 7 +
+	y * 8 +
+	y * 9;
 ```
 
 **NB**: Since the return is implicit an annoying mistake that I sometimes make is forgetting to include the return if I have used braces.
+
 ```javascript
 // the function will run but nothing is returned
-const func = (x,y) => {
-  x + y
+const func = (x, y) => {
+	x + y;
 };
 ```
+
 Something typescript can help with:
+
 ```typescript
 // typescript will provide a warning since there is a return type expected
 const func = (x: number, y: number): number => {
-  x + y
-}
+	x + y;
+};
 ```
 
 Where do arrow functions becomes useful? There are probably many, but one I can think about is applying arrow functions for properties that require a callback function. An example is handling `on:click` functionality for a `svelte` components.
 
 ```svelte
-<button on:click={() => console.log("Clicked!")}>Click me</button>
+<button on:click={() => console.log('Clicked!')}>Click me</button>
 ```
 
 ### Context
@@ -106,7 +100,6 @@ I am working with a Svelte code base where we want to maintain the original func
 
 To my shock and horror, they're similar but there are some differences to note.
 
-
 #### Declaration vs Expression
 
 Arrow functions are anonymous functions that assigned to a variable by expression.
@@ -114,21 +107,22 @@ Arrow functions are anonymous functions that assigned to a variable by expressio
 The traditional function is declared.
 
 Here is example of a defined function compared to a function by expression.
+
 ```typescript
 // function definition
 function defFunc() {
-  console.log("defFunc");
+	console.log('defFunc');
 }
 
 // function expression
-const someFunc = function() {
-  console.log("someFunc")
-}
+const someFunc = function () {
+	console.log('someFunc');
+};
 
 // turning someFunc into an arrow function
 const someFunc = () => {
-  console.log("someFunc")
-}
+	console.log('someFunc');
+};
 ```
 
 Arrow functions are anonymous functions. They are expressed and assigned to a variable.
@@ -144,14 +138,14 @@ defFunc(); // able to call function before it's definitions
 
 // Function is defined.
 function defFunc() {
-  console.log("defFunc");
+	console.log('defFunc');
 }
 
 arrowFunc(); // this will not work as it is referenced before it is expressed
 
 // Function is not declared but is expressed and assigned to the variable
 const arrowFunc = (param1, param2) => {
-  console.log("arrowFunc");
+	console.log('arrowFunc');
 };
 
 arrowFunc(); // this will work

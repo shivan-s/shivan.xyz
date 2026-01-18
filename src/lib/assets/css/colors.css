@@ -1,0 +1,25 @@
+:root {
+	--blue: hsl(195deg 67.3% 30% / 100%) /* #196680 */;
+	--light-blue: hsl(from var(--blue) h 100% 75.1% / 100%) /* #80dfff */;
+	--orange: hsl(31deg 100% 60% / 100%) /* #ff9b33 */;
+	--grey: hsl(0deg 0% 50% / 100%);
+	--light-grey: hsl(from var(--grey) h s 98% / 100%);
+	--medium-grey: hsl(from var(--grey) h s 75% / 100%);
+	--dark-grey: hsl(from var(--grey) h s 13% / 100%);
+	--gray: var(--grey);
+	--light-gray: var(--light-grey);
+	--medium-gray: var(--medium-grey);
+	--dark-gray: var(--dark-grey);
+
+	/* Declarations */
+	--primary-color: var(--blue);
+	--alternative-color: var(--orange);
+	--color: var(--dark-grey);
+	--background-color: var(--light-grey);
+
+	@media (prefers-color-scheme: dark) {
+		--primary-color: var(--light-blue);
+		--color: var(--light-grey);
+		--background-color: var(--dark-grey);
+	}
+}

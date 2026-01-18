@@ -1,17 +1,12 @@
 ---
-author: Shivan Sivakumaran
 title: Milestone - No Student Loan
 date: 2025-11-21
 summary: I've paid my student loan off
-category: ["Life"]
-tags: ["debt"]
 draft: false
 cover:
   image: congrats.png
   alt: A screenshot of a letter congratulating Mr Sivakumaran for paying of his Student Loan
   caption: A happy letter
-  relative: true
-  hidden: false
 ---
 
 I did it! In just under 10 years after completing my tertiary education, I completed paying off my student loan!

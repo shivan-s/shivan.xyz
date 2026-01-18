@@ -1,0 +1,8 @@
+{
+	"$schema": "https://inlang.com/schema/inlang-message-format",
+	"post_suggest_changes": "Suggest Changes",
+	"about": "About",
+	"read_more": "Read more...",
+	"posts": "Posts",
+	"listen_to_audio_version": "Listen to audio version"
+}

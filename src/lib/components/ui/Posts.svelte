@@ -1,6 +1,7 @@
 <script lang="ts">
 	import { resolve } from '$app/paths';
 	import { m } from '$i18n/messages.js';
+	import { Rss } from '@lucide/svelte';
 	import type { PostsGroupByYear } from '$lib/posts';
 
 	interface Props {
@@ -13,6 +14,9 @@
 <section id="posts">
 	<header>
 		<h2>{m.posts()}</h2>
+		<a href={resolve('/feed.xml')}>
+			<Rss color="var(--primary-color)" />
+		</a>
 	</header>
 	<div>
 		<ul>
@@ -50,8 +54,13 @@
 	}
 	section#posts {
 		max-width: var(--max-width);
+		margin-block: var(--margin-large);
 		margin-inline: auto;
 		& > header {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			gap: var(--gap);
 			text-align: center;
 		}
 		& > div {

@@ -7,9 +7,9 @@ const file = import.meta.glob('../../content/about/index.md', {
 	eager: true
 });
 
-export const load: PageLoad = async ({ fetch }) => {
+export const load: PageLoad = async () => {
 	const about = ImportMetaSchema.parse(file['../../content/about/index.md']);
-	const posts = await fetchPostsGroupByYear(fetch);
+	const posts = await fetchPostsGroupByYear();
 	return {
 		content: about.default,
 		posts

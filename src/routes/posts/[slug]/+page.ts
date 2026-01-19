@@ -13,9 +13,9 @@ const audios = import.meta.glob('../../../../content/posts/**/*.{mp3,wav}', {
 	eager: true
 });
 
-export const load: PageLoad = async ({ params, fetch }) => {
+export const load: PageLoad = async ({ params }) => {
 	// Post does not have content since it's not JSON-able, so we get it again
-	const { metadata } = await fetchPost(params.slug, fetch);
+	const { metadata } = await fetchPost(params.slug);
 	const rawPost = Object.entries(markdowns).find(([path]) => {
 		const slug = path.split('/').at(-2);
 		const fileName = path.split('/').at(-1);

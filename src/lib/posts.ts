@@ -17,7 +17,7 @@ export async function fetchAllPost() {
 				console.error(result.error);
 				error(500);
 			}
-			const slug = path.split('/').at(-2);
+			const slug = path.split('/').at(-2)!;
 			return { slug, ...result.data };
 		})
 		.filter(({ metadata: { draft } }) => draft === false || dev)

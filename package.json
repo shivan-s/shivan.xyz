@@ -20,7 +20,7 @@
 		"build-storybook": "storybook build"
 	},
 	"devDependencies": {
-		"@eslint/compat": "^1.4.0",
+		"@eslint/compat": "^2.0.1",
 		"@eslint/js": "^9.39.1",
 		"@inlang/paraglide-js": "^2.8.0",
 		"@playwright/test": "^1.57.0",

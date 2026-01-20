@@ -1,12 +1,8 @@
 ---
-author: Shivan Sivakumaran
 title: Do You Take Pride in What You Do
 date: 2021-03-07
 summary: It's important to take pride
-tags: ["life", "work", "career"]
 draft: false
-cover:
-  hidden: true
 ---
 
 Kia ora,

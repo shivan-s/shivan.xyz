@@ -72,7 +72,4 @@
 			}
 		}
 	}
-	:global(details.toc) {
-		display: none;
-	}
 </style>

@@ -1,12 +1,8 @@
 ---
 title: My Health
 date: 2026-01-20
-summary:
+summary: My health
 draft: true
-cover:
-  image:
-  alt:
-  caption:
 ---
 
 <script>

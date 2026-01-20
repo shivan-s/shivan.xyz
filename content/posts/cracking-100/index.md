@@ -26,4 +26,4 @@ Thanks to those who have subscribed and supported me.
 
 This weeks video is about remakes and rechecks. I don’t like rechecks because they make me feel incompetent as an optometrist.
 
-<Figure src="./cover.png" alt="Screenshot of subscriber growth of a YouTube Channel" caption="Growth" />
+<Figure src={Cover} alt="Screenshot of subscriber growth of a YouTube Channel" caption="Growth" />

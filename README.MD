@@ -14,6 +14,16 @@ This uses [SvelteKit, as a static site generator](https://svelte.dev).
 
 This is hosted using [Cloudflare Pages](https://pages.cloudflare.com/).
 
+## Creating a New Post
+
+This can be done with the following command:
+
+```shell
+npm run new -- new-post
+```
+
+This will create a new directory `/content/posts/new-posts` and pre-filled `index.md` file.
+
 ## Special Components in Markdown
 
 ### `<YouTube />` - YouTube videos

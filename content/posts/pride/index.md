@@ -5,10 +5,8 @@ summary: It's important to take pride
 draft: false
 ---
 
-Kia ora,
-
 > **Inspirational Optometrist**: First, do you take pride in what you do?
-
+>
 > **Me**: Ahh... I think I do...
 
 A few days ago, I had a conversation with a fellow optometrist. Inspired yet through-provoking, when he asked this simple question, I was completely thrown off. Requiring only a simple answer, I gave a hesitant response.
@@ -23,7 +21,7 @@ During this conversation, we discussed specialties such as myopia control (preve
 Specialty
 
 > **Me**: But isn't ophthalmology just a better form of what we can do? Why are we needed
-
+>
 > **Inspirational Optometrist**: Can you imagine the state of eye care in New Zealand if there were no optometrists?
 
 The role of optometry is necessary. If we had no optometrists in New Zealand, no primary eyecare, GPs would be burdened with eye problems. GPs have an enormous knowledge base — but the intricacies of the eye go beyond what a single person can deal with, let alone the entire human body. That's why there is a sub-specialty for every inch of the eyeball. Plus, imagine finding a retinal tear with an opthamascope. I think a lot of GPs would be happy to send these away to their local optometrist.

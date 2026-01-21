@@ -26,7 +26,7 @@
 <style>
 	article {
 		margin-inline: auto;
-		max-width: 80ch;
+		max-width: var(--max-width);
 		& > header {
 			& > h1 {
 				width: fit-content;
@@ -43,8 +43,5 @@
 		& > section {
 			margin-block: var(--margin-large);
 		}
-	}
-	:global(details.toc) {
-		display: none;
 	}
 </style>

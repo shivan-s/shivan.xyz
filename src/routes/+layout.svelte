@@ -18,6 +18,8 @@
 
 <style>
 	main {
+		max-width: 100dvw;
+		min-width: 360px;
 		padding-inline: var(--variable-gap);
 	}
 </style>

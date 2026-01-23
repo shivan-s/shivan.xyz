@@ -10,10 +10,6 @@
 	const Content = $derived(data.content);
 </script>
 
-<svelte:head>
-	<title>{data.meta.title} · {config.title}</title>
-</svelte:head>
-
 <article>
 	<header>
 		<h1>{data.meta.title}</h1>

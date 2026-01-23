@@ -2,10 +2,11 @@
 	import '$lib/assets/css/app.css';
 	import { config } from '$lib/config';
 	import { Footer, Header } from '$lib/components/ui';
+	import { page } from '$app/state';
 
 	let { children } = $props();
 
-	let title = $derived(config.title);
+	let title = $derived(page.data['pageTitle'] ?? config.title);
 </script>
 
 <svelte:head>

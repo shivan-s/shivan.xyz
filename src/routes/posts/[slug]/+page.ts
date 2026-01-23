@@ -2,6 +2,7 @@ import type { PageLoad } from './$types';
 import { fetchPost } from '$lib/posts';
 import { error } from '@sveltejs/kit';
 import { PostSchema, ImportMetaSchema } from '$lib/schemas';
+import { config } from '$lib/config';
 
 const markdowns = import.meta.glob('../../../../content/posts/**/*.md', { eager: true });
 const images = import.meta.glob('../../../../content/posts/**/*.{jpg,png,gif,jpeg,webp,svg}', {
@@ -55,6 +56,7 @@ export const load: PageLoad = async ({ params }) => {
 		return resultAudio.data.default;
 	}
 	return {
+		pageTitle: `${resultPost.data.metadata.title} · ${config.title}`,
 		content: resultPost.data.default,
 		meta: {
 			slug: params.slug,

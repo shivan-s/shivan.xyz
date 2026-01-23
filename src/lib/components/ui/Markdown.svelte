@@ -85,4 +85,8 @@
 			cursor: pointer;
 		}
 	}
+
+	:global(img) {
+		max-height: 500px;
+	}
 </style>

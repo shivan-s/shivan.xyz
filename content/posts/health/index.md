@@ -1,8 +1,12 @@
 ---
-title: My Health
+title: My New Look on Health
 date: 2026-01-20
-summary: My health
-draft: true
+summary: My new take health
+draft: false
+cover:
+  image: upside-down.jpg
+  alt: A man upside down agaisnt a pole
+  caption: My Health is important to me
 ---
 
 <script>
@@ -11,7 +15,11 @@ draft: true
 	import BlockQuote from "BlockQuote"
 </script>
 
-Even though I’m not an athlete or think of myself as someone who is outrageously “fit”, exercise and gym attendance have always been a core tenet for most of my life.
+The following I wrote as a newsletter and now I repost this as a blog. I can't remember when I wrote this...
+
+---
+
+Even though I’m not an athlete or think of myself as someone who is outrageously “fit”, exercise and gym attendance has always been a core tenet for most of my life.
 
 Initially, I tell myself that these are just habits to maintain good health well into my older years. It’s not about just looking good (so I say).
 
@@ -21,14 +29,13 @@ Plus what I also tell myself is that it’s for fun:
 - bond with others who are also on this journey, and
 - to learn the discipline of pushing yourself and staying on track.
 
-All of these too contribute to good overall wellbeing.
+All of these too contribute to good overall well-being.
 
 I’m writing this newsletter at the airport, on my way home, where I’ve been away from my sacred gym routines.
 
-Part of me is happy to head back home so I can get back to my routine, but also part of me is a bit worried about my initial thoughts on my fitness goals. Are they really for “wellbeing”? Or physical appearance?
+Part of me is happy to head back home so I can get back to my routine, but also part of me is a bit worried about my initial thoughts on my fitness goals. Are they really for “well-being”? Or physical appearance?
 
 Let’s do a bit of a deep dive.
-Me and My Body Image
 
 I can’t remember when it started. Maybe in high school?
 
@@ -59,12 +66,6 @@ Wellbeing?
 
 The reason I bring up my past is that now being 30 years old, I decided my fitness goals should be about well-being.
 
-Hayley Whiting in an interview puts it so well:
-
-I love the importance around what your body can do, not what your body looks like, I love it.
-
-Link to Interview.
-
 This is what I wanted, but I think I’m still stuck in the mindset of physical appearance.
 
 Even while I have been away, I made an effort to do light workouts most days (burpees, push-ups, sit-ups). And I did attend an MMA class as well as a session at the gym. And I would be conscious again not to overeat.
@@ -92,7 +93,5 @@ Missing a few weeks for training in your lifetime will be negligible to your pro
 It’s a good chance for the body to recharge, and when you do return, you will be working harder than ever.
 
 It’s better to yearn to go back to the gym or training than to dread attendance.
-
-What do you think? Is body image something you struggle with?
 
 I hope this helps you out in some way. Thanks for reading.

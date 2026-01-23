@@ -45,6 +45,9 @@
 			padding-block-end: var(--padding);
 			overflow: hidden;
 			mask-image: linear-gradient(to bottom, black 50%, transparent 100%);
+			& > :global(details.toc) {
+				display: none;
+			}
 		}
 
 		& > header {
@@ -71,8 +74,5 @@
 				}
 			}
 		}
-	}
-	:global(details.toc) {
-		display: none;
 	}
 </style>

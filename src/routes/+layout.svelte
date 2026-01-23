@@ -4,10 +4,12 @@
 	import { Footer, Header } from '$lib/components/ui';
 
 	let { children } = $props();
+
+	let title = $derived(config.title);
 </script>
 
 <svelte:head>
-	<title>{config.title}</title>
+	<title>{title}</title>
 </svelte:head>
 
 <Header />

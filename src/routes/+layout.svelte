@@ -3,6 +3,7 @@
 	import { config } from '$lib/config';
 	import { Footer, Header } from '$lib/components/ui';
 	import { page } from '$app/state';
+	import Shivan from '$lib/assets/img/shivan.png';
 
 	let { children } = $props();
 
@@ -11,6 +12,10 @@
 
 <svelte:head>
 	<title>{title}</title>
+	<meta property="og:title" content={title} />
+	<meta property="og:type" content="website" />
+	<meta property="og:url" content={page.url.toString()} />
+	<meta property="og:image" content={Shivan} />
 </svelte:head>
 
 <Header />

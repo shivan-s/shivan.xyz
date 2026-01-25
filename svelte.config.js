@@ -2,7 +2,9 @@ import { mdsvex, escapeSvelte } from 'mdsvex';
 import { createHighlighter } from 'shiki';
 import { vitePreprocess } from '@sveltejs/vite-plugin-svelte';
 import rehypeSlug from 'rehype-slug';
+import rehypeAutolinkHeadings from 'rehype-autolink-headings';
 import rehypeToc from 'rehype-toc';
+import rehypeExternalLinks from 'rehype-external-links';
 import readingTime from 'mdsvex-reading-time';
 import adapter from '@sveltejs/adapter-static';
 
@@ -39,7 +41,9 @@ const mdsvexOptions = {
 						toc
 					]
 				})
-			})
+			}),
+		() => rehypeExternalLinks({ target: '_blank' }),
+		() => rehypeAutolinkHeadings({ behavior: 'append', properties: { className: 'link-headings' } })
 	],
 	extensions: ['.md']
 };

@@ -12,7 +12,8 @@
 
 <svelte:head>
 	<meta property="og:title" content={data.meta.title} />
-	<meta property="og:image" content={data.meta.cover ? data.meta.cover.image : ''} />
+	<meta property="og:description" content={data.meta.summary} />
+	<meta property="og:image" content={data.meta.cover ? data.meta.cover.image : config.image} />
 </svelte:head>
 
 <article>

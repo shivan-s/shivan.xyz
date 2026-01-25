@@ -13,9 +13,10 @@
 <svelte:head>
 	<title>{title}</title>
 	<meta property="og:title" content={title} />
+	<meta property="og:title" content={config.description} />
 	<meta property="og:type" content="website" />
 	<meta property="og:url" content={page.url.toString()} />
-	<meta property="og:image" content={Shivan} />
+	<meta property="og:image" content={config.image} />
 </svelte:head>
 
 <Header />

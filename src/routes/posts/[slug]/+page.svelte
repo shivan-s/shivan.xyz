@@ -10,6 +10,11 @@
 	const Content = $derived(data.content);
 </script>
 
+<svelte:head>
+	<meta property="og:title" content={data.meta.title} />
+	<meta property="og:image" content={data.meta.cover ? data.meta.cover.image : ''} />
+</svelte:head>
+
 <article>
 	<header>
 		<h1>{data.meta.title}</h1>

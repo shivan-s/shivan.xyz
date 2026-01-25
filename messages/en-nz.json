@@ -1,6 +1,7 @@
 {
 	"$schema": "https://inlang.com/schema/inlang-message-format",
 	"post_suggest_changes": "Suggest Changes",
+	"table_of_contents": "Table of Contents",
 	"about": "About",
 	"read_more": "Read more...",
 	"posts": "Posts",

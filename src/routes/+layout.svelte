@@ -3,7 +3,6 @@
 	import { config } from '$lib/config';
 	import { Footer, Header } from '$lib/components/ui';
 	import { page } from '$app/state';
-	import Shivan from '$lib/assets/img/shivan.png';
 
 	let { children } = $props();
 

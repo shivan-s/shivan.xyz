@@ -11,7 +11,7 @@ import adapter from '@sveltejs/adapter-static';
 const theme = 'catppuccin-mocha';
 const highlighter = await createHighlighter({
 	themes: [theme],
-	langs: ['js', 'ts', 'svelte', 'json', 'fish', 'py', 'html', 'shell', 'rust']
+	langs: ['js', 'ts', 'svelte', 'json', 'fish', 'py', 'html', 'shell', 'rust', 'elixir']
 });
 
 /** @type {import('mdsvex').MdsvexOptions} */

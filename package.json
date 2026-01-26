@@ -25,7 +25,7 @@
 		"@eslint/js": "^9.39.1",
 		"@inlang/paraglide-js": "^2.9.1",
 		"@lucide/svelte": "^0.562.0",
-		"@playwright/test": "^1.57.0",
+		"@playwright/test": "^1.58.0",
 		"@storybook/addon-svelte-csf": "^5.0.10",
 		"@storybook/sveltekit": "^10.2.0",
 		"@sveltejs/adapter-auto": "^7.0.0",

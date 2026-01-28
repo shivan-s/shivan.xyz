@@ -56,7 +56,7 @@
 		"storybook": "^10.2.1",
 		"stylelint": "^16.26.1",
 		"stylelint-config-standard": "^39.0.1",
-		"svelte": "^5.48.3",
+		"svelte": "^5.48.5",
 		"svelte-check": "^4.3.4",
 		"typescript": "^5.9.3",
 		"typescript-eslint": "^8.54.0",

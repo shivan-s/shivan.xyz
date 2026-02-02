@@ -2,7 +2,7 @@
 title: Junior Senior
 date: 2026-02-02
 summary: Don't let the title fool you
-draft: true
+draft: false
 cover:
   image: cover.webp
   alt: A split keyboard that is lite with RGB

@@ -15,8 +15,8 @@ importers:
         specifier: ^9.39.1
         version: 9.39.2
       '@inlang/paraglide-js':
-        specifier: ^2.9.1
-        version: 2.9.1
+        specifier: ^2.10.0
+        version: 2.10.0
       '@lucide/svelte':
         specifier: ^0.563.1
         version: 0.563.1(svelte@5.49.1)
@@ -141,8 +141,8 @@ packages:
     resolution: {integrity: sha512-cjQ7ZlQ0Mv3b47hABuTevyTuYN4i+loJKGeV9flcCgIK37cCXRh+L1bd3iBHlynerhQ7BhCkn2BPbQUL+rGqFg==}
     engines: {node: '>=6.9.0'}
 
-  '@babel/code-frame@7.28.6':
-    resolution: {integrity: sha512-JYgintcMjRiCvS8mMECzaEn+m3PfoQiyqukOMCCVQtoJGYJw8j/8LBJEiqkHLkfwCcs74E3pbAUFNg7d9VNJ+Q==}
+  '@babel/code-frame@7.29.0':
+    resolution: {integrity: sha512-9NhCeYjq9+3uxgdtp20LSiJXJvN0FeCtNGpJxuMFZ1Kv3cWUNb6DOhJwUvcVCzKGR66cw4njwM6hrJLqgOwbcw==}
     engines: {node: '>=6.9.0'}
 
   '@babel/helper-string-parser@7.27.1':
@@ -565,8 +565,8 @@ packages:
     cpu: [x64]
     os: [win32]
 
-  '@inlang/paraglide-js@2.9.1':
-    resolution: {integrity: sha512-hciFnOKGVA10BmLixmFFIOZwNFqlyhKwvC8V+mEh/XP1WaEUtwijBlcIn2odwN9obuGxI8Fu05KHOUuETrpj+g==}
+  '@inlang/paraglide-js@2.10.0':
+    resolution: {integrity: sha512-3xQveEyZMV9IOLP7Vy9Ttye+Yzryqz6KM06tvVwvmbCPDTdzmFoc34KlREXGpHuBAlxRZGfAhcJKfnSXXQDmXw==}
     hasBin: true
 
   '@inlang/recommend-sherlock@0.2.1':
@@ -2907,7 +2907,7 @@ snapshots:
       js-tokens: 4.0.0
       picocolors: 1.1.1
 
-  '@babel/code-frame@7.28.6':
+  '@babel/code-frame@7.29.0':
     dependencies:
       '@babel/helper-validator-identifier': 7.28.5
       js-tokens: 4.0.0
@@ -3205,7 +3205,7 @@ snapshots:
   '@img/sharp-win32-x64@0.34.5':
     optional: true
 
-  '@inlang/paraglide-js@2.9.1':
+  '@inlang/paraglide-js@2.10.0':
     dependencies:
       '@inlang/recommend-sherlock': 0.2.1
       '@inlang/sdk': 2.6.2
@@ -3696,7 +3696,7 @@ snapshots:
 
   '@testing-library/dom@10.4.1':
     dependencies:
-      '@babel/code-frame': 7.28.6
+      '@babel/code-frame': 7.29.0
       '@babel/runtime': 7.28.6
       '@types/aria-query': 5.0.4
       aria-query: 5.3.0

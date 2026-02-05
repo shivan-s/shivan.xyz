@@ -21,7 +21,7 @@
 		"new": "node ./scripts/new.js"
 	},
 	"devDependencies": {
-		"@eslint/compat": "^2.0.1",
+		"@eslint/compat": "^2.0.2",
 		"@eslint/js": "^9.39.1",
 		"@inlang/paraglide-js": "^2.10.0",
 		"@lucide/svelte": "^0.563.1",

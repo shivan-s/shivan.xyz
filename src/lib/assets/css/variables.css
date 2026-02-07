@@ -42,8 +42,8 @@
 		var(--box-shadow-spread-radius) var(--box-shadow-color);
 
 	/* Widths */
-	--max-width: 75ch;
-	--offset-width: -2ch;
+	--max-width: 60ch;
+	--offset-width: calc(-0.9 * var(--variable-gap));
 
 	/* Filters */
 	--invert: 10%;

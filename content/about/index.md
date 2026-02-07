@@ -4,50 +4,29 @@
     import { MyMap } from "$lib/components/my-map"
 </script>
 
+## Who am I?
+
 My name is Shivan (pronounced Shiv-arn).
 
 I am Kiwi born 🇳🇿 with Sri Lankan 🇱🇰 heritage.
 
 I currently work as a **Software Developer** after 7 years working as an **[Optometrist](https://en.wikipedia.org/wiki/Optometry)**.
 
-I am also on:
+## What am I up to now?
 
-- [BlueSky](https://bsky.app/profile/shivan.xyz)
-- [GitHub](https://github.com/shivan-s)
-- [YouTube](https://youtube.com/c/shivansivakumaran)
-- [LinkedIn](https://linkedin.com/shivan-sivakumaran)
-- [Twitch](https://twitch.com/shivan__s)
+I am living in Palmerston North with my parents. I am working in a job I love, which is software development for a global contact lens manufacturing, which is a perfect intersection of my previous occupation and my current one.
 
-## What Is The Purpose Of This Blog?
+Outside work I practice [Brazilian Jiu-Jitsu](https://en.wikipedia.org/wiki/Brazilian_jiu-jitsu), [Latin Dance](https://en.wikipedia.org/wiki/Latin_dance), [Weightlifting](https://en.wikipedia.org/wiki/Olympic_weightlifting), and [Pole Dance](https://en.wikipedia.org/wiki/Pole_sports).
 
-This blog is my digital garden.
+I am also interested in writing, photography, film, and reading.
 
-The primary goal of writing in this blog is that is acts as a good exercise to organise and reflect on my thoughts.
+## What Is The Purpose Of This Website?
 
-As a side effect, the goal of writing on here is not to become well-known; it's to become known-well by whomever reading this.
+This is my digital garden. It's my stake on the internet.
 
-## What Am I Focusing On?
+It's a vessel for my thoughts through writing as well as various others forms of creativity.
 
-1. Getting good at web development and programming
-
-- [Building projects](https://github.com/shivan-s)
-
-2. Sharing my journey and ideas:
-
-- ✍🏾 [Through this Blog](/posts)
-
-3. Maintaining my body
-
-- 🥋 [Brazilian Jiu-Jitsu](https://en.wikipedia.org/wiki/Brazilian_jiu-jitsu)
-- 🕺 [Latin Dance](https://en.wikipedia.org/wiki/Latin_dance)
-- 🏋️ [Weightlifting](https://en.wikipedia.org/wiki/Olympic_weightlifting)
-
-4. Maintaining my mind
-
-- 📓 Writing
-- 📷 Photography
-- ✏️ Drawing
-- 📚 Reading
+I want to be okay with sharing my thoughts and putting it out there into the world for those who care to listen.
 
 ## Milestones
 
@@ -57,10 +36,20 @@ As a side effect, the goal of writing on here is not to become well-known; it's 
 - **2021**: Moved back to Palmerston North to focus on a career change away from optometry into software development.
 - **2023**: Started a new career as a web developer.
 
-## Places I Want To Visit
+## Where have I been / Where do I want to go?
 
 <MyMap />
 
 ## Photos
 
 <Figure src={ShivanSivakumaran} alt="Black and white image of a man smiling" caption="Me at a Dance Festival" />
+
+## Where Else Am I?
+
+I am also on:
+
+- [BlueSky](https://bsky.app/profile/shivan.xyz)
+- [GitHub](https://github.com/shivan-s)
+- [YouTube](https://youtube.com/c/shivansivakumaran)
+- [LinkedIn](https://linkedin.com/shivan-sivakumaran)
+- [Twitch](https://twitch.com/shivan__s)

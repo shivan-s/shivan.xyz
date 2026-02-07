@@ -18,6 +18,8 @@ I am living in Palmerston North with my parents. I am working in a job I love, w
 
 Outside work I practice [Brazilian Jiu-Jitsu](https://en.wikipedia.org/wiki/Brazilian_jiu-jitsu), [Latin Dance](https://en.wikipedia.org/wiki/Latin_dance), [Weightlifting](https://en.wikipedia.org/wiki/Olympic_weightlifting), and [Pole Dance](https://en.wikipedia.org/wiki/Pole_sports).
 
+I am working on my [Private Pilot License](https://www.aviation.govt.nz/licensing-and-certification/pilots/pilot-licensing/) certification.
+
 I am also interested in writing, photography, film, and reading.
 
 ## What Is The Purpose Of This Website?
@@ -31,7 +33,8 @@ I want to be okay with sharing my thoughts and putting it out there into the wor
 ## Milestones
 
 - **1993**: Born in [Palmerston North](https://en.wikipedia.org/wiki/Palmerston_North) — where I spent most of my life growing up
-- **2016**: Graduated from the [University of Auckland](https://www.auckland.ac.nz/en.html) as a fully qualified [optometrist](https://en.wikipedia.org/wiki/Optometry) and moved down to [Christchurch](https://en.wikipedia.org/wiki/Christchurch) to start my working life
+- **2011**: Moved to Auckland to start university
+- **2016**: Graduated from the [University of Auckland](https://www.auckland.ac.nz/en.html) as a fully qualified [optometrist](https://en.wikipedia.org/wiki/Optometry) and moved down to [Christchurch](https://en.wikipedia.org/wiki/Christchurch) to start my working life; moved to Christchurch
 - **2020**: [Began writing online](/posts/why-create-a-blog)
 - **2021**: Moved back to Palmerston North to focus on a career change away from optometry into software development.
 - **2023**: Started a new career as a web developer.

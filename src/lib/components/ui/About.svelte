@@ -44,7 +44,7 @@
 			padding-inline: var(--padding);
 			padding-block-end: var(--padding);
 			overflow: hidden;
-			mask-image: linear-gradient(to bottom, black 50%, transparent 100%);
+			mask-image: linear-gradient(to bottom, black 25%, transparent 90%);
 			& > :global(details.toc) {
 				display: none;
 			}

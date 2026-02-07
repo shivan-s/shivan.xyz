@@ -3,6 +3,10 @@
 @import url('./variables.css');
 @import url('./fonts.css');
 
+:root {
+	interpolate-size: allow-keywords;
+}
+
 html {
 	scroll-padding: 1rem;
 	scroll-behavior: smooth;

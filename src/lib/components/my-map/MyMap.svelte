@@ -2,6 +2,7 @@
 	import { places } from './places';
 	import 'maplibre-gl/dist/maplibre-gl.css';
 	import { onMount } from 'svelte';
+	import { m } from '$i18n/messages.js';
 
 	const containerId = 'map';
 	const style = 'https://tiles.openfreemap.org/styles/liberty';
@@ -40,8 +41,35 @@
 		</p>
 	</figcaption>
 </figure>
+<div>
+	<details>
+		<summary>{m.locations()}</summary>
+		<h3 class="red">To Visit</h3>
+		<ul>
+			{#each places.filter(({ visited }) => !visited) as p, idx (idx)}
+				<li>{p.title}</li>
+			{/each}
+		</ul>
+		<h3 class="green">Visited</h3>
+		<ul>
+			{#each places.filter(({ visited }) => visited) as p, idx (idx)}
+				<li>{p.title}</li>
+			{/each}
+		</ul>
+	</details>
+</div>
 
 <style>
+	:root {
+		--red: hsl(1 50% 50% / 1);
+		--green: hsl(120 50% 50% / 1);
+	}
+	.red {
+		color: var(--red);
+	}
+	.green {
+		color: var(--green);
+	}
 	figure {
 		& > div {
 			width: 100%;
@@ -55,18 +83,51 @@
 				border-radius: 0;
 				box-shadow: none;
 			}
-			& > :global(button.maplibregl-popup-close-button) {
+			& :global(button.maplibregl-popup-close-button) {
+				color: var(--color);
+			}
+			& :global(div.maplibregl-popup-content) {
 				background-color: var(--background-color);
 			}
-			& > :global(div.maplibregl-popup-content) {
-				background-color: var(--background-color);
-			}
-			& > :global(div.maplibregl-popup-tip) {
+			& :global(div.maplibregl-popup-tip) {
 				border-top-color: var(--background-color);
 			}
 		}
 		& > figcaption {
 			text-align: center;
+		}
+	}
+	details {
+		overflow: hidden;
+		border-radius: var(--border-radius);
+		transition: backdrop-filter 0.3s ease-in-out;
+		padding-inline: var(--padding-small);
+		backdrop-filter: invert(var(--invert));
+
+		&:hover {
+			backdrop-filter: invert(var(--invert-highlight));
+		}
+
+		&::details-content {
+			transition:
+				block-size 0.3s ease-in-out,
+				opacity 0.4s ease-in-out,
+				padding-block-end 0.4s ease-in-out;
+			transition-behavior: allow-discrete;
+			opacity: 0;
+			block-size: 0;
+		}
+
+		&[open]::details-content {
+			block-size: auto;
+			block-size: calc(auto);
+			padding-block-end: var(--padding);
+			opacity: 1;
+		}
+		& > summary {
+			font-weight: 900;
+			padding: var(--padding);
+			cursor: pointer;
 		}
 	}
 </style>

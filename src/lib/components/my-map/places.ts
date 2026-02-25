@@ -44,5 +44,11 @@ export const places: Place[] = [
 		body: 'Roman engineering marvel - Aquaduct brige',
 		lngLat: [4.535556, 43.947222],
 		visited: false
+	},
+	{
+		title: 'Grand Canyon',
+		body: 'Nature!',
+		lngLat: [-112.75, 36.3],
+		visited: true
 	}
 ] as const;

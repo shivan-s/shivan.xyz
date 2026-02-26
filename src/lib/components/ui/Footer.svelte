@@ -5,7 +5,7 @@
 <footer>
 	<p>
 		Made with <span title="Love">💗</span> by
-		<a title={config.author.name} href="mailto:{config.author.email}">{config.author.name}</a>
+		<a title={config.author.name} href="mailto:{config.author.email}">{config.author.shortName}</a>
 	</p>
 </footer>
 

@@ -28,7 +28,7 @@
 		"@playwright/test": "^1.58.2",
 		"@storybook/addon-svelte-csf": "^5.0.10",
 		"@storybook/sveltekit": "^10.2.7",
-		"@sveltejs/adapter-auto": "^7.0.0",
+		"@sveltejs/adapter-auto": "^7.0.1",
 		"@sveltejs/adapter-static": "^3.0.10",
 		"@sveltejs/enhanced-img": "^0.10.0",
 		"@sveltejs/kit": "^2.52.2",

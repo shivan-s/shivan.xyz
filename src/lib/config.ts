@@ -4,6 +4,7 @@ export const config = Object.freeze({
 	description: 'This is my digital garden',
 	url: 'https://shivan.xyz',
 	author: Object.freeze({
+		shortName: 'Shivan',
 		name: 'Shivan Sivakumaran',
 		email: 'me@shivan.xyz'
 	}),

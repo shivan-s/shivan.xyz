@@ -5,8 +5,10 @@
 
 <header id="top">
 	<nav>
-		<a href={resolve('/')} title={config.title}>
+		<a href={resolve('/qr')}>
 			<img src="/favicon.ico" alt="Shivan Logo" height="35px" />
+		</a>
+		<a href={resolve('/')} title={config.title}>
 			{config.title}
 		</a>
 	</nav>
@@ -21,11 +23,11 @@
 			border-radius: var(--border-radius);
 		}
 		& nav {
+			display: inline-flex;
+			font-size: var(--font-size-large);
+			gap: var(--letter-gap);
 			& a {
 				font-family: 'Optician Sans', sans-serif;
-				display: inline-flex;
-				font-size: var(--font-size-large);
-				gap: var(--letter-gap);
 			}
 		}
 	}

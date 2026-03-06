@@ -39,7 +39,7 @@
 	}
 
 	:global(blockquote) {
-		backdrop-filter: invert(10%);
+		backdrop-filter: invert(var(--invert));
 		padding-block: var(--padding);
 		border-end-end-radius: var(--border-radius);
 		border-inline-start: 2px solid var(--primary-color);

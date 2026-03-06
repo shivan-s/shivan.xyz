@@ -79,9 +79,9 @@
 <style>
 	div {
 		display: grid;
-		width: 100%;
-		height: 100%;
 		& > :global(svg) {
+			width: 50dvh;
+			height: 50dvh;
 			margin: auto;
 		}
 	}

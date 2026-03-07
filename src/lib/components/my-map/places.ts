@@ -50,5 +50,11 @@ export const places: Place[] = [
 		body: 'Nature!',
 		lngLat: [-112.75, 36.3],
 		visited: true
+	},
+	{
+		title: 'Edmund Pettus Bridge',
+		body: 'This is where the <a href="https://en.wikipedia.org/wiki/Selma_to_Montgomery_marches" target="_blank">Selma to Montgomery marches happened in 1965</a>.',
+		lngLat: [-87.018611, 32.405556],
+		visited: false
 	}
 ] as const;

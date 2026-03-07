@@ -6,6 +6,8 @@
 
 	const containerId = 'map';
 	const style = 'https://tiles.openfreemap.org/styles/liberty';
+	const red = 'hsl(1 50% 50% / 1)';
+	const green = 'hsl(120 50% 50% / 1)';
 	async function loadMap() {
 		const m = await import('maplibre-gl');
 		const map = new m.Map({
@@ -18,7 +20,7 @@
 			const h2 = `<h2>${p.title}</h2>`;
 			const html: string[] = [h2];
 			if (p.body) html.push(`<p>${p.body}</p>`);
-			const color = p.visited ? 'hsl(120 50% 50% / 1)' : 'hsl(1 50% 50% / 1)';
+			const color = p.visited ? green : red;
 			const popup = new m.Popup().setHTML(html.join(''));
 			const marker = new m.Marker({ color }).setLngLat(p.lngLat).setPopup(popup);
 			marker.addTo(map);
@@ -47,13 +49,13 @@
 		<h3 class="red">To Visit</h3>
 		<ul>
 			{#each places.filter(({ visited }) => !visited) as p, idx (idx)}
-				<li>{p.title}</li>
+				<li><strong>{p.title}</strong> - {@html p.body}</li>
 			{/each}
 		</ul>
 		<h3 class="green">Visited</h3>
 		<ul>
 			{#each places.filter(({ visited }) => visited) as p, idx (idx)}
-				<li>{p.title}</li>
+				<li><strong>{p.title}</strong> - {@html p.body}</li>
 			{/each}
 		</ul>
 	</details>

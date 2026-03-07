@@ -21,14 +21,12 @@ export default defineConfig(
 	...storybook.configs['flat/recommended'],
 	{
 		languageOptions: { globals: { ...globals.browser, ...globals.node } },
-
 		rules: {
 			'no-undef': 'off'
 		}
 	},
 	{
 		files: ['**/*.svelte', '**/*.svelte.ts', '**/*.svelte.js'],
-
 		languageOptions: {
 			parserOptions: {
 				projectService: true,
@@ -36,6 +34,9 @@ export default defineConfig(
 				parser: ts.parser,
 				svelteConfig
 			}
+		},
+		rules: {
+			'svelte/no-at-html-tags': 'off'
 		}
 	}
 );

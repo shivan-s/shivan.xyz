@@ -2,6 +2,7 @@
     import Figure from "Figure"
     import ShivanSivakumaran from "./shivan-sivakumaran.jpg"
     import { MyMap } from "$lib/components/my-map"
+    import { QRCode } from "$lib/components/ui"
 </script>
 
 ## Who am I?
@@ -23,6 +24,13 @@ I am working on my [Private Pilot License](https://www.aviation.govt.nz/licensin
 I am also interested in writing, photography, film, and reading.
 
 ## What Is The Purpose Of This Website?
+
+<figure>
+    <QRCode />
+    <figcaption>
+        <a href="./qr" style="margin-inline: auto" target="_blank">QR Code</a>
+    </figcaption>
+</figure>
 
 This is my digital garden. It's my stake on the internet.
 

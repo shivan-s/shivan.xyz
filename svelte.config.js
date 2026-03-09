@@ -66,7 +66,7 @@ const config = {
 	compilerOptions: {
 		experimental: { async: true }
 	},
-	extensions: ['.svelte', '.md']
+	extensions: ['.svelte', '.md', '.html']
 };
 
 export default config;

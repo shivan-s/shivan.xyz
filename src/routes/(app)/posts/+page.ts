@@ -4,7 +4,7 @@ import { config } from '$lib/config';
 import type { PageLoad } from './$types';
 
 export const load: PageLoad = async () => {
-	const posts = await fetchPostsGroupByYear();
+	const posts = fetchPostsGroupByYear();
 	return {
 		posts,
 		pageTitle: `${m.posts()} · ${config.title}`

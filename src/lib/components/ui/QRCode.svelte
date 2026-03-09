@@ -5,9 +5,10 @@
 
 	interface Props {
 		data?: string;
+		opts?: Options;
 	}
 
-	let { data = config.url }: Props = $props();
+	let { data = config.url, opts = {} }: Props = $props();
 
 	let ticker = $state(0);
 	let style = $state<CSSStyleDeclaration | null>(null);
@@ -26,8 +27,7 @@
 	let container: HTMLDivElement | undefined = $state();
 	$effect(() => {
 		const options: Options = {
-			height: '50%',
-			width: '50%',
+			...opts,
 			data,
 			cornersSquareOptions: {
 				type: 'rounded',
@@ -80,8 +80,6 @@
 	div {
 		display: grid;
 		& > :global(svg) {
-			width: 50dvh;
-			height: 50dvh;
 			margin: auto;
 		}
 	}

@@ -1,7 +1,6 @@
 <script lang="ts">
 	import '$lib/assets/css/app.css';
 	import { config } from '$lib/config';
-	import { Footer, Header } from '$lib/components/ui';
 	import { page } from '$app/state';
 
 	let { children } = $props();
@@ -18,16 +17,4 @@
 	<meta property="og:image" content={config.image} />
 </svelte:head>
 
-<Header />
-<main>
-	{@render children()}
-</main>
-<Footer />
-
-<style>
-	main {
-		max-width: 100dvw;
-		min-width: 360px;
-		padding-inline: var(--variable-gap);
-	}
-</style>
+{@render children()}

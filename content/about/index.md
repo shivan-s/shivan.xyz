@@ -1,7 +1,7 @@
 <script>
     import Figure from "Figure"
     import ShivanSivakumaran from "./shivan-sivakumaran.jpg"
-    import { MyMap } from "$lib/components/my-map"
+    import { MyMapWithDetails } from "$lib/components/my-map"
     import { QRCode } from "$lib/components/ui"
 </script>
 
@@ -25,12 +25,8 @@ I am also interested in writing, photography, film, and reading.
 
 ## What Is The Purpose Of This Website?
 
-<figure>
-    <QRCode />
-    <figcaption>
-        <a href="./qr" style="margin-inline: auto" target="_blank">QR Code</a>
-    </figcaption>
-</figure>
+<a href="./qr" target="_blank">Expand QR Code</a>
+<QRCode />
 
 This is my digital garden. It's my stake on the internet.
 
@@ -49,7 +45,7 @@ I want to be okay with sharing my thoughts and putting it out there into the wor
 
 ## Where have I been / Where do I want to go?
 
-<MyMap />
+<MyMapWithDetails />
 
 ## Photos
 

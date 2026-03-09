@@ -10,20 +10,23 @@
 
 	let { data = config.url, opts = {} }: Props = $props();
 
-	let ticker = $state(0);
 	let style = $state<CSSStyleDeclaration | null>(null);
-	const DELAY_MS = 50;
+	let start: number | null = $state(null);
+	let ticker = $state(0);
 	onMount(() => {
+		ticker = window.requestAnimationFrame((timestamp) => {
+			if (start === null) {
+				start = timestamp;
+			}
+			const elasped = timestamp - start;
+		});
 		style = window.getComputedStyle(document.body);
-		let interval = setInterval(() => (ticker = (ticker + 1) % 100), DELAY_MS);
-		return () => clearInterval(interval);
 	});
 
 	let backgroundColor = $derived(style ? style.getPropertyValue('--background-color') : undefined);
 	let color = $derived(style ? style.getPropertyValue('--color') : undefined);
 	let primaryColor = $derived(style ? style.getPropertyValue('--primary-color') : undefined);
 	let alternateColor = $derived(style ? style.getPropertyValue('--alternative-color') : undefined);
-
 	let container: HTMLDivElement | undefined = $state();
 	$effect(() => {
 		const options: Options = {
@@ -33,7 +36,6 @@
 				type: 'rounded',
 				gradient: {
 					type: 'linear',
-					rotation: -Math.PI * (ticker / 50),
 					colorStops: [
 						{ offset: 0, color: primaryColor },
 						{ offset: 0.5, color: color },
@@ -45,7 +47,6 @@
 				type: 'rounded',
 				gradient: {
 					type: 'linear',
-					rotation: -Math.PI * (ticker / 50),
 					colorStops: [
 						{ offset: 0, color: primaryColor },
 						{ offset: 0.5, color: color },
@@ -57,7 +58,6 @@
 				type: 'dot',
 				gradient: {
 					type: 'linear',
-					rotation: Math.PI * (ticker / 50),
 					colorStops: [
 						{ offset: 0, color: primaryColor },
 						{ offset: 0.5, color: color },
@@ -81,6 +81,19 @@
 		display: grid;
 		& > :global(svg) {
 			margin: auto;
+		}
+		& > :global(svg defs linearGradient) {
+			animation: rotate-grad 5s linear infinite;
+			transform-origin: 50% 50%;
+		}
+	}
+
+	@keyframes rotate-grad {
+		0% {
+			transform: rotate(0deg);
+		}
+		100% {
+			transform: rotate(360deg);
 		}
 	}
 </style>

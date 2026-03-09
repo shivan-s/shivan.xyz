@@ -5,7 +5,9 @@
 
 	let { children } = $props();
 
-	let title = $derived(page.data['pageTitle'] ?? config.title);
+	let title = $derived(
+		page.data['pageTitle'] ? `${page.data['pageTitle']} · ${config.title}` : config.title
+	);
 </script>
 
 <svelte:head>

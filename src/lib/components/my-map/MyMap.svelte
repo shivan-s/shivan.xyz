@@ -2,12 +2,9 @@
 	import { places } from './places';
 	import 'maplibre-gl/dist/maplibre-gl.css';
 	import { onMount } from 'svelte';
-	import { m } from '$i18n/messages.js';
 
 	const containerId = 'map';
 	const style = 'https://tiles.openfreemap.org/styles/liberty';
-	const red = 'hsl(1 50% 50% / 1)';
-	const green = 'hsl(120 50% 50% / 1)';
 	async function loadMap() {
 		const m = await import('maplibre-gl');
 		const map = new m.Map({
@@ -16,6 +13,9 @@
 			center: [0, 0],
 			zoom: 1
 		});
+		const s = window.getComputedStyle(document.body);
+		const red = s.getPropertyValue('--red');
+		const green = s.getPropertyValue('--green');
 		places.forEach((p) => {
 			const h2 = `<h2>${p.title}</h2>`;
 			const html: string[] = [h2];
@@ -27,39 +27,18 @@
 		});
 	}
 
+	interface Props {
+		fullScreen?: boolean;
+	}
+
+	let { fullScreen = false }: Props = $props();
+
 	onMount(() => {
 		loadMap();
 	});
 </script>
 
-<figure>
-	<div id={containerId}></div>
-	<figcaption>
-		<p>
-			This map contains locations I want to visit (<strong style="color: hsl(1 50% 50% / 1)"
-				>red</strong
-			>) as well as places I have visited (<strong style="color: hsl(120 50% 50% / 1)">green</strong
-			>).
-		</p>
-	</figcaption>
-</figure>
-<div>
-	<details>
-		<summary>{m.locations()}</summary>
-		<h3 class="red">To Visit</h3>
-		<ul>
-			{#each places.filter(({ visited }) => !visited) as p, idx (idx)}
-				<li><strong>{p.title}</strong> - {@html p.body}</li>
-			{/each}
-		</ul>
-		<h3 class="green">Visited</h3>
-		<ul>
-			{#each places.filter(({ visited }) => visited) as p, idx (idx)}
-				<li><strong>{p.title}</strong> - {@html p.body}</li>
-			{/each}
-		</ul>
-	</details>
-</div>
+<div id={containerId} style={fullScreen ? 'width: 100dvw; height: 100dvh' : ''}></div>
 
 <style>
 	:root {
@@ -72,64 +51,26 @@
 	.green {
 		color: var(--green);
 	}
-	figure {
-		& > div {
-			width: 100%;
-			height: 32rem;
-			transition:
-				border-radius 0.3s ease-in-out,
-				box-shadow 0.3s ease-in-out;
-			border-radius: var(--border-radius);
-			box-shadow: var(--box-shadow);
-			&:hover {
-				border-radius: 0;
-				box-shadow: none;
-			}
-			& :global(button.maplibregl-popup-close-button) {
-				color: var(--color);
-			}
-			& :global(div.maplibregl-popup-content) {
-				background-color: var(--background-color);
-			}
-			& :global(div.maplibregl-popup-tip) {
-				border-top-color: var(--background-color);
-			}
-		}
-		& > figcaption {
-			text-align: center;
-		}
-	}
-	details {
-		overflow: hidden;
+	div {
+		width: 100%;
+		height: 32rem;
+		transition:
+			border-radius 0.3s ease-in-out,
+			box-shadow 0.3s ease-in-out;
 		border-radius: var(--border-radius);
-		transition: backdrop-filter 0.3s ease-in-out;
-		padding-inline: var(--padding-small);
-		backdrop-filter: invert(var(--invert));
-
+		box-shadow: var(--box-shadow);
 		&:hover {
-			backdrop-filter: invert(var(--invert-highlight));
+			border-radius: 0;
+			box-shadow: none;
 		}
-
-		&::details-content {
-			transition:
-				block-size 0.3s ease-in-out,
-				opacity 0.4s ease-in-out,
-				padding-block-end 0.4s ease-in-out;
-			transition-behavior: allow-discrete;
-			opacity: 0;
-			block-size: 0;
+		& :global(button.maplibregl-popup-close-button) {
+			color: var(--color);
 		}
-
-		&[open]::details-content {
-			block-size: auto;
-			block-size: calc(auto);
-			padding-block-end: var(--padding);
-			opacity: 1;
+		& :global(div.maplibregl-popup-content) {
+			background-color: var(--background-color);
 		}
-		& > summary {
-			font-weight: 900;
-			padding: var(--padding);
-			cursor: pointer;
+		& :global(div.maplibregl-popup-tip) {
+			border-top-color: var(--background-color);
 		}
 	}
 </style>

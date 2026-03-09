@@ -4,7 +4,7 @@
 	import Markdown from 'reveal.js/plugin/markdown/markdown';
 	import 'reveal.js/dist/reveal.css';
 	import { browser } from '$app/environment';
-	import QRCode from '$lib/components/ui/QRCode.svelte';
+	import { QRCode } from '$lib/components/ui';
 	import { page } from '$app/state';
 	import { resolve } from '$app/paths';
 	import { config } from '$lib/config';

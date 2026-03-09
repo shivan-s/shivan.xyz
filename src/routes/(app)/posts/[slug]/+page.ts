@@ -4,19 +4,19 @@ import { error } from '@sveltejs/kit';
 import { PostSchema, ImportMetaSchema } from '$lib/schemas';
 import { config } from '$lib/config';
 
-const markdowns = import.meta.glob('../../../../content/posts/**/*.md', { eager: true });
-const images = import.meta.glob('../../../../content/posts/**/*.{jpg,png,gif,jpeg,webp,svg}', {
+const markdowns = import.meta.glob('../../../../../content/posts/**/*.md', { eager: true });
+const images = import.meta.glob('../../../../../content/posts/**/*.{jpg,png,gif,jpeg,webp,svg}', {
 	query: '?url',
 	eager: true
 });
-const audios = import.meta.glob('../../../../content/posts/**/*.{mp3,wav}', {
+const audios = import.meta.glob('../../../../../content/posts/**/*.{mp3,wav}', {
 	query: '?url',
 	eager: true
 });
 
 export const load: PageLoad = async ({ params }) => {
 	// Post does not have content since it's not JSON-able, so we get it again
-	const { metadata } = await fetchPost(params.slug);
+	const { metadata } = fetchPost(params.slug);
 	const rawPost = Object.entries(markdowns).find(([path]) => {
 		const slug = path.split('/').at(-2);
 		const fileName = path.split('/').at(-1);

@@ -29,7 +29,7 @@
 							<li>
 								<a
 									title="{title}{middot}{text}{middot}{summary}"
-									href={resolve('/posts/[slug]', { slug })}
+									href={resolve('/(app)/posts/[slug]', { slug })}
 								>
 									<span>{title}</span>
 									<small>

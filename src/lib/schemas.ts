@@ -53,3 +53,7 @@ const SvelteCompomentSchema = z
 export const ImportMetaSchema = z.object({
 	default: SvelteCompomentSchema
 });
+
+export const PresentationSchema = z.strictObject({
+	default: z.any()
+});

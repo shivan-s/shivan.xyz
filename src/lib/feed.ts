@@ -20,7 +20,7 @@ export const feed = new Feed({
 	}
 });
 
-const posts = await fetchAllPost();
+const posts = fetchAllPost();
 posts.forEach(({ slug, metadata }) => {
 	feed.addItem({
 		title: metadata.title,

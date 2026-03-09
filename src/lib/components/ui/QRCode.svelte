@@ -10,25 +10,10 @@
 
 	let { data = config.url, opts = {} }: Props = $props();
 
-	let style = $state<CSSStyleDeclaration | null>(null);
-	let start: number | null = $state(null);
-	let ticker = $state(0);
-	onMount(() => {
-		ticker = window.requestAnimationFrame((timestamp) => {
-			if (start === null) {
-				start = timestamp;
-			}
-			const elasped = timestamp - start;
-		});
-		style = window.getComputedStyle(document.body);
-	});
-
-	let backgroundColor = $derived(style ? style.getPropertyValue('--background-color') : undefined);
-	let color = $derived(style ? style.getPropertyValue('--color') : undefined);
-	let primaryColor = $derived(style ? style.getPropertyValue('--primary-color') : undefined);
-	let alternateColor = $derived(style ? style.getPropertyValue('--alternative-color') : undefined);
 	let container: HTMLDivElement | undefined = $state();
-	$effect(() => {
+	let style = $state<CSSStyleDeclaration | null>(null);
+	onMount(() => {
+		style = window.getComputedStyle(document.body);
 		const options: Options = {
 			...opts,
 			data,
@@ -72,6 +57,10 @@
 		const qrCode = new QRCodeJs(options);
 		qrCode.append(container, { clearContainer: true });
 	});
+	let backgroundColor = $derived(style ? style.getPropertyValue('--background-color') : undefined);
+	let color = $derived(style ? style.getPropertyValue('--color') : undefined);
+	let primaryColor = $derived(style ? style.getPropertyValue('--primary-color') : undefined);
+	let alternateColor = $derived(style ? style.getPropertyValue('--alternative-color') : undefined);
 </script>
 
 <div bind:this={container}></div>

@@ -7,7 +7,7 @@ const paths = import.meta.glob('../../content/presentations/**/index.html', { ea
 /**
  * Fetch all presentations
  */
-function fetchAllPresentations() {
+export function fetchAllPresentations() {
 	const presentations = Object.entries(paths).map(([path, file]) => {
 		const result = PresentationSchema.safeParse(file);
 		if (result.success === false) {

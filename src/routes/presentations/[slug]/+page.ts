@@ -1,7 +1,12 @@
-import { fetchPresentation } from '$lib/presentations';
+import { fetchAllPresentations, fetchPresentation } from '$lib/presentations';
 import { error } from '@sveltejs/kit';
 import type { PageLoad } from './$types';
 import { config } from '$lib/config';
+
+export const entries = () => {
+	const presentations = fetchAllPresentations();
+	return presentations.map(({ slug }) => ({ slug }));
+};
 
 export const load: PageLoad = async ({ params }) => {
 	const presentation = fetchPresentation(params.slug);

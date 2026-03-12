@@ -2,7 +2,6 @@
     import Figure from "Figure"
     import ShivanSivakumaran from "./shivan-sivakumaran.jpg"
     import { MyMapWithDetails } from "$lib/components/my-map"
-    import { QRCode } from "$lib/components/ui"
 </script>
 
 ## Who am I?
@@ -25,14 +24,15 @@ I am also interested in writing, photography, film, and reading.
 
 ## What Is The Purpose Of This Website?
 
-<a href="./qr" target="_blank">Expand QR Code</a>
-<QRCode />
-
 This is my digital garden. It's my stake on the internet.
 
 It's a vessel for my thoughts through writing as well as various others forms of creativity.
 
 I want to be okay with sharing my thoughts and putting it out there into the world for those who care to listen.
+
+<p><a href="https://github.com/shivan-s/shivan.xyz">Here is a link to the repository that contains code for this website.</a></p>
+
+<p><a href="./qr" target="_blank">QR Code!</a>
 
 ## Milestones
 

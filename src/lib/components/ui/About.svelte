@@ -8,7 +8,7 @@
 
 <section id="about">
 	<header>
-		<h2><a href={resolve('/about')}>{m.about()}</a></h2>
+		<h2 style:--slug="about"><a href={resolve('/about')}>{m.about()}</a></h2>
 	</header>
 	<article>
 		<Markdown>
@@ -52,6 +52,9 @@
 
 		& > header {
 			text-align: center;
+			& > h2 {
+				view-transition-name: var(--slug);
+			}
 		}
 
 		& > footer {

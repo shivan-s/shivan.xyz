@@ -38,7 +38,7 @@
 		"@types/reveal.js": "^5.2.2",
 		"eslint": "^9.39.1",
 		"eslint-config-prettier": "^10.1.8",
-		"eslint-plugin-storybook": "^10.2.13",
+		"eslint-plugin-storybook": "^10.2.15",
 		"eslint-plugin-svelte": "^3.15.0",
 		"feed": "^5.2.0",
 		"globals": "^17.4.0",

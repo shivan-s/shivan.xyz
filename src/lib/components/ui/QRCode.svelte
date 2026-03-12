@@ -21,6 +21,7 @@
 				type: 'rounded',
 				gradient: {
 					type: 'linear',
+					rotation: Math.PI,
 					colorStops: [
 						{ offset: 0, color: primaryColor },
 						{ offset: 0.5, color: color },
@@ -32,6 +33,7 @@
 				type: 'rounded',
 				gradient: {
 					type: 'linear',
+					rotation: Math.PI / 2,
 					colorStops: [
 						{ offset: 0, color: primaryColor },
 						{ offset: 0.5, color: color },

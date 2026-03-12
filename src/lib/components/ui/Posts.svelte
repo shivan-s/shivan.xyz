@@ -31,7 +31,7 @@
 									title="{title}{middot}{text}{middot}{summary}"
 									href={resolve('/(app)/posts/[slug]', { slug })}
 								>
-									<span>{title}</span>
+									<span style:--slug={slug}>{title}</span>
 									<small>
 										<time datetime={date.toISOString()}>
 											{date.toLocaleDateString(undefined, { month: 'short', day: '2-digit' })}
@@ -88,6 +88,9 @@
 								grid-template-columns: 1fr auto;
 								align-items: center;
 								padding-block: var(--padding-small);
+								& > span {
+									view-transition-name: var(--slug);
+								}
 								& > small {
 									color: var(--grey);
 								}

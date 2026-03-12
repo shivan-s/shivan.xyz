@@ -9,7 +9,7 @@
 
 <article>
 	<header>
-		<h1>{m.about()}</h1>
+		<h1 style:--slug="about">{m.about()}</h1>
 	</header>
 	<section>
 		<Markdown>
@@ -29,6 +29,7 @@
 				font-family: 'Optician Sans', sans-serif;
 				transform: rotate(-1deg);
 				transition: transform 0.4s ease-in-out;
+				view-transition-name: var(--slug);
 
 				&:hover {
 					transform: rotate(0deg);

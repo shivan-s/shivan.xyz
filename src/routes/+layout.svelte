@@ -2,6 +2,7 @@
 	import '$lib/assets/css/app.css';
 	import { config } from '$lib/config';
 	import { page } from '$app/state';
+	import ViewTransition from '$lib/components/ui/ViewTransition.svelte';
 
 	let { children } = $props();
 
@@ -18,5 +19,7 @@
 	<meta property="og:url" content={page.url.toString()} />
 	<meta property="og:image" content={config.image} />
 </svelte:head>
+
+<ViewTransition />
 
 {@render children()}

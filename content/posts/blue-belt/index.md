@@ -6,7 +6,7 @@ draft: false
 cover:
   image: blue-belt.jpg
   alt: A coiled BJJ Blue belt on top of a certificate
-  caption: The Journey continues
+  caption: Reflecting on the ever-continuing journey
 ---
 
 <script>
@@ -34,4 +34,4 @@ There is a joke that when most people get their blue belt, they stop training. I
 
 Hopefully, I won't be in that statistic but the mentality I'll adopt is: nothing changes, keep turning up and keep drilling the fundamentals, always have that beginner's mindset; it helps you in BJJ and in life.
 
-Finally, OSS!
+Finally, a special thanks to Coach and everyone I train with for being a part of this humbling journey. OSS!

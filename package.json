@@ -24,7 +24,7 @@
 		"@eslint/compat": "^2.0.2",
 		"@eslint/js": "^9.39.4",
 		"@inlang/paraglide-js": "^2.13.0",
-		"@lucide/svelte": "^0.563.1",
+		"@lucide/svelte": "^0.577.0",
 		"@playwright/test": "^1.58.2",
 		"@qr-platform/qr-code.js": "^0.20.14",
 		"@storybook/addon-svelte-csf": "^5.0.11",

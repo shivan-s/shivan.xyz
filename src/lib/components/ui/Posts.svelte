@@ -54,7 +54,7 @@
 	}
 	section#posts {
 		max-width: var(--max-width);
-		margin-block: var(--margin-large);
+		margin-block: var(--margin);
 		margin-inline: auto;
 		& > header {
 			display: flex;

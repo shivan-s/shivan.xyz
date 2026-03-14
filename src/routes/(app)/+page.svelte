@@ -1,12 +1,9 @@
 <script lang="ts">
 	import type { PageProps } from './$types';
-	import { Posts, About } from '$lib/components/ui';
+	import { Posts, MiniBio } from '$lib/components/ui';
 
 	let { data }: PageProps = $props();
-	const AboutContent = $derived(data.content);
 </script>
 
-<About>
-	<AboutContent />
-</About>
+<MiniBio />
 <Posts postsGroupByYear={data.posts} />

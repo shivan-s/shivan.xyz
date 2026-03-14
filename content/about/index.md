@@ -2,6 +2,7 @@
     import Figure from "Figure"
     import ShivanSivakumaran from "./shivan-sivakumaran.jpg"
     import { MyMapWithDetails } from "$lib/components/my-map"
+    import { Age } from "$lib/components/ui"
 </script>
 
 ## Who am I?
@@ -36,7 +37,7 @@ I want to be okay with sharing my thoughts and putting it out there into the wor
 
 ## Milestones
 
-- **1993**: Born in [Palmerston North](https://en.wikipedia.org/wiki/Palmerston_North) — where I spent most of my life growing up
+- **1993**: Born in [Palmerston North](https://en.wikipedia.org/wiki/Palmerston_North), <Age /> -- where I spent most of my life growing up
 - **2011**: Moved to Auckland to start university
 - **2016**: Graduated from the [University of Auckland](https://www.auckland.ac.nz/en.html) as a fully qualified [optometrist](https://en.wikipedia.org/wiki/Optometry) and moved down to [Christchurch](https://en.wikipedia.org/wiki/Christchurch) to start my working life; moved to Christchurch
 - **2020**: [Began writing online](/posts/why-create-a-blog)

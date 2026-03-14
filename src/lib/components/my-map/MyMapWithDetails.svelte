@@ -3,6 +3,9 @@
 	import { resolve } from '$app/paths';
 	import { m } from '$i18n/messages.js';
 	import MyMap from './MyMap.svelte';
+
+	const toVisit = places.filter(({ visited }) => !visited);
+	const haveVisited = places.filter(({ visited }) => visited);
 </script>
 
 <a href={resolve('/my-map')} target="_blank">Expand Map</a>
@@ -20,15 +23,15 @@
 <div>
 	<details>
 		<summary>{m.locations()}</summary>
-		<h3 class="red">To Visit</h3>
+		<h3 class="red">To Visit ({new Intl.NumberFormat().format(toVisit.length)})</h3>
 		<ul>
-			{#each places.filter(({ visited }) => !visited) as p, idx (idx)}
+			{#each toVisit as p, idx (idx)}
 				<li><strong>{p.title}</strong> - {@html p.body}</li>
 			{/each}
 		</ul>
-		<h3 class="green">Visited</h3>
+		<h3 class="green">Visited ({new Intl.NumberFormat().format(haveVisited.length)})</h3>
 		<ul>
-			{#each places.filter(({ visited }) => visited) as p, idx (idx)}
+			{#each haveVisited as p, idx (idx)}
 				<li><strong>{p.title}</strong> - {@html p.body}</li>
 			{/each}
 		</ul>

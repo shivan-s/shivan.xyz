@@ -17,13 +17,13 @@
 	header {
 		display: grid;
 		place-content: center;
+		padding: var(--padding);
 		width: 100%;
 		& > nav {
 			& > a {
 				font-family: 'Optician Sans', sans-serif;
 				display: inline-flex;
 				align-items: center;
-				font-size: var(--font-size-large);
 				gap: var(--gap-small);
 				& > span {
 					display: inline-block;

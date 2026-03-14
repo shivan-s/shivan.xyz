@@ -2,13 +2,16 @@
 	import { resolve } from '$app/paths';
 	import { config } from '$lib/config';
 	import Avatar from '$lib/assets/img/avatar.png';
+	import { page } from '$app/state';
 </script>
 
 <header id="top">
 	<nav>
 		<a href={resolve('/')} title={config.title}>
 			<enhanced:img src={Avatar} alt="Logo with 'Shivan' in it as as form of a letter chart" />
-			<span>{config.title}</span>
+			{#if page.url.pathname === '/'}
+				<span>{config.title}</span>
+			{/if}
 		</a>
 	</nav>
 </header>
@@ -33,15 +36,13 @@
 				}
 				&:hover > enhanced\:img {
 					box-shadow: var(--box-shadow);
-					transform: rotate(1turn);
 				}
 				& > enhanced\:img {
 					border-radius: 50%;
 					height: var(--font-size-large);
 					animation: 2s ease-in-out spin;
-					transition:
-						transform 1s 0.2s ease-in-out,
-						box-shadow 0.3s ease-in-out;
+					transition: box-shadow 0.3s ease-in-out;
+					view-transition-name: logo;
 				}
 			}
 		}

@@ -2145,9 +2145,6 @@ packages:
   flat-cache@6.1.19:
     resolution: {integrity: sha512-l/K33newPTZMTGAnnzaiqSl6NnH7Namh8jBNjrgjprWxGmZUuxx/sJNIRaijOh3n7q7ESbhNZC+pvVZMFdeU4A==}
 
-  flatted@3.3.3:
-    resolution: {integrity: sha512-GX+ysw4PBCz0PzosHDepZGANEuFCMLrnRTiEy9McGjmkCQYwRq4A/X786G/fjM/+OjsWSU1ZrY5qyARZmO/uwg==}
-
   flatted@3.4.1:
     resolution: {integrity: sha512-IxfVbRFVlV8V/yRaGzk0UVIcsKKHMSfYw66T/u4nTwlWteQePsxe//LjudR1AMX4tZW3WFCh3Zqa/sjlqpbURQ==}
 
@@ -5422,10 +5419,8 @@ snapshots:
   flat-cache@6.1.19:
     dependencies:
       cacheable: 2.3.1
-      flatted: 3.3.3
+      flatted: 3.4.1
       hookified: 1.15.0
-
-  flatted@3.3.3: {}
 
   flatted@3.4.1: {}
 

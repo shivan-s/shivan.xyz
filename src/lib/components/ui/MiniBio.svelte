@@ -10,7 +10,7 @@
 			src={Shivan}
 			alt="Portrait of a man holding a microphone in a blue suit and tie"
 		/>
-		<p>My name is <strong>Shivan</strong> and welcome to my digital garden.</p>
+		<p>🤗 Hi, I'm <strong>Shivan</strong> and welcome to my digital garden.</p>
 	</article>
 	<footer><a href={resolve('/about')}>{m.more_about_me()}</a></footer>
 </section>

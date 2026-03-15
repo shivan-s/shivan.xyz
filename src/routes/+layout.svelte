@@ -3,12 +3,17 @@
 	import { config } from '$lib/config';
 	import { page } from '$app/state';
 	import ViewTransition from '$lib/components/ui/ViewTransition.svelte';
+	import { DARK, theme } from '$lib/state.svelte';
 
 	let { children } = $props();
 
 	let title = $derived(
 		page.data['pageTitle'] ? `${page.data['pageTitle']} · ${config.title}` : config.title
 	);
+
+	$effect(() => {
+		document.documentElement.classList.toggle('dark', theme.current === DARK);
+	});
 </script>
 
 <svelte:head>

@@ -10,6 +10,13 @@
 html {
 	scroll-padding: 1rem;
 	scroll-behavior: smooth;
+	view-transition-name: none;
+
+	&.dark {
+		--primary-color: var(--light-blue);
+		--color: var(--light-grey);
+		--background-color: var(--dark-grey);
+	}
 }
 
 @media (prefers-reduced-motion: reduce) {
@@ -24,6 +31,7 @@ body {
 	grid-template-rows: 4rem auto 4rem;
 	color: var(--color);
 	background-color: var(--background-color);
+	transition: background-color 0.3s ease-in-out;
 	font-family: Domine, serif;
 }
 
@@ -44,7 +52,8 @@ a {
 			sans-serif;
 	}
 
-	&:hover {
+	&:hover,
+	:active {
 		color: var(--alternative-color);
 		text-decoration: underline solid;
 		text-shadow: 0 0 1rem var(--alternative-color);

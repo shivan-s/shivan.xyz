@@ -7,11 +7,11 @@
 
 ## Who am I?
 
-My name is Shivan (pronounced Shiv-arn).
+My name is Shivan (pronounced Shiv-arn), written as `ஷிவன்` in [Tamil](https://en.wikipedia.org/wiki/Tamil_language).
 
-I am Kiwi born 🇳🇿 with Sri Lankan 🇱🇰 heritage.
+I am [Kiwi](https://en.wikipedia.org/wiki/Tamil_language) born 🇳🇿 with [Sri Lankan Tamil](https://en.wikipedia.org/wiki/Sri_Lankan_Tamils) 🇱🇰 heritage.
 
-I currently work as a **Software Developer** after 7 years working as an **[Optometrist](https://en.wikipedia.org/wiki/Optometry)**.
+I currently work as a **[Software Developer](https://en.wikipedia.org/wiki/Programmer)** after 7 years working as an **[Optometrist](https://en.wikipedia.org/wiki/Optometry)**.
 
 ## What am I up to now?
 

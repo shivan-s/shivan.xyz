@@ -7,17 +7,22 @@
 
 ## Who am I?
 
-My name is Shivan (pronounced Shiv-arn).
+My name is Shivan (pronounced Shiv-arn), written as `ஷிவன்` in [Tamil](https://en.wikipedia.org/wiki/Tamil_language).
 
-I am Kiwi born 🇳🇿 with Sri Lankan 🇱🇰 heritage.
+I am [Kiwi](https://en.wikipedia.org/wiki/Tamil_language) born 🇳🇿 with [Sri Lankan Tamil](https://en.wikipedia.org/wiki/Sri_Lankan_Tamils) 🇱🇰 heritage.
 
-I currently work as a **Software Developer** after 7 years working as an **[Optometrist](https://en.wikipedia.org/wiki/Optometry)**.
+I currently work as a **[Software Developer](https://en.wikipedia.org/wiki/Programmer)** after 7 years working as an **[Optometrist](https://en.wikipedia.org/wiki/Optometry)**.
 
 ## What am I up to now?
 
 I am living in Palmerston North with my parents. I am working in a job I love, which is software development for a global contact lens manufacturing, which is a perfect intersection of my previous occupation and my current one.
 
-Outside work I practice [Brazilian Jiu-Jitsu](https://en.wikipedia.org/wiki/Brazilian_jiu-jitsu), [Latin Dance](https://en.wikipedia.org/wiki/Latin_dance), [Weightlifting](https://en.wikipedia.org/wiki/Olympic_weightlifting), and [Pole Dance](https://en.wikipedia.org/wiki/Pole_sports).
+Outside work I practice:
+
+- [🥋 Brazilian Jiu-Jitsu](https://en.wikipedia.org/wiki/Brazilian_jiu-jitsu)
+- [🕺 Latin Dance](https://en.wikipedia.org/wiki/Latin_dance)
+- [🏋️ Weightlifting](https://en.wikipedia.org/wiki/Olympic_weightlifting)
+- [🤸‍♂️ Pole Dance](https://en.wikipedia.org/wiki/Pole_sports)
 
 I am working on my [Private Pilot License](https://www.aviation.govt.nz/licensing-and-certification/pilots/pilot-licensing/) certification.
 

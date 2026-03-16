@@ -1,7 +1,7 @@
 <script lang="ts">
 	import { onMount, type Snippet } from 'svelte';
 	import Reveal from 'reveal.js';
-	import Markdown from 'reveal.js/plugin/markdown/markdown';
+	import Markdown from 'reveal.js/plugin/markdown';
 	import 'reveal.js/dist/reveal.css';
 	import { browser } from '$app/environment';
 	import { QRCode } from '$lib/components/ui';

@@ -35,3 +35,15 @@ There is a joke that when most people get their blue belt, they stop training. I
 Hopefully, I won't be in that statistic but the mentality I'll adopt is: nothing changes, keep turning up and keep drilling the fundamentals, always have that beginner's mindset; it helps you in BJJ and in life.
 
 Finally, a special thanks to Coach and everyone I train with for being a part of this humbling journey. OSS!
+
+## Conclusion
+
+Blue belt promotion was a 3 year journey, which still continues. My fear is the greater expectation put on myself and the goal is to keep training and drilling the fundamentals.
+
+## Update
+
+I also wanted to talk about other concepts:
+
+- I do think higher belts are okay with losing vs. a fresh white belt will treat every role as a life or death battle
+- When you start to get good at something and stop, it's actually harder to come back to it, compared to if you were to start again.
+- BJJ has a long path to "mastery". This made me appreciate mastery in general, as well as cultivate patience. I think a lot of expect to 'get things' quickly. But acquiring skills that seem simple take a lot of time, not just a year or two, but a decade of intentional learning.

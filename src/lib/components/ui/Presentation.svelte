@@ -2,7 +2,7 @@
 	import { onMount, type Snippet } from 'svelte';
 	import Reveal from 'reveal.js';
 	import Markdown from 'reveal.js/plugin/markdown';
-	import 'reveal.js/dist/reveal.css';
+	import 'reveal.js/reveal.css';
 	import { browser } from '$app/environment';
 	import { QRCode } from '$lib/components/ui';
 	import { page } from '$app/state';

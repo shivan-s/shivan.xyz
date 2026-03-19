@@ -27,7 +27,7 @@
 		"@lucide/svelte": "^0.577.0",
 		"@playwright/test": "^1.58.2",
 		"@qr-platform/qr-code.js": "^0.20.14",
-		"@storybook/addon-svelte-csf": "^5.0.11",
+		"@storybook/addon-svelte-csf": "^5.0.12",
 		"@storybook/sveltekit": "^10.2.19",
 		"@sveltejs/adapter-auto": "^7.0.1",
 		"@sveltejs/adapter-static": "^3.0.10",
@@ -43,7 +43,7 @@
 		"globals": "^17.4.0",
 		"husky": "^9.1.7",
 		"lint-staged": "^16.4.0",
-		"maplibre-gl": "^5.20.1",
+		"maplibre-gl": "^5.20.2",
 		"mdsvex": "^0.12.7",
 		"mdsvex-reading-time": "^1.0.6",
 		"playwright": "^1.58.2",
@@ -61,7 +61,7 @@
 		"svelte": "^5.53.12",
 		"svelte-check": "^4.4.5",
 		"typescript": "^5.9.3",
-		"typescript-eslint": "^8.57.0",
+		"typescript-eslint": "^8.57.1",
 		"vite": "^7.2.6",
 		"zod": "^4.3.6"
 	}

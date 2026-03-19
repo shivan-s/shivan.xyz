@@ -80,10 +80,13 @@
 				padding: 0;
 				border: none;
 				height: fit-content;
-				transition: color 0.3s ease-in-out;
+				transition:
+					color 0.3s ease-in-out,
+					filter 0.4s ease-in-out;
 				&:hover,
-				:active {
+				&:active {
 					color: var(--alternative-color);
+					filter: drop-shadow(0 0 1rem var(--alternative-color));
 				}
 			}
 		}

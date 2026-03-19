@@ -15,7 +15,7 @@
 	<header>
 		<h2>{m.posts()}</h2>
 		<a href={resolve('/feed.xml')}>
-			<Rss color="var(--primary-color)" />
+			<Rss color="inherit" />
 		</a>
 	</header>
 	<div>
@@ -62,6 +62,16 @@
 			align-items: center;
 			gap: var(--gap);
 			text-align: center;
+			& a {
+				transition:
+					color 0.3s ease-in-out,
+					filter 0.4s ease-in-out;
+				&:hover,
+				&:active {
+					color: var(--alternative-color);
+					filter: drop-shadow(0 0 1rem var(--alternative-color));
+				}
+			}
 		}
 		& > div {
 			margin-block-end: var(--margin-large);
@@ -92,7 +102,7 @@
 									view-transition-name: var(--slug);
 								}
 								& > small {
-									color: var(--grey);
+									color: var(--medium-grey);
 								}
 							}
 							&:not(:first-of-type) {

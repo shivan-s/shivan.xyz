@@ -15,6 +15,7 @@ html {
 	&.dark {
 		--primary-color: var(--light-blue);
 		--color: var(--light-grey);
+		--medium-grey: oklch(from var(--grey) 75% c h / 100%);
 		--background-color: var(--dark-grey);
 	}
 }
@@ -30,7 +31,13 @@ body {
 	min-height: 100dvh;
 	grid-template-rows: 4rem auto 4rem;
 	color: var(--color);
-	background-color: var(--background-color);
+	background:
+		linear-gradient(
+			to right top,
+			oklch(from var(--background-color) l c h / 95%) 60%,
+			oklch(from var(--background-color) l c h / 60%)
+		),
+		url('$lib/assets/img/noise.svg'), var(--background-color);
 	transition: background-color 0.3s ease-in-out;
 	font-family: Domine, serif;
 }
@@ -73,4 +80,9 @@ a.link-headings {
 		font-size: 0.75rem;
 		opacity: 0.7;
 	}
+}
+
+:target {
+	outline-offset: var(--padding-small);
+	outline: 2px dotted var(--medium-grey);
 }

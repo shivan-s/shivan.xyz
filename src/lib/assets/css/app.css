@@ -31,14 +31,11 @@ body {
 	min-height: 100dvh;
 	grid-template-rows: 4rem auto 4rem;
 	color: var(--color);
-	background:
-		linear-gradient(
-			to right top,
-			oklch(from var(--background-color) l c h / 95%) 60%,
-			oklch(from var(--background-color) l c h / 60%)
-		),
-		url('$lib/assets/img/noise.svg'), var(--background-color);
-	transition: background-color 0.3s ease-in-out;
+	background-image: linear-gradient(transparent, transparent), url('$lib/assets/img/noise.svg');
+	background-color: var(--background-color);
+	transition:
+		background-color 0.3s ease-in-out,
+		background-image 0.3s ease-in-out;
 	font-family: Domine, serif;
 }
 

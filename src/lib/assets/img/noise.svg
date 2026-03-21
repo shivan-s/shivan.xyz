@@ -1,7 +1,6 @@
 <svg 
   viewBox="0 0 1600 900"
   xmlns='http://www.w3.org/2000/svg'>
-
   <filter id='noiseFilter'>
     <feTurbulence 
       type='fractalNoise' 
@@ -9,8 +8,8 @@
       numOctaves='3' 
       stitchTiles='stitch' />
   </filter>
-
   <rect
+    opacity='0.2'
     width='100%' 
     height='100%' 
     filter='url(#noiseFilter)' />

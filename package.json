@@ -23,7 +23,7 @@
 	"devDependencies": {
 		"@eslint/compat": "^2.0.3",
 		"@eslint/js": "^10.0.1",
-		"@inlang/paraglide-js": "^2.15.0",
+		"@inlang/paraglide-js": "^2.15.1",
 		"@lucide/svelte": "^0.577.0",
 		"@playwright/test": "^1.58.2",
 		"@qr-platform/qr-code.js": "^0.20.14",
@@ -58,7 +58,7 @@
 		"storybook": "^10.3.1",
 		"stylelint": "^16.26.1",
 		"stylelint-config-standard": "^39.0.1",
-		"svelte": "^5.54.0",
+		"svelte": "^5.54.1",
 		"svelte-check": "^4.4.5",
 		"typescript": "^5.9.3",
 		"typescript-eslint": "^8.57.1",

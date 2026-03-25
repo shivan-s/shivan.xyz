@@ -15,7 +15,7 @@
 	<header>
 		<h2>{m.posts()}</h2>
 		<a href={resolve('/feed.xml')}>
-			<Rss color="inherit" />
+			<Rss color="currentColor" />
 		</a>
 	</header>
 	<div>

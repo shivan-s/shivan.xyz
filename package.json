@@ -28,7 +28,7 @@
 		"@playwright/test": "^1.58.2",
 		"@qr-platform/qr-code.js": "^0.20.14",
 		"@storybook/addon-svelte-csf": "^5.0.12",
-		"@storybook/sveltekit": "^10.2.19",
+		"@storybook/sveltekit": "^10.3.3",
 		"@sveltejs/adapter-auto": "^7.0.1",
 		"@sveltejs/adapter-static": "^3.0.10",
 		"@sveltejs/enhanced-img": "^0.10.4",

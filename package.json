@@ -37,7 +37,7 @@
 		"@types/node": "^25",
 		"eslint": "^10.1.0",
 		"eslint-config-prettier": "^10.1.8",
-		"eslint-plugin-storybook": "^10.2.19",
+		"eslint-plugin-storybook": "^10.3.3",
 		"eslint-plugin-svelte": "^3.16.0",
 		"feed": "^5.2.0",
 		"globals": "^17.4.0",

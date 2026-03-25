@@ -24,11 +24,11 @@
 			<span in:blur={{ easing: sineInOut }}>
 				{#if theme.current === DARK}
 					<button onclick={() => theme.setTheme(LIGHT)}>
-						<Moon />
+						<Moon color="currentColor" />
 					</button>
 				{:else if theme.current === LIGHT}
 					<button onclick={() => theme.setTheme(DARK)}>
-						<Sun />
+						<Sun color="currentColor" />
 					</button>
 				{/if}
 			</span>

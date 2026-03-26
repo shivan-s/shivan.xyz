@@ -18,8 +18,8 @@ importers:
         specifier: ^2.15.1
         version: 2.15.1
       '@lucide/svelte':
-        specifier: ^1.6.0
-        version: 1.6.0(svelte@5.55.0)
+        specifier: ^1.7.0
+        version: 1.7.0(svelte@5.55.0)
       '@playwright/test':
         specifier: ^1.58.2
         version: 1.58.2
@@ -894,8 +894,8 @@ packages:
   '@lix-js/server-protocol-schema@0.1.1':
     resolution: {integrity: sha512-jBeALB6prAbtr5q4vTuxnRZZv1M2rKe8iNqRQhFJ4Tv7150unEa0vKyz0hs8Gl3fUGsWaNJBh3J8++fpbrpRBQ==}
 
-  '@lucide/svelte@1.6.0':
-    resolution: {integrity: sha512-5pH6MHQTVy/IwO8YNN2Usj47p9D/dM/srAAO9Hr2r33/yEoh6y7R2N7eCE4WtiybXOQJO14KrtVK6PGUhVHJJw==}
+  '@lucide/svelte@1.7.0':
+    resolution: {integrity: sha512-YytBKOUBGox7yWcykZnYxOkn5WpR5G1qYXLYXV/j1B79SOTTEKzB+s5yF5Rq9l9OkweDStNH2b4yTqfvhEhV8g==}
     peerDependencies:
       svelte: ^5
 
@@ -4117,7 +4117,7 @@ snapshots:
 
   '@lix-js/server-protocol-schema@0.1.1': {}
 
-  '@lucide/svelte@1.6.0(svelte@5.55.0)':
+  '@lucide/svelte@1.7.0(svelte@5.55.0)':
     dependencies:
       svelte: 5.55.0
 

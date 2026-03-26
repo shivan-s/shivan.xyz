@@ -16,7 +16,7 @@ export const load: PageLoad = async ({ params }) => {
 		error(404);
 	}
 	return {
-		pageTitle: `${params.slug} · ${config.title}`,
+		pageTitle: params.slug,
 		content: presentation.default
 	};
 };

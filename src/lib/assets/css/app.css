@@ -31,11 +31,8 @@ body {
 	min-height: 100dvh;
 	grid-template-rows: 4rem auto 4rem;
 	color: var(--color);
-	background-image: linear-gradient(transparent, transparent), url('$lib/assets/img/noise.svg');
 	background-color: var(--background-color);
-	transition:
-		background-color 0.3s ease-in-out,
-		background-image 0.3s ease-in-out;
+	transition: background-color 0.3s ease-in-out;
 	font-family: Domine, serif;
 }
 

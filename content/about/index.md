@@ -36,7 +36,7 @@ It's a vessel for my thoughts through writing as well as various others forms of
 
 I want to be okay with sharing my thoughts and putting it out there into the world for those who care to listen.
 
-<p><a href="https://github.com/shivan-s/shivan.xyz">Here is a link to the repository that contains code for this website.</a></p>
+<p><a href="https://github.com/shivan-s/shivan.xyz" target="_blank">Here is a link to the repository that contains code for this website.</a></p>
 
 <p><a href="./qr" target="_blank">QR Code!</a>
 

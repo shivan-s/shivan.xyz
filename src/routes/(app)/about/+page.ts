@@ -8,7 +8,7 @@ export const load: PageLoad = async () => {
 	const file = import.meta.glob('../../../../content/about/index.md', { eager: true });
 	const about = ImportMetaSchema.parse(file['../../../../content/about/index.md']);
 	return {
-		pageTitle: `${m.about()} · ${config.title}`,
+		pageTitle: m.about(),
 		content: about.default
 	};
 };

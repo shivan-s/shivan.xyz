@@ -53,6 +53,7 @@
 		overflow: hidden;
 		border-radius: var(--border-radius);
 		transition: backdrop-filter 0.3s ease-in-out;
+		background-image: linear-gradient(transparent, transparent), url('$lib/assets/img/noise.svg');
 		backdrop-filter: invert(var(--invert));
 
 		&:hover {

@@ -56,7 +56,7 @@ export const load: PageLoad = async ({ params }) => {
 		return resultAudio.data.default;
 	}
 	return {
-		pageTitle: `${resultPost.data.metadata.title} · ${config.title}`,
+		pageTitle: resultPost.data.metadata.title,
 		content: resultPost.data.default,
 		meta: {
 			slug: params.slug,

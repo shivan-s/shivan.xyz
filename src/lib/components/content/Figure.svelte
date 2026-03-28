@@ -3,8 +3,9 @@
 		src: string;
 		alt: string;
 		caption: string;
+		title?: string;
 	}
-	let { src, alt, caption }: Props = $props();
+	let { src, alt, caption, title = alt }: Props = $props();
 </script>
 
 <!--
@@ -16,7 +17,7 @@ TODO: rename this to Image
 -->
 
 <figure>
-	<enhanced:img {src} {alt} />
+	<enhanced:img {src} {alt} {title} />
 	<figcaption>
 		<small>
 			{caption}

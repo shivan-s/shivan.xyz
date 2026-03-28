@@ -7,6 +7,8 @@
 
 ## Who am I?
 
+<Figure src={ShivanSivakumaran} alt="Black and white image of a man smiling" caption="Me at a Dance Festival" />
+
 My name is Shivan (pronounced Shiv-arn), written as `ஷிவன்` in [Tamil](https://en.wikipedia.org/wiki/Tamil_language).
 
 I am [Kiwi](https://en.wikipedia.org/wiki/Tamil_language) born 🇳🇿 with [Sri Lankan Tamil](https://en.wikipedia.org/wiki/Sri_Lankan_Tamils) 🇱🇰 heritage.
@@ -52,11 +54,7 @@ I want to be okay with sharing my thoughts and putting it out there into the wor
 ## Where have I been / Where do I want to go?
 
 <MyMapWithDetails />
-
-## Photos
-
-<Figure src={ShivanSivakumaran} alt="Black and white image of a man smiling" caption="Me at a Dance Festival" />
-
+ 
 ## Where Else Am I?
 
 I am also on:

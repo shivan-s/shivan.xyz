@@ -2,14 +2,13 @@
 	import { resolve } from '$app/paths';
 	import { m } from '$i18n/messages.js';
 	import Shivan from '$lib/assets/img/shivan.png';
+
+	const alt = 'Portrait of a man holding a microphone in a blue suit and tie';
 </script>
 
 <section id="mini-bio">
 	<article>
-		<enhanced:img
-			src={Shivan}
-			alt="Portrait of a man holding a microphone in a blue suit and tie"
-		/>
+		<enhanced:img src={Shivan} {alt} title={alt} />
 		<p>🤗 Hi, I'm <strong>Shivan</strong> and welcome to my digital garden 🌱</p>
 	</article>
 	<footer><a href={resolve('/about')}>{m.more_about_me()}</a></footer>

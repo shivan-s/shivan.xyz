@@ -1,5 +1,4 @@
 import { ImportMetaSchema } from '$lib/schemas';
-import { config } from '$lib/config';
 import type { PageLoad } from './$types';
 import { m } from '$i18n/messages';
 

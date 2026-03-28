@@ -51,13 +51,6 @@
 			}
 		}
 
-		& > header {
-			text-align: center;
-			& > h2 {
-				view-transition-name: var(--slug);
-			}
-		}
-
 		& > footer {
 			width: 100%;
 			padding: var(--padding);

@@ -24,14 +24,18 @@
 				<li>
 					<h3>{year}</h3>
 					<ul>
-						{#each posts as { slug, metadata: { title, date, summary, readingTime: { text } } } (slug)}
+						{#each posts as { slug, metadata: { title, date, summary, draft, readingTime: { text } } } (slug)}
 							{@const middot = '\u0020\u00B7\u0020'}
 							<li>
 								<a
 									title="{title}{middot}{text}{middot}{summary}"
 									href={resolve('/(app)/posts/[slug]', { slug })}
 								>
-									<span style:--slug={slug}>{title}</span>
+									{#if draft}
+										<em style:--slug={slug}>{title}</em>
+									{:else}
+										<span style:--slug={slug}>{title}</span>
+									{/if}
 									<small>
 										<time datetime={date.toISOString()}>
 											{date.toLocaleDateString(undefined, { month: 'short', day: '2-digit' })}
@@ -100,6 +104,9 @@
 								padding-block: var(--padding-small);
 								& > span {
 									view-transition-name: var(--slug);
+								}
+								& > em {
+									color: var(--medium-grey);
 								}
 								& > small {
 									color: var(--medium-grey);

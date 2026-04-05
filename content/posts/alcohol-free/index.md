@@ -13,6 +13,20 @@ cover:
     import YouTube from "YouTube"
 </script>
 
+## An Update
+
+I write this on 6th April 2026. I have provided some light updates to this artible. I also want to add that I haven't had a drop of alcohol still.
+
+I do want to add some more insights, however. I do find being alcohol-free challenging for most reasons I've already mentioned down below in this article, but I want to highlight them here too.
+
+I do want to say that this is a challenge, socially. There are some assumptions about my personality if I don't drink, which does add a bit of friction. People might think you are religious. You may not be invited to social outing because you don't drink. These are things I've realised as I've been on my no-alcohol journey. But just like most things, we can't control the thoughts of others, and it's expected behaviour if you are going against the grain of the "societal way of life".
+
+**Overall, I must say that quitting alcohol has been a significant positive in my life.**
+
+---
+
+## The Inspiration
+
 I am inspired by one of my cousins.
 
 Months ago, I went to a family member's wedding over in the United States.
@@ -29,15 +43,19 @@ And for that entire night, it was his fuel. He enjoyed himself, was active on th
 
 And by this I was inspired. **You don’t need alcohol to have fun**.
 
+## Why I Quit?
+
 The following day I was welcomed by tiredness and a killer hangover, with patchy recollection of the night that been.
 
 I did have fun, but my cousin’s actions has lead me to turn over a new leaf in my life: **I want to quit alcohol for good. In fact, I want to reframe this, as is the title of this post, I want to have fun _without_ alcohol**.
 
 To be clear, I am fortunate enough not to have a problem with alcohol. A single drink won’t lead me down a rabbit hole of over consumption. I don’t have an addiction. And I have significantly toned down my drinking since my twenties.
 
-I don’t regularly go out on the weekend and get hammered. I don’t have the afterwork lonesome beer. And if I do go out for a “drink”, I usually opt for the non-alcoholic option.
+I don't regularly go out on the weekend and get hammered. I don't have the afterwork lonesome beer. And if I do go out for a "drink", I usually opt for the non-alcoholic option.
 
-Before I had this life catharsis, my recent rule was to drink only in special occasions — hence the wedding story. But I have made exceptions to this rule, for example, when I visited my workplace in Adelaide, to when I was offered a drink by my uncle.
+## My Relationship(s) with Alcohol
+
+Before I had this moment of catharsis, my recent rule was to drink only in special occasions — hence the wedding story. But I have made exceptions to this rule, for example, when I visited my workplace in Adelaide, to when I was offered a drink by my uncle.
 
 But now is the time to completely stop.
 
@@ -53,14 +71,18 @@ Later on, I would drink in social settings to have fun (that’s what I would te
 
 It’s tough. Alcohol is truly ingrained in our culture. Don’t people think you are strange if you drink?
 
-I am worried that when I meet “the boys” again, will I be pressured into drinking again? What about that uncle I was talking about or my boss? Can I keep this promise to myself?
+## A New Mindset
+
+Do people immediately attribute religious views to those who abstain from alcohol?
+
+I am worried that when I meet "the boys" again, will I be pressured into drinking again? What about that uncle I was talking about or my boss? Can I keep this promise to myself?
+
+Isn't it all a bit awkward?
 
 It turns out people don’t care if you drink.
 
 Since reducing the amount I drink, I feel a lot more comfortable ordering non-alcholic beverages without the worry of what others think.
 
-I’ve gone to social gathers completely sober and I’ve even worked up the courage to talk to others and boggie on the dance floor too. So this is evidence to myself that I can have fun without the need to drink. And my futureself can thank myself — I might be tired the next day but I won’t be writing the day off by being hungover.
+I’ve gone to social gatherings completely sober and I’ve even worked up the courage to talk to others and boogie on the dance floor too. So this is evidence to myself that I can have fun without the need to drink. And my futureself can thank myself — I might be tired the next day but I won’t be writing the day off by being hungover.
 
-On a final note, I want to share my appreciation for my cousin who showed me that you can quit alcohol and survive. But I also I want to share this podcast by Sam Parr from My First Million, which made me want to share this idea with you all.
-
-<YouTube id="J690bEAe6p0" />
+On a final note, I want to share my appreciation for my cousin who showed me that you can quit alcohol and survive.

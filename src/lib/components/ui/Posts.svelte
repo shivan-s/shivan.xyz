@@ -75,7 +75,6 @@
 <style>
 	:root {
 		--year-border-width: 2px;
-		--post-border-width: 1px;
 	}
 	section#posts {
 		max-width: var(--max-width);
@@ -117,12 +116,14 @@
 					& > ul {
 						display: grid;
 						& > li {
+							transition: backdrop-filter 0.3s ease-in-out;
+							border-radius: var(--border-radius);
 							& > a {
 								width: 100%;
 								display: inline-grid;
 								grid-template-columns: 1fr auto;
 								align-items: center;
-								padding-block: var(--padding-small);
+								padding: var(--padding-small);
 								& > span {
 									view-transition-name: var(--slug);
 								}
@@ -133,8 +134,11 @@
 									color: var(--medium-grey);
 								}
 							}
-							&:not(:first-of-type) {
-								border-block-start: var(--post-border-width) dotted var(--color);
+							&:nth-child(2n - 1) {
+								backdrop-filter: invert(calc(var(--invert) - 5%));
+							}
+							&:hover {
+								backdrop-filter: invert(var(--invert));
 							}
 						}
 					}

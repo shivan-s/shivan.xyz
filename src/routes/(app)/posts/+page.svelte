@@ -127,6 +127,9 @@
 </section>
 
 <style>
+	:root {
+		--border-width: 2px;
+	}
 	section {
 		display: grid;
 		gap: var(--gap);
@@ -135,7 +138,7 @@
 		margin-block-end: var(--margin);
 		& > search {
 			padding: var(--padding);
-			border-block-end: 2px solid var(--color);
+			border-block-end: var(--border-width) dotted var(--color);
 			& > form {
 				display: grid;
 				grid-template-columns: 1fr auto;

@@ -63,8 +63,8 @@ importers:
         specifier: ^10.3.4
         version: 10.3.4(eslint@10.2.0)(storybook@10.3.4(@testing-library/dom@10.4.1)(prettier@3.8.1)(react-dom@19.2.3(react@19.2.3))(react@19.2.3))(typescript@5.9.3)
       eslint-plugin-svelte:
-        specifier: ^3.16.0
-        version: 3.16.0(eslint@10.2.0)(svelte@5.55.1)
+        specifier: ^3.17.0
+        version: 3.17.0(eslint@10.2.0)(svelte@5.55.1)
       feed:
         specifier: ^5.2.0
         version: 5.2.0
@@ -1976,8 +1976,8 @@ packages:
       eslint: '>=8'
       storybook: ^10.3.4
 
-  eslint-plugin-svelte@3.16.0:
-    resolution: {integrity: sha512-DJXxqpYZUxcE0SfYo8EJzV2ZC+zAD7fJp1n1HwcEMRR1cOEUYvjT9GuzJeNghMjgb7uxuK3IJAzI+x6zzUxO5A==}
+  eslint-plugin-svelte@3.17.0:
+    resolution: {integrity: sha512-sF6wgd5FLS2P8CCaOy2HdYYYEcZ6TwL251dLHUkNmtLnWECk1Dwc+j6VeulmmnFxr7Xs0WNtjweOA+bJ0PnaFw==}
     engines: {node: ^18.18.0 || ^20.9.0 || >=21.1.0}
     peerDependencies:
       eslint: ^8.57.1 || ^9.0.0 || ^10.0.0
@@ -5226,7 +5226,7 @@ snapshots:
       - supports-color
       - typescript
 
-  eslint-plugin-svelte@3.16.0(eslint@10.2.0)(svelte@5.55.1):
+  eslint-plugin-svelte@3.17.0(eslint@10.2.0)(svelte@5.55.1):
     dependencies:
       '@eslint-community/eslint-utils': 4.9.1(eslint@10.2.0)
       '@jridgewell/sourcemap-codec': 1.5.5

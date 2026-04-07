@@ -54,7 +54,7 @@ I want to be okay with sharing my thoughts and putting it out there into the wor
 ## Where have I been / Where do I want to go?
 
 <MyMapWithDetails />
- 
+
 ## Where Else Am I?
 
 I am also on:

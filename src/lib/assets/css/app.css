@@ -53,11 +53,14 @@ a {
 			sans-serif;
 	}
 
-	&:hover,
-	:active {
+	&:hover {
 		color: var(--alternative-color);
 		text-decoration: underline solid;
 		text-shadow: 0 0 1rem var(--alternative-color);
+	}
+
+	&:active {
+		text-shadow: none;
 	}
 }
 

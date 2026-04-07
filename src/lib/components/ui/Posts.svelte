@@ -1,7 +1,7 @@
 <script lang="ts">
 	import { resolve } from '$app/paths';
 	import { m } from '$i18n/messages.js';
-	import { Rss } from '@lucide/svelte';
+	import { Rss, Search } from '@lucide/svelte';
 	import type { PostsGroupByYear } from '$lib/posts';
 
 	interface Props {
@@ -11,41 +11,62 @@
 	let { postsGroupByYear }: Props = $props();
 </script>
 
+{#snippet post(post: NonNullable<PostsGroupByYear[number]>[number])}
+	{@const middot = '\u0020\u00B7\u0020'}
+	{@const {
+		slug,
+		metadata: {
+			title,
+			date,
+			summary,
+			readingTime: { text },
+			draft
+		}
+	} = post}
+	<li>
+		<a
+			title="{title}{middot}{text}{middot}{summary}"
+			href={resolve('/(app)/posts/[slug]', { slug })}
+		>
+			{#if draft}
+				<em style:--slug={slug}>{title}</em>
+			{:else}
+				<span style:--slug={slug}>{title}</span>
+			{/if}
+			<small>
+				<time datetime={date.toISOString()}>
+					{date.toLocaleDateString(undefined, { month: 'short', day: '2-digit' })}
+				</time>
+			</small>
+		</a>
+	</li>
+{/snippet}
+
+{#snippet group(year: string, posts: PostsGroupByYear[number])}
+	<li>
+		<h3>{year}</h3>
+		<ul>
+			{#each posts as p (p.slug)}
+				{@render post(p)}
+			{/each}
+		</ul>
+	</li>
+{/snippet}
+
 <section id="posts">
 	<header>
 		<h2>{m.posts()}</h2>
-		<a href={resolve('/feed.xml')}>
+		<a title="RSS Feed" href={resolve('/feed.xml')}>
 			<Rss color="currentColor" />
+		</a>
+		<a title="Search posts" href={resolve('/posts')}>
+			<Search color="currentColor" />
 		</a>
 	</header>
 	<div>
 		<ul>
 			{#each Object.entries(postsGroupByYear).sort(([a], [b]) => parseInt(b) - parseInt(a)) as [year, posts] (year)}
-				<li>
-					<h3>{year}</h3>
-					<ul>
-						{#each posts as { slug, metadata: { title, date, summary, draft, readingTime: { text } } } (slug)}
-							{@const middot = '\u0020\u00B7\u0020'}
-							<li>
-								<a
-									title="{title}{middot}{text}{middot}{summary}"
-									href={resolve('/(app)/posts/[slug]', { slug })}
-								>
-									{#if draft}
-										<em style:--slug={slug}>{title}</em>
-									{:else}
-										<span style:--slug={slug}>{title}</span>
-									{/if}
-									<small>
-										<time datetime={date.toISOString()}>
-											{date.toLocaleDateString(undefined, { month: 'short', day: '2-digit' })}
-										</time>
-									</small>
-								</a>
-							</li>
-						{/each}
-					</ul>
-				</li>
+				{@render group(year, posts)}
 			{/each}
 		</ul>
 	</div>

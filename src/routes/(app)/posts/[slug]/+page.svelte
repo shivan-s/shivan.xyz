@@ -4,10 +4,12 @@
 	import { config } from '$lib/config';
 	import type { PageProps } from './$types';
 	import { m } from '$i18n/messages';
+	import { formatDistanceToNow } from 'date-fns';
 
 	let { data }: PageProps = $props();
 
 	const Content = $derived(data.content);
+	const from = $derived(formatDistanceToNow(data.meta.date.toISOString(), { addSuffix: true }));
 </script>
 
 <svelte:head>
@@ -20,7 +22,7 @@
 	<header>
 		<h1 style:--slug={data.meta.slug}>{data.meta.title}</h1>
 		<small>
-			<time datetime={data.meta.date.toISOString()}>
+			<time title={from} datetime={data.meta.date.toISOString()}>
 				{data.meta.date.toLocaleDateString(undefined, { dateStyle: 'full' })}
 			</time>
 			<span title="{data.meta.readingTime.words.toString()} words">

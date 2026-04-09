@@ -1,12 +1,19 @@
 <script>
     import Figure from "Figure"
+    import Bridge from "./bridge.jpg"
+    import Lake from "./lake.jpg"
+    import Trees from "./trees.jpg"
 </script>
 
 ## State
 
-I am currently in Palmerston North, New Zealand with my parents and have been doing so since the end of 2022.
+<Figure src={Trees} alt="Trees in Black and White" caption="Photos in my Hometown: Trees" />
+
+I am currently in my hometown of [Te Papaioea Palmerston North](https://en.wikipedia.org/wiki/Palmerston_North), [Aotearoa New Zealand](https://en.wikipedia.org/wiki/New_Zealand) with my parents and have been doing so since the end of 2022 after moving back.
 
 I am working in a job I love, which is software development for a global contact lens manufacturer. This is the perfect intersection of my previous occupation, optometrist and my current one. I started this job in March 2023.
+
+<Figure src={Bridge} alt="A shot of a brige with people in the distance" caption="Photos in my Hometown: He Ara Kotahi Bridge" />
 
 ## Focus
 
@@ -25,3 +32,5 @@ I also want to keep my mind working:
 - taking more 📷 photographs to inspire my creativity;
 - I want to be inspired by 🎬 film (trying to avoid "junk" media);
 - I want to 📚 read [better books](/posts/classics).
+
+<Figure src={Lake} alt="A lake" caption="Photos in my Hometown: A Lake near where I live" />

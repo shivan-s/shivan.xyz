@@ -21,9 +21,9 @@
 		"new": "node ./scripts/new.js"
 	},
 	"devDependencies": {
-		"@eslint/compat": "^2.0.4",
+		"@eslint/compat": "^2.0.5",
 		"@eslint/js": "^10.0.1",
-		"@inlang/paraglide-js": "^2.15.2",
+		"@inlang/paraglide-js": "^2.15.3",
 		"@lucide/svelte": "^1.8.0",
 		"@playwright/test": "^1.59.1",
 		"@qr-platform/qr-code.js": "^0.20.14",

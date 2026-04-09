@@ -4,6 +4,7 @@
 	import Shivan from '$lib/assets/img/shivan.png';
 
 	const alt = 'Portrait of a man holding a microphone in a blue suit and tie';
+	const middot = '\u0020\u00B7\u0020';
 </script>
 
 <section id="mini-bio">
@@ -11,7 +12,12 @@
 		<enhanced:img src={Shivan} {alt} title={alt} />
 		<p>🤗 Hi, I'm <strong>Shivan</strong> and welcome to my digital garden 🌱</p>
 	</article>
-	<footer><a href={resolve('/about')}>{m.more_about_me()}</a></footer>
+	<footer>
+		<nav>
+			<a style:--slug="now" href={resolve('/now')}>{m.now().toLowerCase()}</a>{middot}
+			<a style:--slug="about" href={resolve('/about')}>{m.about().toLowerCase()}</a>
+		</nav>
+	</footer>
 </section>
 
 <style>
@@ -57,6 +63,11 @@
 			position: absolute;
 			text-align: end;
 			bottom: 0;
+			& > nav {
+				& > a {
+					view-transition-name: var(--slug);
+				}
+			}
 		}
 	}
 </style>

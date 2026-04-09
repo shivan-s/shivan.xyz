@@ -17,18 +17,7 @@ I currently work as a **[Software Developer](https://en.wikipedia.org/wiki/Progr
 
 ## What am I up to now?
 
-I am living in Palmerston North with my parents. I am working in a job I love, which is software development for a global contact lens manufacturing, which is a perfect intersection of my previous occupation and my current one.
-
-Outside work I practice:
-
-- [🥋 Brazilian Jiu-Jitsu](https://en.wikipedia.org/wiki/Brazilian_jiu-jitsu)
-- [🕺 Latin Dance](https://en.wikipedia.org/wiki/Latin_dance)
-- [🏋️ Weightlifting](https://en.wikipedia.org/wiki/Olympic_weightlifting)
-- [🤸‍♂️ Pole Dance](https://en.wikipedia.org/wiki/Pole_sports)
-
-I am working on my [Private Pilot License](https://www.aviation.govt.nz/licensing-and-certification/pilots/pilot-licensing/) certification.
-
-I am also interested in writing, photography, film, and reading.
+<p><a href="./now" target="_blank">See...</a>
 
 ## What Is The Purpose Of This Website?
 

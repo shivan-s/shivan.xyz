@@ -43,7 +43,11 @@ const mdsvexOptions = {
 				})
 			}),
 		() => rehypeExternalLinks({ target: '_blank' }),
-		() => rehypeAutolinkHeadings({ behavior: 'append', properties: { className: 'link-headings' } })
+		() =>
+			rehypeAutolinkHeadings({
+				behavior: 'append',
+				properties: { className: 'link-headings', title: 'link-heading' }
+			})
 	],
 	extensions: ['.md']
 };

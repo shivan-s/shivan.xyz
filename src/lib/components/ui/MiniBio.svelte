@@ -13,10 +13,8 @@
 		<p>🤗 Hi, I'm <strong>Shivan</strong> and welcome to my digital garden 🌱</p>
 	</article>
 	<footer>
-		<nav>
-			<a style:--slug="now" href={resolve('/now')}>{m.now().toLowerCase()}</a>{middot}
-			<a style:--slug="about" href={resolve('/about')}>{m.about().toLowerCase()}</a>
-		</nav>
+		<a style:--slug="now" href={resolve('/now')}>{m.now().toLowerCase()}</a>{middot}
+		<a style:--slug="about" href={resolve('/about')}>{m.about().toLowerCase()}</a>
 	</footer>
 </section>
 

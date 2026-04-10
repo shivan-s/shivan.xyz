@@ -11,6 +11,8 @@
 	import { page } from '$app/state';
 	import { building } from '$app/environment';
 	import { replaceState } from '$app/navigation';
+	import { ParaglideMessage } from '@inlang/paraglide-js-svelte';
+	import { m } from '$i18n/messages';
 
 	let { data }: PageProps = $props();
 
@@ -21,32 +23,31 @@
 		Object.entries(data.posts)
 			.flatMap(([, p]) => p)
 			.filter((p) => p !== undefined)
-	);
-
-	const THRESHOLD = 0.5;
-
-	const fuse = $derived(
-		new Fuse(
-			posts.map(({ slug, metadata: { title, summary, date, readingTime, draft } }) => ({
+			.map(({ slug, metadata: { title, summary, date, readingTime, draft } }) => ({
 				slug,
 				title,
 				summary,
 				date,
 				readingTime,
 				draft
-			})),
-			{
-				threshold: THRESHOLD,
-				keys: ['title', 'summary']
-			}
-		)
+			}))
+			.sort((a, b) => b.date.getTime() - a.date.getTime())
+	);
+
+	const THRESHOLD = 0.5;
+
+	const fuse = $derived(
+		new Fuse(posts, {
+			threshold: THRESHOLD,
+			keys: ['title', 'summary']
+		})
 	);
 
 	let value = $derived.by(() => {
 		let value = $state(!building ? (page.url.searchParams.get(Q) ?? '') : '');
 		return value;
 	});
-	let filteredPosts = $derived(fuse.search(value));
+	let filteredPosts = $derived(value ? fuse.search(value).map(({ item }) => item) : posts);
 
 	let filteredPostsCount = $state(new Tween(0, { duration: 300 }));
 	$effect(() => {
@@ -54,7 +55,7 @@
 	});
 
 	const DELAY_MS = 300;
-	let timeout: NodeJS.Timeout | null = null;
+	let timeout: ReturnType<typeof setTimeout> | null = null;
 	function handleOnInput(e: Event & { currentTarget: EventTarget & HTMLInputElement }) {
 		if (timeout) clearTimeout(timeout);
 		const currentValue = e.currentTarget?.value ?? '';
@@ -81,12 +82,12 @@
 					autocomplete="off"
 					{list}
 					type="text"
-					placeholder="e.g. '{posts[Math.round(Math.random() * posts.length) - 1].metadata.title}'"
+					placeholder="e.g. '{posts[Math.round(Math.random() * posts.length) - 1].title}'"
 					{value}
 					oninput={handleOnInput}
 				/>
 				<datalist id={list}>
-					{#each posts as { metadata: { title } } (title)}
+					{#each posts as { title } (title)}
 						<option value={title}>{title}</option>
 					{/each}
 				</datalist>
@@ -95,11 +96,20 @@
 		</form>
 	</search>
 	<p>
-		Showing <strong>{Intl.NumberFormat().format(Math.round(filteredPostsCount.current))}</strong>
-		from {Intl.NumberFormat().format(posts.length)} total posts
+		<ParaglideMessage
+			message={m.showing_posts}
+			inputs={{
+				a: Intl.NumberFormat().format(Math.round(filteredPostsCount.current)),
+				b: Intl.NumberFormat().format(posts.length)
+			}}
+		>
+			{#snippet strong({ children })}
+				<strong>{@render children?.()}</strong>
+			{/snippet}
+		</ParaglideMessage>
 	</p>
 	<ol>
-		{#each filteredPosts as { item: { slug, summary, title, date, readingTime, draft } } (slug)}
+		{#each filteredPosts as { slug, summary, title, date, readingTime, draft } (slug)}
 			{@const middot = '\u0020\u00B7\u0020'}
 			<li in:fade={{ easing: sineIn, delay: 250 }} out:fade={{ easing: sineOut, duration: 200 }}>
 				<a

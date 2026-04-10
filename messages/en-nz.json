@@ -6,5 +6,6 @@
 	"posts": "Posts",
 	"listen_to_audio_version": "Listen to audio version",
 	"locations": "Locations",
-	"now": "Now"
+	"now": "Now",
+	"showing_posts": "Showing {#strong}{a}{/strong} from {b} total posts"
 }

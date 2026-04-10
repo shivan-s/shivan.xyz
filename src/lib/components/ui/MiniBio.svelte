@@ -61,10 +61,8 @@
 			position: absolute;
 			text-align: end;
 			bottom: 0;
-			& > nav {
-				& > a {
-					view-transition-name: var(--slug);
-				}
+			& > a {
+				view-transition-name: var(--slug);
 			}
 		}
 	}

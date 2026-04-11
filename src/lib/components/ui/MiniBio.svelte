@@ -13,8 +13,8 @@
 		<p>🤗 Hi, I'm <strong>Shivan</strong> and welcome to my digital garden 🌱</p>
 	</article>
 	<footer>
-		<a style:--slug="now" href={resolve('/now')}>{m.now().toLowerCase()}</a>{middot}
-		<a style:--slug="about" href={resolve('/about')}>{m.about().toLowerCase()}</a>
+		<a href={resolve('/now')}>{m.now().toLowerCase()}</a>{middot}
+		<a href={resolve('/about')}>{m.about().toLowerCase()}</a>
 	</footer>
 </section>
 
@@ -61,9 +61,6 @@
 			position: absolute;
 			text-align: end;
 			bottom: 0;
-			& > a {
-				view-transition-name: var(--slug);
-			}
 		}
 	}
 </style>

@@ -5,6 +5,10 @@
     import Trees from "./trees.jpg"
 </script>
 
+## Updated
+
+Updated April 10th, 2026, from my current home.
+
 ## State
 
 <Figure src={Trees} alt="Trees in Black and White" caption="Photos in my Hometown: Trees" />

@@ -65,6 +65,9 @@ const config = {
 			YouTube: './src/lib/components/content/YouTube.svelte',
 			Figure: './src/lib/components/content/Figure.svelte',
 			BlockQuote: './src/lib/components/content/BlockQuote.svelte'
+		},
+		version: {
+			pollInterval: 1000 * 60 * 60 * 2
 		}
 	},
 	compilerOptions: {

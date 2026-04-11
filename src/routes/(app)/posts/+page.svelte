@@ -23,12 +23,11 @@
 		Object.entries(data.posts)
 			.flatMap(([, p]) => p)
 			.filter((p) => p !== undefined)
-			.map(({ slug, metadata: { title, summary, date, readingTime, draft } }) => ({
+			.map(({ slug, metadata: { title, summary, date, draft } }) => ({
 				slug,
 				title,
 				summary,
 				date,
-				readingTime,
 				draft
 			}))
 			.sort((a, b) => b.date.getTime() - a.date.getTime())
@@ -109,7 +108,7 @@
 		</ParaglideMessage>
 	</p>
 	<ol>
-		{#each filteredPosts as { slug, summary, title, date, readingTime, draft } (slug)}
+		{#each filteredPosts as { slug, summary, title, date, draft } (slug)}
 			{@const middot = '\u0020\u00B7\u0020'}
 			<li in:fade={{ easing: sineIn, delay: 250 }} out:fade={{ easing: sineOut, duration: 200 }}>
 				<a
@@ -127,7 +126,6 @@
 						<time datetime={date.toISOString()}>
 							{formatDistanceToNow(date, { addSuffix: true })}
 						</time>
-						{middot}{readingTime.text}
 						{middot}{summary}
 					</small>
 				</a>

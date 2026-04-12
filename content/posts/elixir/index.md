@@ -1,7 +1,7 @@
 ---
-title: Intro Elixir for Advent of Code 2025
+title: Elixir for Advent of Code 2025
 date: 2026-04-12
-summary: Elixir for Advent of Code in 2025
+summary: My introduction to Elixir - a functional paradigm
 draft: false
 ---
 

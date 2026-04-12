@@ -2,6 +2,7 @@
 title: Intro Elixir for Advent of Code 2025
 date: 2026-04-12
 summary: Elixir for Advent of Code in 2025
+draft: false
 ---
 
 I wrote the draft back in January 2026. I got busy and other articles stole my focus and attention. I have decided to finalise this and publish this article.

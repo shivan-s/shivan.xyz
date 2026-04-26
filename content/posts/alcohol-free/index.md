@@ -15,11 +15,11 @@ cover:
 
 ## An Update
 
-I write this on 6th April 2026. I have provided some light updates to this artible. I also want to add that I haven't had a drop of alcohol still.
+I write this on 6th April 2026. I have provided some light updates to this article. I also want to add that I haven't had a drop of alcohol still.
 
 I do want to add some more insights, however. I do find being alcohol-free challenging for most reasons I've already mentioned down below in this article, but I want to highlight them here too.
 
-I do want to say that this is a challenge, socially. There are some assumptions about my personality if I don't drink, which does add a bit of friction. People might think you are religious. You may not be invited to social outing because you don't drink. These are things I've realised as I've been on my no-alcohol journey. But just like most things, we can't control the thoughts of others, and it's expected behaviour if you are going against the grain of the "societal way of life".
+I do want to say that this is a challenge, socially. There are some assumptions about my personality if I don't drink, which does add a bit of friction. People might think you are religious or that I carry judgement for people who do drink. You may not be invited to social outing because you don't drink. These are things I've realised as I've been on my no-alcohol journey. But just like most things, we can't control the thoughts of others, and it's expected behaviour if you are going against the grain of the "societal way of life".
 
 **Overall, I must say that quitting alcohol has been a significant positive in my life.**
 

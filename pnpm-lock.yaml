@@ -15,11 +15,11 @@ importers:
         specifier: ^10.0.1
         version: 10.0.1(eslint@10.2.1)
       '@inlang/paraglide-js':
-        specifier: ^2.16.1
-        version: 2.16.1
+        specifier: ^2.17.0
+        version: 2.17.0
       '@inlang/paraglide-js-svelte':
         specifier: ^1.0.2
-        version: 1.0.2(@inlang/paraglide-js@2.16.1)(svelte@5.55.5(@typescript-eslint/types@8.59.0))
+        version: 1.0.2(@inlang/paraglide-js@2.17.0)(svelte@5.55.5(@typescript-eslint/types@8.59.0))
       '@lucide/svelte':
         specifier: ^1.11.0
         version: 1.11.0(svelte@5.55.5(@typescript-eslint/types@8.59.0))
@@ -590,8 +590,8 @@ packages:
       '@inlang/paraglide-js': '>=2.11.0 <3'
       svelte: ^5.0.0
 
-  '@inlang/paraglide-js@2.16.1':
-    resolution: {integrity: sha512-Ni1UgMt9UKnzmAnCaPvWw1+7hIJAdtoLRzPxbM+wRjT0ovNIys+A/EgiMX2IomLXNRmPj+dw3wSKHe1AGcMQEg==}
+  '@inlang/paraglide-js@2.17.0':
+    resolution: {integrity: sha512-dY4yoQkQkF1En1m3qpO22cVGubluU2W78fatLb33s8qe6K8wDqP0mIGZ/oZ0/h609YC8/Y0CkceaLcYeJTcpwg==}
     hasBin: true
 
   '@inlang/recommend-sherlock@0.2.1':
@@ -3696,12 +3696,12 @@ snapshots:
   '@img/sharp-win32-x64@0.34.5':
     optional: true
 
-  '@inlang/paraglide-js-svelte@1.0.2(@inlang/paraglide-js@2.16.1)(svelte@5.55.5(@typescript-eslint/types@8.59.0))':
+  '@inlang/paraglide-js-svelte@1.0.2(@inlang/paraglide-js@2.17.0)(svelte@5.55.5(@typescript-eslint/types@8.59.0))':
     dependencies:
-      '@inlang/paraglide-js': 2.16.1
+      '@inlang/paraglide-js': 2.17.0
       svelte: 5.55.5(@typescript-eslint/types@8.59.0)
 
-  '@inlang/paraglide-js@2.16.1':
+  '@inlang/paraglide-js@2.17.0':
     dependencies:
       '@inlang/recommend-sherlock': 0.2.1
       '@inlang/sdk': 2.9.2

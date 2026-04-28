@@ -1,13 +1,13 @@
 <script lang="ts">
-	import { onMount, type Snippet } from 'svelte';
+	import { browser } from '$app/environment';
+	import { resolve } from '$app/paths';
+	import { page } from '$app/state';
+	import { QRCode } from '$lib/components/ui';
+	import { config } from '$lib/config';
 	import Reveal from 'reveal.js';
 	import Markdown from 'reveal.js/plugin/markdown';
 	import 'reveal.js/reveal.css';
-	import { browser } from '$app/environment';
-	import { QRCode } from '$lib/components/ui';
-	import { page } from '$app/state';
-	import { resolve } from '$app/paths';
-	import { config } from '$lib/config';
+	import { onMount, type Snippet } from 'svelte';
 
 	onMount(() => {
 		const slides = new Reveal({

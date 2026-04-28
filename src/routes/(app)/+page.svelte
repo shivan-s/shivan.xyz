@@ -1,6 +1,7 @@
 <script lang="ts">
 	import type { PageProps } from './$types';
-	import { Posts, MiniBio } from '$lib/components/ui';
+	import MiniBio from './MiniBio.svelte';
+	import Posts from './Posts.svelte';
 
 	let { data }: PageProps = $props();
 </script>

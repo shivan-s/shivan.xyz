@@ -43,12 +43,7 @@ export const PostSchema = z.strictObject({
 export type PostWithSchema = z.infer<typeof PostWithSlugSchema>;
 export const PostWithSlugSchema = PostSchema.extend({ slug: z.string() });
 
-const SvelteCompomentSchema = z
-	.custom(
-		(data) => data
-		// typeof data === 'function' || (typeof data === 'object' && data !== null && '$svelte' in data)
-	)
-	.pipe(z.any().optional());
+const SvelteCompomentSchema = z.custom((data) => data).pipe(z.any().optional());
 
 export const ImportMetaSchema = z.object({
 	default: SvelteCompomentSchema
@@ -56,4 +51,28 @@ export const ImportMetaSchema = z.object({
 
 export const PresentationSchema = z.strictObject({
 	default: z.any().optional()
+});
+
+export type Gallery = z.infer<typeof GallerySchema>;
+const GalleryMetaSchema = z
+	.strictObject({
+		title: z.string(),
+		startDate: z
+			.string()
+			.transform((data) => new Date(data))
+			.pipe(z.date()),
+		endDate: z
+			.string()
+			.transform((data) => new Date(data))
+			.optional()
+			.pipe(z.date().optional()),
+		summary: z.string(),
+		draft: z.boolean().optional().default(true),
+		readingTime: ReadingTimeSchema
+	})
+	.transform((data) => (data.draft === true ? { ...data, title: `[D]${data.title}` } : data));
+
+export const GallerySchema = z.strictObject({
+	default: z.any(),
+	metadata: GalleryMetaSchema
 });

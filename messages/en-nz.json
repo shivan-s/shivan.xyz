@@ -1,11 +1,15 @@
 {
 	"$schema": "https://inlang.com/schema/inlang-message-format",
-	"post_suggest_changes": "Suggest Changes",
-	"table_of_contents": "Table of Contents",
 	"about": "About",
-	"posts": "Posts",
+	"close": "Close",
+	"gallery": "Gallery",
+	"header_set_to_dark_theme": "Set to Dark Theme",
+	"header_set_to_light_theme": "Set to Light Theme",
 	"listen_to_audio_version": "Listen to audio version",
 	"locations": "Locations",
 	"now": "Now",
-	"showing_posts": "Showing {#strong}{a}{/strong} from {b} total posts"
+	"post_suggest_changes": "Suggest Changes",
+	"posts": "Posts",
+	"showing_posts": "Showing {#strong}{a}{/strong} from {b} total posts",
+	"table_of_contents": "Table of Contents"
 }

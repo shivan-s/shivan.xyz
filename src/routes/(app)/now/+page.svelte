@@ -1,6 +1,7 @@
 <script lang="ts">
-	import { Markdown } from '$lib/components/ui';
 	import { m } from '$i18n/messages.js';
+	import { Markdown } from '$lib/components/ui';
+	import { H1 } from '$lib/components/ui';
 	import type { PageProps } from './$types';
 
 	let { data }: PageProps = $props();
@@ -9,7 +10,7 @@
 
 <article>
 	<header>
-		<h1>{m.now()}</h1>
+		<H1>{m.now()}</H1>
 	</header>
 	<section>
 		<Markdown>
@@ -22,19 +23,6 @@
 	article {
 		margin-inline: auto;
 		max-width: var(--max-width);
-		& > header {
-			& > h1 {
-				width: fit-content;
-				color: var(--primary-color);
-				font-family: 'Optician Sans', sans-serif;
-				transform: rotate(-1deg);
-				transition: transform 0.4s ease-in-out;
-
-				&:hover {
-					transform: rotate(0deg);
-				}
-			}
-		}
 		& > section {
 			margin-block: var(--margin-large);
 		}

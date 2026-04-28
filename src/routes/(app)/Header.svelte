@@ -1,10 +1,11 @@
 <script>
 	import { resolve } from '$app/paths';
-	import { config } from '$lib/config';
-	import Avatar from '$lib/assets/img/avatar.png';
 	import { page } from '$app/state';
-	import { Moon, Sun } from '@lucide/svelte';
+	import { m } from '$i18n/messages';
+	import Avatar from '$lib/assets/img/avatar.png';
+	import { config } from '$lib/config';
 	import { theme, DARK, LIGHT } from '$lib/state.svelte';
+	import { Moon, Sun } from '@lucide/svelte';
 	import { sineInOut } from 'svelte/easing';
 	import { blur } from 'svelte/transition';
 </script>
@@ -23,11 +24,19 @@
 		{#key theme.current}
 			<span in:blur={{ easing: sineInOut }}>
 				{#if theme.current === DARK}
-					<button onclick={() => theme.setTheme(LIGHT)}>
+					<button
+						aria-label={m.header_set_to_dark_theme()}
+						title={m.header_set_to_dark_theme()}
+						onclick={() => theme.setTheme(LIGHT)}
+					>
 						<Moon color="currentColor" />
 					</button>
 				{:else if theme.current === LIGHT}
-					<button onclick={() => theme.setTheme(DARK)}>
+					<button
+						aria-label={m.header_set_to_light_theme()}
+						title={m.header_set_to_light_theme()}
+						onclick={() => theme.setTheme(DARK)}
+					>
 						<Sun color="currentColor" />
 					</button>
 				{/if}

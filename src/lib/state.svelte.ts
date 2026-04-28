@@ -2,15 +2,16 @@ import { browser } from '$app/environment';
 
 export const DARK = 'dark';
 export const LIGHT = 'light';
-const THEMES = [DARK, LIGHT] as const;
+const THEMES = Object.freeze({ dark: DARK, light: LIGHT });
 const THEME_KEY = 'theme';
 
-type Themes = typeof THEMES;
-type Theme = Themes[number];
+type Theme = (typeof THEMES)[keyof typeof THEMES];
 
 class ThemeManager {
 	#theme = $state(
-		THEMES.find((t) => t === (browser && !!localStorage && localStorage.getItem(THEME_KEY))) ??
+		Object.entries(THEMES)
+			.map(([, t]) => t)
+			.find((t) => t === (browser && !!localStorage && localStorage.getItem(THEME_KEY))) ??
 			getSystemTheme()
 	);
 
@@ -28,9 +29,9 @@ class ThemeManager {
 
 function getSystemTheme(): Theme {
 	if (browser && window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
-		return 'dark';
+		return DARK;
 	}
-	return 'light';
+	return LIGHT;
 }
 
 export const theme = new ThemeManager();

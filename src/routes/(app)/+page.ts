@@ -1,6 +1,6 @@
-import type { PageLoad } from './$types';
 import { fetchPostsGroupByYear } from '$lib/posts';
 import { ImportMetaSchema } from '$lib/schemas';
+import type { PageLoad } from './$types';
 
 // NOTE: needs to be a string and start with `../` See: {@link https://vite.dev/guide/features#glob-import}
 const file = import.meta.glob('../../../content/about/index.md', {

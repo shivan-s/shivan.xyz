@@ -1,5 +1,6 @@
 <script lang="ts">
-	import { Footer, Header } from '$lib/components/ui';
+	import Footer from './Footer.svelte';
+	import Header from './Header.svelte';
 
 	let { children } = $props();
 </script>

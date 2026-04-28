@@ -1,8 +1,8 @@
 <script lang="ts">
 	import { resolve } from '$app/paths';
 	import { m } from '$i18n/messages.js';
-	import { Rss, Search } from '@lucide/svelte';
 	import type { PostsGroupByYear } from '$lib/posts';
+	import { Rss, Search } from '@lucide/svelte';
 
 	interface Props {
 		postsGroupByYear: PostsGroupByYear;

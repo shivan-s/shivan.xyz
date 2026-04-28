@@ -138,6 +138,7 @@ We use a CSS to display the help text based on the `:checked` pseudo-element and
 
 ```svelte
 <!-- CSS Trick -->
+
 <script lang="ts">
 </script>
 

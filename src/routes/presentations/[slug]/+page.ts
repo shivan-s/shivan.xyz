@@ -1,6 +1,6 @@
 import { fetchAllPresentations, fetchPresentation } from '$lib/presentations';
-import { error } from '@sveltejs/kit';
 import type { PageLoad } from './$types';
+import { error } from '@sveltejs/kit';
 
 /** Required for prerendering presentation without an index file */
 export const entries = () => {

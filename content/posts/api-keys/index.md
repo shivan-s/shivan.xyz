@@ -135,11 +135,11 @@ This is how it works:
 
 ```ts
 // +server.ts
-import { error, json } from '@sveltejs/kit';
+import { db } from '$lib/db';
 import type { RequestHandler } from './$types';
+import { error, json } from '@sveltejs/kit';
 import * as argon2 from 'argon2';
 import * as z from 'zod';
-import { db } from '$lib/db';
 
 // Create schema to validate if the user is sending the `secret` in the correct format
 const Schema = z.strictObject({
@@ -202,10 +202,10 @@ When we use tools like [jwt.io](https://jwt.io) and we can examine the contents:
 
 ```json
 {
-	"id": "c9b8c872-65ef-490a-8290-bf0507d08fe0",
-	"name": "Annie Parker",
+	"exp": 1767071878,
 	"iat": 1767068278,
-	"exp": 1767071878
+	"id": "c9b8c872-65ef-490a-8290-bf0507d08fe0",
+	"name": "Annie Parker"
 }
 ```
 
@@ -226,12 +226,12 @@ Here is a code snippet that we use at another server endpoint (`+server.ts` file
 In this example, we ask the user to send the `token` in the request header.
 
 ```ts
-import { error, json } from '@sveltejs/kit';
-import type { RequestHandler } from './$types';
-import * as z from 'zod';
-import * as jose from 'jose';
-import { db } from '$lib/db';
 import { sign } from '$lib/auth';
+import { db } from '$lib/db';
+import type { RequestHandler } from './$types';
+import { error, json } from '@sveltejs/kit';
+import * as jose from 'jose';
+import * as z from 'zod';
 
 const RequestHeaderSchema = z.object({
 	'x-auth': z.string()

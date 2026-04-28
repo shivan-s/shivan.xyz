@@ -82,4 +82,5 @@ a.link-headings {
 :target {
 	outline-offset: var(--padding-small);
 	outline: 2px dotted var(--medium-grey);
+	border-radius: var(--border-radius-large);
 }

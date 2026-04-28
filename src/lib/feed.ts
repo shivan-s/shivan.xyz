@@ -1,6 +1,6 @@
 import { config } from '$lib/config';
-import { Feed } from 'feed';
 import { fetchAllPost } from './posts';
+import { Feed } from 'feed';
 
 export const feed = new Feed({
 	title: config.title,

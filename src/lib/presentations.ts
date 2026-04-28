@@ -1,5 +1,5 @@
-import { error } from '@sveltejs/kit';
 import { PresentationSchema } from './schemas';
+import { error } from '@sveltejs/kit';
 
 // NOTE: needs to be a string and start with `../` See: {@link https://vite.dev/guide/features#glob-import}
 const paths = import.meta.glob('../../content/presentations/**/index.html', { eager: true });

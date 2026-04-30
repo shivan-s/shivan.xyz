@@ -55,5 +55,5 @@ export const ImportMetaSchema = z.object({
 });
 
 export const PresentationSchema = z.strictObject({
-	default: z.any()
+	default: z.any().optional()
 });

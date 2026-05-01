@@ -1,18 +1,20 @@
 <script lang="ts">
-	import Fuse from 'fuse.js';
-	import { Search } from '@lucide/svelte';
-	import type { PageProps } from './$types';
-	import { resolve } from '$app/paths';
-	import { formatDistanceToNow } from 'date-fns';
-	import { Tween } from 'svelte/motion';
-	import { sineIn, sineOut } from 'svelte/easing';
-	import { fade } from 'svelte/transition';
-	import { onDestroy } from 'svelte';
-	import { page } from '$app/state';
 	import { building } from '$app/environment';
 	import { replaceState } from '$app/navigation';
-	import { ParaglideMessage } from '@inlang/paraglide-js-svelte';
+	import { resolve } from '$app/paths';
+	import { page } from '$app/state';
 	import { m } from '$i18n/messages';
+	import { H1 } from '$lib/components/ui';
+	import type { PageProps } from './$types';
+	import { ParaglideMessage } from '@inlang/paraglide-js-svelte';
+	import { Search } from '@lucide/svelte';
+	import { formatDistanceToNow } from 'date-fns';
+	import Fuse from 'fuse.js';
+	import { onDestroy } from 'svelte';
+	import { flip } from 'svelte/animate';
+	import { sineIn, sineInOut, sineOut } from 'svelte/easing';
+	import { Tween } from 'svelte/motion';
+	import { blur } from 'svelte/transition';
 
 	let { data }: PageProps = $props();
 
@@ -72,6 +74,11 @@
 </script>
 
 <section>
+	<header>
+		<H1>
+			{m.posts()}
+		</H1>
+	</header>
 	<search>
 		<form method="GET" data-sveltekit-replacestate>
 			<label>
@@ -110,7 +117,11 @@
 	<ol>
 		{#each filteredPosts as { slug, summary, title, date, draft } (slug)}
 			{@const middot = '\u0020\u00B7\u0020'}
-			<li in:fade={{ easing: sineIn, delay: 250 }} out:fade={{ easing: sineOut, duration: 200 }}>
+			<li
+				in:blur={{ easing: sineIn, delay: 250 }}
+				out:blur={{ easing: sineOut, duration: 200 }}
+				animate:flip={{ easing: sineInOut, duration: 250 }}
+			>
 				<a
 					title="{title}{middot}{date.toLocaleDateString(undefined, {
 						dateStyle: 'full'

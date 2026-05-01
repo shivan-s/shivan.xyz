@@ -1,8 +1,8 @@
 <script lang="ts">
-	import { places } from './places';
 	import { resolve } from '$app/paths';
 	import { m } from '$i18n/messages.js';
 	import MyMap from './MyMap.svelte';
+	import { places } from './places';
 
 	const toVisit = places.filter(({ visited }) => !visited);
 	const haveVisited = places.filter(({ visited }) => visited);

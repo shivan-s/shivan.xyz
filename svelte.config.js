@@ -1,12 +1,12 @@
-import { mdsvex, escapeSvelte } from 'mdsvex';
-import { createHighlighter } from 'shiki';
-import { vitePreprocess } from '@sveltejs/vite-plugin-svelte';
-import rehypeSlug from 'rehype-slug';
-import rehypeAutolinkHeadings from 'rehype-autolink-headings';
-import rehypeToc from 'rehype-toc';
-import rehypeExternalLinks from 'rehype-external-links';
-import readingTime from 'mdsvex-reading-time';
 import adapter from '@sveltejs/adapter-static';
+import { vitePreprocess } from '@sveltejs/vite-plugin-svelte';
+import { mdsvex, escapeSvelte } from 'mdsvex';
+import readingTime from 'mdsvex-reading-time';
+import rehypeAutolinkHeadings from 'rehype-autolink-headings';
+import rehypeExternalLinks from 'rehype-external-links';
+import rehypeSlug from 'rehype-slug';
+import rehypeToc from 'rehype-toc';
+import { createHighlighter } from 'shiki';
 
 const theme = 'catppuccin-mocha';
 const highlighter = await createHighlighter({

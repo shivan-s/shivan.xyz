@@ -1,7 +1,7 @@
-import type { PageLoad } from './$types';
 import { fetchPost } from '$lib/posts';
-import { error } from '@sveltejs/kit';
 import { PostSchema, ImportMetaSchema } from '$lib/schemas';
+import type { PageLoad } from './$types';
+import { error } from '@sveltejs/kit';
 
 const markdowns = import.meta.glob('../../../../../content/posts/**/*.md', { eager: true });
 const images = import.meta.glob('../../../../../content/posts/**/*.{jpg,png,gif,jpeg,webp,svg}', {

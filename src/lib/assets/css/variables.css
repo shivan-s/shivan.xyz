@@ -30,7 +30,7 @@
 	/* Border */
 	--border-radius-normal: 0.25rem;
 	--border-radius: var(--border-radius-normal);
-	--border-radius-large: 4rem;
+	--border-radius-large: 0.75rem;
 
 	/* Box Shadow */
 	--box-shadow-offset-x: 0;

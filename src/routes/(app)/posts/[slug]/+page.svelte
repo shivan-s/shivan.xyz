@@ -1,9 +1,10 @@
 <script lang="ts">
+	import { m } from '$i18n/messages';
 	import { Figure } from '$lib/components/content';
 	import { Markdown } from '$lib/components/ui';
+	import { H1 } from '$lib/components/ui';
 	import { config } from '$lib/config';
 	import type { PageProps } from './$types';
-	import { m } from '$i18n/messages';
 	import { formatDistanceToNow } from 'date-fns';
 
 	let { data }: PageProps = $props();
@@ -16,11 +17,12 @@
 	<meta property="og:title" content={data.meta.title} />
 	<meta property="og:description" content={data.meta.summary} />
 	<meta property="og:image" content={data.meta.cover ? data.meta.cover.image : config.image} />
+	<meta name="description" content={data.meta.summary} />
 </svelte:head>
 
 <article>
 	<header>
-		<h1 style:--slug={data.meta.slug}>{data.meta.title}</h1>
+		<H1 viewTransitionName={data.meta.slug}>{data.meta.title}</H1>
 		<small>
 			<time title={from} datetime={data.meta.date.toISOString()}>
 				{data.meta.date.toLocaleDateString(undefined, { dateStyle: 'full' })}
@@ -63,18 +65,6 @@
 		margin-inline: auto;
 		max-width: var(--max-width);
 		& > header {
-			& > h1 {
-				width: fit-content;
-				color: var(--primary-color);
-				font-family: 'Optician Sans', sans-serif;
-				transform: rotate(-1deg);
-				transition: transform 0.4s ease-in-out;
-				view-transition-name: var(--slug);
-
-				&:hover {
-					transform: rotate(0deg);
-				}
-			}
 			& > small {
 				display: flex;
 				color: var(--medium-grey);

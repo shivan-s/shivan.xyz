@@ -25,6 +25,7 @@ Here is all the code.
 <script>
 	import { flip } from 'svelte/animate';
 	import { sineInOut } from 'svelte/easing';
+
 	let list = ['Alan', 'Bridget', 'Charlie', 'Diana', 'Emma', 'Fred'];
 
 	let selected = {};

@@ -13,6 +13,7 @@
 		<p>🤗 Hi, I'm <strong>Shivan</strong> and welcome to my digital garden 🌱</p>
 	</article>
 	<footer>
+		<a href={resolve('/gallery')}>{m.gallery().toLowerCase()}</a>{middot}
 		<a href={resolve('/now')}>{m.now().toLowerCase()}</a>{middot}
 		<a href={resolve('/about')}>{m.about().toLowerCase()}</a>
 	</footer>

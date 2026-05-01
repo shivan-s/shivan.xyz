@@ -53,17 +53,15 @@ TODO: rename this to Image
 			display: block;
 			background: none;
 			border: none;
-			box-shadow: var(--box-shadow);
 			border-radius: var(--border-radius);
+			box-shadow: var(--box-shadow);
 			transition:
 				border-radius 0.3s ease-in-out,
 				box-shadow 0.2s ease-in-out,
-				transform 0.4s ease-in-out,
-				border-radius 0.3s ease-in-out;
+				transform 0.4s ease-in-out;
 			padding: 0;
 			margin: 0;
 			margin-inline: auto;
-			overflow: hidden;
 
 			& > enhanced\:img {
 				max-width: 100%;
@@ -119,14 +117,9 @@ TODO: rename this to Image
 			display 0.3s ease-in-out,
 			filter 0.3s ease-in-out,
 			backdrop-filter 0.3s ease-in-out,
-			transform 0.5s ease-in-out,
-			border-radius 0.6s ease-in-out;
+			transform 0.5s ease-in-out;
 		opacity: 0;
-		border-radius: var(--border-radius-large);
 		transform: scale(0.8) translateY(2rem);
-		&:hover {
-			border-radius: 0;
-		}
 		&::backdrop {
 			backdrop-filter: blur(0.3rem);
 			filter: brightness(0.6);

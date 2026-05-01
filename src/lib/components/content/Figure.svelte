@@ -54,6 +54,7 @@ TODO: rename this to Image
 			background: none;
 			border: none;
 			border-radius: var(--border-radius);
+			overflow: hidden;
 			box-shadow: var(--box-shadow);
 			transition:
 				border-radius 0.3s ease-in-out,
@@ -62,6 +63,17 @@ TODO: rename this to Image
 			padding: 0;
 			margin: 0;
 			margin-inline: auto;
+
+			&:hover {
+				border-radius: 0;
+				cursor: pointer;
+				box-shadow: none;
+				transform: scale(1.05);
+				z-index: 1;
+				& > small {
+					opacity: 0;
+				}
+			}
 
 			& > enhanced\:img {
 				max-width: 100%;
@@ -92,17 +104,6 @@ TODO: rename this to Image
 					opacity: 0;
 				}
 			}
-
-			&:hover {
-				border-radius: 0;
-				cursor: pointer;
-				box-shadow: none;
-				transform: scale(1.05);
-				z-index: 1;
-				& > small {
-					opacity: 0;
-				}
-			}
 		}
 	}
 	dialog[popover] {
@@ -110,16 +111,20 @@ TODO: rename this to Image
 		padding: 0;
 		background-color: transparent;
 		box-shadow: var(--box-shadow);
-		border-radius: var(--border-radius);
+		border-radius: var(--border-radius-large);
 		transition-behavior: allow-discrete;
 		transition:
 			opacity 0.3s ease-in-out,
 			display 0.3s ease-in-out,
 			filter 0.3s ease-in-out,
 			backdrop-filter 0.3s ease-in-out,
-			transform 0.5s ease-in-out;
+			transform 0.5s ease-in-out,
+			border-radius 0.6s ease-in-out;
 		opacity: 0;
 		transform: scale(0.8) translateY(2rem);
+		&:hover {
+			border-radius: 0;
+		}
 		&::backdrop {
 			backdrop-filter: blur(0.3rem);
 			filter: brightness(0.6);

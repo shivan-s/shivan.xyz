@@ -4,48 +4,63 @@
 	import Shivan from '$lib/assets/img/shivan.png';
 
 	const alt = 'Portrait of a man holding a microphone in a blue suit and tie';
-	const middot = '\u0020\u00B7\u0020';
+	const links = [
+		Object.freeze({ url: '/now', label: m.now() }),
+		Object.freeze({ url: '/about', label: m.about() }),
+		Object.freeze({ url: '/posts', label: m.posts() }),
+		Object.freeze({ url: '/gallery', label: m.gallery() })
+	] as const;
 </script>
 
-<section id="mini-bio">
-	<article>
+<div>
+	<section>
 		<enhanced:img src={Shivan} {alt} title={alt} />
-		<p>🤗 Hi, I'm <strong>Shivan</strong> and welcome to my digital garden 🌱</p>
-	</article>
-	<footer>
-		<a href={resolve('/gallery')}>{m.gallery().toLowerCase()}</a>{middot}
-		<a href={resolve('/now')}>{m.now().toLowerCase()}</a>{middot}
-		<a href={resolve('/about')}>{m.about().toLowerCase()}</a>
-	</footer>
-</section>
+		<div>
+			<p>🤗 Hi, I'm <strong>Shivan</strong> and welcome to my digital garden 🌱</p>
+			<ul>
+				{#each links as { url, label }, idx (idx)}
+					<li>
+						<a href={resolve(url)}>{label.toLowerCase()}</a>
+					</li>
+				{/each}
+			</ul>
+		</div>
+	</section>
+</div>
 
 <style>
-	section#mini-bio {
-		position: relative;
-		margin-inline: auto;
-		margin-block: var(--margin);
-		max-width: var(--max-width);
-		transform: rotate(-1deg);
-		border-radius: var(--border-radius);
-		backdrop-filter: invert(var(--invert));
-		box-shadow: var(--box-shadow);
-		transition:
-			transform 0.5s ease-in-out,
-			box-shadow 0.2s ease-in-out;
-
-		&:hover {
-			transform: rotate(0deg);
-			box-shadow: none;
-		}
-
-		& > article {
-			display: flex;
-			align-items: center;
+	div {
+		display: grid;
+		align-content: center;
+		height: 100%;
+		& > section {
+			--height: 6rem;
+			position: relative;
+			display: grid;
+			place-content: center;
 			gap: var(--gap);
 			padding: var(--padding);
+			margin-inline: auto;
+			margin-block: calc((var(--height) / 2 + var(--padding)));
+			max-width: var(--max-width);
+			width: fit-content;
+			transform: rotate(-1deg);
+			border-radius: var(--border-radius-large);
+			backdrop-filter: invert(var(--invert));
+			box-shadow: var(--box-shadow);
+			transition:
+				transform 0.5s ease-in-out,
+				box-shadow 0.2s ease-in-out;
+
+			&:hover {
+				transform: rotate(0deg);
+				box-shadow: none;
+			}
 
 			& > enhanced\:img {
-				height: 6rem;
+				margin-block-start: calc(-1 * (var(--height) / 2 + var(--padding)));
+				margin-inline: auto;
+				height: var(--height);
 				box-shadow: var(--box-shadow);
 				border-radius: 50%;
 				transition: border-radius 0.2s ease-in-out;
@@ -53,15 +68,22 @@
 					border-radius: unset;
 				}
 			}
-		}
 
-		& > footer {
-			width: 100%;
-			padding: var(--padding);
-			height: fit-content;
-			position: absolute;
-			text-align: end;
-			bottom: 0;
+			& div {
+				& > ul {
+					padding: 0;
+					display: flex;
+					justify-content: center;
+					flex-wrap: wrap;
+					list-style-type: none;
+					& > li {
+						&:not(:last-of-type)::after {
+							content: '\00B7';
+							padding-inline: var(--gap-small);
+						}
+					}
+				}
+			}
 		}
 	}
 </style>

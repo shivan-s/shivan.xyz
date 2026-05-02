@@ -6,15 +6,16 @@
 	import { m } from '$i18n/messages';
 	import { H1 } from '$lib/components/ui';
 	import type { PageProps } from './$types';
+	import PostsGroupBy from './PostsGroupBy.svelte';
 	import { ParaglideMessage } from '@inlang/paraglide-js-svelte';
-	import { Search } from '@lucide/svelte';
+	import { Rss, Search } from '@lucide/svelte';
 	import { formatDistanceToNow } from 'date-fns';
 	import Fuse from 'fuse.js';
 	import { onDestroy } from 'svelte';
 	import { flip } from 'svelte/animate';
 	import { sineIn, sineInOut, sineOut } from 'svelte/easing';
 	import { Tween } from 'svelte/motion';
-	import { blur } from 'svelte/transition';
+	import { blur, fade } from 'svelte/transition';
 
 	let { data }: PageProps = $props();
 
@@ -78,6 +79,9 @@
 		<H1>
 			{m.posts()}
 		</H1>
+		<a title="RSS Feed" href={resolve('/feed.xml')}>
+			<Rss color="currentColor" />
+		</a>
 	</header>
 	<search>
 		<form method="GET" data-sveltekit-replacestate>
@@ -101,48 +105,52 @@
 			<button>Search</button>
 		</form>
 	</search>
-	<p>
-		<ParaglideMessage
-			message={m.showing_posts}
-			inputs={{
-				a: Intl.NumberFormat().format(Math.round(filteredPostsCount.current)),
-				b: Intl.NumberFormat().format(posts.length)
-			}}
-		>
-			{#snippet strong({ children })}
-				<strong>{@render children?.()}</strong>
-			{/snippet}
-		</ParaglideMessage>
-	</p>
-	<ol>
-		{#each filteredPosts as { slug, summary, title, date, draft } (slug)}
-			{@const middot = '\u0020\u00B7\u0020'}
-			<li
-				in:blur={{ easing: sineIn, delay: 250 }}
-				out:blur={{ easing: sineOut, duration: 200 }}
-				animate:flip={{ easing: sineInOut, duration: 250 }}
+	{#if value.length === 0}
+		<PostsGroupBy postsGroupByYear={data.posts} />
+	{:else}
+		<p in:fade={{ easing: sineInOut, delay: 250 }} out:fade={{ easing: sineInOut, duration: 250 }}>
+			<ParaglideMessage
+				message={m.showing_posts}
+				inputs={{
+					a: Intl.NumberFormat().format(Math.round(filteredPostsCount.current)),
+					b: Intl.NumberFormat().format(posts.length)
+				}}
 			>
-				<a
-					title="{title}{middot}{date.toLocaleDateString(undefined, {
-						dateStyle: 'full'
-					})}{middot}{summary}"
-					href={resolve('/(app)/posts/[slug]', { slug })}
+				{#snippet strong({ children })}
+					<strong>{@render children?.()}</strong>
+				{/snippet}
+			</ParaglideMessage>
+		</p>
+		<ol in:fade={{ easing: sineInOut, delay: 250 }} out:fade={{ easing: sineInOut, duration: 250 }}>
+			{#each filteredPosts as { slug, summary, title, date, draft } (slug)}
+				{@const middot = '\u0020\u00B7\u0020'}
+				<li
+					in:blur={{ easing: sineIn, delay: 250 }}
+					out:blur={{ easing: sineOut, duration: 200 }}
+					animate:flip={{ easing: sineInOut, duration: 250 }}
 				>
-					{#if draft}
-						<em style:--slug={slug}>{title}</em>
-					{:else}
-						<span style:--slug={slug}>{title}</span>
-					{/if}
-					<small>
-						<time datetime={date.toISOString()}>
-							{formatDistanceToNow(date, { addSuffix: true })}
-						</time>
-						{middot}{summary}
-					</small>
-				</a>
-			</li>
-		{/each}
-	</ol>
+					<a
+						title="{title}{middot}{date.toLocaleDateString(undefined, {
+							dateStyle: 'full'
+						})}{middot}{summary}"
+						href={resolve('/(app)/posts/[slug]', { slug })}
+					>
+						{#if draft}
+							<em style:--slug={slug}>{title}</em>
+						{:else}
+							<span style:--slug={slug}>{title}</span>
+						{/if}
+						<small>
+							<time datetime={date.toISOString()}>
+								{formatDistanceToNow(date, { addSuffix: true })}
+							</time>
+							{middot}{summary}
+						</small>
+					</a>
+				</li>
+			{/each}
+		</ol>
+	{/if}
 </section>
 
 <style>
@@ -155,9 +163,12 @@
 		margin-inline: auto;
 		max-width: var(--max-width);
 		margin-block-end: var(--margin);
+		& > header {
+			display: flex;
+			align-items: center;
+			gap: var(--gap);
+		}
 		& > search {
-			padding: var(--padding);
-			border-block-end: var(--border-width) dotted var(--color);
 			& > form {
 				display: grid;
 				grid-template-columns: 1fr auto;
@@ -206,8 +217,9 @@
 		}
 		& > p {
 			margin: 0;
-			padding: 0;
+			padding: var(--padding);
 			text-align: center;
+			border-block-start: var(--border-width) dotted var(--color);
 		}
 		& ol {
 			display: grid;

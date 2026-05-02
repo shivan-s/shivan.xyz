@@ -16,8 +16,8 @@
 	</header>
 	<section>
 		{#each galleries as { slug, default: d, metadata: { title, summary, startDate, endDate } }, idx (idx)}
-			<article id={slug}>
-				<header>
+			<article>
+				<header id={slug}>
 					<div>
 						<h2>{title}</h2>
 						<a href="#{slug}"><Link size="1rem" /></a>
@@ -43,7 +43,6 @@
 					{@render d?.()}
 				</section>
 			</article>
-			<hr />
 		{/each}
 	</section>
 </article>
@@ -52,22 +51,22 @@
 	article.galleries {
 		display: grid;
 		gap: var(--gap);
-		margin-inline: auto;
-		max-width: var(--max-width);
 		& > section {
 			display: grid;
-			gap: var(--gap);
-			margin-block: var(--margin-large);
+			gap: var(--gap-small);
 			& > article {
 				& > header {
-					margin-block: var(--margin-small);
+					margin-block: var(--margin);
 					& div {
 						display: flex;
 						align-items: center;
 						gap: var(--gap);
 						& > h2 {
+							overflow: hidden;
+							white-space: nowrap;
+							text-overflow: ellipsis;
 							margin-block: 0;
-							line-height: 0;
+							line-height: 1;
 						}
 					}
 					& > small {
@@ -78,8 +77,9 @@
 					}
 				}
 				& section {
+					--min-width-img: 12rem;
 					display: grid;
-					grid-template-columns: 1fr 1fr 1fr;
+					grid-template-columns: repeat(auto-fit, minmax(min(var(--min-width-img), 100%), 1fr));
 					border-radius: var(--border-radius-large);
 					transition: border-radius 0.3s ease-in-out;
 					align-items: center;

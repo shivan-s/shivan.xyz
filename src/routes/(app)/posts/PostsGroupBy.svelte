@@ -81,6 +81,7 @@
 			border-block-start: var(--year-border-width) dotted var(--color);
 			& > ol {
 				list-style-type: none;
+				padding: 0;
 				display: grid;
 				& > li {
 					transition: backdrop-filter 0.3s ease-in-out;

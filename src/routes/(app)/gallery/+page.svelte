@@ -56,7 +56,15 @@
 			gap: var(--gap-small);
 			& > article {
 				& > header {
+					position: sticky;
+					inset-block-start: 0;
+					background-color: var(--background-color);
+					border-radius: var(--border-radius);
+					padding: var(--padding-small);
+					mask-image: radial-gradient(oklch(0 0 0 / 0.9) 80%);
+					box-shadow: var(--box-shadow);
 					margin-block: var(--margin);
+					z-index: 2;
 					& div {
 						display: flex;
 						align-items: center;

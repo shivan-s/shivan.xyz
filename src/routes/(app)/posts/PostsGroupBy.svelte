@@ -1,8 +1,6 @@
 <script lang="ts">
 	import { resolve } from '$app/paths';
-	import { m } from '$i18n/messages.js';
 	import type { PostsGroupByYear } from '$lib/posts';
-	import { Rss, Search } from '@lucide/svelte';
 	import { sineInOut } from 'svelte/easing';
 	import { fade } from 'svelte/transition';
 

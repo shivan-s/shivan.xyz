@@ -159,7 +159,7 @@
 	}
 	section {
 		display: grid;
-		gap: var(--gap);
+		gap: var(--gap-small);
 		margin-inline: auto;
 		max-width: var(--max-width);
 		margin-block-end: var(--margin);
@@ -217,7 +217,7 @@
 		}
 		& > p {
 			margin: 0;
-			padding: var(--padding);
+			padding: var(--padding-small);
 			text-align: center;
 			border-block-start: var(--border-width) dotted var(--color);
 		}

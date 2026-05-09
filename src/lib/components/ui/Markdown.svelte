@@ -90,4 +90,43 @@
 	:global(img) {
 		max-height: 500px;
 	}
+
+	:global(table) {
+		display: table;
+		border: solid 2px var(--color);
+		border-collapse: separate;
+		border-spacing: 0;
+		margin-block: var(--margin);
+		border-radius: var(--border-radius);
+		& thead {
+			border-block-end: solid 1px var(--color);
+		}
+		& thead tr:first-of-type th:first-child {
+			border-start-start-radius: var(--border-radius);
+		}
+		& thead tr:first-of-type th {
+			backdrop-filter: invert(var(--invert));
+		}
+		& thead tr:first-of-type th:last-of-type {
+			border-start-end-radius: var(--border-radius);
+		}
+		& tbody tr td {
+			padding: var(--padding-small);
+		}
+		& tbody tr:last-of-type td:first-of-type {
+			border-end-start-radius: var(--border-radius);
+		}
+		& tbody tr:last-of-type td:last-of-type {
+			border-end-end-radius: var(--border-radius);
+		}
+		& tbody tr td {
+			transition: backdrop-filter 0.3s ease-in-out;
+		}
+		& tbody tr:nth-of-type(2n) td {
+			backdrop-filter: invert(var(--invert));
+		}
+		& tbody tr:hover td {
+			backdrop-filter: invert(var(--invert-highlight));
+		}
+	}
 </style>

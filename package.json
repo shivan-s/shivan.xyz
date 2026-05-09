@@ -24,7 +24,7 @@
 		"new:gallery": "new gallery"
 	},
 	"devDependencies": {
-		"@eslint/compat": "^2.0.5",
+		"@eslint/compat": "^2.1.0",
 		"@eslint/js": "^10.0.1",
 		"@inlang/paraglide-js": "^2.18.0",
 		"@inlang/paraglide-js-svelte": "^1.0.2",

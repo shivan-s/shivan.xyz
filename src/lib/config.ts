@@ -1,3 +1,4 @@
+import Logo from '$lib/assets/img/avatar.png';
 import Image from '$lib/assets/img/shivan.png';
 
 export const config = Object.freeze({
@@ -10,5 +11,6 @@ export const config = Object.freeze({
 		email: 'me@shivan.xyz'
 	}),
 	src: 'github.com/shivan-s/shivan.xyz',
-	image: Image
+	image: Image,
+	logo: Logo
 });

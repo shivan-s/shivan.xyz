@@ -36,5 +36,6 @@ I also want to keep my mind working:
 - taking more 📷 photographs to inspire my creativity;
 - I want to be inspired by 🎬 film (trying to avoid "junk" media);
 - I want to 📚 read [better books](/posts/classics).
+- In 2024, I also made the decision to [stop drinking alcohol](/posts/alcohol-free).
 
 <Figure src={Lake} alt="A lake" caption="Photos in my Hometown: A Lake near where I live" />

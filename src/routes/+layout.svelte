@@ -27,11 +27,12 @@
 <svelte:head>
 	<title>{title}</title>
 	<meta property="og:title" content={title} />
-	<meta property="og:title" content={config.description} />
 	<meta property="og:type" content="website" />
-	<meta property="og:url" content={page.url.toString()} />
+	<meta property="og:url" content={config.url} />
 	<meta property="og:image" content={config.image} />
-	<meta name="description" content={config.description} />
+	<meta property="og:locale" content="en_NZ" />
+	<meta name="og:description" content={config.description} />
+	<meta property="og:logo" content={config.logo} />
 </svelte:head>
 
 <ViewTransition />

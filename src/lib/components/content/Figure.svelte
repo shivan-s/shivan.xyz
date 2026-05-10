@@ -8,7 +8,7 @@
 		caption: string;
 		title?: string;
 	}
-	let { src, alt, caption, title = alt }: Props = $props();
+	let { src, alt, caption, title = caption }: Props = $props();
 	const popoverId = crypto.randomUUID();
 </script>
 
@@ -61,7 +61,7 @@ TODO: rename this to Image
 				box-shadow 0.2s ease-in-out,
 				transform 0.4s ease-in-out;
 			padding: 0;
-			margin: 0;
+			margin-block: 0;
 			margin-inline: auto;
 
 			&:hover {

@@ -29,7 +29,7 @@
 		"@inlang/paraglide-js": "^2.18.0",
 		"@inlang/paraglide-js-svelte": "^1.0.2",
 		"@lucide/svelte": "^1.14.0",
-		"@playwright/test": "^1.59.1",
+		"@playwright/test": "^1.60.0",
 		"@qr-platform/qr-code.js": "^0.20.14",
 		"@storybook/addon-svelte-csf": "^5.1.2",
 		"@storybook/sveltekit": "^10.3.6",

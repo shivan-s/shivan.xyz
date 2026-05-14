@@ -26,12 +26,12 @@
 
 <svelte:head>
 	<title>{title}</title>
-	<meta property="og:title" content={title} />
+	<meta property="og:title" content={page.data['meta']?.['title'] ?? config.title} />
 	<meta property="og:type" content="website" />
 	<meta property="og:url" content={config.url} />
-	<meta property="og:image" content={config.image} />
+	<meta property="og:image" content={page.data['meta']?.['cover']?.['image'] ?? config.image} />
+	<meta property="og:description" content={page.data['meta']?.['summary'] ?? config.description} />
 	<meta property="og:locale" content="en_NZ" />
-	<meta name="og:description" content={config.description} />
 	<meta property="og:logo" content={config.logo} />
 </svelte:head>
 

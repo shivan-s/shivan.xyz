@@ -13,13 +13,6 @@
 	const from = $derived(formatDistanceToNow(data.meta.date.toISOString(), { addSuffix: true }));
 </script>
 
-<svelte:head>
-	<meta property="og:title" content={data.meta.title} />
-	<meta property="og:description" content={data.meta.summary} />
-	<meta property="og:image" content={data.meta.cover ? data.meta.cover.image : config.image} />
-	<meta name="description" content={data.meta.summary} />
-</svelte:head>
-
 <article>
 	<header>
 		<H1 viewTransitionName={data.meta.slug}>{data.meta.title}</H1>

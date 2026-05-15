@@ -20,6 +20,8 @@ cover:
     import Two from "./two.gif"
 </script>
 
+<YouTube id="ljOmHlWNkCU" />
+
 `console` logs and having a general intuition of what goes on in your application will only take you so far. There comes a stage where you need to have good observability of your application while in production. Logging is one of those tools that can help you along the way, especially structured logging.
 
 ## What is Structured Logging?

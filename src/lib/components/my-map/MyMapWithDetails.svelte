@@ -39,10 +39,6 @@
 </div>
 
 <style>
-	:root {
-		--red: hsl(1 50% 50% / 1);
-		--green: hsl(120 50% 50% / 1);
-	}
 	.red {
 		color: var(--red);
 	}

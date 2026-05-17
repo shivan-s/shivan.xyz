@@ -41,10 +41,6 @@
 <div id={containerId} style={fullScreen ? 'width: 100dvw; height: 100dvh' : ''}></div>
 
 <style>
-	:root {
-		--red: hsl(1 50% 50% / 1);
-		--green: hsl(120 50% 50% / 1);
-	}
 	div {
 		width: 100%;
 		height: 32rem;

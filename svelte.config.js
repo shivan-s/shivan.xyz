@@ -1,3 +1,4 @@
+import { transformerNotationDiff } from '@shikijs/transformers';
 import adapter from '@sveltejs/adapter-static';
 import { vitePreprocess } from '@sveltejs/vite-plugin-svelte';
 import { mdsvex, escapeSvelte } from 'mdsvex';
@@ -18,7 +19,9 @@ const highlighter = await createHighlighter({
 const mdsvexOptions = {
 	highlight: {
 		highlighter: async (code, lang = 'text') => {
-			const html = escapeSvelte(highlighter.codeToHtml(code, { lang, theme }));
+			const html = escapeSvelte(
+				highlighter.codeToHtml(code, { lang, theme, transformers: [transformerNotationDiff()] })
+			);
 			return `{@html \`${html}\`}`;
 		}
 	},

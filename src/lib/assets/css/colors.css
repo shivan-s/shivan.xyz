@@ -6,6 +6,14 @@
 	/* #ff9b33 */
 	--orange: oklch(77.71% 0.1622 61.37deg);
 
+	/* @see https://catppuccin.com/palette/ */
+
+	/* Catpuccin Red */
+	--red: oklch(55% 22% 20deg);
+
+	/* Catpuccin Green */
+	--green: oklch(63% 18% 140deg);
+
 	/* Greys */
 	--grey: oklch(50% 0 0deg);
 	--light-grey: oklch(from var(--grey) 95% c h / 100%);

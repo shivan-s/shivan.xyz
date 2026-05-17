@@ -9,10 +9,10 @@
 	/* @see https://catppuccin.com/palette/ */
 
 	/* Catpuccin Red */
-	--red: oklch(55% 22% 20deg);
+	--red: light-dark(oklch(55% 22% 20deg), oklch(76% 13% 3deg));
 
 	/* Catpuccin Green */
-	--green: oklch(63% 18% 140deg);
+	--green: light-dark(oklch(63% 18% 140deg), oklch(86% 11% 143deg));
 
 	/* Greys */
 	--grey: oklch(50% 0 0deg);
@@ -20,13 +20,16 @@
 	--dark-grey: oklch(from var(--grey) 25% c h / 100%);
 	--gray: var(--grey);
 	--light-gray: var(--light-grey);
-	--medium-gray: var(--medium-grey);
 	--dark-gray: var(--dark-grey);
 
 	/* Declarations */
-	--primary-color: var(--blue);
+	--primary-color: light-dark(var(--blue), var(--light-blue));
 	--alternative-color: var(--orange);
-	--medium-grey: oklch(from var(--grey) 45% c h / 100%);
-	--color: var(--dark-grey);
-	--background-color: var(--light-grey);
+	--medium-grey: light-dark(
+		oklch(from var(--grey) 45% c h / 100%),
+		oklch(from var(--grey) 65% c h / 100%)
+	);
+	--medium-gray: var(--medium-grey);
+	--color: light-dark(var(--dark-grey), var(--light-grey));
+	--background-color: light-dark(var(--light-grey), var(--dark-grey));
 }

@@ -246,7 +246,7 @@
 						view-transition-name: var(--slug);
 					}
 					& > small {
-						color: var(--medium-gray);
+						color: var(--gray);
 						padding-inline-start: 1rem;
 						text-shadow: none;
 						:hover {

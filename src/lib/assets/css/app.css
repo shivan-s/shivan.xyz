@@ -4,6 +4,7 @@
 @import url('./fonts.css');
 
 :root {
+	color-scheme: light dark;
 	interpolate-size: allow-keywords;
 }
 
@@ -12,11 +13,12 @@ html {
 	scroll-behavior: smooth;
 	view-transition-name: none;
 
-	&.dark {
-		--primary-color: var(--light-blue);
-		--color: var(--light-grey);
-		--medium-grey: oklch(from var(--grey) 75% c h / 100%);
-		--background-color: var(--dark-grey);
+	&[data-theme='dark'] {
+		color-scheme: dark;
+	}
+
+	&[data-theme='light'] {
+		color-scheme: light;
 	}
 }
 

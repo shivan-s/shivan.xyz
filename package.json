@@ -50,7 +50,7 @@
 		"fuse.js": "^7.3.0",
 		"globals": "^17.6.0",
 		"husky": "^9.1.7",
-		"lint-staged": "^16.4.0",
+		"lint-staged": "^17.0.5",
 		"maplibre-gl": "^5.24.0",
 		"mdsvex": "^0.12.7",
 		"mdsvex-reading-time": "^1.0.6",

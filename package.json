@@ -67,11 +67,11 @@
 		"storybook": "^10.3.6",
 		"stylelint": "^16.26.1",
 		"stylelint-config-standard": "^39.0.1",
-		"svelte": "^5.55.7",
+		"svelte": "^5.55.8",
 		"svelte-check": "^4.4.8",
 		"ts-node": "^10.9.2",
 		"typescript": "^6.0.3",
-		"typescript-eslint": "^8.59.3",
+		"typescript-eslint": "^8.59.4",
 		"vite": "^7.3.2",
 		"zod": "^4.4.3"
 	}

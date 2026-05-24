@@ -4,7 +4,7 @@
 	import { updated } from '$app/state';
 	import '$lib/assets/css/app.css';
 	import { config } from '$lib/config';
-	import { DARK, theme } from '$lib/state.svelte';
+	import { DARK, LIGHT, theme } from '$lib/state.svelte';
 	import ViewTransition from './ViewTransition.svelte';
 
 	let { children } = $props();
@@ -20,7 +20,8 @@
 	});
 
 	$effect(() => {
-		document.documentElement.classList.toggle('dark', theme.current === DARK);
+		if (theme.current === DARK) document.documentElement.setAttribute('data-theme', 'dark');
+		if (theme.current === LIGHT) document.documentElement.setAttribute('data-theme', 'light');
 	});
 </script>
 

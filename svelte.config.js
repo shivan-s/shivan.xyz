@@ -52,7 +52,7 @@ const mdsvexOptions = {
 				properties: { className: 'link-headings', title: 'link-heading' }
 			})
 	],
-	extensions: ['.md']
+	extensions: ['.md', '.svx']
 };
 
 /** @type {import('@sveltejs/kit').Config} */
@@ -76,7 +76,7 @@ const config = {
 	compilerOptions: {
 		experimental: { async: true }
 	},
-	extensions: ['.svelte', '.md', '.html']
+	extensions: ['.svelte', '.svx', '.md', '.html']
 };
 
 export default config;

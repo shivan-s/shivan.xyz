@@ -130,23 +130,19 @@
 		}
 	}
 	:global(pre.shiki.has-diff > code > span.line.diff.add) {
-		--_c: hsl(from var(--green) h s l / 0.3);
+		display: inline-block;
+		--_c: hsl(from var(--green) h s l / 0.2);
 		background-color: var(--_c);
-		box-shadow: 0 0 0.25rem 0.25rem var(--_c);
+		box-shadow: 0 0 0.125rem 0.075em var(--_c);
 		border-radius: var(--border-radius);
-		&::after {
-			content: '+';
-			color: var(--green);
-		}
+		width: 100%;
 	}
 	:global(pre.shiki.has-diff > code > span.line.diff.remove) {
-		--_c: hsl(from var(--red) h s l / 0.3);
+		display: inline-block;
+		--_c: hsl(from var(--red) h s l / 0.2);
 		background-color: var(--_c);
-		box-shadow: 0 0 0.25rem 0.25rem var(--_c);
+		box-shadow: 0 0 0.125rem 0.075rem var(--_c);
 		border-radius: var(--border-radius);
-		&::after {
-			content: '-';
-			color: var(--red);
-		}
+		width: 100%;
 	}
 </style>

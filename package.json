@@ -31,7 +31,7 @@
 		"@lucide/svelte": "^1.14.0",
 		"@playwright/test": "^1.60.0",
 		"@qr-platform/qr-code.js": "^0.20.14",
-		"@shikijs/transformers": "^4.0.2",
+		"@shikijs/transformers": "^4.1.0",
 		"@storybook/addon-svelte-csf": "^5.1.2",
 		"@storybook/sveltekit": "^10.3.6",
 		"@sveltejs/adapter-auto": "^7.0.1",

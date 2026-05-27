@@ -24,10 +24,13 @@
 
 <style>
 	section {
+		margin-block: var(--margin);
 		padding: var(--padding-small);
 		display: grid;
 		gap: var(--gap);
 		backdrop-filter: invert(var(--invert));
 		border-radius: var(--border-radius-large);
+		container-type: inline-size;
+		overflow: scroll;
 	}
 </style>

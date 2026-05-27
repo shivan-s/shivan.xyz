@@ -1,7 +1,8 @@
 :root {
 	/* #196680 */
-	--blue: oklch(47.75% 0.0821 225.75deg);
-	--light-blue: oklch(from var(--blue) calc(l + 0.3725) c h / 100%);
+	--base-blue: oklch(47.75% 0.0821 225.75deg);
+	--light-blue: oklch(from var(--base-blue) calc(l + 0.3725) c h / 100%);
+	--blue: light-dark(var(--base-blue), var(--light-blue));
 
 	/* #ff9b33 */
 	--orange: oklch(77.71% 0.1622 61.37deg);
@@ -23,7 +24,7 @@
 	--dark-gray: var(--dark-grey);
 
 	/* Declarations */
-	--primary-color: light-dark(var(--blue), var(--light-blue));
+	--primary-color: var(--blue);
 	--alternative-color: var(--orange);
 	--medium-grey: light-dark(
 		oklch(from var(--grey) 45% c h / 100%),

@@ -52,5 +52,11 @@
 			border-color: var(--red);
 			background-color: color-mix(in oklch, var(--background-color) 90%, var(--red));
 		}
+		&.info {
+			color: var(--blue);
+			backdrop-filter: invert(var(--invert));
+			border-color: var(--blue);
+			background-color: color-mix(in oklch, var(--background-color) 90%, var(--blue));
+		}
 	}
 </style>

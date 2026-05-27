@@ -12,7 +12,7 @@ import { createHighlighter } from 'shiki';
 const theme = 'catppuccin-mocha';
 const highlighter = await createHighlighter({
 	themes: [theme],
-	langs: ['js', 'ts', 'svelte', 'json', 'fish', 'py', 'html', 'shell', 'rust', 'elixir']
+	langs: ['js', 'ts', 'svelte', 'json', 'fish', 'py', 'html', 'shell', 'rust', 'elixir', 'sql']
 });
 
 /** @type {import('mdsvex').MdsvexOptions} */
@@ -67,7 +67,8 @@ const config = {
 			$i18n: './src/lib/paraglide',
 			YouTube: './src/lib/components/content/YouTube.svelte',
 			Figure: './src/lib/components/content/Figure.svelte',
-			BlockQuote: './src/lib/components/content/BlockQuote.svelte'
+			BlockQuote: './src/lib/components/content/BlockQuote.svelte',
+			Highlight: './src/lib/components/ui/Highlight.svelte'
 		},
 		version: {
 			pollInterval: 1000 * 60 * 60 * 2

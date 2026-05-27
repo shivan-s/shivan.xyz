@@ -97,6 +97,7 @@
 		border-collapse: separate;
 		border-spacing: 0;
 		margin-block: var(--margin);
+		margin-inline: auto;
 		border-radius: var(--border-radius);
 		& thead {
 			border-block-end: solid 1px var(--color);

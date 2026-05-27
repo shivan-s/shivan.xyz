@@ -9,10 +9,10 @@ import rehypeSlug from 'rehype-slug';
 import rehypeToc from 'rehype-toc';
 import { createHighlighter } from 'shiki';
 
-const theme = 'catppuccin-mocha';
+const themes = ['catppuccin-mocha'];
 const highlighter = await createHighlighter({
-	themes: [theme],
-	langs: ['js', 'ts', 'svelte', 'json', 'fish', 'py', 'html', 'shell', 'rust', 'elixir']
+	themes,
+	langs: ['js', 'ts', 'svelte', 'json', 'fish', 'py', 'html', 'shell', 'rust', 'elixir', 'sql']
 });
 
 /** @type {import('mdsvex').MdsvexOptions} */

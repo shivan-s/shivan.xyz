@@ -13,10 +13,8 @@
 	<MyMap />
 	<figcaption>
 		<p>
-			This map contains locations I want to visit (<strong style="color: hsl(1 50% 50% / 1)"
-				>red</strong
-			>) as well as places I have visited (<strong style="color: hsl(120 50% 50% / 1)">green</strong
-			>).
+			This map contains locations I want to visit (<strong style="color: var(--red)"> red </strong>)
+			as well as places I have visited (<strong style="color: var(--green)">green</strong>).
 		</p>
 	</figcaption>
 </figure>

@@ -67,7 +67,7 @@
 		"storybook": "^10.4.1",
 		"stylelint": "^16.26.1",
 		"stylelint-config-standard": "^39.0.1",
-		"svelte": "^5.55.9",
+		"svelte": "^5.55.10",
 		"svelte-check": "^4.4.8",
 		"ts-node": "^10.9.2",
 		"typescript": "^6.0.3",

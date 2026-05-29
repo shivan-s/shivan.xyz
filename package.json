@@ -28,7 +28,7 @@
 		"@eslint/js": "^10.0.1",
 		"@inlang/paraglide-js": "^2.18.1",
 		"@inlang/paraglide-js-svelte": "^1.0.3",
-		"@lucide/svelte": "^1.16.0",
+		"@lucide/svelte": "^1.17.0",
 		"@playwright/test": "^1.60.0",
 		"@qr-platform/qr-code.js": "^0.20.14",
 		"@shikijs/transformers": "^4.1.0",

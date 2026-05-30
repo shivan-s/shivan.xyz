@@ -21,6 +21,8 @@ cover:
     import ExampleLightDark from "./ExampleLightDark.svelte"
 </script>
 
+<YouTube id="dSOTxru1uVE" />
+
 I'm not brilliant at it, but I love CSS. And in this specific post, I want to highlight CSS's features that make creating colours and applying themes easier.
 
 ## Quick Definitions

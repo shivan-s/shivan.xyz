@@ -2,6 +2,7 @@
 	import { m } from '$i18n/messages.js';
 	import { Markdown } from '$lib/components/ui';
 	import { H1 } from '$lib/components/ui';
+	import { config } from '$lib/config';
 	import type { PageProps } from './$types';
 
 	let { data }: PageProps = $props();
@@ -11,6 +12,11 @@
 <article>
 	<header>
 		<H1>{m.about()}</H1>
+		<small>
+			<a href="https://{config.src}/edit/main/content/about/index.md" target="_blank">
+				{m.post_suggest_changes()}
+			</a>
+		</small>
 	</header>
 	<section>
 		<Markdown>

@@ -2,6 +2,7 @@
     import Figure from "Figure"
     import ManawatuRiver from "./manawatu-river.jpg"
     import FountainPen from "./fountain-pen.jpg"
+    import Ink from "./ink.jpg"
     import Watch from "./watch.jpg"
     import Trmnl from "./trmnl.png"
 </script>
@@ -16,7 +17,11 @@ Updated May 31, 2026, from my parents' home.
 
 <Figure src={FountainPen} alt="A fountain pen illuminated by natural light; in the background is lined paper with handwritten text saying, 'I got a new fountain pen'" caption="My new fountain pen" />
 
-I recently got a fountain pen. The idea is that I want to journal more, so maybe a better pen would help? A fountain pen is more expensive than regular pens - so I'm much less inclined to lose it. Also, regular pens, when they are all used up, get tossed away. With a fountain pen, you would fill it up with ink, so there is less waste. I got lovely scented ink too so that makes the process of writing even better. On top of that, fountain pens often involve almost no pressure when writing, improving the experience even further.
+I recently got a fountain pen. The idea is that I want to journal more, so maybe a better pen would help? A fountain pen is more expensive than regular pens - so I'm much less inclined to lose it. Also, regular pens, when they are all used up, get tossed away. With a fountain pen, you would fill it up with ink, so there is less waste.
+
+<Figure src={Ink} alt="Bottle of ink called 'Jacques Herbin', subtitle 'Paris - 1670', and with a style 'Noir inspiration'" caption="Ink for my fountain pen" />
+
+I got lovely scented ink too so that makes the process of writing even better. On top of that, fountain pens often involve almost no pressure when writing, improving the experience even further.
 
 <Figure src={Watch} alt="An analogue watch on a person's wrist" caption="Watch" />
 

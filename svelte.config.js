@@ -75,7 +75,8 @@ const config = {
 			$i18n: './src/lib/paraglide',
 			YouTube: './src/lib/components/content/YouTube.svelte',
 			Figure: './src/lib/components/content/Figure.svelte',
-			BlockQuote: './src/lib/components/content/BlockQuote.svelte'
+			BlockQuote: './src/lib/components/content/BlockQuote.svelte',
+			Highlight: './src/lib/components/ui/Highlight.svelte'
 		},
 		version: {
 			pollInterval: 1000 * 60 * 60 * 2

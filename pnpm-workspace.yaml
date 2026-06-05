@@ -1,9 +1,12 @@
 allowBuilds:
-  esbuild: set this to true or false
-  sharp: set this to true or false
+  esbuild: true
+  sharp: true
 
 ignoredBuiltDependencies:
   - sharp
+
+minimumReleaseAgeExclude:
+  - svelte@5.56.2
 
 onlyBuiltDependencies:
   - esbuild

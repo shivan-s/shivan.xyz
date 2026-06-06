@@ -1,12 +1,17 @@
 <script lang="ts">
 	import { browser } from '$app/environment';
 	import Highlight from './Highlight.svelte';
+	import type { HTMLAttributes } from 'svelte/elements';
 
-	let { children } = $props();
+	interface Props extends HTMLAttributes<HTMLElement> {
+		scrollable?: boolean;
+	}
+
+	let { children, scrollable = true, ...restProps }: Props = $props();
 </script>
 
 <svelte:boundary>
-	<section>
+	<section class:scrollable {...restProps}>
 		{#if !browser}
 			<Highlight directive="danger">
 				The following interactive example may not work without Javascript. If you have enabled
@@ -31,6 +36,9 @@
 		backdrop-filter: invert(var(--invert));
 		border-radius: var(--border-radius-large);
 		container-type: inline-size;
-		overflow: scroll;
+
+		&.scrollable {
+			overflow: scroll;
+		}
 	}
 </style>

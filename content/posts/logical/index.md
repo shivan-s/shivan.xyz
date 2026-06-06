@@ -19,6 +19,8 @@ cover:
 
 [Once again](/posts/theming), I love CSS. I'm not great at it, but it's a skill I want to improve. One aspect I want to talk about in this post in CSS logical properties.
 
+<YouTube id="PcOqrIs8bFs" />
+
 ## Why?
 
 Doesn't `left`, `right`, `bottom` and `top` work? It's intuitive. If I want to adding some padding to the right, I can just do `padding-right`, and it does the job.

@@ -1,4 +1,8 @@
 {
-	"$schema": "http://json-schema.org/draft-07/schema#",
-	"image": "ghcr.io/devcontainers/templates/javascript-node:5.0.0"
+	"$schema": "https://json-schema.org/draft-07/schema#",
+	"features": {
+		"ghcr.io/devcontainers-extra/features/homebrew-package:1": {}
+	},
+	"image": "mcr.microsoft.com/devcontainers/javascript-node",
+	"name": "shivan.xyz"
 }

@@ -28,6 +28,8 @@
 		"@eslint/js": "^10.0.1",
 		"@inlang/paraglide-js": "^2.18.2",
 		"@inlang/paraglide-js-svelte": "^1.0.3",
+		"@logtape/logtape": "^2.1.1",
+		"@logtape/pretty": "^2.1.1",
 		"@lucide/svelte": "^1.17.0",
 		"@playwright/test": "^1.60.0",
 		"@qr-platform/qr-code.js": "^0.20.14",

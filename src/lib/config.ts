@@ -1,3 +1,4 @@
+import { baseLocale } from '$i18n/runtime';
 import Logo from '$lib/assets/img/avatar.png';
 import Image from '$lib/assets/img/shivan.png';
 
@@ -12,5 +13,6 @@ export const config = Object.freeze({
 	}),
 	src: 'github.com/shivan-s/shivan.xyz',
 	image: Image,
-	logo: Logo
+	logo: Logo,
+	language: baseLocale
 });

@@ -67,7 +67,7 @@ The issue here is that `right` is always on the right, even though we intend to 
 
 ## The Definitions
 
-In simple terms, for a left-to-right language and a horizontal writing style; `block` refers to the vertical axis, and `inline` refers to the horizontal. `start` is usually the top or left; and end is the bottom or right. So, this is what the mapping is roughly.
+In simple terms, for a left-to-right language and a horizontal writing style; `block` refers to the vertical axis (where new lines are create when writing), and `inline` refers to the horizontal (_inline_ with where you are writing). `start` is usually the top or left; and end is the bottom or right. So, this is what the mapping is roughly. Again, the below table assumes you are left-to-right; horizontal top-to-bottom.
 
 | Classical | Logical         |
 | --------- | --------------- |

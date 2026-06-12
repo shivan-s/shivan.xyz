@@ -5,6 +5,7 @@
     import Ink from "./ink.jpg"
     import Watch from "./watch.jpg"
     import Trmnl from "./trmnl.png"
+    import TrmnlDevice from "./trmnl-device.jpg"
 </script>
 
 ## Updated
@@ -37,7 +38,11 @@ I've started learning [zig](https://zigland.org), starting on [ziglings](https:/
 
 ### TRMNL
 
+<Figure src={TrmnlDevice} alt="E-ink display showing github graph with 580 contributions in the last year" caption="An e-ink display" />
+
 I recently purchased a [TRMNL e-ink display](https://trmnl.app/). It's currently in the post so will be exciting to hack on this soon. They also have a cool "meet our team" section; it's sketchs of the team, plus links to their socials and websites.
+
+<Figure src={Trmnl} alt="Character sketchs surrounding an architecture of a software system" caption="How cool is this?" />
 
 ### Learning Spanish... again
 
@@ -48,6 +53,17 @@ I like Latin dance and I've always wanted to learn another language. So there yo
 ### Animations
 
 I purchased access to Josh Comeau's [Whimsical Animations](https://whimsy.joshwcomeau.com/) course. I haven't looked into this that much as I have a lot on my plate (maybe too much!).
+
+## What am I reading?
+
+- _Digital Minimalism_ by Cal Newport
+  - Started: 2026-06-12
+- [_Code_](https://codehiddenlanguage.com/) by Charles Petzold
+  - Started: ???
+- _The Hobbit_ by JRR Tolkien
+  - Started: ???
+- [_Effective Typescript_](https://effectivetypescript.com/) by Dan Vanderkam
+  - Started ???
 
 ## Where am I?
 

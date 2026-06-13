@@ -1,4 +1,5 @@
 import { transformerNotationDiff } from '@shikijs/transformers';
+import { transformerTwoslash } from '@shikijs/twoslash';
 import adapter from '@sveltejs/adapter-static';
 import { vitePreprocess } from '@sveltejs/vite-plugin-svelte';
 import { mdsvex, escapeSvelte } from 'mdsvex';
@@ -20,7 +21,11 @@ const mdsvexOptions = {
 	highlight: {
 		highlighter: async (code, lang = 'text') => {
 			const html = escapeSvelte(
-				highlighter.codeToHtml(code, { lang, theme, transformers: [transformerNotationDiff()] })
+				highlighter.codeToHtml(code, {
+					lang,
+					theme,
+					transformers: [transformerNotationDiff(), transformerTwoslash({ explicitTrigger: true })]
+				})
 			);
 			return `{@html \`${html}\`}`;
 		}

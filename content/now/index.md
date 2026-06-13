@@ -6,6 +6,7 @@
     import Watch from "./watch.jpg"
     import Trmnl from "./trmnl.png"
     import TrmnlDevice from "./trmnl-device.jpg"
+    import DeskAccessories from "./desk-accessories.jpg"
 </script>
 
 ## Updated
@@ -64,6 +65,21 @@ I purchased access to Josh Comeau's [Whimsical Animations](https://whimsy.joshwc
   - Started: ???
 - [_Effective Typescript_](https://effectivetypescript.com/) by Dan Vanderkam
   - Started ???
+
+## What's on my desk?
+
+<Figure src={DeskAccessories} alt="An assortment of items related to a programmers desk with numbers overlayed to highlight each item" caption="Creating joy with small items" />
+
+Here are some items on my desk to improve productivity, ergonomis and simply to create joy while work.
+
+1. Split keyboard to help with ergonomics - [Moonlander Mark I](https://www.zsa.io/moonlander).
+2. Ergonomic mouse that I use with Windows machines (I use the (3.) touchpad for MacOS) - Logitech MX Master 3S Bluetooth Edition.
+3. Magic Trackpad that I use with MacOS.
+4. Timer that shows a more physical representation of a countdown - [Time Timer](https://www.timetimer.com/)
+5. E-ink Display - [Trmnl OG](https://trmnl.com/)
+6. Pen Ink for my fountain pen
+7. The morning ritual involves dark choclate paired with homemade espresso flat white. I usually have this in a [Ember cup](https://ember.com/) (not pictured) which keeps the brew warm
+8. Misc. such as items to clean my desk as a mobility ball to roll out my wrist
 
 ## Where am I?
 

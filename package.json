@@ -29,7 +29,7 @@
 		"@inlang/paraglide-js": "^2.19.0",
 		"@inlang/paraglide-js-svelte": "^1.0.3",
 		"@lucide/svelte": "^1.18.0",
-		"@playwright/test": "^1.60.0",
+		"@playwright/test": "^1.61.0",
 		"@qr-platform/qr-code.js": "^0.20.14",
 		"@shikijs/transformers": "^4.2.0",
 		"@shikijs/twoslash": "^4.2.0",

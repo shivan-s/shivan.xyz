@@ -1,5 +1,5 @@
 ---
-title: Use CSS Nesting
+title: CSS Nesting
 date: 2026-06-20
 summary: Another cool CSS trick
 draft: false

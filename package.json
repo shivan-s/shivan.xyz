@@ -38,7 +38,7 @@
 		"@sveltejs/adapter-auto": "^7.0.1",
 		"@sveltejs/adapter-static": "^3.0.10",
 		"@sveltejs/enhanced-img": "^0.10.4",
-		"@sveltejs/kit": "^2.65.1",
+		"@sveltejs/kit": "^2.66.0",
 		"@sveltejs/vite-plugin-svelte": "^6.2.4",
 		"@trivago/prettier-plugin-sort-imports": "^6.0.2",
 		"@types/node": "^26.0.0",

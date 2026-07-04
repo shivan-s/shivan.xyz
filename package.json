@@ -66,7 +66,7 @@
 		"reveal.js": "^6.0.1",
 		"shiki": "^4.3.0",
 		"storybook": "^10.4.6",
-		"stylelint": "^17.13.0",
+		"stylelint": "^17.14.0",
 		"stylelint-config-standard": "^40.0.0",
 		"svelte": "^5.56.4",
 		"svelte-check": "^4.6.0",

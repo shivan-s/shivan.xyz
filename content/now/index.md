@@ -1,33 +1,56 @@
 <script>
     import Figure from "Figure"
+    import PPL from "./ppl.jpg"
+    import JellyStar0 from "./jelly-star-0.jpg"
+    import JellyStar1 from "./jelly-star-1.jpg"
+    import CarryJournal from "./carry-journal.jpg"
+    import SpencerianScript from "./spencerian-script.jpg"
     import ManawatuRiver from "./manawatu-river.jpg"
-    import FountainPen from "./fountain-pen.jpg"
-    import Ink from "./ink.jpg"
-    import Watch from "./watch.jpg"
-    import Trmnl from "./trmnl.png"
-    import TrmnlDevice from "./trmnl-device.jpg"
-    import DeskAccessories from "./desk-accessories.jpg"
 </script>
 
 ## Updated
 
-Updated May 31, 2026, from my parents' home.
+Updated July 11, 2026, from my parents' home.
 
 ## What's the latest?
 
-### Fountain Pen
+### I got my PPL!
 
-<Figure src={FountainPen} alt="A fountain pen illuminated by natural light; in the background is lined paper with handwritten text saying, 'I got a new fountain pen'" caption="My new fountain pen" />
+On Sunday 5th of July, I sat and passed my PPL flight test. A few days later my PPL arrived in the letter box.
 
-I recently got a fountain pen. The idea is that I want to journal more, so maybe a better pen would help? A fountain pen is more expensive than regular pens - so I'm much less inclined to lose it. Also, regular pens, when they are all used up, get tossed away. With a fountain pen, you would fill it up with ink, so there is less waste.
+<Figure src={PPL} alt="A license for a private pilot with certain parts redacted" caption="License to Learn" />
 
-<Figure src={Ink} alt="Bottle of ink called 'Jacques Herbin', subtitle 'Paris - 1670', and with a style 'Noir inspiration'" caption="Ink for my fountain pen" />
+[Read more...](./posts/ppl)
 
-I got lovely scented ink too so that makes the process of writing even better. On top of that, fountain pens often involve almost no pressure when writing, improving the experience even further.
+### Analoging
 
-<Figure src={Watch} alt="An analogue watch on a person's wrist" caption="Watch" />
+On my shelf is _Digital Minimalism_ by [Cal Newport](https://calnewport.com/). It's made me think about using technology to best serve me. As an offshoot, I've picked up some new quirks.
 
-You would say I'm appealing to a more analogue life. I even got an analogue watch back in the start of 2026.
+[Read more...](./posts/analogue)
+
+#### New Mobile Phone
+
+To promote less scrolling but still have a useful smartphone, I got a Jelly Star from Unihertz.
+
+<Figure src={JellyStar0} alt="Holding a small smartphone showing the front" caption="3 Inches is all you need" />
+
+<Figure src={JellyStar1} alt="Holding a small smartphone showing the back" caption="Help in one hand" />
+
+The idea is that the small formfactor makes it unappealing to scroll the web, but its still a full functioning smartphone, where I can make calls, browse the web, and use maps.
+
+#### Everyday Carry Notebook
+
+Because I now have a small phone, it's annoying to take notes on this thing, so I now carry around a small journal to take notes or keep track of ideas on the go. I'm even experimenting with leaving my phone at home and taking my journal with me to capture ideas while I'm out and about
+
+<Figure src={CarryJournal} alt="Holding a small journal with a fountain tip pen" caption="Everyday carry journal" />
+
+I have this in addition to my main journal.
+
+#### Learning Penmanship
+
+On top of this, I want to improve my penmanship. I have a fountain pen but I want to use it to it's full extent. I've started learning [Spencerial script](https://en.wikipedia.org/wiki/Spencerian_script).
+
+<Figure src={SpencerianScript} alt="Collection of books that are related to spencerian script" caption="Mastering Penmanship" />
 
 ### Publishing Content
 
@@ -36,14 +59,6 @@ I have made a small challenge to myself to share a learning (usually programming
 ### Zig
 
 I've started learning [zig](https://zigland.org), starting on [ziglings](https://codeberg.org/ziglings/exercises/) More on this soon...
-
-### TRMNL
-
-<Figure src={TrmnlDevice} alt="E-ink display showing github graph with 580 contributions in the last year" caption="An e-ink display" />
-
-I recently purchased a [TRMNL e-ink display](https://trmnl.app/). It's currently in the post so will be exciting to hack on this soon. They also have a cool "meet our team" section; it's sketchs of the team, plus links to their socials and websites.
-
-<Figure src={Trmnl} alt="Character sketchs surrounding an architecture of a software system" caption="How cool is this?" />
 
 ### Learning Spanish... again
 
@@ -57,7 +72,7 @@ I purchased access to Josh Comeau's [Whimsical Animations](https://whimsy.joshwc
 
 ## What am I reading?
 
-- _Digital Minimalism_ by Cal Newport
+- _Digital Minimalism_ by [Cal Newport](https://calnewport.com/)
   - Started: 2026-06-12
 - [_Code_](https://codehiddenlanguage.com/) by Charles Petzold
   - Started: ???
@@ -65,21 +80,6 @@ I purchased access to Josh Comeau's [Whimsical Animations](https://whimsy.joshwc
   - Started: ???
 - [_Effective Typescript_](https://effectivetypescript.com/) by Dan Vanderkam
   - Started ???
-
-## What's on my desk?
-
-<Figure src={DeskAccessories} alt="An assortment of items related to a programmers desk with numbers overlayed to highlight each item" caption="Creating joy with small items" />
-
-Here are some items on my desk to improve productivity, ergonomis and simply to create joy while work.
-
-1. Split keyboard to help with ergonomics - [Moonlander Mark I](https://www.zsa.io/moonlander).
-2. Ergonomic mouse that I use with Windows machines (I use the (3.) touchpad for MacOS) - Logitech MX Master 3S Bluetooth Edition.
-3. Magic Trackpad that I use with MacOS.
-4. Timer that shows a more physical representation of a countdown - [Time Timer](https://www.timetimer.com/)
-5. E-ink Display - [Trmnl OG](https://trmnl.com/)
-6. Pen Ink for my fountain pen
-7. The morning ritual involves dark choclate paired with homemade espresso flat white. I usually have this in a [Ember cup](https://ember.com/) (not pictured) which keeps the brew warm
-8. Misc. such as items to clean my desk as a mobility ball to roll out my wrist
 
 ## Where am I?
 
@@ -93,17 +93,13 @@ I am working in a job I love, which is software development for a global contact
 
 ## What are my other focuses?
 
-### Private Pilot's License (PPL) 🧑🏿‍✈️
-
-My main focus is my [PPL](https://www.aviation.govt.nz/licensing-and-certification/pilots/pilot-licensing/) certification. I started this journey in May 2023. I [soloed a while ago](/posts/first-solo) and I'm getting close to completion. I have done all the exams. I just need to sit my flight test.
-
 ### Fitness
 
 I am training for longevity and health. After years of weightlifting at the gym and pushing myself to be the strongest I can be, I want to find fun ways to stay fit and healthy.
 
 #### Brazilian Jit-Jitsu (BJJ) 🥋
 
-I started [BJJ](https://en.wikipedia.org/wiki/Brazilian_jiu-jitsu)) at the start of 2023. Recently, [I got my blue belt](/posts/blue-belt)). I do one gi and one no-gi class a week.
+I started [BJJ](https://en.wikipedia.org/wiki/Brazilian_jiu-jitsu) at the start of 2023. Recently, [I got my blue belt](/posts/blue-belt). I do one gi and one no-gi class a week.
 
 #### Latin Dance 🕺
 

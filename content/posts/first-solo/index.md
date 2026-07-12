@@ -9,6 +9,10 @@ cover:
   caption: Posing in front of Feilding Aviation
 ---
 
+Update: [I got my PPL](./ppl).
+
+---
+
 Actual date of solo: **11th February 2024**.
 
 A significant accomplishment that I have been working towards is a solo flight.

@@ -43,6 +43,7 @@ I want to be okay with sharing my thoughts and putting it out there into the wor
 - **2020**: [Began writing online](/posts/why-create-a-blog)
 - **2021**: Moved back to Palmerston North to focus on a career change away from optometry into software development.
 - **2023**: Started a new career as a web developer.
+- **2026**: Moved to Melbourne, Australia
 
 ## Where have I been / Where do I want to go?
 

@@ -32,7 +32,7 @@
 		"@playwright/test": "^1.61.1",
 		"@qr-platform/qr-code.js": "^0.20.14",
 		"@shikijs/transformers": "^4.2.0",
-		"@shikijs/twoslash": "^4.2.0",
+		"@shikijs/twoslash": "^4.4.1",
 		"@storybook/addon-svelte-csf": "^5.1.2",
 		"@storybook/sveltekit": "^10.4.6",
 		"@sveltejs/adapter-auto": "^7.0.1",

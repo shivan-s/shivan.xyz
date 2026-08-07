@@ -6,13 +6,36 @@
     import CarryJournal from "./carry-journal.jpg"
     import SpencerianScript from "./spencerian-script.jpg"
     import ManawatuRiver from "./manawatu-river.jpg"
+    import AusMove from "./aus-move.jpg"
+    import Bruno from "./bruno.jpg"
+    import Car from "./car.jpg"
 </script>
 
 ## Updated
 
-Updated July 11, 2026, from my parents' home.
+Updated August 2nd, 2026, from Auckland International Airport.
 
 ## What's the latest?
+
+### Moving to Melbourne
+
+I look at my Air New Zealand App for my bookings and I scroll down to find the return flight. _There is none_ - my first one way ticket.
+
+<Figure src={AusMove} alt="A tick in the box stating a permanent move to Australia" caption="First time ticking this" />
+
+I have moved to Melbourne (well moving as I write this...)! After moving back to hometown of Palmerston North at the end of 2021 - almost 5 years.
+
+My move to Palmerston North in my head was always going to be a temporary step - to help make a career switch. Despite this, I grew fond of my birthplace.
+
+<Figure src={Bruno} alt="A greyhound in shot" caption="Saying goodbye, friend" />
+
+I started many hobbies and made many friends over my time here. The final weeks of being here was tough. I had to say goodbye to my beloved dog, Bruno, who will be rehomed to a loving family (my parents could not take care of him as well as the fact brining him over the Australia would be too hard on the old boy, who is 10 years old).
+
+In the final, final week, I had the realisation of the "last time" I would do something with people or in a certain location. I would fly for the last time, dance for the last time, pole for the last time, roll for the last time, lift for the last time, and drive for the last time.
+
+I am excited to start my new chapter but it's also somber for what I will be leaving behind. As an aside, I also sold my car that I had for 15 years. It had been good to me - through the end of high school, university, and my early career.
+
+<Figure src={Car} alt="A blue car - Toyota Corolla 2008 Stagion Wagon" caption="Thanks for serving me well" />
 
 ### I got my PPL!
 

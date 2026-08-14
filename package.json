@@ -65,7 +65,7 @@
 		"rehype-toc": "^3.0.2",
 		"reveal.js": "^6.0.1",
 		"shiki": "^4.4.3",
-		"storybook": "^10.4.6",
+		"storybook": "^10.5.7",
 		"stylelint": "^17.14.1",
 		"stylelint-config-standard": "^40.0.0",
 		"svelte": "^5.56.8",

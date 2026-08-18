@@ -15,11 +15,11 @@ importers:
         specifier: ^10.0.1
         version: 10.0.1(eslint@10.6.0)
       '@inlang/paraglide-js':
-        specifier: ^2.20.2
-        version: 2.20.2(typescript@6.0.3)
+        specifier: ^2.23.2
+        version: 2.23.2(typescript@6.0.3)(vite@7.3.5(@types/node@26.2.0)(yaml@2.9.0))
       '@inlang/paraglide-js-svelte':
         specifier: ^1.0.4
-        version: 1.0.4(@inlang/paraglide-js@2.20.2(typescript@6.0.3))(svelte@5.56.8(@typescript-eslint/types@8.66.0))
+        version: 1.0.4(@inlang/paraglide-js@2.23.2(typescript@6.0.3)(vite@7.3.5(@types/node@26.2.0)(yaml@2.9.0)))(svelte@5.56.8(@typescript-eslint/types@8.66.0))
       '@lucide/svelte':
         specifier: ^1.18.0
         version: 1.18.0(svelte@5.56.8(@typescript-eslint/types@8.66.0))
@@ -831,13 +831,16 @@ packages:
       '@inlang/paraglide-js': '>=2.11.0 <3'
       svelte: ^5.0.0
 
-  '@inlang/paraglide-js@2.20.2':
-    resolution: {integrity: sha512-V8iY3uu/vQU94gEag1bdC3glMJSp4Dg3XMwfnabZLBh1Dv0F++DvDYlMeniqv2+nHbnS/twB75AM140OmpHDEg==}
+  '@inlang/paraglide-js@2.23.2':
+    resolution: {integrity: sha512-tzWnZ6DEQ3JRxpSM/lsmfUFSNXLymvlfUei4uX1lo/Qh3a8OfxZ5nchGrEM+p0aLX4m5ZMrVuMKfaD0qXJFeoA==}
     hasBin: true
     peerDependencies:
       typescript: '>=5.6'
+      vite: '>=5.0.0'
     peerDependenciesMeta:
       typescript:
+        optional: true
+      vite:
         optional: true
 
   '@inlang/recommend-sherlock@0.2.1':
@@ -1630,8 +1633,8 @@ packages:
   '@shikijs/vscode-textmate@10.0.2':
     resolution: {integrity: sha512-83yeghZ2xxin3Nj8z1NMd/NCuca+gsYXswywDy5bHvwlWL8tpTQmzGeUuHd9FC3E/SBEMvzJRwWEOz5gGes9Qg==}
 
-  '@sinclair/typebox@0.31.28':
-    resolution: {integrity: sha512-/s55Jujywdw/Jpan+vsy6JZs1z2ZTGxTmbZTPiuSL2wz9mfzA2gN1zzaqmvfi4pq+uOt7Du85fkiwv5ymW84aQ==}
+  '@sinclair/typebox@0.31.30':
+    resolution: {integrity: sha512-MGsM7bVmHg3sUKCphlu3SGQ+T+5JTbygZWYArfKQCW5anJeACHeqLhcnf+R7XlCWZ+QR3C8JTBx3kCKJTN69ow==}
 
   '@sindresorhus/merge-streams@4.0.0':
     resolution: {integrity: sha512-tlqY9xq5ukxTUZBmoOp+m61cqwQD5pHJtFY3Mn8CA8ps6yghLH/Hw8UPdqg4OLmFW3IFlcXnQNmo/dh8HzXYIQ==}
@@ -4490,12 +4493,12 @@ snapshots:
   '@img/sharp-win32-x64@0.34.5':
     optional: true
 
-  '@inlang/paraglide-js-svelte@1.0.4(@inlang/paraglide-js@2.20.2(typescript@6.0.3))(svelte@5.56.8(@typescript-eslint/types@8.66.0))':
+  '@inlang/paraglide-js-svelte@1.0.4(@inlang/paraglide-js@2.23.2(typescript@6.0.3)(vite@7.3.5(@types/node@26.2.0)(yaml@2.9.0)))(svelte@5.56.8(@typescript-eslint/types@8.66.0))':
     dependencies:
-      '@inlang/paraglide-js': 2.20.2(typescript@6.0.3)
+      '@inlang/paraglide-js': 2.23.2(typescript@6.0.3)(vite@7.3.5(@types/node@26.2.0)(yaml@2.9.0))
       svelte: 5.56.8(@typescript-eslint/types@8.66.0)
 
-  '@inlang/paraglide-js@2.20.2(typescript@6.0.3)':
+  '@inlang/paraglide-js@2.23.2(typescript@6.0.3)(vite@7.3.5(@types/node@26.2.0)(yaml@2.9.0))':
     dependencies:
       '@inlang/recommend-sherlock': 0.2.1
       '@inlang/sdk': 2.10.2
@@ -4506,6 +4509,7 @@ snapshots:
       urlpattern-polyfill: 10.1.0
     optionalDependencies:
       typescript: 6.0.3
+      vite: 7.3.5(@types/node@26.2.0)(yaml@2.9.0)
     transitivePeerDependencies:
       - babel-plugin-macros
 
@@ -4516,7 +4520,7 @@ snapshots:
   '@inlang/sdk@2.10.2':
     dependencies:
       '@lix-js/sdk': 0.4.10
-      '@sinclair/typebox': 0.31.28
+      '@sinclair/typebox': 0.31.30
       kysely: 0.28.17
       sqlite-wasm-kysely: 0.3.0(kysely@0.28.17)
       uuid: 14.0.1
@@ -5253,7 +5257,7 @@ snapshots:
 
   '@shikijs/vscode-textmate@10.0.2': {}
 
-  '@sinclair/typebox@0.31.28': {}
+  '@sinclair/typebox@0.31.30': {}
 
   '@sindresorhus/merge-streams@4.0.0': {}
 
@@ -7667,7 +7671,7 @@ snapshots:
     dependencies:
       '@jridgewell/remapping': 2.3.5
       acorn: 8.18.0
-      picomatch: 4.0.4
+      picomatch: 4.0.5
       webpack-virtual-modules: 0.6.2
 
   uri-js@4.4.1:

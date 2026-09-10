@@ -15,7 +15,7 @@ cover:
 	import BlockQuote from "BlockQuote"
     import Numbers from "./numbers.gif"
     import Terminal from "./cover.gif"
-    import Scopes from "./scopes.png"
+    import Scopes from "./scopes.png?enhanced"
     import Streams from "./streams.gif"
     import Two from "./two.gif"
 </script>

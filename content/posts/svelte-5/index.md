@@ -8,7 +8,7 @@ draft: false
 <script>
     import Figure from "Figure"
     import YouTube from "YouTube"
-    import Decay from "./decay.jpg"
+    import Decay from "./decay.jpg?enhanced"
 </script>
 
 ## An Ode to Upgrading

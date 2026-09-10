@@ -7,10 +7,10 @@ draft: false
 
 <script>
     import Figure from "Figure"
-    import MirrorBall from './mirror-ball.jpg'
-    import Convention from './convention.jpg'
-    import CoolBuildings from './cool-buildings.jpg'
-    import Oval from './oval.jpg'
+    import MirrorBall from "./mirror-ball.jpg?enhanced"
+    import Convention from "./convention.jpg?enhanced"
+    import CoolBuildings from "./cool-buildings.jpg?enhanced"
+    import Oval from "./oval.jpg?enhanced"
 </script>
 
 <Figure src={MirrorBall} alt="A large mirror ball with a individual wearing a green shirt taking a photo in the reflection" caption="Mirror Ball" />

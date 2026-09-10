@@ -11,9 +11,9 @@ cover:
 
 <script>
 	import Figure from "Figure"
-    import PPL from "./ppl.jpg"
-    import WithDad0 from "./with-dad-0.jpg"
-    import WithDad1 from "./with-dad-1.jpg"
+    import PPL from "./ppl.jpg?enhanced"
+    import WithDad0 from "./with-dad-0.jpg?enhanced"
+    import WithDad1 from "./with-dad-1.jpg?enhanced"
 </script>
 
 Following 5 weekends of bad weather, the morning **Sunday 5<sup>th</sup> of July 2026**, would be the day I get to prove that I was capable of flying a Cessna C152 safely and with passengers.

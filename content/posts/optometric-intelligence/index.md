@@ -11,7 +11,7 @@ cover:
 
 <script>
     import Figure from "Figure"
-    import Ai from "./ai.jpg"
+    import Ai from "./ai.jpg?enhanced"
 </script>
 
 Artificial intelligence (AI) used to exist only in the imaginations of science fiction writers – the self-preserving HAL 9000 in 2001: A Space Odyssey, a conquering Skynet in The Terminator and an affectionate Samantha in Her. Now AI is here, recommending the next binge-worthy flick, answering voice requests about almost any topic, defeating chess Grandmasters… self-driving vehicles, computer-generated art and medical diagnoses1 will soon feel just as familiar.

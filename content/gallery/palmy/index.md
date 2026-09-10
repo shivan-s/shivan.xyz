@@ -7,9 +7,9 @@ draft: false
 
 <script>
 	import Figure from "Figure"
-    import Lake from "./lake.jpg"
-    import Bridge from "./bridge.jpg"
-    import Trees from "./trees.jpg"
+    import Lake from "./lake.jpg?enhanced"
+    import Bridge from "./bridge.jpg?enhanced"
+    import Trees from "./trees.jpg?enhanced"
 </script>
 
 <Figure src={Lake} alt="A lake" caption="A lake near where I live" />

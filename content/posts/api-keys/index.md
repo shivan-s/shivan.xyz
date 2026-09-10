@@ -13,8 +13,8 @@ cover:
     import YouTube from "YouTube"
     import Figure from "Figure"
     import BlockQuote from "BlockQuote"
-    import Keys from "./keys.png"
-    import Secret from "./secret.png"
+    import Keys from "./keys.png?enhanced"
+    import Secret from "./secret.png?enhanced"
 </script>
 
 In my [naive days](./the-future-of-the-web), I associated the word _crypto_ to mean anything cryptocurrency and/or blockchain related.

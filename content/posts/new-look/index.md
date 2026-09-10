@@ -11,8 +11,8 @@ cover:
 
 <script>
     import Figure from "Figure"
-    import Old from "./old.png"
-    import New from "./new.png"
+    import Old from "./old.png?enhanced"
+    import New from "./new.png?enhanced"
 </script>
 
 After many years using [Aditya Telange's](https://adityatelange.in/) wildly successful [PaperMod theme](https://github.com/adityatelange/hugo-PaperMod) for the [Hugo static site generator](https://gohugo.io), it's time to spread my wings and make my own theme.

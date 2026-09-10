@@ -7,8 +7,8 @@ draft: true
 
 <script>
 	import Figure from "Figure"
-    import Lake from "./lake.jpg"
-    import Pass from "./pass.jpg"
+    import Lake from "./lake.jpg?enhanced"
+    import Pass from "./pass.jpg?enhanced"
 </script>
 
 <Figure src={Lake} alt="Blue lake with a mountain range in the background and a rock in the foreground" caption="Blue Lake" />

@@ -16,7 +16,7 @@ cover:
     import Demo1 from "./demo-1.gif"
     import Demo2 from "./demo-2.gif"
     import Demo3 from "./demo-3.gif"
-    import ServerClient from "./server-client.png"
+    import ServerClient from "./server-client.png?enhanced"
     import Demo4 from "./demo-4.gif"
     import Demo5 from "./demo-5.gif"
     import Demo6 from "./demo-6.gif"

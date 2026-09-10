@@ -13,7 +13,7 @@ cover:
     import YouTube from "YouTube"
     import Figure from "Figure"
     import BlockQuote from "BlockQuote"
-    import OpeningVim from "./opening-vim.png"
+    import OpeningVim from "./opening-vim.png?enhanced"
 </script>
 
 When we think about programming efficiently, we think about how fast we can type on a keyboard.

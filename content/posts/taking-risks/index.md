@@ -11,7 +11,7 @@ cover:
 
 <script>
     import Figure from "Figure"
-    import TakingRisks from "./taking_risks.png"
+    import TakingRisks from "./taking_risks.png?enhanced"
 </script>
 
 Weightlifting applies to life. Who would have thought?

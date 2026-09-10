@@ -43,7 +43,7 @@ For displaying, playable embeded YouTube videos. Inspired by [hugo](https://gohu
 ```md
 <script>
 	import Figure from "Figure"
-	import image from "./image.png" // Ficticious image imported
+	import image from "./image.png?enhanced" // Ficticious image imported
 </script>
 
 <Figure src={image} alt="Important alt to describe image" caption="Caption for image" />

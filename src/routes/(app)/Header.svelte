@@ -2,7 +2,7 @@
 	import { resolve } from '$app/paths';
 	import { page } from '$app/state';
 	import { m } from '$i18n/messages';
-	import Avatar from '$lib/assets/img/avatar.png';
+	import Avatar from '$lib/assets/img/avatar.png?enhanced';
 	import { config } from '$lib/config';
 	import { theme, DARK, LIGHT } from '$lib/state.svelte';
 	import { Moon, Sun } from '@lucide/svelte';
@@ -71,9 +71,10 @@
 					&:hover > enhanced\:img {
 						box-shadow: var(--box-shadow);
 					}
-					& > enhanced\:img {
+					& > :global(picture > img) {
 						border-radius: 50%;
 						height: var(--font-size-large);
+						width: auto;
 						animation: 2s ease-in-out spin;
 						transition: box-shadow 0.3s ease-in-out;
 						view-transition-name: logo;

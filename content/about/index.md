@@ -1,7 +1,7 @@
 <script>
     import Figure from "Figure"
-    import ShivanSivakumaran from "./shivan-sivakumaran.jpg"
-    import { MyMapWithDetails } from "$lib/components/my-map"
+    import ShivanSivakumaran from "./shivan-sivakumaran.jpg?enhanced"
+    import { MyMap } from "$lib/components/my-map"
     import { Age } from "$lib/components/ui"
 </script>
 
@@ -47,7 +47,7 @@ I want to be okay with sharing my thoughts and putting it out there into the wor
 
 ## Where have I been / Where do I want to go?
 
-<MyMapWithDetails />
+<MyMap />
 
 ## Where Else Am I?
 

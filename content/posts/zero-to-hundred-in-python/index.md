@@ -12,8 +12,8 @@ cover:
 <script>
     import YouTube from "YouTube"
     import Figure from "Figure"
-    import F from "./f.png"
-    import FBetter from "./f_better.png"
+    import F from "./f.png?enhanced"
+    import FBetter from "./f_better.png?enhanced"
 </script>
 
 [Python](https://www.python.org) is a general-purpose programming language, excellent if you want to begin learning how to program or build a company to take over the world.

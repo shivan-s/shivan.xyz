@@ -11,9 +11,9 @@ cover:
 
 <script>
     import Figure from "Figure"
-    import Diminishing from "./Diminishing_Marginal_Returns.png"
-    import DunningKruger  from "./Dunning-Kruger.png"
-    import KnowledgeCircle  from "./Knowledge_Circle.png"
+    import Diminishing from "./Diminishing_Marginal_Returns.png?enhanced"
+    import DunningKruger  from "./Dunning-Kruger.png?enhanced"
+    import KnowledgeCircle  from "./Knowledge_Circle.png?enhanced"
 </script>
 
 I've felt stupid. I felt dumb, like I don't know what I'm doing. What am I doing?

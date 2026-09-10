@@ -8,14 +8,14 @@ draft: false
 
 <script>
     import Figure from "Figure"
-    import LasVegasAirport from "./las-vegas-airport.jpg"
-    import MandalayBay from "./mandalay-bay.jpg"
-    import HooverDam from "./hoover-dam.jpg"
-    import EaglePoint from "./eagle-point.jpg"
-    import GrandCanyon from "./grand-canyon.jpg"
-    import Strip from "./strip.jpg"
-    import Freemont from "./freemont.jpg"
-    import Fire from "./fire.jpg"
+    import LasVegasAirport from "./las-vegas-airport.jpg?enhanced"
+    import MandalayBay from "./mandalay-bay.jpg?enhanced"
+    import HooverDam from "./hoover-dam.jpg?enhanced"
+    import EaglePoint from "./eagle-point.jpg?enhanced"
+    import GrandCanyon from "./grand-canyon.jpg?enhanced"
+    import Strip from "./strip.jpg?enhanced"
+    import Freemont from "./freemont.jpg?enhanced"
+    import Fire from "./fire.jpg?enhanced"
 </script>
 
 <Figure src={LasVegasAirport} alt="Sign above an archway displaying the text 'Welcome to Las Vegas'" caption="Entering the madness of Las Vegas" />

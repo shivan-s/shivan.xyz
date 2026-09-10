@@ -1,14 +1,14 @@
 <script>
     import Figure from "Figure"
-    import PPL from "./ppl.jpg"
-    import JellyStar0 from "./jelly-star-0.jpg"
-    import JellyStar1 from "./jelly-star-1.jpg"
-    import CarryJournal from "./carry-journal.jpg"
-    import SpencerianScript from "./spencerian-script.jpg"
-    import ManawatuRiver from "./manawatu-river.jpg"
-    import AusMove from "./aus-move.jpg"
-    import Bruno from "./bruno.jpg"
-    import Car from "./car.jpg"
+    import PPL from "./ppl.jpg?enhanced"
+    import JellyStar0 from "./jelly-star-0.jpg?enhanced"
+    import JellyStar1 from "./jelly-star-1.jpg?enhanced"
+    import CarryJournal from "./carry-journal.jpg?enhanced"
+    import SpencerianScript from "./spencerian-script.jpg?enhanced"
+    import ManawatuRiver from "./manawatu-river.jpg?enhanced"
+    import AusMove from "./aus-move.jpg?enhanced"
+    import Bruno from "./bruno.jpg?enhanced"
+    import Car from "./car.jpg?enhanced"
 </script>
 
 ## Updated

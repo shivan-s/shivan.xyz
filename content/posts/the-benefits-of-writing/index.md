@@ -12,8 +12,8 @@ cover:
 <script>
     import YouTube from "YouTube"
     import Figure from "Figure"
-    import Kanban from "./kanban.png"
-    import Writing from "./writing.jpg"
+    import Kanban from "./kanban.png?enhanced"
+    import Writing from "./writing.jpg?enhanced"
 </script>
 
 Writing is a useful skill. Effective communication requires good writing. This benefits the readers but also benefits the writer in the long term.

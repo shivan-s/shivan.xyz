@@ -12,15 +12,15 @@ cover:
 <script>
     import YouTube from "YouTube"
     import Figure from "Figure"
-    import MandalayBay from "./mandalay-bay.jpg"
-    import LasVegasAirport from "./las-vegas-airport.jpg"
-    import Strip from "./strip.jpg"
-    import HooverDam from "./hoover-dam.jpg"
-    import EaglePoint from "./eagle-point.jpg"
-    import GrandCanyon from "./grand-canyon.jpg"
-    import Board from "./board.jpg"
-    import Freemont from "./freemont.jpg"
-    import Fire from "./fire.jpg"
+    import MandalayBay from "./mandalay-bay.jpg?enhanced"
+    import LasVegasAirport from "./las-vegas-airport.jpg?enhanced"
+    import Strip from "./strip.jpg?enhanced"
+    import HooverDam from "./hoover-dam.jpg?enhanced"
+    import EaglePoint from "./eagle-point.jpg?enhanced"
+    import GrandCanyon from "./grand-canyon.jpg?enhanced"
+    import Board from "./board.jpg?enhanced"
+    import Freemont from "./freemont.jpg?enhanced"
+    import Fire from "./fire.jpg?enhanced"
 </script>
 
 ## Summary

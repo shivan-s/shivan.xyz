@@ -7,10 +7,10 @@ draft: false
 
 <script>
 	import Figure from "Figure"
-    import Row from "./row.jpg"
-    import NewZealand from "./new-zealand.jpg"
-    import Connect from "./connect.jpg"
-    import Locks from "./locks-and-the-g.jpg"
+    import Row from "./row.jpg?enhanced"
+    import NewZealand from "./new-zealand.jpg?enhanced"
+    import Connect from "./connect.jpg?enhanced"
+    import Locks from "./locks-and-the-g.jpg?enhanced"
 </script>
 
 <Figure src={Row} alt="River with a bridge with an arch, a row boat is present in the river" caption="Evan Walker Bridge from Sandridge Bridge" />

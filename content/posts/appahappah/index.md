@@ -12,7 +12,7 @@ cover:
 <script>
     import Figure from "Figure"
     import Sailing from "./sailing.webp"
-    import Tribute from "./tribute.png"
+    import Tribute from "./tribute.png?enhanced"
 </script>
 
 On the 4th of November, my 97-year-old (paternal) grandfather passed away.

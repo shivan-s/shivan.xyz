@@ -8,8 +8,8 @@ draft: true
 
 <script>
     import Figure from "Figure"
-    import HimejiPano from "./himeji-pano.jpg"
-    import Hakuba from "./hakuba.jpg"
+    import HimejiPano from "./himeji-pano.jpg?enhanced"
+    import Hakuba from "./hakuba.jpg?enhanced"
 </script>
 
 <Figure src={HimejiPano} alt="" caption="Himeji Castle as a panorama" />

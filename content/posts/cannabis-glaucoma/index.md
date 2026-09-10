@@ -12,7 +12,7 @@ cover:
 <script>
     import YouTube from "YouTube"
     import Figure from "Figure"
-    import Prescribers from "./australian-optometry-prescribers.jpg"
+    import Prescribers from "./australian-optometry-prescribers.jpg?enhanced"
 </script>
 
 When you have colourful friends, an occupation like mine, combined with a late night dinner conversation, the question is inevitable: can **Cannabis** (**Taru rauhae**) be used as a form of treatment for **glaucoma** (**papahewa**)?

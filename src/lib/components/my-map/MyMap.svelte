@@ -1,4 +1,5 @@
 <script lang="ts">
+	import { m } from '$i18n/messages.js';
 	import { places } from './places';
 	import 'maplibre-gl/dist/maplibre-gl.css';
 	import { onMount } from 'svelte';
@@ -13,6 +14,7 @@
 			center: [0, 0],
 			zoom: 1
 		});
+		map.addControl(new m.FullscreenControl());
 		const s = window.getComputedStyle(document.body);
 		const red = s.getPropertyValue('--red');
 		const green = s.getPropertyValue('--green');
@@ -27,40 +29,106 @@
 		});
 	}
 
-	interface Props {
-		fullScreen?: boolean;
-	}
-
-	let { fullScreen = false }: Props = $props();
+	const toVisit = places.filter(({ visited }) => !visited);
+	const haveVisited = places.filter(({ visited }) => visited);
 
 	onMount(() => {
 		loadMap();
 	});
 </script>
 
-<div id={containerId} style={fullScreen ? 'width: 100dvw; height: 100dvh' : ''}></div>
+<figure>
+	<div id={containerId}></div>
+	<figcaption>
+		<p>
+			This map contains locations I want to visit (<strong class="red">red</strong>) as well as
+			places I have visited (<strong class="green">green</strong>).
+		</p>
+	</figcaption>
+</figure>
+<div>
+	<details>
+		<summary>{m.locations()}</summary>
+		<h3 class="red">To Visit ({new Intl.NumberFormat().format(toVisit.length)})</h3>
+		<ul>
+			{#each toVisit as p, idx (idx)}
+				<li><strong>{p.title}</strong> - {@html p.body}</li>
+			{/each}
+		</ul>
+		<h3 class="green">Visited ({new Intl.NumberFormat().format(haveVisited.length)})</h3>
+		<ul>
+			{#each haveVisited as p, idx (idx)}
+				<li><strong>{p.title}</strong> - {@html p.body}</li>
+			{/each}
+		</ul>
+	</details>
+</div>
 
 <style>
-	div {
-		width: 100%;
-		height: 32rem;
-		transition:
-			border-radius 0.3s ease-in-out,
-			box-shadow 0.3s ease-in-out;
+	.red {
+		color: var(--red);
+	}
+	.green {
+		color: var(--green);
+	}
+	figure {
+		& > figcaption {
+			text-align: center;
+		}
+		& > div {
+			width: 100%;
+			height: 32rem;
+			transition:
+				border-radius 0.3s ease-in-out,
+				box-shadow 0.3s ease-in-out;
+			border-radius: var(--border-radius);
+			box-shadow: var(--box-shadow);
+			&:hover {
+				border-radius: 0;
+				box-shadow: none;
+			}
+			& :global(button.maplibregl-popup-close-button) {
+				color: var(--color);
+			}
+			& :global(div.maplibregl-popup-content) {
+				background-color: var(--background-color);
+			}
+			& :global(div.maplibregl-popup-tip) {
+				border-top-color: var(--background-color);
+			}
+		}
+	}
+	details {
+		overflow: hidden;
 		border-radius: var(--border-radius);
-		box-shadow: var(--box-shadow);
+		transition: backdrop-filter 0.3s ease-in-out;
+		padding-inline: var(--padding-small);
+		backdrop-filter: invert(var(--invert));
+
 		&:hover {
-			border-radius: 0;
-			box-shadow: none;
+			backdrop-filter: invert(var(--invert-highlight));
 		}
-		& :global(button.maplibregl-popup-close-button) {
-			color: var(--color);
+
+		&::details-content {
+			transition:
+				block-size 0.3s ease-in-out,
+				opacity 0.4s ease-in-out,
+				padding-block-end 0.4s ease-in-out;
+			transition-behavior: allow-discrete;
+			opacity: 0;
+			block-size: 0;
 		}
-		& :global(div.maplibregl-popup-content) {
-			background-color: var(--background-color);
+
+		&[open]::details-content {
+			block-size: auto;
+			block-size: calc(auto);
+			padding-block-end: var(--padding);
+			opacity: 1;
 		}
-		& :global(div.maplibregl-popup-tip) {
-			border-top-color: var(--background-color);
+		& > summary {
+			font-weight: 900;
+			padding: var(--padding);
+			cursor: pointer;
 		}
 	}
 </style>

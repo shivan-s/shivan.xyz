@@ -1,7 +1,7 @@
 <script lang="ts">
 	import { resolve } from '$app/paths';
 	import { m } from '$i18n/messages.js';
-	import Shivan from '$lib/assets/img/shivan.png';
+	import Shivan from '$lib/assets/img/shivan.png?enhanced';
 
 	const alt = 'Portrait of a man holding a microphone in a blue suit and tie';
 	const links = [
@@ -57,13 +57,15 @@
 				box-shadow: none;
 			}
 
-			& > enhanced\:img {
+			& > :global(picture > img) {
 				margin-block-start: calc(-1 * (var(--height) / 2 + var(--padding)));
 				margin-inline: auto;
 				height: var(--height);
+				width: auto;
 				box-shadow: var(--box-shadow);
 				border-radius: 50%;
 				transition: border-radius 0.2s ease-in-out;
+				object-fit: contain;
 				&:hover {
 					border-radius: unset;
 				}

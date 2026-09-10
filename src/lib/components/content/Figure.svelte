@@ -50,16 +50,12 @@ TODO: rename this to Image
 		container-name: gallery-container;
 		& > button[popovertargetaction='show'] {
 			position: relative;
+			width: auto;
 			display: block;
 			background: none;
 			border: none;
-			border-radius: var(--border-radius);
 			overflow: hidden;
-			box-shadow: var(--box-shadow);
-			transition:
-				border-radius 0.3s ease-in-out,
-				box-shadow 0.2s ease-in-out,
-				transform 0.4s ease-in-out;
+			transition: transform 0.4s ease-in-out;
 			padding: 0;
 			margin-block: 0;
 			margin-inline: auto;
@@ -67,7 +63,6 @@ TODO: rename this to Image
 			&:hover {
 				border-radius: 0;
 				cursor: pointer;
-				box-shadow: none;
 				transform: scale(1.05);
 				z-index: 1;
 				& > small {
@@ -75,9 +70,18 @@ TODO: rename this to Image
 				}
 			}
 
-			& > enhanced\:img {
-				max-width: 100%;
+			& > enhanced\:img,
+			& > :global(picture > img) {
 				object-fit: contain;
+				transition:
+					opacity 0.3s ease-in-out,
+					content-visibility 0.3s ease-in-out;
+				opacity: 1;
+				content-visibility: visible;
+				@starting-style {
+					opacity: 0;
+					content-visibility: hidden;
+				}
 			}
 			& small {
 				position: absolute;
@@ -140,7 +144,10 @@ TODO: rename this to Image
 			}
 		}
 		& > figure {
-			& > enhanced\:img {
+			& > enhanced\:img,
+			& > :global(picture > img) {
+				height: auto;
+				width: auto;
 				position: relative;
 				object-fit: contain;
 			}

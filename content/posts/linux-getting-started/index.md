@@ -11,7 +11,7 @@ cover:
 
 <script>
     import Figure from "Figure"
-    import I3 from "./i3.png"
+    import I3 from "./i3.png?enhanced"
 </script>
 
 I've heard great things about the Linux operating system and their many distributions. Unlike MacOS or Windows, Linux is an open-source, free to use operating system or OS. As liberating as the idea of a democracy: made by the people, for the people.

@@ -11,7 +11,7 @@ cover:
 
 <script>
     import Figure from "Figure"
-    import Cover from "./cover.png"
+    import Cover from "./cover.png?enhanced"
 </script>
 
 I’ve had my first week of part-time work done and dusted. I thoroughly enjoyed it despite being extremely nervous.

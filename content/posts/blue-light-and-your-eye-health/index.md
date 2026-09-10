@@ -12,12 +12,12 @@ cover:
 <script>
     import YouTube from "YouTube"
     import Figure from "Figure"
-    import BlueLight01 from "./Blue-Light-01.jpg"
-    import EyeCrossSection from "./Eye-Diagrams_The-Eye-plus-retina.png"
-    import MyEye from "./My-eye.jpg"
-    import Lambda from "./lambda-02-02.png"
-    import Ehf from "./E-hf.png"
-    import EyeDiagram from "./Eye-Diagram.png"
+    import BlueLight01 from "./Blue-Light-01.jpg?enhanced"
+    import EyeCrossSection from "./Eye-Diagrams_The-Eye-plus-retina.png?enhanced"
+    import MyEye from "./My-eye.jpg?enhanced"
+    import Lambda from "./lambda-02-02.png?enhanced"
+    import Ehf from "./E-hf.png?enhanced"
+    import EyeDiagram from "./Eye-Diagram.png?enhanced"
 </script>
 
 Portals to our world. A way of staying connected, entertained, and educated. Digital devices — Smartphones, tablets, and computers — are now the centre of our lives (Mullan & Chatzitheochari, 2019).

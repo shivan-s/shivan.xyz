@@ -7,6 +7,7 @@ cover:
   image: git.jpg
   alt: Man in front of logo for git and github
   caption: By example.
+atUri: 'at://did:plc:hwoz3olcp7bjyvzxn6uxiuei/site.standard.document/3mv7kmacs7l2u'
 ---
 
 <script>

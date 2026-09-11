@@ -7,6 +7,7 @@ cover:
   image: ai.jpg
   alt: A neural network
   caption: A simple neural network
+atUri: 'at://did:plc:hwoz3olcp7bjyvzxn6uxiuei/site.standard.document/3mv7kmfwkae2n'
 ---
 
 <script>

@@ -7,6 +7,7 @@ cover:
   image: cover.jpg
   alt: Sunrise in a room with a dog in the foreground
   caption: Bruno enjoying sunrise
+atUri: 'at://did:plc:hwoz3olcp7bjyvzxn6uxiuei/site.standard.document/3mv7km7oa3e2n'
 ---
 
 Do we idolise the wrong people?

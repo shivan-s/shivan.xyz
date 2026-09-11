@@ -3,6 +3,7 @@ title: Simple Python
 date: 2023-07-04
 summary: Mistakes of beginner Python developer
 draft: false
+atUri: 'at://did:plc:hwoz3olcp7bjyvzxn6uxiuei/site.standard.document/3mv7kma3uvr26'
 ---
 
 <script>

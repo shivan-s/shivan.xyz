@@ -3,6 +3,7 @@ title: CSS Nesting
 date: 2026-06-20
 summary: Another cool CSS trick
 draft: false
+atUri: 'at://did:plc:hwoz3olcp7bjyvzxn6uxiuei/site.standard.document/3mv7klweydb2j'
 ---
 
 <script>

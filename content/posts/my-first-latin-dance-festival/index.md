@@ -9,6 +9,7 @@ cover:
   caption: Photo by Mo Kalifa at capital bachata connection 2024
 audio:
   src: audio.mp3
+atUri: 'at://did:plc:hwoz3olcp7bjyvzxn6uxiuei/site.standard.document/3mv7km5m55j26'
 ---
 
 A few weeks ago, I participated in capital bachata connection 2024, which is a 2-day-over-a-weekend festival for Bachata held at [Te Whaea](https://www.tewhaea.org.nz/) in Wellington. This was also my first ever Bachata festival, after starting Latin dance just over a year ago.

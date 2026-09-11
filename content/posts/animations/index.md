@@ -7,6 +7,7 @@ cover:
   image: demo-4.gif
   alt: Buttons are clicked resulting in instant movement of the cards
   caption: A way to provide good user experience
+atUri: 'at://did:plc:hwoz3olcp7bjyvzxn6uxiuei/site.standard.document/3mv7km3qyhn24'
 ---
 
 <script>

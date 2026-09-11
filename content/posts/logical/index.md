@@ -7,6 +7,7 @@ cover:
   image: cover.gif
   alt: Quote by Iago, user changes language direction and the padding is in the wrong place; this is fixed once the user selects the correct logical property for padding
   caption: CSS Logical Properties
+atUri: 'at://did:plc:hwoz3olcp7bjyvzxn6uxiuei/site.standard.document/3mv7klwskhp2h'
 ---
 
 <script>

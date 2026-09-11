@@ -3,6 +3,7 @@ title: Thank You
 date: 2022-04-03
 summary: Yes, thank you
 draft: false
+atUri: 'at://did:plc:hwoz3olcp7bjyvzxn6uxiuei/site.standard.document/3mv7kmdzxpq2g'
 ---
 
 When I was young, I really want to be good at something.

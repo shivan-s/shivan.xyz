@@ -7,6 +7,7 @@ cover:
   image: opening-vim.png
   alt: terminal with vim
   caption: A lovely welcome message when opening vim
+atUri: 'at://did:plc:hwoz3olcp7bjyvzxn6uxiuei/site.standard.document/3mv7kmhtt632y'
 ---
 
 <script>

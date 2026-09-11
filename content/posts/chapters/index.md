@@ -7,6 +7,7 @@ cover:
   image: tweet.png
   alt: tweet
   caption: I think things are forever
+atUri: 'at://did:plc:hwoz3olcp7bjyvzxn6uxiuei/site.standard.document/3mv7kmcdtwf27'
 ---
 
 <script>

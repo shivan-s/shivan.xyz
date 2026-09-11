@@ -7,6 +7,7 @@ cover:
   image: blue-belt.jpg
   alt: A coiled BJJ Blue belt on top of a certificate
   caption: Reflecting on the ever-continuing journey
+atUri: 'at://did:plc:hwoz3olcp7bjyvzxn6uxiuei/site.standard.document/3mv7klyh2md2y'
 ---
 
 <script>

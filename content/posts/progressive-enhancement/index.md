@@ -3,6 +3,7 @@ title: Progressive Enhancement
 date: 2026-01-04
 summary: A better web, in my opinion
 draft: false
+atUri: 'at://did:plc:hwoz3olcp7bjyvzxn6uxiuei/site.standard.document/3mv7klzv3lb26'
 ---
 
 <script>

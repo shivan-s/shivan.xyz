@@ -3,6 +3,7 @@ title: Mutability in Javascript, Typescript & Rust
 date: 2023-07-15
 summary: Mutability is handled differently and interestingly in Javascript/Typescript compared to Rust
 draft: false
+atUri: 'at://did:plc:hwoz3olcp7bjyvzxn6uxiuei/site.standard.document/3mv7km7uuvl2u'
 ---
 
 <script>

@@ -3,6 +3,7 @@ title: Thinking You Can Save the World
 date: 2022-11-27
 summary: A single person is a universe
 draft: false
+atUri: 'at://did:plc:hwoz3olcp7bjyvzxn6uxiuei/site.standard.document/3mv7kmc5beu2n'
 ---
 
 From time to time, I have these grand delusional ambitions to help the world.

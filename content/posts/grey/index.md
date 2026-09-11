@@ -7,6 +7,7 @@ cover:
   image: bw.jpg
   alt: Black and white photo of a man
   caption: Life is complex. Just don't forget it.
+atUri: 'at://did:plc:hwoz3olcp7bjyvzxn6uxiuei/site.standard.document/3mv7kmd745e2z'
 ---
 
 In computer programming, you have this notion of conditional statements. If a condition is met (or not met), then the machine will run a set of instructions. True or False. 1 or 0 (or maybe 2? haha). Black or white.

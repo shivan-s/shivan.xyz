@@ -7,6 +7,7 @@ cover:
   image: shivan.jpg
   alt: Man under light
   caption: Day one
+atUri: 'at://did:plc:hwoz3olcp7bjyvzxn6uxiuei/site.standard.document/3mv7kmihwjy2p'
 ---
 
 <script>

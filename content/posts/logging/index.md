@@ -7,6 +7,7 @@ cover:
   image: 'cover.gif'
   alt: Text appearing in the screen representing logs; there is a stream with a 'requestId' that is grouped together with the same request even with multiple users
   caption: Logging with context and structures is useful
+atUri: 'at://did:plc:hwoz3olcp7bjyvzxn6uxiuei/site.standard.document/3mv7klxmrq32u'
 ---
 
 <script>

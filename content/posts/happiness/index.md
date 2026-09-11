@@ -7,6 +7,7 @@ cover:
   image: dog.jpg
   alt: A dog with sand on nose
   caption: A photo that makes most happy
+atUri: 'at://did:plc:hwoz3olcp7bjyvzxn6uxiuei/site.standard.document/3mv7kmcri2n24'
 ---
 
 <script>

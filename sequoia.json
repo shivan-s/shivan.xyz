@@ -1,0 +1,16 @@
+{
+	"$schema": "https://tangled.org/stevedylan.dev/sequoia/raw/main/sequoia.schema.json",
+	"bluesky": {
+		"enabled": true
+	},
+	"contentDir": "./content/posts",
+	"frontmatter": {
+		"description": "summary",
+		"publishDate": "date"
+	},
+	"outputDir": "./build",
+	"publicDir": "./static",
+	"publicationUri": "at://did:plc:hwoz3olcp7bjyvzxn6uxiuei/site.standard.publication/3mv7khqdshe2n",
+	"publishContent": true,
+	"siteUrl": "https://shivan.xyz"
+}

@@ -3,6 +3,7 @@ title: Arrow Functions and Function Definitions
 date: 2023-04-29
 summary: There is a difference between normally defined functions and arrow functions
 draft: false
+atUri: 'at://did:plc:hwoz3olcp7bjyvzxn6uxiuei/site.standard.document/3mv7kmbd2zh2h'
 ---
 
 For most programming languages, a function is a handy piece of code that allows practitioners to utilise in a same functionality multiple times. Hence the name, "function".

@@ -7,6 +7,19 @@ on:
     branches:
       - main
 jobs:
+  build:
+    timeout-minutes: 60
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+      - uses: pnpm/action-setup@v6
+        with:
+          version: 11
+          cache: true
+      - name: Install Dependencies
+        run: pnpm i --frozen-lockfile
+      - name: Build
+        run: npm run build
   lint:
     timeout-minutes: 60
     runs-on: ubuntu-latest
@@ -17,7 +30,7 @@ jobs:
           version: 11
           cache: true
       - name: Install Dependencies
-        run: pnpm install
+        run: pnpm i --frozen-lockfile
       - name: Lint
         run: npm run lint
   check:
@@ -30,7 +43,7 @@ jobs:
           version: 11
           cache: true
       - name: Install Dependencies
-        run: pnpm install
+        run: pnpm i --frozen-lockfile
       - name: Compile Messages
         run: pnpm exec paraglide-js compile --project ./project.inlang --outdir ./src/lib/paraglide
       - name: Check

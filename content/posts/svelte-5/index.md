@@ -3,6 +3,7 @@ title: Upgrading to Svelte 5 from Svelte 4
 date: 2025-06-09
 summary: Svelte 5 Simplified
 draft: false
+atUri: 'at://did:plc:hwoz3olcp7bjyvzxn6uxiuei/site.standard.document/3mv7km4ekzq2p'
 ---
 
 <script>

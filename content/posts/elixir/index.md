@@ -3,6 +3,7 @@ title: Elixir for Advent of Code 2025
 date: 2026-04-12
 summary: My introduction to Elixir - a functional paradigm
 draft: false
+atUri: 'at://did:plc:hwoz3olcp7bjyvzxn6uxiuei/site.standard.document/3mv7klxtflw2d'
 ---
 
 I wrote the draft back in January 2026. I got busy and other articles stole my focus and attention. I have decided to finalise this and publish this article.

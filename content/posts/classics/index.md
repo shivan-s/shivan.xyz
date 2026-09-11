@@ -7,6 +7,7 @@ cover:
   image: classics.jpg
   alt: Two books on the right is "The Iliad" and the left is "The Odyssey", both also contain text "Homer" and "translated by Emily Wilson"
   caption: The Classics
+atUri: 'at://did:plc:hwoz3olcp7bjyvzxn6uxiuei/site.standard.document/3mv7kly7uhb26'
 ---
 
 I'm happy to say I recently finished The _[Odyssey](https://en.wikipedia.org/wiki/Odyssey)_ by Homer. This marks a shift from what I normally read, which is non-fiction self improvement to classics and fiction.

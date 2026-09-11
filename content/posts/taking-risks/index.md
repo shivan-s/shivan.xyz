@@ -7,6 +7,7 @@ cover:
   image: taking_risks.png
   alt: Graph showing a plateau
   caption: If you don't take risks, you don't grow
+atUri: 'at://did:plc:hwoz3olcp7bjyvzxn6uxiuei/site.standard.document/3mv7kmcknfz26'
 ---
 
 <script>

@@ -7,6 +7,7 @@ cover:
   image: cover.png
   alt: Two screenshots of a webpages
   caption: Change
+atUri: 'at://did:plc:hwoz3olcp7bjyvzxn6uxiuei/site.standard.document/3mv7km5fgww2e'
 ---
 
 <script>

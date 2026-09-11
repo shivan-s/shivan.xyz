@@ -3,6 +3,7 @@ title: Padman
 date: 2022-06-05
 summary: A Hero
 draft: false
+atUri: 'at://did:plc:hwoz3olcp7bjyvzxn6uxiuei/site.standard.document/3mv7kmdfymp2h'
 ---
 
 <script>

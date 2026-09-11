@@ -3,6 +3,7 @@ title: Let Go
 date: 2026-02-01
 summary: Learning to embrace the unknown
 draft: false
+atUri: 'at://did:plc:hwoz3olcp7bjyvzxn6uxiuei/site.standard.document/3mv7klz35ya2p'
 ---
 
 <script>

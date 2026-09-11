@@ -7,6 +7,7 @@ cover:
   image: weightlifting.jpg
   alt: Man carring weight overhead
   caption: Former VP of weightlifting club
+atUri: 'at://did:plc:hwoz3olcp7bjyvzxn6uxiuei/site.standard.document/3mv7km6gubi2g'
 ---
 
 My biggest news of recent weeks is my resignation from my position as Vice President of my weightlifting club of which I am a member (not my job if that’s what you clicked on — sorry!). In some previous newsletters, I briefly mentioned my trepidation towards my appointment in this role.

@@ -7,6 +7,7 @@ cover:
   image: alcohol-free.png
   alt: Cancel symbol over bottles of alcohol
   caption: No more alcohol
+atUri: 'at://did:plc:hwoz3olcp7bjyvzxn6uxiuei/site.standard.document/3mv7km5syrf24'
 ---
 
 <script>

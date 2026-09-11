@@ -31,7 +31,8 @@ const PostMetaSchema = z
 		draft: z.boolean().optional().default(true),
 		cover: CoverSchema.optional(),
 		audio: AudioSchema.optional(),
-		readingTime: ReadingTimeSchema
+		readingTime: ReadingTimeSchema,
+		atUri: z.string().optional()
 	})
 	.transform((data) => (data.draft === true ? { ...data, title: `[D]${data.title}` } : data));
 

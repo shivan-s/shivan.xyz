@@ -3,6 +3,7 @@ title: Become a Good Defender
 date: 2024-11-05
 summary: Story of an unsung hero
 draft: false
+atUri: 'at://did:plc:hwoz3olcp7bjyvzxn6uxiuei/site.standard.document/3mv7km56tzt2y'
 ---
 
 Recently, I discovered a security vulnerability. What it was isn't important but what is important is that it existed, undiscovered, for almost 2 years 🤯!

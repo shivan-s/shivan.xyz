@@ -7,6 +7,7 @@ cover:
   image: demo.gif
   alt: A demo of the application. A timetable is shown with classes between 6pm to 8pm on Monday and Tuesday. A class is being created and a various classes are being dragged and dropped. A feature being shown is how classes of the same name have the same colour
   caption: Timetable away!
+atUri: 'at://did:plc:hwoz3olcp7bjyvzxn6uxiuei/site.standard.document/3mv7km45qcf22'
 ---
 
 <script>

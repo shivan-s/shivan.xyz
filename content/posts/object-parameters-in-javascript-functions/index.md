@@ -7,6 +7,7 @@ cover:
   image: params.png
   alt: Screenshot of code with a function with positional arguments vs keyword
   caption: I like passing objects through as parameters in functions
+atUri: 'at://did:plc:hwoz3olcp7bjyvzxn6uxiuei/site.standard.document/3mv7km6aavx2h'
 ---
 
 <script>

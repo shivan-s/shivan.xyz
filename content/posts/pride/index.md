@@ -3,6 +3,7 @@ title: Do You Take Pride in What You Do
 date: 2021-03-07
 summary: It's important to take pride
 draft: false
+atUri: 'at://did:plc:hwoz3olcp7bjyvzxn6uxiuei/site.standard.document/3mv7kmhgbuz26'
 ---
 
 > **Inspirational Optometrist**: First, do you take pride in what you do?

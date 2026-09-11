@@ -3,6 +3,7 @@ title: Confidence
 date: 2022-02-27
 summary: Confidence
 draft: false
+atUri: 'at://did:plc:hwoz3olcp7bjyvzxn6uxiuei/site.standard.document/3mv7kmegk442n'
 ---
 
 Nobody is born confident.

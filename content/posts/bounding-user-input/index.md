@@ -7,6 +7,7 @@ cover:
   image: bound.gif
   alt: Text on screen
   caption: Bounding in one line.
+atUri: 'at://did:plc:hwoz3olcp7bjyvzxn6uxiuei/site.standard.document/3mv7km72xi527'
 ---
 
 Imagine you take on user input like so:

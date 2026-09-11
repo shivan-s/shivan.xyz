@@ -7,6 +7,7 @@ cover:
   image: cover.webp
   alt: A split keyboard that is lite with RGB
   caption: ZSA Moonlander
+atUri: 'at://did:plc:hwoz3olcp7bjyvzxn6uxiuei/site.standard.document/3mv7klyugbt2u'
 ---
 
 <script>

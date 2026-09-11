@@ -7,6 +7,7 @@ cover:
   image: cover.jpg
   alt: Gazebo in daylight with a dog inside a doghouse
   caption: Freedom
+atUri: 'at://did:plc:hwoz3olcp7bjyvzxn6uxiuei/site.standard.document/3mv7km4y65b2j'
 ---
 
 _DING_ - initial excitement. A slight rising of the heart beat. Novel information to a monotonous day. A notification from my phone.

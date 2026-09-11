@@ -7,6 +7,7 @@ cover:
   image: cover.png
   alt: An image of colours in circles with sliders at the top, one for colours and another for shade
   caption: Colours of oklch!
+atUri: 'at://did:plc:hwoz3olcp7bjyvzxn6uxiuei/site.standard.document/3mv7klwzbju2z'
 ---
 
 <script>

@@ -7,6 +7,7 @@ cover:
   image: watch.jpg
   alt: An analogue watch on a person's wrist
   caption: A watch that just tells the time (feature creep - also tells day and date)
+atUri: 'at://did:plc:hwoz3olcp7bjyvzxn6uxiuei/site.standard.document/3mv7klvxbut2y'
 ---
 
 <script>

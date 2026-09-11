@@ -7,6 +7,7 @@ cover:
   image: Dunning-Kruger.png
   alt: Graph displaying the Dunning Kruger Effect
   caption: A little knowledge is a dangerous thing - Samuel Johnson
+atUri: 'at://did:plc:hwoz3olcp7bjyvzxn6uxiuei/site.standard.document/3mv7kmg5cnf27'
 ---
 
 <script>

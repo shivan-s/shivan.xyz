@@ -7,6 +7,7 @@ cover:
   image: ranking.gif
   alt: Screen video of rank changes
   caption: Changing ranks with animation
+atUri: 'at://did:plc:hwoz3olcp7bjyvzxn6uxiuei/site.standard.document/3mv7km5zlf62k'
 ---
 
 This is the issue I had at work: it involved allowing users to determine ranking of particular items of the list. Turns out alphabetical order won't cut it and they need their own way to prioritise these items.

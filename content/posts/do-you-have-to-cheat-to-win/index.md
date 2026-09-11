@@ -7,6 +7,7 @@ cover:
   image: cheat-to-win.jpg
   alt: 5 aces
   caption: Aces of spades played simultaneously
+atUri: 'at://did:plc:hwoz3olcp7bjyvzxn6uxiuei/site.standard.document/3mv7kmfbtwq2p'
 ---
 
 <script>

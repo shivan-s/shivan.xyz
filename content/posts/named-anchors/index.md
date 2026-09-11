@@ -7,6 +7,7 @@ cover:
   image: named-anchors.gif
   alt: Animation of the scrolling using named anchors
   caption: Named anchors in action
+atUri: 'at://did:plc:hwoz3olcp7bjyvzxn6uxiuei/site.standard.document/3mv7km7bmn62k'
 ---
 
 An alternative to using Javascript's `.scrollIntoView()` is to use named anchors to enable navigation within a page.

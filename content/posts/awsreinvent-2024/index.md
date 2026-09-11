@@ -7,6 +7,7 @@ cover:
   image: cover.jpg
   alt: Banner handing from a ceiling reading "AWS re:Invent"
   caption: AWS re:Invent 2024
+atUri: 'at://did:plc:hwoz3olcp7bjyvzxn6uxiuei/site.standard.document/3mv7km4r4jd2u'
 ---
 
 <script>

@@ -3,6 +3,7 @@ title: Summing up 2025
 date: 2025-12-27
 summary: Wrapping up the year that has been
 draft: false
+atUri: 'at://did:plc:hwoz3olcp7bjyvzxn6uxiuei/site.standard.document/3mv7km2cnq62d'
 ---
 
 <script>

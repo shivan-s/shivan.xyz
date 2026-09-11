@@ -7,6 +7,7 @@ cover:
   image: env.jpg
   alt: Shivan infront of words "env" and dollar sign
   caption: Environment variables
+atUri: 'at://did:plc:hwoz3olcp7bjyvzxn6uxiuei/site.standard.document/3mv7kmajezq2p'
 ---
 
 <script>

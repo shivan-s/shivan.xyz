@@ -3,6 +3,7 @@ title: The Future of the Web
 date: 2021-11-15
 summary: How the world may change and that might be Web3. Here are my thoughts.
 draft: false
+atUri: 'at://did:plc:hwoz3olcp7bjyvzxn6uxiuei/site.standard.document/3mv7kmfpo4n27'
 ---
 
 With all the negatives happening in the world, there is one good: _democratisation_. But, what do I mean by that?

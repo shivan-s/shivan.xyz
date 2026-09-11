@@ -7,6 +7,7 @@ cover:
   image: keys.png
   alt: A flow chart going from secret to api secret route to token to api protected routes
   caption: The auth flow
+atUri: 'at://did:plc:hwoz3olcp7bjyvzxn6uxiuei/site.standard.document/3mv7km23xu62k'
 ---
 
 <script>

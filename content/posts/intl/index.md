@@ -3,6 +3,7 @@ title: Displaying Numbers and Lists
 date: 2026-05-16
 summary: A cool module for displaying lists and numbers
 draft: false
+atUri: 'at://did:plc:hwoz3olcp7bjyvzxn6uxiuei/site.standard.document/3mv7klxfszo2d'
 ---
 
 <script>

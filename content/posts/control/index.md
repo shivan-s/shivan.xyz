@@ -3,6 +3,7 @@ title: What can you control?
 date: 2022-04-17
 summary: Advice from a Meeting
 draft: false
+atUri: 'at://did:plc:hwoz3olcp7bjyvzxn6uxiuei/site.standard.document/3mv7kmdtfe32q'
 ---
 
 I was having a meeting for poor performance.

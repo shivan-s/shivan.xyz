@@ -7,6 +7,7 @@ cover:
   image: cover.webp
   alt: Black head phones are on top of a macbook laptop
   caption: The best weapon
+atUri: 'at://did:plc:hwoz3olcp7bjyvzxn6uxiuei/site.standard.document/3mv7klzbr232u'
 ---
 
 <script>

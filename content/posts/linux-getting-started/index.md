@@ -7,6 +7,7 @@ cover:
   image: linux-eg.png
   alt: Screenshot of terminal
   caption: Linux is something you can use too
+atUri: 'at://did:plc:hwoz3olcp7bjyvzxn6uxiuei/site.standard.document/3mv7kmhmwgo2e'
 ---
 
 <script>

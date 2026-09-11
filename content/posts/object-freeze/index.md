@@ -3,6 +3,7 @@ title: The Power of Object Freeze
 date: 2026-06-14
 summary: Using runtime over just typescript
 draft: false
+atUri: 'at://did:plc:hwoz3olcp7bjyvzxn6uxiuei/site.standard.document/3mv7klwltnd2q'
 ---
 
 <script>

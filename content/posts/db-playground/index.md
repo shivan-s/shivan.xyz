@@ -7,6 +7,7 @@ cover:
   image: database.jpg
   alt: Face of Shivan in front of letters, "DB"
   caption: A playground for database migrations
+atUri: 'at://did:plc:hwoz3olcp7bjyvzxn6uxiuei/site.standard.document/3mv7kmavppr2j'
 ---
 
 <script>

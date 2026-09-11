@@ -3,6 +3,7 @@ title: Being okay with who you are
 date: 2023-06-04
 summary: Should I?
 draft: false
+atUri: 'at://did:plc:hwoz3olcp7bjyvzxn6uxiuei/site.standard.document/3mv7kmb4ghw2k'
 ---
 
 _You should have stuck with optometry_.

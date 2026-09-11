@@ -7,6 +7,7 @@ cover:
   image: me-and-plane.jpg
   alt: A man standing in front of a single engine plane
   caption: Relief after a flight test
+atUri: 'at://did:plc:hwoz3olcp7bjyvzxn6uxiuei/site.standard.document/3mv7klw6bj32y'
 ---
 
 <script>

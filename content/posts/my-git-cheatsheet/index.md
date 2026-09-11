@@ -3,6 +3,7 @@ title: My Git Cheatsheet
 date: 2022-05-22
 summary: Git is an awesome tool. It's better with these commands.
 draft: false
+atUri: 'at://did:plc:hwoz3olcp7bjyvzxn6uxiuei/site.standard.document/3mv7kmdmk342n'
 ---
 
 Git is a very powerful tool in developers toolkit.

@@ -7,6 +7,7 @@ cover:
   image: posing.jpg
   alt: Person posing in front of a plane
   caption: Posing in front of Feilding Aviation
+atUri: 'at://did:plc:hwoz3olcp7bjyvzxn6uxiuei/site.standard.document/3mv7km6nn432y'
 ---
 
 Update: [I got my PPL](./ppl).

@@ -29,3 +29,5 @@ project.inlang/cache/
 
 *storybook.log
 storybook-static
+
+.sequoia-state.json

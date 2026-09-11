@@ -7,6 +7,7 @@ cover:
   image: keyboard.jpg
   alt: Trying on a keyboard
   caption: Writing has changed my life just as much as it will others.
+atUri: 'at://did:plc:hwoz3olcp7bjyvzxn6uxiuei/site.standard.document/3mv7kmi2h2g2e'
 ---
 
 <script>

@@ -7,6 +7,7 @@ cover:
   image: green-eye.jpg
   alt: A Green eye
   caption: Cannabis as a treatment for glaucoma?
+atUri: 'at://did:plc:hwoz3olcp7bjyvzxn6uxiuei/site.standard.document/3mv7kmh7j3j26'
 ---
 
 <script>

@@ -7,6 +7,7 @@ cover:
   image: remembering.webp
   alt: Elderly man in a newspaper
   caption: My Appahappah/Grandfather
+atUri: 'at://did:plc:hwoz3olcp7bjyvzxn6uxiuei/site.standard.document/3mv7km6ubuw2k'
 ---
 
 <script>

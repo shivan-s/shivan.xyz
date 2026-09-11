@@ -7,6 +7,7 @@ cover:
   image: example.gif
   alt: Screencast showing example of code running
   caption: Creating .gifs
+atUri: 'at://did:plc:hwoz3olcp7bjyvzxn6uxiuei/site.standard.document/3mv7kmcy6b32q'
 ---
 
 Sometimes I want to show my screencasts, but the site I want to showcase them doesn't accept the `.mov` format that my screencast outputs. A good example is [GitHub](https://github.com).

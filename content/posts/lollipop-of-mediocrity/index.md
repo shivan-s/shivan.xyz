@@ -3,6 +3,7 @@ title: 'When You Lick the Lollipop of Mediocrity You Suck It Forever'
 date: 2021-10-25
 summary: A memory from my high school days. Was there too much pressure put on young boys?
 draft: false
+atUri: 'at://did:plc:hwoz3olcp7bjyvzxn6uxiuei/site.standard.document/3mv7kmgs2y62d'
 ---
 
 End-of-year prize-giving evening was their last time. Final year students and teachers fill the Ian Colquhoun Memorial Hall for their last opportunity to say thanks and goodbye.

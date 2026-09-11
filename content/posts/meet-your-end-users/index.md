@@ -7,6 +7,7 @@ cover:
   image: bay.jpg
   alt: Landscape of a ocean front with a bridge in the distance and two fishing poles in the foreground with no people
   caption: Tauranga Harbour
+atUri: 'at://did:plc:hwoz3olcp7bjyvzxn6uxiuei/site.standard.document/3mv7klynodq2p'
 ---
 
 <script>

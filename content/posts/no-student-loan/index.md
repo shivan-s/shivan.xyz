@@ -7,6 +7,7 @@ cover:
   image: congrats.png
   alt: A screenshot of a letter congratulating Mr Sivakumaran for paying of his Student Loan
   caption: A happy letter
+atUri: 'at://did:plc:hwoz3olcp7bjyvzxn6uxiuei/site.standard.document/3mv7km3kd6q2p'
 ---
 
 I did it! In just under 10 years after completing my tertiary education, I completed paying off my student loan!

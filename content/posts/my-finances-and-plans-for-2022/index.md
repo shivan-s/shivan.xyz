@@ -7,6 +7,7 @@ cover:
   image: mask.jpg
   alt: A surgical mask hanging on a rear view mirror
   caption: A common ornament for the last 2 years
+atUri: 'at://did:plc:hwoz3olcp7bjyvzxn6uxiuei/site.standard.document/3mv7kmev4ug2e'
 ---
 
 Time to be transparent. I realise my reality is another person's dream. And my dreams is another's reality. I want to talk about my finances leading up to this short career sabbatical and the plans going forward.

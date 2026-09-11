@@ -7,6 +7,7 @@ cover:
   image: no-media.jpg
   alt: remote in foreground with television showing a white screen and red cross drawn on top
   caption: I try to avoid "public media" but it's hard
+atUri: 'at://did:plc:hwoz3olcp7bjyvzxn6uxiuei/site.standard.document/3mv7kmbqotq2p'
 ---
 
 We have successfully _cured_ boredom.

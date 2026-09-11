@@ -7,6 +7,7 @@ cover:
   image: whats-stopping-upload.jpg
   alt: photo of upload button
   caption: Hitting upload is the best feeling
+atUri: 'at://did:plc:hwoz3olcp7bjyvzxn6uxiuei/site.standard.document/3mv7kmfivap2h'
 ---
 
 It's thrilling. It's exhilarating. It's the best feeling in the world. Finally, the unseen hours of copious scripting, multiple takes, editing culminate into this final product that I excitingly get to share with my virtual world. The cursor moves to the upload button. My overworked and outstretched finger crashes towards to mouse button but before the satisfying click... I snap back to the real world, away from my daydream.

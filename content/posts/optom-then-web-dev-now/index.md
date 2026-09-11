@@ -9,6 +9,7 @@ cover:
   caption: A Brief Timeline
 audio:
   src: audio.mp3
+atUri: 'at://did:plc:hwoz3olcp7bjyvzxn6uxiuei/site.standard.document/3mv7kmbjxfv24'
 ---
 
 Younger-self would view this with jealousy.

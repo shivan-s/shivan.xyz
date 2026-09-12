@@ -13,7 +13,7 @@ draft: false
     import Oval from "./oval.jpg?enhanced"
 </script>
 
-<Figure src={MirrorBall} alt="A large mirror ball with a individual wearing a green shirt taking a photo in the reflection" caption="Mirror Ball" />
-<Figure src={CoolBuildings} alt="Green grass in the foreground with orange buildings in the background" caption="Cool Buildings" />
-<Figure src={Oval} alt="A stadium in the distance with a plane flying overhead. The stadium is the Adelaide Oval" caption="Adelaide Oval" />
-<Figure src={Convention} alt="Building in the distance with the title 'Adelaide Convention Center'" caption="Adelaide Convention Centre" />
+<Figure src={MirrorBall} alt="A large mirror ball with a individual wearing a green shirt taking a photo in the reflection" caption="Mirror Ball" autoDimensions={true} />
+<Figure src={CoolBuildings} alt="Green grass in the foreground with orange buildings in the background" caption="Cool Buildings" autoDimensions={true} />
+<Figure src={Oval} alt="A stadium in the distance with a plane flying overhead. The stadium is the Adelaide Oval" caption="Adelaide Oval" autoDimensions={true} />
+<Figure src={Convention} alt="Building in the distance with the title 'Adelaide Convention Center'" caption="Adelaide Convention Centre" autoDimensions={true} />

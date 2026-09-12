@@ -12,5 +12,5 @@ draft: true
     import Hakuba from "./hakuba.jpg?enhanced"
 </script>
 
-<Figure src={HimejiPano} alt="" caption="Himeji Castle as a panorama" />
-<Figure src={Hakuba} alt="" caption="Himeji Castle as a panorama" />
+<Figure src={HimejiPano} alt="" caption="Himeji Castle as a panorama" autoDimensions={true} />
+<Figure src={Hakuba} alt="" caption="Himeji Castle as a panorama" autoDimensions={true} />

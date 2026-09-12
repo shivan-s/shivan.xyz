@@ -11,5 +11,5 @@ draft: true
     import Pass from "./pass.jpg?enhanced"
 </script>
 
-<Figure src={Lake} alt="Blue lake with a mountain range in the background and a rock in the foreground" caption="Blue Lake" />
-<Figure src={Pass} alt="Clouds sit among mountains with a light streak resembling car headlights" caption="Pass" />
+<Figure src={Lake} alt="Blue lake with a mountain range in the background and a rock in the foreground" caption="Blue Lake" autoDimensions={true} />
+<Figure src={Pass} alt="Clouds sit among mountains with a light streak resembling car headlights" caption="Pass" autoDimensions={true} />

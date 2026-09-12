@@ -47,7 +47,7 @@ export const places: Place[] = [
 	},
 	{
 		title: 'Grand Canyon',
-		body: 'Nature!',
+		body: 'Nature! <a href="./gallery#las-vegas">I went while I went to Las Vegas in 2024</a>',
 		lngLat: [-112.75, 36.3],
 		visited: true
 	},

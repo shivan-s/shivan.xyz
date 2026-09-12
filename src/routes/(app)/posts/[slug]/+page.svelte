@@ -13,6 +13,10 @@
 	const from = $derived(formatDistanceToNow(data.meta.date.toISOString(), { addSuffix: true }));
 </script>
 
+<svelte:head>
+	<link rel="site.standard.document external" href={data.meta.atUri} />
+</svelte:head>
+
 <article>
 	<header>
 		<H1 viewTransitionName={data.meta.slug}>{data.meta.title}</H1>

@@ -7,8 +7,9 @@
 		alt: string;
 		caption: string;
 		title?: string;
+		autoDimensions?: boolean;
 	}
-	let { src, alt, caption, title = caption }: Props = $props();
+	let { src, alt, caption, title = caption, autoDimensions = false }: Props = $props();
 	const popoverId = crypto.randomUUID();
 </script>
 
@@ -20,7 +21,12 @@ This is for images
 TODO: rename this to Image
 -->
 <div>
-	<button popovertarget={popoverId} aria-label={alt} popovertargetaction="show">
+	<button
+		popovertarget={popoverId}
+		aria-label={alt}
+		popovertargetaction="show"
+		class:auto-dimensions={autoDimensions}
+	>
 		<enhanced:img {src} {alt} {title} loading="lazy" />
 		<small>{caption}</small>
 	</button>
@@ -50,7 +56,6 @@ TODO: rename this to Image
 		container-name: gallery-container;
 		& > button[popovertargetaction='show'] {
 			position: relative;
-			width: auto;
 			display: block;
 			background: none;
 			border: none;
@@ -82,6 +87,10 @@ TODO: rename this to Image
 					opacity: 0;
 					content-visibility: hidden;
 				}
+			}
+			&.auto-dimensions > :global(picture > img) {
+				width: auto;
+				height: auto;
 			}
 			& small {
 				position: absolute;

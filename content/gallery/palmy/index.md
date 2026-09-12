@@ -12,6 +12,6 @@ draft: false
     import Trees from "./trees.jpg?enhanced"
 </script>
 
-<Figure src={Lake} alt="A lake" caption="A lake near where I live" />
-<Figure src={Trees} alt="Trees in Black and White" caption="Photos in my Hometown: Trees" />
-<Figure src={Bridge} alt="A shot of a bridge with people in the distance" caption="Photos in my Hometown: He Ara Kotahi Bridge" />
+<Figure src={Lake} alt="A lake" caption="A lake near where I live" autoDimensions={true} />
+<Figure src={Trees} alt="Trees in Black and White" caption="Photos in my Hometown: Trees" autoDimensions={true} />
+<Figure src={Bridge} alt="A shot of a bridge with people in the distance" caption="Photos in my Hometown: He Ara Kotahi Bridge" autoDimensions={true} />

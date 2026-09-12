@@ -34,6 +34,10 @@
 	<meta property="og:description" content={page.data['meta']?.['summary'] ?? config.description} />
 	<meta property="og:locale" content="en_NZ" />
 	<meta property="og:logo" content={config.logo} />
+	<link
+		rel="site.standard.publication external"
+		href="at://did:plc:hwoz3olcp7bjyvzxn6uxiuei/site.standard.publication/3mv7khqdshe2n"
+	/>
 </svelte:head>
 
 <ViewTransition />

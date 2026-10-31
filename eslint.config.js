@@ -1,4 +1,4 @@
-import svelteConfig from './svelte.config.js';
+import svelteConfig from './vite.config.ts';
 import js from '@eslint/js';
 import prettier from 'eslint-config-prettier';
 import storybook from 'eslint-plugin-storybook';

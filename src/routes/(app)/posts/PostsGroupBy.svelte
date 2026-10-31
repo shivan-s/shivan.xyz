@@ -15,17 +15,11 @@
 	{@const middot = '\u0020\u00B7\u0020'}
 	{@const {
 		slug,
-		metadata: {
-			title,
-			date,
-			summary,
-			readingTime: { text },
-			draft
-		}
+		metadata: { title, date, summary, minutes, draft }
 	} = post}
 	<li>
 		<a
-			title="{title}{middot}{text}{middot}{summary}"
+			title="{title}{middot}{minutes}{middot}{summary}"
 			href={resolve('/(app)/posts/[slug]', { slug })}
 		>
 			{#if draft}

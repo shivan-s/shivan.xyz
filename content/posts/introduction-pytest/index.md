@@ -107,7 +107,7 @@ def test_exists():
     assert isinstance(maths, Maths)
 ```
 
-Breaking down the function, there is an `assert` statement that verifies `isinstance()`, we can be more explicitly `assert isinstance(maths, Maths) == True`. `isinstance(object, type)` takes an **object**, which is `maths` and a type, which can be `int`, `str`, `bool` and so on, but we pass the class, `Maths` instead.
+Breaking down the function, there is an `assert` statement that verifies `isinstance()`, we can be more explicitly `assert isinstance(maths, Maths) == True`. `isinstance(object, type)` takes an _object_, which is `maths` and a type, which can be `int`, `str`, `bool` and so on, but we pass the class, `Maths` instead.
 
 Now it's time to run a test. When we run pytest. Pytest will look for programs starting with `test_` and run these test cases. We will run `pytest` with `-vv` tags in order to provide a verbose and detailed response:
 

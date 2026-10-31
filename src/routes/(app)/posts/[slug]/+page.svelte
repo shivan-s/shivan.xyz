@@ -3,9 +3,9 @@
 	import { Figure } from '$lib/components/content';
 	import { Markdown } from '$lib/components/ui';
 	import { H1 } from '$lib/components/ui';
-	import { config } from '$lib/config';
 	import type { PageProps } from './$types';
 	import { formatDistanceToNow } from 'date-fns';
+	import Toc from '@mdsvex/plugin-toc/Toc.svelte';
 
 	let { data }: PageProps = $props();
 
@@ -24,13 +24,10 @@
 			<time title={from} datetime={data.meta.date.toISOString()}>
 				{data.meta.date.toLocaleDateString(undefined, { dateStyle: 'full' })}
 			</time>
-			<span title="{data.meta.readingTime.words.toString()} words">
-				{data.meta.readingTime.text}
+			<span title="{data.meta.words.toString()} words">
+				{m.n_min_read({ n: data.meta.minutes })}
 			</span>
-			<a
-				href="https://{config.src}/edit/main/content/posts/{data.meta.slug}/index.md"
-				target="_blank"
-			>
+			<a href={data.meta.editUrl} target="_blank">
 				{m.post_suggest_changes()}
 			</a>
 		</small>
@@ -51,6 +48,12 @@
 		{/if}
 	</header>
 	<section>
+		{#if data.meta.toc}
+			<details>
+				<summary>{m.table_of_contents()}</summary>
+				<Toc headings={data.meta.toc.headings} aria-label={m.table_of_contents()} />
+			</details>
+		{/if}
 		<Markdown>
 			<Content />
 		</Markdown>
@@ -84,7 +87,7 @@
 			}
 		}
 		& > section {
-			margin-block: var(--margin-large);
+			margin-block-start: var(--margin-large);
 		}
 	}
 </style>

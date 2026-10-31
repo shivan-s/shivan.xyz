@@ -182,7 +182,7 @@ A `SpeechRecognitionEvent` contains an iterable of one element on `results`; typ
 
 Below is the demo. Have fun!
 
-<ExampleVoice />
+<ExampleVoice/>
 
 An isolated instance of this [demo can be found here](https://voice.shivan.xyz).
 

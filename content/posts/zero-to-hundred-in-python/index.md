@@ -55,7 +55,7 @@ Next, we learn about commenting code.
 # evaluated like code
 ```
 
-**Variables** store values, or they point to places in memory in which these values are stored.
+_Variables_ store values, or they point to places in memory in which these values are stored.
 
 ```py
 number = 10
@@ -83,7 +83,7 @@ print(f"{type(number} and {type(string)}")
 
 ## Functions
 
-If we have code we have to write, again and again, it's good practice to not repeat ourselves. Instead of repeating ourselves, we put this code in a **function** and call this function. Let's create a function for the [Fibonacci sequence](https://en.wikipedia.org/wiki/Fibonacci_number), where we pass a number, `n` and this will give the `nth` sequence.
+If we have code we have to write, again and again, it's good practice to not repeat ourselves. Instead of repeating ourselves, we put this code in a _function_ and call this function. Let's create a function for the [Fibonacci sequence](https://en.wikipedia.org/wiki/Fibonacci_number), where we pass a number, `n` and this will give the `nth` sequence.
 
 ```py
 # the fibonacci sequence
@@ -113,7 +113,7 @@ We include a doc-string enclosed in triple quotes ("""). The primary purpose of 
 
 Also, this function is a good example of conditionals (also known as flow control, because we are controlling the flow of the execution). The `if` statements checks if the following is `True` or `False`. If `True`, then the code block is executed.
 
-**NOTE: Indentation in Python is important**.
+_NOTE: Indentation in Python is important_.
 
 If the `if` statement is `False`, then `elif` (short for else-if) is checked. We can see the use of `or` meaning only `n == 1` or `n == 2` need to be true for the code block to fire, in this case returning `1`. Finally, `else` is fired when the previous `if` and `elif` statements are `False`.
 
@@ -121,7 +121,7 @@ This line, `f(n-1) + f(n-2)` is an example of recursion. The function `f` calls 
 
 ## Lists
 
-We can do a lot with functions and variables. Let's have a look at different data types in Python starting with **lists**.
+We can do a lot with functions and variables. Let's have a look at different data types in Python starting with _lists_.
 
 We set up a range.
 
@@ -174,7 +174,7 @@ for func in funcs:
 >>> "f3: 0.5"
 ```
 
-This is a good way to introduce the notorious **for loop**. A list is an example of an iterator. We can use a for loop to iterate for a list for example.
+This is a good way to introduce the notorious _for loop_. A list is an example of an iterator. We can use a for loop to iterate for a list for example.
 
 ```py
 for i in lst:
@@ -195,7 +195,7 @@ output
 >>> [0, 1, 1, 2, 3, 5, 8, 13, 21, 34]
 ```
 
-Instead of creating an empty list and utilising multiple lines, we can turn this into a 'one-liner'. We use the infamous **list comprehension**.
+Instead of creating an empty list and utilising multiple lines, we can turn this into a 'one-liner'. We use the infamous _list comprehension_.
 
 ```py
 output = [f(i) for i in lst]
@@ -263,7 +263,7 @@ df.sum()
 
 ## More data types — Dictionaries
 
-We will introduce **dictionaries**. Dictionaries have a key and a value pair.
+We will introduce _dictionaries_. Dictionaries have a key and a value pair.
 
 ```py
 dct = {
@@ -399,7 +399,7 @@ cache
 
 ## Classes
 
-In Python, everything are objects. To create our own objects, we create **classes**.
+In Python, everything are objects. To create our own objects, we create _classes_.
 
 ```py
 class Car:

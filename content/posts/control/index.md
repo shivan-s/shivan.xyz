@@ -24,7 +24,7 @@ Vision is one of the most important senses. It's the biggest fear to lose. Yet e
 
 There are many, many, many more examples of feeling worthless.
 
-**But the best advice I was given, is: control what you can control and deny focus on what others say.**
+_But the best advice I was given, is: control what you can control and deny focus on what others say._
 
 That was the advice given to me by my boss during that meeting.
 

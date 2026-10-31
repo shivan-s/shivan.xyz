@@ -62,7 +62,7 @@ Humorously, I was talking about this topic with a friend. He said to me that he 
 
 For most normal people, they do their hobbies because they enjoy their hobbies — not to get better for the future. Sure, competency is important, but it's not the be all and end all goal.
 
-Now coming back to the title of this post. The need to control the future and have a perfect outcome was causing me stress. **This is where I learned: just let go**.
+Now coming back to the title of this post. The need to control the future and have a perfect outcome was causing me stress. _This is where I learned: just let go_.
 
 Don’t worry if you don’t nail that technique for that day. Obviously, make sure you turn up and focus, but just learn to enjoy the moment. Be grateful that you get to do these things and don’t worry about what you are missing out on.
 

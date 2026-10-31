@@ -138,10 +138,10 @@ Now, I’m interested in your thoughts? Was it a sign of the times? Do you think
 
 ## References
 
-Gibb, S. J., Fergusson, D. M., & Horwood, L. J. (2008). Effects of Single-Sex and Coeducational Schooling on the Gender Gap in Educational Achievement. Australian Journal of Education, 52(3), 301–317. https://doi.org/10.1177/000494410805200307
+Gibb, S. J., Fergusson, D. M., & Horwood, L. J. (2008). Effects of Single-Sex and Coeducational Schooling on the Gender Gap in Educational Achievement. Australian Journal of Education, 52(3), 301–317. <https://doi.org/10.1177/000494410805200307>
 
-Ioannidou, F., & Konstantikaki, V. (2010). Empathy and Emotional intelligence: What Is It Really about? International Journal of Caring Sciences, 1(3), 118–123. http://internationaljournalofcaringsciences.org/docs/Vol1_Issue3_03_Ioannidou.pdf
+Ioannidou, F., & Konstantikaki, V. (2010). Empathy and Emotional intelligence: What Is It Really about? International Journal of Caring Sciences, 1(3), 118–123. <http://internationaljournalofcaringsciences.org/docs/Vol1_Issue3_03_Ioannidou.pdf>
 
-Palmerston North Boys’ High School. (2021). Academic Results. Palmerston North Boys’ High School. https://www.pnbhs.school.nz/at-palmy-boys/academic/academic-results/
+Palmerston North Boys’ High School. (2021). Academic Results. Palmerston North Boys’ High School. <https://www.pnbhs.school.nz/at-palmy-boys/academic/academic-results/>
 
-Ray, S. (2019, February 13). Empathy and innovation: How Microsoft’s cultural shift is leading to new product development. Innovation Stories. https://news.microsoft.com/innovation-stories/empathy-innovation-accessibility/End-of-year prize-giving evening was their last time. Final year students and teachers fill the Ian Colquhoun Memorial Hall for their last opportunity to say thanks and goodbye.
+Ray, S. (2019, February 13). Empathy and innovation: How Microsoft’s cultural shift is leading to new product development. Innovation Stories. <https://news.microsoft.com/innovation-stories/empathy-innovation-accessibility/End-of-year> prize-giving evening was their last time. Final year students and teachers fill the Ian Colquhoun Memorial Hall for their last opportunity to say thanks and goodbye.

@@ -64,7 +64,7 @@ I do like to also think:
 
 > There is truth in fiction
 
-I think it's a good idea to broaden the horizons. I want to read **and somehow enjoy** classic literature.
+I think it's a good idea to broaden the horizons. I want to read _and somehow enjoy_ classic literature.
 
 And where did I start?
 

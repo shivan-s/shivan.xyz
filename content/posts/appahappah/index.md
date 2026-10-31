@@ -32,7 +32,7 @@ My Grandfather had an interesting past and present. He had worked as a teacher, 
 
 He contributed a lot to his surrounding community during his retirement. He was a philanthropist, supporting many causes centring around war victims in Sri Lanka. Those included children who were made orphans as well as women who were made widows. He did this by creating opportunities for education and vocation — supporting tutors for children, and establishing a sewing school as some examples.
 
-In the days following the funeral ceremony, I had a good opportunity to hang out with my cousins where we explored Colombo. We made a pack to not let time slip without seeing each other. **What I learnt from my Grandfather's passing is that life is short, and it’s important to make time for things that matter most, like seeing family despite geographic distance**.
+In the days following the funeral ceremony, I had a good opportunity to hang out with my cousins where we explored Colombo. We made a pack to not let time slip without seeing each other. _What I learnt from my Grandfather's passing is that life is short, and it’s important to make time for things that matter most, like seeing family despite geographic distance_.
 
 ## The Funeral
 

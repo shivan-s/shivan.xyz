@@ -61,7 +61,7 @@ Is the future HAL 9000 locking professionals out of work, Skynet taking over the
 
 1. Meskó B, Görög M. A short guide for medical professionals in the era of artificial intelligence. npj Digital Medicine. 2020;3(1).
 
-2. PwC. The Economic and Social Cost of Type 2 Diabetes. ; 2021. Accessed July 20, 2021. https://healthierlives.co.nz/wp-content/uploads/Economic-and-Social-Cost-of-Type-2-Diabetes-FINAL-REPORT.pdf
+2. PwC. The Economic and Social Cost of Type 2 Diabetes. ; 2021. Accessed July 20, 2021. <https://healthierlives.co.nz/wp-content/uploads/Economic-and-Social-Cost-of-Type-2-Diabetes-FINAL-REPORT.pdf>
 
 3. Hubel DH, Wiesel TN. Receptive fields and functional architecture of monkey striate cortex. The Journal of physiology. 1968;195(1):215-243.
 

@@ -100,7 +100,7 @@ new Intl.NumberFormat('es-ES').format(1_000_000); // '1.000.000'
 
 Pretty cool? I do think locales are important to represent. Not only does it promote a sense of cultural competency; it's nice to cater to your users - and the internet is a global place.
 
-<ExampleNumber />
+<ExampleNumber/>
 
 ### Currency and Units
 
@@ -152,7 +152,7 @@ new Intl.ListFormat('en-NZ').format(list); // 'apples, bananas and cherries'
 
 Here is an interactive examples with the different options provided:
 
-<ExampleList />
+<ExampleList/>
 
 ## Bonus Ranges
 
@@ -163,7 +163,7 @@ We are not limited to numbers and lists, we can also provide ranges. Here, I sho
 new Intl.DateTimeFormat(locale, { dateStyle }).formatRange(startDate, endDate);
 ```
 
-<ExampleRange />
+<ExampleRange/>
 
 ## Conclusion & Further Reading
 

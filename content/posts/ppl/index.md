@@ -17,7 +17,7 @@ atUri: 'at://did:plc:hwoz3olcp7bjyvzxn6uxiuei/site.standard.document/3mv7klw6bj3
     import WithDad1 from "./with-dad-1.jpg?enhanced"
 </script>
 
-Following 5 weekends of bad weather, the morning **Sunday 5<sup>th</sup> of July 2026**, would be the day I get to prove that I was capable of flying a Cessna C152 safely and with passengers.
+Following 5 weekends of bad weather, the morning _Sunday 5<sup>th</sup> of July 2026_, would be the day I get to prove that I was capable of flying a Cessna C152 safely and with passengers.
 
 I am happy to report that I have joined that club with a lifetime Private Pilot's License (PPL).
 

@@ -11,12 +11,12 @@ atUri: 'at://did:plc:hwoz3olcp7bjyvzxn6uxiuei/site.standard.document/3mv7kmcri2n
 ---
 
 <script>
-    import BlockQuote from "BlockQuote"
+	import BlockQuote from "BlockQuote"
 </script>
 
 <BlockQuote>
     Happiness is a choice
-    {#snippet cite()}Someone happy person{/snippet}
+    <cite>Someone happy person</cite>
 </BlockQuote>
 
 Sadly for most, it isn't. But for my privileged life (and likely yours), it is.

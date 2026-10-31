@@ -2,23 +2,26 @@
 	import { m } from '$i18n/messages.js';
 	import { places } from './places';
 	import 'maplibre-gl/dist/maplibre-gl.css';
-	import { onMount } from 'svelte';
+	import type { Map } from 'maplibre-gl';
 
 	const containerId = 'map';
 	const style = 'https://tiles.openfreemap.org/styles/liberty';
+	let map: Map | undefined = $state();
 	async function loadMap() {
 		const m = await import('maplibre-gl');
-		const map = new m.Map({
+		map = new m.Map({
 			container: containerId,
 			style,
 			center: [0, 0],
 			zoom: 1
 		});
+		if (!map) return;
 		map.addControl(new m.FullscreenControl());
 		const s = window.getComputedStyle(document.body);
 		const red = s.getPropertyValue('--red');
 		const green = s.getPropertyValue('--green');
 		places.forEach((p) => {
+			if (!map) return;
 			const h2 = `<h2>${p.title}</h2>`;
 			const html: string[] = [h2];
 			if (p.body) html.push(`<p>${p.body}</p>`);
@@ -32,8 +35,12 @@
 	const toVisit = places.filter(({ visited }) => !visited);
 	const haveVisited = places.filter(({ visited }) => visited);
 
-	onMount(() => {
+	$effect(() => {
 		loadMap();
+		return () => {
+			if (!map) return;
+			map.remove();
+		};
 	});
 </script>
 
@@ -96,39 +103,6 @@
 			& :global(div.maplibregl-popup-tip) {
 				border-top-color: var(--background-color);
 			}
-		}
-	}
-	details {
-		overflow: hidden;
-		border-radius: var(--border-radius);
-		transition: backdrop-filter 0.3s ease-in-out;
-		padding-inline: var(--padding-small);
-		backdrop-filter: invert(var(--invert));
-
-		&:hover {
-			backdrop-filter: invert(var(--invert-highlight));
-		}
-
-		&::details-content {
-			transition:
-				block-size 0.3s ease-in-out,
-				opacity 0.4s ease-in-out,
-				padding-block-end 0.4s ease-in-out;
-			transition-behavior: allow-discrete;
-			opacity: 0;
-			block-size: 0;
-		}
-
-		&[open]::details-content {
-			block-size: auto;
-			block-size: calc(auto);
-			padding-block-end: var(--padding);
-			opacity: 1;
-		}
-		& > summary {
-			font-weight: 900;
-			padding: var(--padding);
-			cursor: pointer;
 		}
 	}
 </style>

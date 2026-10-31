@@ -71,7 +71,7 @@ const func3 = (x, y) =>
 	y * 9;
 ```
 
-**NB**: Since the return is implicit an annoying mistake that I sometimes make is forgetting to include the return if I have used braces.
+_NB_: Since the return is implicit an annoying mistake that I sometimes make is forgetting to include the return if I have used braces.
 
 ```javascript
 // the function will run but nothing is returned

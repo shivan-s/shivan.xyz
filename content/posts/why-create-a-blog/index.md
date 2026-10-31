@@ -20,7 +20,9 @@ The best way to get started on the path to sharing your work is to think about w
 Don’t think of your website as a self-promotion machine, think of it as a self-invention machine.
 
 {#snippet cite()}
+
 <em>Show Your Work!</em> by Austin Kleon
+
 {/snippet}
 
 </BlockQuote>
@@ -37,7 +39,9 @@ All big things come from small beginnings. The seed of every habit is a single, 
 Habits are the compound interest of self-improvement.
 
 {#snippet cite()}
+
 <em>Atomic Habits</em> by James Clear
+
 {/snippet}
 
 </BlockQuote>

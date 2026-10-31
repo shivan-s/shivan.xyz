@@ -76,7 +76,7 @@ I create a simple page that returns a random number.
 
 Let's start with setting up our logging with [`AsyncLocalStorage`](https://nodejs.org/api/async_context.html#class-asynclocalstorage).
 
-Quickly, what's `AsyncLocalStorage`? A problem we might encounter is "passing arguments hell" - we declare our log with context at the middleware and then pass this as arguments to subsequent functions. We want this context to pass into other logs related to the request (and **not** mix this with other user requests).
+Quickly, what's `AsyncLocalStorage`? A problem we might encounter is "passing arguments hell" - we declare our log with context at the middleware and then pass this as arguments to subsequent functions. We want this context to pass into other logs related to the request (and _not_ mix this with other user requests).
 
 ```ts
 // This will get old very fast...

@@ -62,7 +62,7 @@ If you adjust the [text direction, `dir`](https://developer.mozilla.org/en-US/do
 
 Now, try the exact same thing but using `padding-inline-end`.
 
-<ExamplePadding />
+<ExamplePadding/>
 
 The issue here is that `right` is always on the right, even though we intend to be at the `end`.
 
@@ -79,7 +79,7 @@ In simple terms, for a left-to-right language and a horizontal writing style; `b
 
 This applies to `padding`s, `margin`s, `border`s (like the example below) and more.
 
-<ExampleOrientation />
+<ExampleOrientation/>
 
 If you want to target the `inline` or `block` axis, you can omit the `end`/`start` (e.g. `margin-inline: auto`).
 

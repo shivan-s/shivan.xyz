@@ -6,9 +6,9 @@ draft: false
 atUri: 'at://did:plc:hwoz3olcp7bjyvzxn6uxiuei/site.standard.document/3mv7kmhgbuz26'
 ---
 
-> **Inspirational Optometrist**: First, do you take pride in what you do?
+> _Inspirational Optometrist_: First, do you take pride in what you do?
 >
-> **Me**: Ahh... I think I do...
+> _Me_: Ahh... I think I do...
 
 A few days ago, I had a conversation with a fellow optometrist. Inspired yet through-provoking, when he asked this simple question, I was completely thrown off. Requiring only a simple answer, I gave a hesitant response.
 
@@ -21,9 +21,9 @@ Most optometrists, when approaching their 30s, have a career crisis: is this wha
 During this conversation, we discussed specialties such as myopia control (preventing short-sight in children becoming worse as they grow older) and dry eye (where the eye produces inadequate self-lubrication). These fields are not particularly easy. Some days flow smoothly, happy patients and perfect vision. But there will be challenging days too and sense of importance — pride — in one's career will help overcome these disappointments.
 Specialty
 
-> **Me**: But isn't ophthalmology just a better form of what we can do? Why are we needed
+> _Me_: But isn't ophthalmology just a better form of what we can do? Why are we needed
 >
-> **Inspirational Optometrist**: Can you imagine the state of eye care in New Zealand if there were no optometrists?
+> _Inspirational Optometrist_: Can you imagine the state of eye care in New Zealand if there were no optometrists?
 
 The role of optometry is necessary. If we had no optometrists in New Zealand, no primary eyecare, GPs would be burdened with eye problems. GPs have an enormous knowledge base — but the intricacies of the eye go beyond what a single person can deal with, let alone the entire human body. That's why there is a sub-specialty for every inch of the eyeball. Plus, imagine finding a retinal tear with an opthamascope. I think a lot of GPs would be happy to send these away to their local optometrist.
 

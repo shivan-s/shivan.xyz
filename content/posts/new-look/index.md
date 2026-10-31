@@ -24,7 +24,7 @@ This theme definitely isn't perfect, and it's very likely that various tweaks wi
 
 But it's probably acceptable in presentation to be pushed out to the world. After all, perfect is the enemy of good.
 
-**And I want to be okay putting things out there that are good enough**.
+_And I want to be okay putting things out there that are good enough_.
 
 ## Why?
 

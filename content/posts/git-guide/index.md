@@ -44,7 +44,7 @@ git init
 
 There will be instructions provided by `git` and on `GitHub` on how to add your code to a repository on GitHub.
 
-**Tip:** I like to create the repository on GitHub first and then clone this. It saves having to set up and connect the repository.
+_Tip:_ I like to create the repository on GitHub first and then clone this. It saves having to set up and connect the repository.
 
 You can add changes to you code like do:
 

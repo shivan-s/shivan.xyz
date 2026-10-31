@@ -13,7 +13,7 @@ atUri: 'at://did:plc:hwoz3olcp7bjyvzxn6uxiuei/site.standard.document/3mv7klwltnd
 	import Highlight from "Highlight"
 </script>
 
-In JavaScript, `const` means you cannot reassign, but that doesn't mean the *const*ant is subject to mutation. Here is a [post about this unfortunate realisation as well as how it compares to other languages](/posts/mutability-js-ts-rust).
+In JavaScript, `const` means you cannot reassign, but that doesn't mean the _const_ant is subject to mutation. Here is a [post about this unfortunate realisation as well as how it compares to other languages](/posts/mutability-js-ts-rust).
 
 <YouTube id="UgS_f_XpDM4" />
 

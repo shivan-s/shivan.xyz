@@ -27,7 +27,7 @@
 	"devDependencies": {
 		"@eslint/compat": "^2.1.1",
 		"@eslint/js": "^10.0.1",
-		"@inlang/paraglide-js": "^2.25.0",
+		"@inlang/paraglide-js": "^3.1.0",
 		"@inlang/paraglide-js-svelte": "^1.0.5",
 		"@lucide/svelte": "^1.43.0",
 		"@playwright/test": "^1.63.0",

@@ -129,7 +129,7 @@ importers:
         version: 1.63.0
       '@qr-platform/qr-code.js':
         specifier: ^0.20.14
-        version: 0.20.14(@resvg/resvg-js@2.6.2)(@undecaf/zbar-wasm@0.11.0)(@xmldom/xmldom@0.9.8)(file-type@20.4.1(supports-color@10.2.2))(image-size@2.0.2)(jimp@1.6.0)(jose@6.0.13)
+        version: 0.20.14(@resvg/resvg-js@2.6.2)(@undecaf/zbar-wasm@0.11.0)(@xmldom/xmldom@0.9.12)(file-type@20.4.1(supports-color@10.2.2))(image-size@2.0.2)(jimp@1.6.0)(jose@6.0.13)
       '@shikijs/transformers':
         specifier: ^4.5.0
         version: 4.5.0
@@ -2048,10 +2048,9 @@ packages:
   '@webcontainer/env@1.1.1':
     resolution: {integrity: sha512-6aN99yL695Hi9SuIk1oC88l9o0gmxL1nGWWQ/kNy81HigJ0FoaoTXpytCj6ItzgyCEwA9kF1wixsTuv5cjsgng==}
 
-  '@xmldom/xmldom@0.9.8':
-    resolution: {integrity: sha512-p96FSY54r+WJ50FIOsCOjyj/wavs8921hG5+kVMmZgKcvIKxMXHTrjNJvRgWa/zuX3B6t2lijLNFaOyuxUH+2A==}
+  '@xmldom/xmldom@0.9.12':
+    resolution: {integrity: sha512-5AXjrcMClTryPe9LgZrygpB1lj7s0S9E0+W+AHaVKAVyHanafK86iPSvG5xHVSp/jC+VH1UXu0TAEmY279xH7A==}
     engines: {node: '>=14.6'}
-    deprecated: this version has critical issues, please update to the latest version
 
   abort-controller@3.0.0:
     resolution: {integrity: sha512-h8lQ8tacZYnR3vNQTgibj+tODHI5/+l06Au2Pcriv/Gmet0eaj4TwWH41sO9wnHDiQsEj19q0drzdWdeAHtweg==}
@@ -4922,11 +4921,11 @@ snapshots:
 
   '@polka/url@1.0.0-next.29': {}
 
-  '@qr-platform/qr-code.js@0.20.14(@resvg/resvg-js@2.6.2)(@undecaf/zbar-wasm@0.11.0)(@xmldom/xmldom@0.9.8)(file-type@20.4.1(supports-color@10.2.2))(image-size@2.0.2)(jimp@1.6.0)(jose@6.0.13)':
+  '@qr-platform/qr-code.js@0.20.14(@resvg/resvg-js@2.6.2)(@undecaf/zbar-wasm@0.11.0)(@xmldom/xmldom@0.9.12)(file-type@20.4.1(supports-color@10.2.2))(image-size@2.0.2)(jimp@1.6.0)(jose@6.0.13)':
     dependencies:
       '@resvg/resvg-js': 2.6.2
       '@undecaf/zbar-wasm': 0.11.0
-      '@xmldom/xmldom': 0.9.8
+      '@xmldom/xmldom': 0.9.12
       file-type: 20.4.1(supports-color@10.2.2)
       image-size: 2.0.2
       jimp: 1.6.0
@@ -5664,7 +5663,7 @@ snapshots:
 
   '@webcontainer/env@1.1.1': {}
 
-  '@xmldom/xmldom@0.9.8': {}
+  '@xmldom/xmldom@0.9.12': {}
 
   abort-controller@3.0.0:
     dependencies:

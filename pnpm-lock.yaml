@@ -179,8 +179,8 @@ importers:
         specifier: ^1.0.5
         version: 1.0.5(@inlang/paraglide-js@3.2.1(eslint@10.8.1(jiti@2.7.0)(supports-color@10.2.2))(typescript@6.0.3)(vite@8.2.2(@types/node@26.5.0)(esbuild@0.28.2)(jiti@2.7.0)(yaml@2.9.0)))(svelte@5.56.9(@typescript-eslint/types@8.72.1))
       '@lucide/svelte':
-        specifier: ^1.43.0
-        version: 1.43.0(svelte@5.56.9(@typescript-eslint/types@8.72.1))
+        specifier: ^1.70.0
+        version: 1.70.0(svelte@5.56.9(@typescript-eslint/types@8.72.1))
       '@playwright/test':
         specifier: ^1.63.0
         version: 1.63.0
@@ -1064,8 +1064,8 @@ packages:
   '@lix-js/sdk@0.20.1':
     resolution: {integrity: sha512-oscOFP8Cr1My6Wh2KVYC9+aJ1mHs+d7vnD+7PPJaA4L+Y1FR37Sm99SrFGfvUizaj/XtRi2GlDF2IOFt9iXMNQ==}
 
-  '@lucide/svelte@1.43.0':
-    resolution: {integrity: sha512-IfxS4hVxojnafzFKkQGzndoM6yUODmGc07I0h6R/1SlwDoZwd/5gl90zHz+fTaBVLZo7uE5sPDySFGiK4iMQKw==}
+  '@lucide/svelte@1.70.0':
+    resolution: {integrity: sha512-zvx7K/WLxo82c4ZYqbsfcYUPDVFrq4561xH0NHfSHJJbajj0AONTQ14EO095/WnfI4XUEl1tyS/nbjQNNiNxdQ==}
     peerDependencies:
       svelte: ^5
 
@@ -4942,7 +4942,7 @@ snapshots:
       binaryen: 130.0.0
       fflate: 0.8.3
 
-  '@lucide/svelte@1.43.0(svelte@5.56.9(@typescript-eslint/types@8.72.1))':
+  '@lucide/svelte@1.70.0(svelte@5.56.9(@typescript-eslint/types@8.72.1))':
     dependencies:
       svelte: 5.56.9(@typescript-eslint/types@8.72.1)
 

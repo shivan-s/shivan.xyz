@@ -13,5 +13,5 @@
 		"types": ["node"]
 	},
 	"extends": "./.svelte-kit/tsconfig.json",
-	"includes": ["./src/lib/markdown.d.ts", "./content/**/*/.svelte"]
+	"includes": ["src/lib/markdown.d.ts", "content/**/*"]
 }

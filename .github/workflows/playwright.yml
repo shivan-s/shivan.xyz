@@ -16,8 +16,8 @@ jobs:
       image: mcr.microsoft.com/playwright:v1.62.1-noble
       options: --user 1001
     steps:
-      - uses: actions/checkout@v6
-      - uses: pnpm/setup@v3
+      - uses: actions/checkout@v6.1.0
+      - uses: pnpm/setup@v3.2.0
         with:
           cache: true
       - name: Install dependencies

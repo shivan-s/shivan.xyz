@@ -12,6 +12,6 @@ updates:
         update-types:
           - patch
   - package-ecosystem: github-actions
-    directory: '/.github'
+    directory: '/'
     schedule:
       interval: weekly

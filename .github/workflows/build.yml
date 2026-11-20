@@ -6,42 +6,47 @@ on:
   pull_request:
     branches:
       - main
+permissions:
+  contents: read
 jobs:
   build:
-    timeout-minutes: 60
+    timeout-minutes: 10
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v6.1.0
-      - uses: pnpm/setup@v3.2.0
+      - name: Checkout
+        uses: actions/checkout@v6.1.0
+      - name: Setup
+        uses: pnpm/setup@v3.2.0
         with:
+          require-lockfile: true
           cache: true
-      - name: Install Dependencies
-        run: pnpm i --frozen-lockfile
       - name: Build
-        run: npm run build
+        run: pnpm run build
   lint:
-    timeout-minutes: 60
+    timeout-minutes: 10
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v6.1.0
-      - uses: pnpm/setup@v3.2.0
+      - name: Checkout
+        uses: actions/checkout@v6.1.0
+      - name: Setup
+        uses: pnpm/setup@v3.2.0
         with:
+          require-lockfile: true
           cache: true
-      - name: Install Dependencies
-        run: pnpm i --frozen-lockfile
       - name: Lint
-        run: npm run lint
+        run: pnpm run lint
   check:
-    timeout-minutes: 60
+    timeout-minutes: 10
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v6.1.0
-      - uses: pnpm/setup@v3.2.0
+      - name: Checkout
+        uses: actions/checkout@v6.1.0
+      - name: Setup
+        uses: pnpm/setup@v3.2.0
         with:
+          require-lockfile: true
           cache: true
-      - name: Install Dependencies
-        run: pnpm i --frozen-lockfile
       - name: Compile Messages
         run: pnpm exec paraglide-js compile --project ./project.inlang --outdir ./src/lib/paraglide
       - name: Check
-        run: npm run check
+        run: pnpm run check

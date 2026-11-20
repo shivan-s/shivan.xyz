@@ -32,7 +32,7 @@ jobs:
           require-lockfile: true
           cache: true
       - name: Lint
-        run: npm run lint
+        run: pnpm run lint
   check:
     timeout-minutes: 10
     runs-on: ubuntu-latest
@@ -47,4 +47,4 @@ jobs:
       - name: Compile Messages
         run: pnpm exec paraglide-js compile --project ./project.inlang --outdir ./src/lib/paraglide
       - name: Check
-        run: npm run check
+        run: pnpm run check

@@ -20,19 +20,19 @@ This post was written in a newsletter sometime ago. I'm not sure when I wrote th
 
 ---
 
-> **Mum**: “What’s the best weapon?”
+> _Mum_: “What’s the best weapon?”
 >
-> **Me**: “What’s that?”
+> _Me_: “What’s that?”
 >
-> **Mum**: “…”
+> _Mum_: “…”
 >
-> **Me**: “Yes?”
+> _Me_: “Yes?”
 >
-> **Mum**: "…”
+> _Mum_: "…”
 >
-> **Me**: “…”
+> _Me_: “…”
 >
-> **Mum**: “Silence. Silence is the best weapon”.
+> _Mum_: “Silence. Silence is the best weapon”.
 
 Remember when a monotonous task for a long stretch of time was excruciatingly dull? Or remember that time when waiting was an avoidable chore? O! What to do during that time? What to think about? How much time wasted?
 

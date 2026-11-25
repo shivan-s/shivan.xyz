@@ -124,7 +124,7 @@ To inspire.
 
 To promote those who may not have a voice.
 
-**I want to promote wellness in optometry, health professions and all of work**.
+_I want to promote wellness in optometry, health professions and all of work_.
 
 To travel the world.
 
@@ -142,13 +142,13 @@ The first step is believing in myself, almost to a delusional level.
 
 I go onto social media: “congratulations” is only reserved for home buying, engagements, marriage, and having a baby — the conventional way of life.
 
-**Not one soul will praise you for taking the unconventional path. You must do it yourself and find people in the same vessel**.
+_Not one soul will praise you for taking the unconventional path. You must do it yourself and find people in the same vessel_.
 
 Optometry offers security now. It’s the patronage to building a pathway for my dreams. But the job alone won’t provide those dreams. Index funds won’t. Speculating on the cryptocurrency won’t either. The lottery isn’t for me.
 
 That is where building something, creating something useful give both leverage and control.
 
-On top of that, I need to look after my health. I’m back at the gym. I’m meditating. I’m journaling. I’m eating healthy (thanks, Amma [Mother in Tamil]). I want to spend less time on social media and more time up-skilling, thinking and reading. I know I can do this, but it won’t be easy.
+On top of that, I need to look after my health. I’m back at the gym. I’m meditating. I’m journaling. I’m eating healthy (thanks, Amma \[Mother in Tamil\]). I want to spend less time on social media and more time up-skilling, thinking and reading. I know I can do this, but it won’t be easy.
 
 But, won’t these big dreams make you sad if you fail? Not at all. Having these near delusional thoughts is the reason to get out of bed. We don’t live life to settle for mediocrity. We are on this planet once, as far as I know. Every day working towards the dream is a good day; a day that isn’t is death.
 

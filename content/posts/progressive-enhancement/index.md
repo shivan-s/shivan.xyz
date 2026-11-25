@@ -59,14 +59,14 @@ Again, at a philosophical level, they explain why we should care about progressi
 
 ## Changing Tides
 
-Maybe, it's time to reframe what progressive enhancement means? We can start by declaring what it **isn't**:
+Maybe, it's time to reframe what progressive enhancement means? We can start by declaring what it _isn't_:
 
 - No JavaScript - "[0kb of JavaScript is not a feature](https://bsky.app/profile/nucliweb.net/post/3m4ix4y6kac2f)"
 - Everyone has the same experience
 
 [MDN has a good definition](https://developer.mozilla.org/en-US/docs/Glossary/Progressive_Enhancement):
 
-> **Progressive enhancement** is a design philosophy that provides a baseline of essential content and functionality to as many users as possible, while delivering the best possible experience only to users of the most modern browsers that can run all the required code.
+> _Progressive enhancement_ is a design philosophy that provides a baseline of essential content and functionality to as many users as possible, while delivering the best possible experience only to users of the most modern browsers that can run all the required code.
 
 There is also another term _gradual degradation_, which in my mind, is the same idea but in reverse.
 

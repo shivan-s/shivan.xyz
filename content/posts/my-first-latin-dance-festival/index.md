@@ -28,9 +28,9 @@ A guy, who I had met on the dance floor of the Saturday night social, summarised
 
 This was probably the highlight of the weekend, meeting someone who felt the way I did.
 
-Dancing, whether it’s on stage or with a partner, makes me nervous and uncomfortable. I’m not talented or skilled at it. I feel uncoordinated and ungraceful. And worse of all, **I think I look stupid doing it in front of others**.
+Dancing, whether it’s on stage or with a partner, makes me nervous and uncomfortable. I’m not talented or skilled at it. I feel uncoordinated and ungraceful. And worse of all, _I think I look stupid doing it in front of others_.
 
-**But… I know dancing is good for me if I put the time and effort to improve.**
+_But… I know dancing is good for me if I put the time and effort to improve._
 
 I was influenced to social dance thanks to a very good friend of mine. He took me to a dance social. At the time, I had no clue how to dance, but wouldn’t it be cool to travel anywhere and dance? It’s a great way to meet people and make friends.
 
@@ -46,7 +46,7 @@ The open classes were even more daunting since any skill level could attend, eve
 
 The leaders could lead well. And whenever I was paired with a decent follower, I was bombarded with the thoughts of what they might be thinking: _oh this dude is pathetic, he can’t dance at all. I wish I could dance with a real man who can lead me well, not this loser_.
 
-Fortunately, I have no hard evidence that these thoughts were true. And I was pleasantly surprised at how wrong I was. **Most followers were forgiving and patient with me, giving me great pointers and constructive feedback**.
+Fortunately, I have no hard evidence that these thoughts were true. And I was pleasantly surprised at how wrong I was. _Most followers were forgiving and patient with me, giving me great pointers and constructive feedback_.
 
 That was pleasant, but come to the dance social, I was mortified asking people to dance with me.
 
@@ -88,7 +88,7 @@ If you are having fun, it’s likely your partner is having fun, also.
 
 ### What are my goals?
 
-**My goal in social dance is to become a lead who feels amazing to dance with. Not looking good, but feeling good**. That means avoiding being flashy, instead focusing on connecting with your partner, as my dance teacher — who is an absolute gem — would emphasise: _connection_.
+_My goal in social dance is to become a lead who feels amazing to dance with. Not looking good, but feeling good_. That means avoiding being flashy, instead focusing on connecting with your partner, as my dance teacher — who is an absolute gem — would emphasise: _connection_.
 
 I just want to take some time to say how grateful I am to my dance teacher. She’s able to act as a follow and provide feedback since she is able to dance with me. I love the way she teaches, and a lot of what I want to focus on is inspired by her. I am very lucky to have her as my teacher (she's totally not reading this, by the way).
 

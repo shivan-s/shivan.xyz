@@ -49,44 +49,6 @@
 		padding-inline-start: var(--padding);
 	}
 
-	:global(details.toc) {
-		overflow: hidden;
-		border-radius: var(--border-radius);
-		transition: backdrop-filter 0.3s ease-in-out;
-		background-image: linear-gradient(transparent, transparent), url('$lib/assets/img/noise.svg');
-		backdrop-filter: invert(var(--invert));
-
-		&:hover {
-			backdrop-filter: invert(var(--invert-highlight));
-		}
-
-		&:has(:global(ol:empty)) {
-			display: none;
-		}
-
-		&::details-content {
-			transition:
-				block-size 0.3s ease-in-out,
-				opacity 0.4s ease-in-out,
-				padding-block-end 0.4s ease-in-out;
-			transition-behavior: allow-discrete;
-			opacity: 0;
-			block-size: 0;
-		}
-
-		&[open]::details-content {
-			block-size: auto;
-			block-size: calc(auto);
-			padding-block-end: var(--padding);
-			opacity: 1;
-		}
-		& > summary {
-			font-weight: 900;
-			padding: var(--padding);
-			cursor: pointer;
-		}
-	}
-
 	:global(img) {
 		max-height: 500px;
 	}

@@ -120,4 +120,4 @@ I think people catch on. Short-term wins are at the expense of long-term success
 
 ## References
 
-Netflix. (2017). ICARUS. Retrieved from ICARUS website: https://www.icarus.film/
+Netflix. (2017). ICARUS. Retrieved from ICARUS website: <https://www.icarus.film/>

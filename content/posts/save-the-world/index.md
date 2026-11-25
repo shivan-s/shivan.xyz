@@ -40,9 +40,9 @@ He said to me: the world is a big place.
 
 But think of one person's life.
 
-**A single person's life is a whole universe. Like the world.**
+_A single person's life is a whole universe. Like the world._
 
-**If you can help a single person, isn't that enough?**
+_If you can help a single person, isn't that enough?_
 
 If you can help just the people you love and care about around you, isn't that enough?
 

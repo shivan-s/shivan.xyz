@@ -22,7 +22,7 @@ I do want to add some more insights, however. I do find being alcohol-free chall
 
 I do want to say that this is a challenge, socially. There are some assumptions about my personality if I don't drink, which does add a bit of friction. People might think you are religious or that I carry judgement for people who do drink. You may not be invited to social outing because you don't drink. These are things I've realised as I've been on my no-alcohol journey. But just like most things, we can't control the thoughts of others, and it's expected behaviour if you are going against the grain of the "societal way of life".
 
-**Overall, I must say that quitting alcohol has been a significant positive in my life.**
+_Overall, I must say that quitting alcohol has been a significant positive in my life._
 
 ---
 
@@ -42,13 +42,13 @@ Liquor is the choice for most except for one of my cousins, whom decided on a si
 
 And for that entire night, it was his fuel. He enjoyed himself, was active on the dancefloor, talkative as ever, and even made it to the end of the after-after party — all fueled by a lack of alcohol.
 
-And by this I was inspired. **You don’t need alcohol to have fun**.
+And by this I was inspired. _You don’t need alcohol to have fun_.
 
 ## Why I Quit?
 
 The following day I was welcomed by tiredness and a killer hangover, with patchy recollection of the night that been.
 
-I did have fun, but my cousin’s actions has lead me to turn over a new leaf in my life: **I want to quit alcohol for good. In fact, I want to reframe this, as is the title of this post, I want to have fun _without_ alcohol**.
+I did have fun, but my cousin’s actions has lead me to turn over a new leaf in my life: _I want to quit alcohol for good. In fact, I want to reframe this, as is the title of this post, I want to have fun *without* alcohol_.
 
 To be clear, I am fortunate enough not to have a problem with alcohol. A single drink won’t lead me down a rabbit hole of over consumption. I don’t have an addiction. And I have significantly toned down my drinking since my twenties.
 

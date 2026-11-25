@@ -19,7 +19,7 @@ I want to introduce the idea of CSS nesting, which I think is really cool. It he
 
 To see what I mean, let's start with an example (in [Svelte](https://svelte.dev)).
 
-<ExampleDemo />
+<ExampleDemo/>
 
 ```svelte
 <script lang="ts">

@@ -38,7 +38,7 @@ As soon as my mobile browser fires up I am bombarded by distractions, random sho
 
 Five minute pass. Then, ten minutes. Pause. Breathe.
 
-**All I wanted to know is the location and time of this event, but I'm wasting time scrolling. They got me!**
+_All I wanted to know is the location and time of this event, but I'm wasting time scrolling. They got me!_
 
 This is one example of a broader problem. It's a trend that I'm seeing, where technology isn't serving us well.
 
@@ -56,7 +56,7 @@ Not dissimilar to Facebook: [Reed Hastings](https://en.wikipedia.org/wiki/Reed_H
 
 If your wellbeing and sanity isn't the top priority, then what does this lead to?
 
-I call it **technology malaise**. And I think its a shared experience in society today.
+I call it _technology malaise_. And I think its a shared experience in society today.
 
 And it's a difficult problem to tackle. I've tried ditching social media, but it only turns into a short hiatus.
 

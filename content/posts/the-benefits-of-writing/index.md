@@ -57,7 +57,7 @@ After you have created the intention to write, a problem you may face is coming 
 
 A notebook can be useful to capture ideas on the fly. Unfortunately, your ideas stay hidden when you sit down and think. They come usually at times you don't intend.
 
-[In his book "Steal Like an Artist"](https://austinkleon.com/2015/12/17/the-benefits-of-boredom/), artist Austin Kleon gets his "best ideas when he is bored, which is why [he] never take[s] [his] shirt to the cleaners". He would rather clean and iron his own shirts instead. For him, the act of performing this mundane task is like drinking from the well of creativity. For you, this might be time in the shower, when you drive, or before you fall asleep.
+[In his book "Steal Like an Artist"](https://austinkleon.com/2015/12/17/the-benefits-of-boredom/), artist Austin Kleon gets his "best ideas when he is bored, which is why \[he\] never take\[s\] \[his\] shirt to the cleaners". He would rather clean and iron his own shirts instead. For him, the act of performing this mundane task is like drinking from the well of creativity. For you, this might be time in the shower, when you drive, or before you fall asleep.
 
 When an idea decides to reveal itself, don't trust your memory. An exciting idea can linger for a few moments. It will disappear just as quickly as it appears. Later, when it's time to recall this idea, it's already gone.
 

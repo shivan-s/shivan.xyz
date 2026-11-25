@@ -26,7 +26,7 @@ This never-ending list overwhelms us into not posting videos. The saturation in 
 
 Note that there is a line between wholly burnt out and not being disciplined.
 
-**Simplification and prioritisation work the best in this case of "analysis by paralysis"**.
+_Simplification and prioritisation work the best in this case of "analysis by paralysis"_.
 
 In our minds, we think a YouTube video or piece of writing is a heavy lift. But, it doesn't have to be.
 
@@ -70,7 +70,7 @@ It's the opposite for those around us. We never see their negative dialogue — 
 
 Depending on how we speak to ourselves, the visibility of our negative thoughts and negative perception of ourselves and the lack of negative perception of others births the internal critic.
 
-**And nearly everyone is their own worst critic**.
+_And nearly everyone is their own worst critic_.
 
 This internal critic is detrimental in two ways. First, it kills the creative process. It's hard to even get words on paper. You sit down. The negativity arises, and then you click off to do something else — procrastination.
 
@@ -81,7 +81,7 @@ It's OK to have standards and be in appreciation of what you have crafted. But r
 
 Realising your friends don't care is both depressing and liberating. Depressing. Your soul is in the work — nothing but silence from your friends and family, or maybe, an obligatory admiration.
 
-**Unfortunately, they don't care (well, most of them don't). But it is also fortunate that they don't too. And that's liberating**.
+_Unfortunately, they don't care (well, most of them don't). But it is also fortunate that they don't too. And that's liberating_.
 
 A lot of what we do is dictated by our peers. After all, you are the five people you spend your time with the most. So much of what we don't do but want to do is dictated by the fear of judgement and rejection we think we will receive from our peer group. This fear paralyses us. _What will they think?_ But we've established that they aren't as invested as you.
 
@@ -109,7 +109,7 @@ A decade later and this past gremlin resurfaces. Are you born with it, or is it 
 
 Yes, we all have our talents. But, of course, we are better at some things and not others. But talent matters less in a world where we are rewarded for our diversity, our eccentricities, and our combined skills.
 
-In this world, there is no segregation of the haves and have nots. **In this world, we all have "it". The truth is finding "it"**. Through trial, failure, and maybe delusional chasing, we find our persona on the camera; we discover "it".
+In this world, there is no segregation of the haves and have nots. _In this world, we all have "it". The truth is finding "it"_. Through trial, failure, and maybe delusional chasing, we find our persona on the camera; we discover "it".
 
 We aren't fixed in our ways by birth. Instead, we grow into the mould we desire.
 
@@ -119,11 +119,11 @@ We like to compare our current situation with someone else's highlights, especia
 
 For those who inspire us, we rarely see their low points. We witness a distilled view of their achievement. We are happy for them. But when we look at ourselves we are bitterly disappointed.
 
-**Our disappointments aren't filtered from us. We make the mistake of comparing our reality with someone else's shiny mirror**.
+_Our disappointments aren't filtered from us. We make the mistake of comparing our reality with someone else's shiny mirror_.
 
 Jealous, envy and downplaying others achievements is easy to do. It's even easy to give up altogether.
 
-But how should we look through life? There is scarcity and then there is abundance. When life is scarce, we see others success as a loss for our own. The game is zero summed. Scarcity, you could say, is necessary for competition — survival of the fittest and progression of a species. But the pool to pick from for a potential audience is huge. It is abundant. There is plenty for everyone. **Just because someone else is successful, means you can also be successful, by your own definition, too**.
+But how should we look through life? There is scarcity and then there is abundance. When life is scarce, we see others success as a loss for our own. The game is zero summed. Scarcity, you could say, is necessary for competition — survival of the fittest and progression of a species. But the pool to pick from for a potential audience is huge. It is abundant. There is plenty for everyone. _Just because someone else is successful, means you can also be successful, by your own definition, too_.
 
 Now, it's time to sit down, create, and constantly improve from who you were before.
 
@@ -143,7 +143,7 @@ Marketing is evil if it is exploited. But marketing is also useful for customers
 
 Humans aren't rational thinkers. We need messages to speak to our feelings. This is why Shakespeare wrote plays and not essays about the human condition. He had to speak to our imagination so we could feel his themes and now his creations are remembered for centuries.
 
-**Rather than thinking, we are creating clickbait. We are creating click-worthy material**. We are helping viewers find the right content. Even if we over sensationalise the video, viewers will realise the content does not match up with the thumbnail and title and will click away, hurting the video's analytics.
+_Rather than thinking, we are creating clickbait. We are creating click-worthy material_. We are helping viewers find the right content. Even if we over sensationalise the video, viewers will realise the content does not match up with the thumbnail and title and will click away, hurting the video's analytics.
 
 So, don't be discouraged if you aren't as saintly as your first approach. Sometimes our black and white thinking isn't always right (i.e. if it's not good, it's bad) rather think in shades of grey (i.e. a good thumbnail will make my videos more enticing, helping and not fooling the viewer).
 

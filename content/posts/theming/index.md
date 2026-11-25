@@ -30,17 +30,17 @@ I'm not brilliant at it, but I love CSS. And in this specific post, I want to hi
 
 They are parapharsed from my lecture notes when I was in university. Credits to [Dr. Misha Vorobyev](https://profiles.auckland.ac.nz/m-vorobyev).
 
-**Colour** - sensation or visual perception and are a combination of hue, saturation and brightness.
+_Colour_ - sensation or visual perception and are a combination of hue, saturation and brightness.
 
-**Hue** - attribute of colour perception. I like to think of this as the characteristic (perhaps the frequency or wavelength of light), which is denoted by blue, red, green, yellow and so on...
+_Hue_ - attribute of colour perception. I like to think of this as the characteristic (perhaps the frequency or wavelength of light), which is denoted by blue, red, green, yellow and so on...
 
-**Brightness** - the visual perception which appears to emit more or less light, described by bright or dim.
+_Brightness_ - the visual perception which appears to emit more or less light, described by bright or dim.
 
-**Lightness** - simliar to brightness but proportioned to a similiarly illuminated surface perceived as white.
+_Lightness_ - simliar to brightness but proportioned to a similiarly illuminated surface perceived as white.
 
-**Saturation** - how the colour differs from achromatic (no 'colour') regardless of brightness (e.g. how red is it?).
+_Saturation_ - how the colour differs from achromatic (no 'colour') regardless of brightness (e.g. how red is it?).
 
-**Chroma** - same as saturation but of the same brightness.
+_Chroma_ - same as saturation but of the same brightness.
 
 ## Why Care?
 
@@ -83,9 +83,9 @@ The combination of red, green and blue (RGB) is what is used to display the vari
 
 We can see the relationships between RGB and hexcodes interactively below.
 
-<ExampleRGB />
+<ExampleRGB/>
 
-Hexcode and RGB provide a simple way to alter colours. However, the next step comes in providing alternatives to our colour declarations. How about a lighter red? Easy, just bring the red slider down. What about colours that **aren't** red, blue or green? I want the same orange but a lighter version of it. Or a reduced saturated purple.
+Hexcode and RGB provide a simple way to alter colours. However, the next step comes in providing alternatives to our colour declarations. How about a lighter red? Easy, just bring the red slider down. What about colours that _aren't_ red, blue or green? I want the same orange but a lighter version of it. Or a reduced saturated purple.
 
 To deal with this conundrum, we have my next evolution.
 
@@ -99,11 +99,11 @@ We move out of the dark ages and into [`hsl` or hue, saturation, lightness](http
 
 Now we have a way to modify the lightness (not perceived lightness). and saturation of a colour independently; while hue define the characteristic of that colour (i.e. that type of orange, or purple).
 
-<ExampleHSL />
+<ExampleHSL/>
 
 If we expand the number of colours and different shades, we will encounter another problem.
 
-<Example2HSL />
+<Example2HSL/>
 
 If you focus on the mid-tone colours (these would be the most in use), you might see the perceived brightnesses differ even though each row
 
@@ -125,13 +125,13 @@ oklch(l c h [ / a])
 
 `ok...` because they are okay.
 
-We introduce `L` for perceived brightness and `C` for **chroma**, as we [defined above](#quick-definitions).
+We introduce `L` for perceived brightness and `C` for _chroma_, as we [defined above](#quick-definitions).
 
-<ExampleOKLCH />
+<ExampleOKLCH/>
 
 And we provide a spread of colours. We can see a more consistent perception of brightness among the swatches.
 
-<Example2OKLCH />
+<Example2OKLCH/>
 
 ## Proposition on Themes
 
@@ -150,7 +150,7 @@ For my website, when I tried to convert my colours to `oklch`, this is what it l
 }
 ```
 
-I like the hexcode defintions better. Plus, if you are working with designers or diligent product people, they might be helpful and give you hexcodes. Instead of preaching the use of `oklch`, you can use the magic of CSS to use whatever colour input and provide transformations with `oklch` - **relative colours**. We can use `from`. Here is an example:
+I like the hexcode defintions better. Plus, if you are working with designers or diligent product people, they might be helpful and give you hexcodes. Instead of preaching the use of `oklch`, you can use the magic of CSS to use whatever colour input and provide transformations with `oklch` - _relative colours_. We can use `from`. Here is an example:
 
 ```css
 :root {
@@ -198,7 +198,7 @@ Depending on the system settings, it will determine if light more or dark mode i
 
 Finally, we end with an example.
 
-<ExampleLightDark />
+<ExampleLightDark/>
 
 ## Bonus
 

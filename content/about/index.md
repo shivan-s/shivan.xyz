@@ -13,7 +13,7 @@ My name is Shivan (pronounced Shiv-arn), written as `ஷிவன்` in [Tamil]
 
 I am [Kiwi](https://en.wikipedia.org/wiki/Tamil_language) born 🇳🇿 with [Sri Lankan Tamil](https://en.wikipedia.org/wiki/Sri_Lankan_Tamils) 🇱🇰 heritage.
 
-I currently work as a **[Software Developer](https://en.wikipedia.org/wiki/Programmer)** after 7 years working as an **[Optometrist](https://en.wikipedia.org/wiki/Optometry)**.
+I currently work as a _[Software Developer](https://en.wikipedia.org/wiki/Programmer)_ after 7 years working as an _[Optometrist](https://en.wikipedia.org/wiki/Optometry)_.
 
 ## What am I up to now?
 
@@ -29,25 +29,25 @@ I want to be okay with sharing my thoughts and putting it out there into the wor
 
 <a href="https://github.com/shivan-s/shivan.xyz" target="_blank">Here is a link to the repository that contains code for this website.</a>
 
-<br />
+<br/>
 
-<br />
+<br/>
 
 <a href="./qr" target="_blank">QR Code!</a>
 
 ## Milestones
 
-- **1993**: Born in [Palmerston North](https://en.wikipedia.org/wiki/Palmerston_North), <Age /> -- where I spent most of my life growing up
-- **2011**: Moved to Auckland to start university
-- **2016**: Graduated from the [University of Auckland](https://www.auckland.ac.nz/en.html) as a fully qualified [optometrist](https://en.wikipedia.org/wiki/Optometry) and moved down to [Christchurch](https://en.wikipedia.org/wiki/Christchurch) to start my working life; moved to Christchurch
-- **2020**: [Began writing online](/posts/why-create-a-blog)
-- **2021**: Moved back to Palmerston North to focus on a career change away from optometry into software development.
-- **2023**: Started a new career as a web developer.
-- **2026**: Moved to Melbourne, Australia
+- _1993_: Born in [Palmerston North](https://en.wikipedia.org/wiki/Palmerston_North), <Age/> -- where I spent most of my life growing up
+- _2011_: Moved to Auckland to start university
+- _2016_: Graduated from the [University of Auckland](https://www.auckland.ac.nz/en.html) as a fully qualified [optometrist](https://en.wikipedia.org/wiki/Optometry) and moved down to [Christchurch](https://en.wikipedia.org/wiki/Christchurch) to start my working life; moved to Christchurch
+- _2020_: [Began writing online](/posts/why-create-a-blog)
+- _2021_: Moved back to Palmerston North to focus on a career change away from optometry into software development.
+- _2023_: Started a new career as a web developer.
+- _2026_: Moved to Melbourne, Australia
 
 ## Where have I been / Where do I want to go?
 
-<MyMap />
+<MyMap/>
 
 ## Where Else Am I?
 

@@ -25,7 +25,7 @@ Some reasons behind it:
 
 ## About
 
-Elixir was created by [@josevalim](https://github.com/josevalim) in ~2012.
+Elixir was created by [@josevalim](https://github.com/josevalim) in \~2012.
 
 It's built on top of [BEAM](<https://en.wikipedia.org/wiki/BEAM_(Erlang_virtual_machine)>) - which is the runtime for Erlang.
 

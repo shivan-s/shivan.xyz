@@ -26,12 +26,12 @@ atUri: 'at://did:plc:hwoz3olcp7bjyvzxn6uxiuei/site.standard.document/3mv7km4r4jd
 
 ## Summary
 
-- **What**: AWS re:Invent
-- **When**: 2nd - 6th December 2024
-- **Where**: Las Vegas
-- **Why**: Investing in my skills as a developer
+- _What_: AWS re:Invent
+- _When_: 2nd - 6th December 2024
+- _Where_: Las Vegas
+- _Why_: Investing in my skills as a developer
 
-Five days, up to 60,000 people, over 3000 speakers, 5 hotels dedicated for content. **One life changing event**.
+Five days, up to 60,000 people, over 3000 speakers, 5 hotels dedicated for content. _One life changing event_.
 
 I had the immense privilege of attending one of the biggest conferences in the technology industry, [AWS re:Invent 2024](https://reinvent.awsevents.com/).
 
@@ -252,7 +252,7 @@ Fun fact: when I was flying from Auckland to Palmerston North, I was sitting nex
 
 ## Reflections
 
-The level of gratitude to have my company sponsor my trip to AWS re:Invent in inmeasurable. I feel loved, because **instead of viewing software development as a cost, it's viewed as something worth investing in** - like this conference.
+The level of gratitude to have my company sponsor my trip to AWS re:Invent in inmeasurable. I feel loved, because _instead of viewing software development as a cost, it's viewed as something worth investing in_ - like this conference.
 
 I'm hoping to bring back some value into the business for going. The biggest thing is being inspired to learn AWS so I can use it better in the company that I work for.
 

@@ -12,12 +12,45 @@ const AudioSchema = z.strictObject({
 	src: z.string().default(AUDIO_SRC_DEFAULT),
 	caption: z.string().default(m.listen_to_audio_version())
 });
-const ReadingTimeSchema = z.strictObject({
-	text: z.string(),
-	minutes: z.number(),
-	time: z.number(),
-	words: z.number()
+
+const ToC = z.strictObject({
+	headings: z.array(
+		z.strictObject({
+			depth: z.int(),
+			id: z.string(),
+			text: z.string(),
+			position: z.strictObject({
+				start: z.strictObject({
+					offset: z.int(),
+					line: z.int(),
+					column: z.int()
+				}),
+				end: z.strictObject({
+					offset: z.int(),
+					line: z.int(),
+					column: z.int()
+				})
+			})
+		})
+	)
 });
+const PluginDataSchema = z
+	.strictObject({
+		page: z.strictObject({
+			minutes: z.number(),
+			words: z.number(),
+			edit_url: z.string(),
+			last_modified: z.string().transform((data) => new Date(data))
+		}),
+		toc: ToC.optional()
+	})
+	.transform((data) => ({
+		minutes: data.page.minutes,
+		words: data.page.words,
+		editUrl: data.page.edit_url,
+		lastModified: data.page.last_modified,
+		toc: data.toc
+	}));
 
 export type Post = z.infer<typeof PostSchema>;
 const PostMetaSchema = z
@@ -31,18 +64,20 @@ const PostMetaSchema = z
 		draft: z.boolean().optional().default(true),
 		cover: CoverSchema.optional(),
 		audio: AudioSchema.optional(),
-		readingTime: ReadingTimeSchema,
 		atUri: z.string().optional()
 	})
 	.transform((data) => (data.draft === true ? { ...data, title: `[D]${data.title}` } : data));
 
-export const PostSchema = z.strictObject({
-	default: z.any(),
-	metadata: PostMetaSchema
-});
-
-export type PostWithSchema = z.infer<typeof PostWithSlugSchema>;
-export const PostWithSlugSchema = PostSchema.extend({ slug: z.string() });
+export const PostSchema = z
+	.strictObject({
+		default: z.any(),
+		metadata: PostMetaSchema,
+		plugin_data: PluginDataSchema
+	})
+	.transform((data) => ({
+		default: data.default,
+		metadata: { ...data.metadata, ...data.plugin_data }
+	}));
 
 const SvelteCompomentSchema = z.custom((data) => data).pipe(z.any().optional());
 
@@ -68,12 +103,12 @@ const GalleryMetaSchema = z
 			.optional()
 			.pipe(z.date().optional()),
 		summary: z.string(),
-		draft: z.boolean().optional().default(true),
-		readingTime: ReadingTimeSchema
+		draft: z.boolean().optional().default(true)
 	})
 	.transform((data) => (data.draft === true ? { ...data, title: `[D]${data.title}` } : data));
 
 export const GallerySchema = z.strictObject({
 	default: z.any(),
-	metadata: GalleryMetaSchema
+	metadata: GalleryMetaSchema,
+	plugin_data: PluginDataSchema
 });

@@ -16,7 +16,7 @@ Younger-self would view this with jealousy.
 
 My advice to my youngerself: patience and keep working hard. Good things will happen if you just keep going. _I promise you this_.
 
-**Before I continue, I want to thank all of those who supported me along this journey and were instrumental in getting me my first job in the technology world — you are very special to me.**
+_Before I continue, I want to thank all of those who supported me along this journey and were instrumental in getting me my first job in the technology world — you are very special to me._
 
 The pill to swallow is a slow and painful one. After a few job changes, I realised optometry wasn't for me.
 
@@ -34,7 +34,7 @@ Combining your interests with programming provides a context to learn (i.e. I ne
 
 I'll talk about my personal projects in a future post, but here is my [GitHub](https://github.com/shivan-s) if you would like to browse.
 
-**The key is, and I’ll repeat it again and again, personal projects over tutorials. That being said, don't avoid tutorials — they are useful to gain knowledge but don’t rely on them as a sole learning resource.**
+_The key is, and I’ll repeat it again and again, personal projects over tutorials. That being said, don't avoid tutorials — they are useful to gain knowledge but don’t rely on them as a sole learning resource._
 
 ## Sharing Online
 

@@ -11,12 +11,10 @@
 
 <div>
 	<blockquote>
-		<p>
-			{@render children()}
-		</p>
+		{@render children()}
 	</blockquote>
 	{#if cite !== undefined}
-		<cite><p>&mdash;{@render cite()}</p></cite>
+		<cite>&mdash;{@render cite()}</cite>
 	{/if}
 </div>
 

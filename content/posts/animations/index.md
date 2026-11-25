@@ -41,17 +41,17 @@ As an aside, this talk by Ken Kunz at [Svelte Summit](https://www.sveltesociety.
 Understandably, when we are bulding features as developers we want to focus on the list of priorities first:
 
 1. Does it solve the users' problem?
-1. Is it reliable?
-1. Is the delivery on time?
-1. ...
-1. Animations
+2. Is it reliable?
+3. Is the delivery on time?
+4. ...
+5. Animations
 
 Animations may seem like the lowest priority item and least important. But just the reason people buy a car based on it's colour, animation has it's place.
 
 In this article I'll show an example of animation, but I will also touch on two topics that are close to my heart:
 
-- **progressive enhancement/gradual degredation**: situation where javascript is not available (e.g. slow connection), can you show at least some content?
-- **optimistic updates**: providing immediate responsiveness to an action
+- _progressive enhancement/gradual degredation_: situation where javascript is not available (e.g. slow connection), can you show at least some content?
+- _optimistic updates_: providing immediate responsiveness to an action
 
 Before, we dive deeper, I want to say that I am a mere mortal. I am still in the process of improving - I am on that journey with you. I also share a lot of opinion so I might be wrong.
 

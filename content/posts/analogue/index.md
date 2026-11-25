@@ -64,7 +64,7 @@ I also got a small phone, which means it's difficult to take notes on. So, I've 
 
 The main purpose of a watch is to tell the time (any maybe day of the week and date for the month). However, now we have smart watches, which also tell the time but do more like monitor health biometrics, GPS, provide notifications and the list goes on.
 
-These are too many features that provide minimal benefit, but a quite drastic detriments, which is constant connection. Newport in **Digital Minimalism** talks about two things: 1. solitude deprivation, where we don't disconnect complete from outside stimuli (e.g. constant connections and notifications); 2. marginal benefits, where smart watches do provide some benefits, like a computer on your wrist, but these benefits are outweighted by the first point and being without these small benefits maybe a minor nuisance but overall are better for you.
+These are too many features that provide minimal benefit, but a quite drastic detriments, which is constant connection. Newport in _Digital Minimalism_ talks about two things: 1. solitude deprivation, where we don't disconnect complete from outside stimuli (e.g. constant connections and notifications); 2. marginal benefits, where smart watches do provide some benefits, like a computer on your wrist, but these benefits are outweighted by the first point and being without these small benefits maybe a minor nuisance but overall are better for you.
 
 Cue the analogue watch.
 

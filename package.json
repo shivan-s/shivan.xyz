@@ -63,7 +63,7 @@
 		"globals": "^17.13.0",
 		"husky": "^9.1.7",
 		"lint-staged": "^17.6.0",
-		"maplibre-gl": "^6.16.0",
+		"maplibre-gl": "^6.19.0",
 		"mdsvex": "^1.0.1",
 		"playwright": "^1.64.1",
 		"prettier": "^3.9.10",

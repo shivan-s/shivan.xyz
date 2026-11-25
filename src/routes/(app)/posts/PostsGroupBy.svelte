@@ -1,6 +1,6 @@
 <script lang="ts">
 	import { resolve } from '$app/paths';
-	import type { PostsGroupByYear } from '$lib/posts';
+	import type { PostsGroupByYear } from '#lib/posts.ts';
 	import { sineInOut } from 'svelte/easing';
 	import { fade } from 'svelte/transition';
 

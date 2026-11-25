@@ -1,5 +1,5 @@
-import { fetchPost } from '$lib/posts';
-import { PostSchema, ImportMetaSchema } from '$lib/schemas';
+import { fetchPost } from '#lib/posts.ts';
+import { PostSchema, ImportMetaSchema } from '#lib/schemas.ts';
 import type { PageLoad } from './$types';
 import { error } from '@sveltejs/kit';
 

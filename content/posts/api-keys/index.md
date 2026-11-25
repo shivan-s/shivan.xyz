@@ -136,7 +136,7 @@ This is how it works:
 
 ```ts
 // +server.ts
-import { db } from '$lib/db';
+import { db } from '#lib/db';
 import type { RequestHandler } from './$types';
 import { error, json } from '@sveltejs/kit';
 import * as argon2 from 'argon2';
@@ -227,8 +227,8 @@ Here is a code snippet that we use at another server endpoint (`+server.ts` file
 In this example, we ask the user to send the `token` in the request header.
 
 ```ts
-import { sign } from '$lib/auth';
-import { db } from '$lib/db';
+import { sign } from '#lib/auth';
+import { db } from '#lib/db';
 import type { RequestHandler } from './$types';
 import { error, json } from '@sveltejs/kit';
 import * as jose from 'jose';

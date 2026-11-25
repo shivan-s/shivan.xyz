@@ -1,8 +1,8 @@
 <script lang="ts">
-	import { m } from '$i18n/messages';
-	import { Figure } from '$lib/components/content';
-	import { Markdown } from '$lib/components/ui';
-	import { H1 } from '$lib/components/ui';
+	import { m } from '#lib';
+	import { Figure } from '#lib/components/content/index.ts';
+	import { Markdown } from '#lib/components/ui/index.ts';
+	import { H1 } from '#lib/components/ui/index.ts';
 	import type { PageProps } from './$types';
 	import { formatDistanceToNow } from 'date-fns';
 	import Toc from '@mdsvex/plugin-toc/Toc.svelte';

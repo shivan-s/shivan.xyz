@@ -1,5 +1,5 @@
 <script lang="ts">
-	import { config } from '$lib/config';
+	import { config } from '#lib/config.ts';
 	import { QRCodeJs, type Options } from '@qr-platform/qr-code.js';
 	import { onMount } from 'svelte';
 

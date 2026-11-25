@@ -1,7 +1,6 @@
 <script lang="ts">
-	import { m } from '$i18n/messages.js';
-	import { getLocale } from '$i18n/runtime';
-	import { H1 } from '$lib/components/ui';
+	import { m, getLocale } from '#lib';
+	import { H1 } from '#lib/components/ui/index.ts';
 	import type { PageProps } from './$types';
 	import { Link } from '@lucide/svelte';
 

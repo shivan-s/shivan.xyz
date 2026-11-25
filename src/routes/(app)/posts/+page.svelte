@@ -1,10 +1,10 @@
 <script lang="ts">
-	import { building } from '$app/environment';
-	import { replaceState } from '$app/navigation';
+	import { building } from '$app/env';
+	import { goto } from '$app/navigation';
 	import { resolve } from '$app/paths';
 	import { page } from '$app/state';
-	import { m } from '$i18n/messages';
-	import { H1 } from '$lib/components/ui';
+	import { m } from '#lib';
+	import { H1 } from '#lib/components/ui/index.ts';
 	import type { PageProps } from './$types';
 	import PostsGroupBy from './PostsGroupBy.svelte';
 	import { ParaglideMessage } from '@inlang/paraglide-js-svelte';
@@ -61,11 +61,11 @@
 	function handleOnInput(e: Event & { currentTarget: EventTarget & HTMLInputElement }) {
 		if (timeout) clearTimeout(timeout);
 		const currentValue = e.currentTarget?.value ?? '';
-		const url = new URL(page.url);
+		const url = new URL(page.url.toString());
 		timeout = setTimeout(() => {
 			value = currentValue;
 			url.searchParams.set(Q, value);
-			void replaceState(url, page.state);
+			void goto(url, { shallow: true, replace: true, state: page.state });
 		}, DELAY_MS);
 	}
 
@@ -76,12 +76,8 @@
 
 <section>
 	<header>
-		<H1>
-			{m.posts()}
-		</H1>
-		<a title="RSS Feed" href={resolve('/feed.xml')}>
-			<Rss color="currentColor" />
-		</a>
+		<H1>{m.posts()}</H1>
+		<a title="RSS Feed" href={resolve('feed.xml')}><Rss color="currentColor" /></a>
 	</header>
 	<search>
 		<form method="GET" data-sveltekit-replacestate>
@@ -249,7 +245,7 @@
 						color: var(--gray);
 						padding-inline-start: 1rem;
 						text-shadow: none;
-						:hover {
+						&:hover {
 							text-decoration: none;
 						}
 					}

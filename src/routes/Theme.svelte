@@ -1,5 +1,5 @@
 <script lang="ts">
-	import { DARK, LIGHT, theme } from '$lib/state.svelte';
+	import { DARK, LIGHT, theme } from '#lib/state.svelte.ts';
 
 	$effect(() => {
 		if (theme.current === DARK) document.documentElement.setAttribute('data-theme', 'dark');

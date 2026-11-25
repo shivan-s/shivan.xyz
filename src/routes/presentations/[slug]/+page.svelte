@@ -1,5 +1,5 @@
 <script lang="ts">
-	import { Presentation } from '$lib/components/ui';
+	import { Presentation } from '#lib/components/ui/index.ts';
 	import type { PageProps } from './$types';
 
 	let { data }: PageProps = $props();

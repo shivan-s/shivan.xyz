@@ -1,7 +1,7 @@
 <script lang="ts">
 	import { page } from '$app/state';
-	import '$lib/assets/css/app.css';
-	import { config } from '$lib/config';
+	import '#lib/assets/css/app.css';
+	import { config } from '#lib/config.ts';
 	import Theme from './Theme.svelte';
 	import UpdateCheck from './UpdateCheck.svelte';
 	import ViewTransition from './ViewTransition.svelte';

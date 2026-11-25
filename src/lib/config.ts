@@ -1,6 +1,6 @@
-import { baseLocale } from '$i18n/runtime';
-import Logo from '$lib/assets/img/avatar.png';
-import Image from '$lib/assets/img/shivan.png';
+import { baseLocale } from '#lib';
+import Logo from '#lib/assets/img/avatar.png';
+import Image from '#lib/assets/img/shivan.png';
 
 export const config = Object.freeze({
 	title: 'Shivan Sivakumaran',

@@ -1,14 +1,14 @@
 <script lang="ts">
 	import { resolve } from '$app/paths';
-	import { m } from '$i18n/messages.js';
-	import Shivan from '$lib/assets/img/shivan.png?enhanced';
+	import { m } from '#lib';
+	import Shivan from '#lib/assets/img/shivan.png?enhanced';
 
 	const alt = 'Portrait of a man holding a microphone in a blue suit and tie';
 	const links = [
-		Object.freeze({ url: '/now', label: m.now() }),
-		Object.freeze({ url: '/about', label: m.about() }),
-		Object.freeze({ url: '/posts', label: m.posts() }),
-		Object.freeze({ url: '/gallery', label: m.gallery() })
+		Object.freeze({ url: 'now', label: m.now() }),
+		Object.freeze({ url: 'about', label: m.about() }),
+		Object.freeze({ url: 'posts', label: m.posts() }),
+		Object.freeze({ url: 'gallery', label: m.gallery() })
 	] as const;
 </script>
 

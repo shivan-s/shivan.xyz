@@ -148,8 +148,8 @@ To make more sense of this, let's define our logging in the middleware; which is
 
 ```ts
 // hooks.server.ts
-import { clock } from '$lib/clock';
-import { asyncLocalStorage, getLogger, createLogger } from '$lib/server/logging';
+import { clock } from '#lib/clock';
+import { asyncLocalStorage, getLogger, createLogger } from '#lib/server/logging';
 import type { Handle } from '@sveltejs/kit';
 import { sequence } from '@sveltejs/kit/hooks';
 
@@ -188,7 +188,7 @@ If there is no logger in the store, which would be the case if we called `getLog
 
 ```ts
 // +page.server.ts
-import { getLogger } from '$lib/server/logging';
+import { getLogger } from '#lib/server/logging';
 import type { PageServerLoad } from './$types';
 
 function generateNumber() {

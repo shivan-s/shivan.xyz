@@ -1,5 +1,5 @@
-import { m } from '$i18n/messages';
-import { ImportMetaSchema } from '$lib/schemas';
+import { m } from '#lib';
+import { ImportMetaSchema } from '#lib/schemas.ts';
 import type { PageLoad } from './$types';
 
 export const load: PageLoad = async () => {

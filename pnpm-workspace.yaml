@@ -7,3 +7,8 @@ ignoredBuiltDependencies:
 
 onlyBuiltDependencies:
   - esbuild
+
+engineStrict: true
+
+minimumReleaseAgeExclude:
+  - '@sveltejs/kit@3.4.1'

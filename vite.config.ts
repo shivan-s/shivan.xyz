@@ -41,7 +41,6 @@ export default defineConfig({
 			},
 			adapter: adapter(),
 			alias: {
-				$i18n: './src/lib/paraglide',
 				YouTube: './src/lib/components/content/YouTube.svelte',
 				Figure: './src/lib/components/content/Figure.svelte',
 				BlockQuote: './src/lib/components/content/BlockQuote.svelte',

@@ -1,5 +1,5 @@
-import { m } from '$i18n/messages';
-import { fetchAllGalleries } from '$lib/gallery';
+import { m } from '#lib';
+import { fetchAllGalleries } from '#lib/gallery.ts';
 import type { PageLoad } from './$types';
 
 export const load: PageLoad = async () => {

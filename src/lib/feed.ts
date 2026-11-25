@@ -1,7 +1,7 @@
 /**
  * @module RSS v2.0 Feed
  */
-import { config } from '$lib/config';
+import { config } from '#lib/config.ts';
 import { fetchAllPost } from './posts';
 import XMLBuilder from 'fast-xml-builder';
 

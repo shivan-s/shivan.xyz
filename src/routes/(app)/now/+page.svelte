@@ -1,8 +1,8 @@
 <script lang="ts">
-	import { m } from '$i18n/messages.js';
-	import { Markdown } from '$lib/components/ui';
-	import { H1 } from '$lib/components/ui';
-	import { config } from '$lib/config';
+	import { m } from '#lib';
+	import { Markdown } from '#lib/components/ui/index.ts';
+	import { H1 } from '#lib/components/ui/index.ts';
+	import { config } from '#lib/config.ts';
 	import type { PageProps } from './$types';
 
 	let { data }: PageProps = $props();

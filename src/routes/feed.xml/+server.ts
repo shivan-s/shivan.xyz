@@ -1,4 +1,4 @@
-import { feed } from '$lib/feed';
+import { feed } from '#lib/feed.ts';
 import type { RequestHandler } from './$types';
 
 export const prerender = true;

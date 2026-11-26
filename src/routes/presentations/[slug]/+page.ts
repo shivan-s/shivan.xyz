@@ -1,4 +1,4 @@
-import { fetchAllPresentations, fetchPresentation } from '$lib/presentations';
+import { fetchAllPresentations, fetchPresentation } from '#lib/presentations.ts';
 import type { PageLoad } from './$types';
 import { error } from '@sveltejs/kit';
 

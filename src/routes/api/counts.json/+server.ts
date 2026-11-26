@@ -1,8 +1,7 @@
-import { fetchAllGalleries } from '$lib/gallery';
-import { fetchAllPost } from '$lib/posts';
-import { fetchAllPresentations } from '$lib/presentations';
+import { fetchAllGalleries } from '#lib/gallery.ts';
+import { fetchAllPost } from '#lib/posts.ts';
+import { fetchAllPresentations } from '#lib/presentations.ts';
 import type { RequestHandler } from './$types';
-import { json } from '@sveltejs/kit';
 
 export const prerender = true;
 
@@ -12,7 +11,7 @@ export const GET: RequestHandler = async () => {
 		fetchAllPresentations(),
 		fetchAllGalleries()
 	]);
-	return json({
+	return Response.json({
 		totalPosts: posts.length,
 		totalPresentations: presentations.length,
 		totalGalleries: gallaries.length

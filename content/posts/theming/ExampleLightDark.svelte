@@ -1,5 +1,5 @@
 <script lang="ts">
-	import ExampleWrapper from '$lib/components/ui/ExampleWrapper.svelte';
+	import ExampleWrapper from '#lib/components/ui/ExampleWrapper.svelte';
 	import { sineInOut } from 'svelte/easing';
 	import { fade } from 'svelte/transition';
 

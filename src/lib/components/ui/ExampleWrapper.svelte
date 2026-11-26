@@ -1,5 +1,5 @@
 <script lang="ts">
-	import { browser } from '$app/environment';
+	import { browser } from '$app/env';
 	import Highlight from './Highlight.svelte';
 	import type { HTMLAttributes } from 'svelte/elements';
 

@@ -1,5 +1,5 @@
 <script lang="ts">
-	import { m } from '$i18n/messages.js';
+	import { m } from '#lib';
 	import { places } from './places';
 	import 'maplibre-gl/dist/maplibre-gl.css';
 	import type { Map } from 'maplibre-gl';

@@ -1,5 +1,5 @@
 <script lang="ts">
-	import { m } from '$i18n/messages';
+	import { m } from '#lib';
 	import { X } from '@lucide/svelte';
 
 	interface Props {

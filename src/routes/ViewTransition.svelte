@@ -2,6 +2,7 @@
 	import { onNavigate } from '$app/navigation';
 
 	onNavigate((navigate) => {
+		if (navigate.shallow && navigate.type === 'goto') return;
 		if (!document.startViewTransition) return;
 		return new Promise((resolve) => {
 			document.startViewTransition(async () => {

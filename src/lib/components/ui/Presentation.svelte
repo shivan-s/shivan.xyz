@@ -1,9 +1,9 @@
 <script lang="ts">
-	import { browser } from '$app/environment';
+	import { browser } from '$app/env';
 	import { resolve } from '$app/paths';
 	import { page } from '$app/state';
-	import { QRCode } from '$lib/components/ui';
-	import { config } from '$lib/config';
+	import { QRCode } from '#lib/components/ui/index.ts';
+	import { config } from '#lib/config.ts';
 	import Reveal from 'reveal.js';
 	import Markdown from 'reveal.js/plugin/markdown';
 	import 'reveal.js/reveal.css';
@@ -38,7 +38,7 @@
 			<section>
 				<h2>Who am I?</h2>
 				<QRCode data={config.url} /><br />
-				<a href={resolve('/')}>{config.url}</a>
+				<a href={resolve('')}>{config.url}</a>
 			</section>
 		</div>
 	</div>

@@ -46,7 +46,7 @@
 </script>
 
 <script lang="ts">
-	import { ExampleWrapper } from '$lib/components/ui';
+	import { ExampleWrapper } from '#lib/components/ui/index.ts';
 	import { onMount } from 'svelte';
 
 	let recognition: SpeechRecognition | null = $state(null);

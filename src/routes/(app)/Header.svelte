@@ -1,10 +1,8 @@
 <script>
 	import { resolve } from '$app/paths';
 	import { page } from '$app/state';
-	import { m } from '$i18n/messages';
-	import Avatar from '$lib/assets/img/avatar.png?enhanced';
-	import { config } from '$lib/config';
-	import { theme, DARK, LIGHT } from '$lib/state.svelte';
+	import Avatar from '#lib/assets/img/avatar.png?enhanced';
+	import { config, theme, DARK, LIGHT, m } from '#lib';
 	import { Moon, Sun } from '@lucide/svelte';
 	import { sineInOut } from 'svelte/easing';
 	import { blur } from 'svelte/transition';
@@ -14,7 +12,7 @@
 	<div>
 		<span></span>
 		<nav>
-			<a href={resolve('/')} title={config.title}>
+			<a href={resolve('')} title={config.title}>
 				<enhanced:img src={Avatar} alt="Logo with 'Shivan' in it as as form of a letter chart" />
 				{#if page.url.pathname === '/'}
 					<span>{config.title}</span>

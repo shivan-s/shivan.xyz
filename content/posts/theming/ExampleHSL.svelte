@@ -1,5 +1,5 @@
 <script lang="ts">
-	import ExampleWrapper from '$lib/components/ui/ExampleWrapper.svelte';
+	import ExampleWrapper from '#lib/components/ui/ExampleWrapper.svelte';
 
 	interface Props {
 		hue?: number;

@@ -1,5 +1,5 @@
-import { fetchPostsGroupByYear } from '$lib/posts';
-import { ImportMetaSchema } from '$lib/schemas';
+import { fetchPostsGroupByYear } from '#lib/posts.ts';
+import { ImportMetaSchema } from '#lib/schemas.ts';
 import type { PageLoad } from './$types';
 
 // NOTE: needs to be a string and start with `../` See: {@link https://vite.dev/guide/features#glob-import}

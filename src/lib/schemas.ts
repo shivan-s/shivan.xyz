@@ -1,4 +1,4 @@
-import { m } from '$i18n/messages';
+import { m } from '#lib';
 import * as z from 'zod';
 
 const IMAGE_DEFAULT = 'cover.png';

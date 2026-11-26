@@ -1,8 +1,8 @@
 <script>
     import Figure from "Figure"
     import ShivanSivakumaran from "./shivan-sivakumaran.jpg?enhanced"
-    import { MyMap } from "$lib/components/my-map"
-    import { Age } from "$lib/components/ui"
+    import { MyMap } from "#lib/components/my-map/index.ts"
+    import { Age } from "#lib/components/ui/index.ts"
 </script>
 
 ## Who am I?

@@ -1,17 +1,10 @@
 {
 	"compilerOptions": {
-		"rewriteRelativeImportExtensions": true,
-		"allowJs": true,
-		"checkJs": true,
-		"esModuleInterop": true,
-		"forceConsistentCasingInFileNames": true,
-		"resolveJsonModule": true,
-		"skipLibCheck": true,
 		"sourceMap": true,
 		"strict": true,
-		"moduleResolution": "bundler",
-		"types": ["node"]
+		"types": ["$app/types", "node"]
 	},
-	"extends": "./.svelte-kit/tsconfig.json",
+	"extends": "$app/tsconfig",
+	"include": ["src", "vite.config.ts", "playwright.config.ts"],
 	"includes": ["src/lib/markdown.d.ts"]
 }

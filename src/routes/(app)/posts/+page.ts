@@ -1,6 +1,6 @@
-import { m } from '$i18n/messages';
-import { config } from '$lib/config';
-import { fetchPostsGroupByYear } from '$lib/posts';
+import { m } from '#lib';
+import { config } from '#lib/config.ts';
+import { fetchPostsGroupByYear } from '#lib/posts.ts';
 import type { PageLoad } from './$types';
 
 export const load: PageLoad = async () => {

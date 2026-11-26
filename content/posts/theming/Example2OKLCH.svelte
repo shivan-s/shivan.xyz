@@ -1,5 +1,5 @@
 <script lang="ts">
-	import ExampleWrapper from '$lib/components/ui/ExampleWrapper.svelte';
+	import ExampleWrapper from '#lib/components/ui/ExampleWrapper.svelte';
 
 	const formId = 'example-2-hsl';
 	const RANGE = Object.freeze({

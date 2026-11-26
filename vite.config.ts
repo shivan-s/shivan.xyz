@@ -10,9 +10,11 @@ import { toc } from '@mdsvex/plugin-toc';
 import { link_check as linkCheck } from '@mdsvex/plugin-link-check';
 import { code_blocks as codeBlocks } from '@mdsvex/plugin-code-blocks';
 import { external_links as externalLinks } from '@mdsvex/plugin-external-links';
+import { svelteDevtools } from '@sveltejs/vite-devtools-svelte';
 import { defineConfig } from 'vite';
 
 export default defineConfig({
+	devtools: { apply: 'serve', clientAuth: false },
 	plugins: [
 		mdsvex({
 			plugins: [
@@ -34,6 +36,7 @@ export default defineConfig({
 			extensions: ['.svx', '.md']
 		}),
 		enhancedImages(),
+		svelteDevtools(),
 		sveltekit({
 			preprocess: [vitePreprocess()],
 			experimental: {

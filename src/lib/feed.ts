@@ -1,40 +1,48 @@
 /**
  * @module RSS v2.0 Feed
+ *  NOTE: A builder is useful for escaping XML invalid characters like &
  */
-import { config } from '#lib/config.ts';
-import { fetchAllPost } from './posts';
-import XMLBuilder from 'fast-xml-builder';
+import XMLBuilder, { type XmlBuilderOptions } from 'fast-xml-builder';
+import { config, fetchAllPost } from '#lib';
 
 const posts = fetchAllPost();
-const builder = new XMLBuilder();
-const xml = (s: readonly string[], ...v: unknown[]) => String.raw({ raw: s }, ...v);
+const opts: XmlBuilderOptions = {
+	ignoreAttributes: false
+};
+const builder = new XMLBuilder(opts);
 
-const items = posts.map(({ slug, metadata }) => ({
+const item = posts.map(({ slug, metadata }) => ({
 	title: metadata.title,
 	description: metadata.summary,
 	link: `${config.url}/posts/${slug}`,
 	pubDate: metadata.date.toUTCString(),
-	author: {
-		name: config.author.name,
-		email: config.author.email,
-		link: config.url
-	}
+	author: `${config.author.email} (${config.author.name})`,
+	guid: `${config.url}/posts/${slug}`
 }));
 
-const content = builder.build({
-	channel: {
-		title: config.title,
-		description: config.description,
-		link: config.url,
-		image: `${config.url}/shivan.png`,
-		favicon: `${config.url}/favicon.ico`,
-		lastBuildDate: new Date().toUTCString(),
-		webMaster: config.author.email,
-		language: config.language
-	},
-	items
-});
-
-export const feed = () => xml`<rss version="2.0">
-${content}
-</rss>`;
+export const feed = () =>
+	builder.build({
+		rss: {
+			'@_xmlns:atom': 'http://www.w3.org/2005/Atom',
+			'@_version': '2.0',
+			channel: {
+				'atom:link': {
+					'@_href': `${config.url}/feed.xml`,
+					'@_rel': 'self',
+					'@_type': 'application/rss+xml'
+				},
+				title: config.title,
+				description: config.description,
+				link: config.url,
+				image: {
+					url: `${config.url}/shivan.png`,
+					title: 'Portrait of a man holding a microphone in a blue suit and tie',
+					link: config.url
+				},
+				lastBuildDate: new Date().toUTCString(),
+				webMaster: `${config.author.email} (${config.author.name})`,
+				language: config.language,
+				item
+			}
+		}
+	});

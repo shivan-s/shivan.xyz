@@ -19,7 +19,6 @@
 		font-family: 'Monaspace Radon', monospace;
 		padding: var(--padding-very-small);
 		border-radius: var(--border-radius);
-		backdrop-filter: invert(var(--invert));
 	}
 
 	:global(pre:has(code)) {
@@ -30,6 +29,8 @@
 		border-radius: var(--border-radius);
 		box-shadow: var(--box-shadow);
 		transition: box-shadow 0.2s ease-in-out;
+		background-color: var(--twp-background);
+		backdrop-filter: invert(var(--invert));
 		&:hover {
 			box-shadow: none;
 		}

@@ -30,7 +30,7 @@ html {
 
 body {
 	display: grid;
-	min-height: 100dvh;
+	min-block-size: 100dvh;
 	grid-template-rows: 4rem auto 4rem;
 	color: var(--color);
 	background-color: var(--background-color);

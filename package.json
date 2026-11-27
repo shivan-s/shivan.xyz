@@ -35,7 +35,7 @@
 		"@eslint/js": "^10.0.1",
 		"@inlang/paraglide-js": "^3.1.0",
 		"@inlang/paraglide-js-svelte": "^1.0.5",
-		"@lucide/svelte": "^1.43.0",
+		"@lucide/svelte": "^1.77.0",
 		"@mdsvex/plugin-anchors": "^0.1.1",
 		"@mdsvex/plugin-code-blocks": "^0.1.1",
 		"@mdsvex/plugin-external-links": "^0.1.1",

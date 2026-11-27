@@ -1,6 +1,7 @@
 <script lang="ts">
 	import { page } from '$app/state';
 	import '#lib/assets/css/app.css';
+	import '@twinkleplop/theme-catppuccin/dark';
 	import { config } from '#lib/config.ts';
 	import Theme from './Theme.svelte';
 	import UpdateCheck from './UpdateCheck.svelte';

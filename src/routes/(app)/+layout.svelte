@@ -13,8 +13,7 @@
 
 <style>
 	main {
-		max-width: 100dvw;
-		min-width: 360px;
+		inline-size: 100%;
 		padding-inline: var(--variable-gap);
 	}
 </style>

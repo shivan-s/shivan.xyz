@@ -53,6 +53,7 @@
 		"@sveltejs/kit": "^3.4.1",
 		"@sveltejs/vite-devtools-svelte": "^0.11.1",
 		"@sveltejs/vite-plugin-svelte": "^7.3.1",
+		"@twinkleplop/theme-catppuccin": "^0.1.7",
 		"@types/node": "^26.5.0",
 		"@vitejs/devtools": "^0.8.3",
 		"date-fns": "^4.4.0",
